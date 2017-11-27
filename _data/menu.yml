@@ -1,0 +1,21 @@
+- title: "About"
+  href: "/about/"
+
+- title: "Academic"
+  href: "/academic/"
+  subcategories:
+      - subtitle: "Publications"
+        subhref: "/publications/"
+      - subtitle: "Talks"
+        subhref: "/talks/"
+      - subtitle: "Research"
+        subhref: "/research/"
+
+- title: "Blog"
+  href: "/blog/"
+
+- title: "CV"
+  href: "/cv/"
+
+- title: "Search"
+  href: /search/

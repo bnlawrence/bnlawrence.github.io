@@ -1,0 +1,329 @@
+From 2006, I'll try and put the content of any significant talks I give on this page.
+
+
+
+
+=== AGU San Francisco, December 2012 ===
+*Title*: Issues to address before we can have an open climate modelling ecosystem
+
+*Authors*: Lawrence, Balaji, DeLuca, Guilyardi, Taylor
+
+*Abstract* Earth system and climate models are complex assemblages of code which are
+an optimisation of what is known about the real world, and what we can afford
+to simulate of that knowledge. Modellers are generally experts in one part of
+the earth system, or in modelling itself, but very few are experts across the
+piste.  As a consequence, developing and using models (and their output)
+requires expert teams which in most cases are the holders of the "institutional
+wisdom" about their model, what it does well,and what it doesn't.  Many of
+us have an aspiration for an open modelling ecosystem, not only to provide
+transparency and provenance for results, but also to expedite the modelling
+itself. However an open modelling ecosystem will depend on opening access to
+code, to inputs, to outputs, and most of all, on opening the access to that
+institutional wisdom (in such a way that the holders of such wisdom are
+protected from providing undue support for third parties). Here we present
+some of the lessons learned from how the metafor and curator projects
+(continuing forward as the es-doc consortium) have attempted to encode such wisdom as documentation. We will concentrate on both technical and social issues that we have uncovered, including a discussion of the place of peer review and
+citation in this ecosystem.
+
+(This is a modified version of the abstract submitted to AGU, to more fairly reflect the content given the necessity to cut material to fit into the 15 minute slot available.)
+
+*Presentation*: [:static/2012/12/06/LawrenceAGU2012.pdf PDF]
+
+=== 3rd ESA CCI colocation meeting, Frascati, September 2012 ===
+
+Exploiting high volume simulations and observations of the climate -
+[:static/2012/09/24/lawrence_esa_cci_v04.pdf pdf]. (An introduction to ENES and ESGF with some scientific motivation.)
+
+=== HPC and Big Data, ICT Competitiveness Week, Brussels, September 2012 ===
+
+Weather and Climate Computing Futures in the context of European Competitiveness
+- [:static/2012/09/19/Lawrence_ICTBigData.pdf pdf]
+=== e-Infrastructures for Climate Science, Trieste, May 2011 ===
+
+*Talk Title*: Information Infrastructure to
+Support Climate Science (Contribution of Metafor)
+
+This talk began by motivating some of the reasons why we need metadata about both the data produced by climate simulations and of the models which produce that data. I then introduced the Metafor project, and it's deployment in support of CMIP5. Some thoughts on the future of Meafor preceded a quick description of the IPCC data distribution centre, and it's relationship with ESGF and PCMDI.
+
+Presentation: [:static/2011/05/17/Lawrence_Trieste.pdf pdf], meeting [http://users.ictp.it/~smr2238/ web page].
+
+=== Kick-off Plenary, Data To Knowledge, Alderly, March 2011 ===
+
+This presentation was given as the kick-off plenary at a [https://sites.google.com/site/rscmolecularspectroscopygroup/calendar/data-to-knowledge meeting] of the Royal Society of Chemistry's Molecular Spectroscopy Group - who wanted a speaker from outside their discipline. I guess I fitted that bill :-)
+
+(I must say AstraZeneca's [http://careers.astrazeneca.co.uk/working-here/our-locations/alderley-park/about-alderleypark/ Alderly Park] is an impressive complex.)
+
+*Talk Title*:Managing complex datasets and accompanying information for reuse and repurpose
+
+*Abstract* (Modified to describe what I said, not what I thought I'd say): For centuries the main method of scientific communication has been the academic paper, itself developed as a reaction to the non-scalability of the "personal communication" (then known as a "letter"). In the 21st century, we now find that the academic paper is not always sufficient to communicate all that needs to be known about some scientific event, whether it's the development of a theory, an observation, or a simulation, or some combination thereof. As a consequence, nearly all scientific communities are producing methods of defining and documenting datasets of importance, and building systems to augment (annotate) their data resources or to amalgamate, reprocess, and reuse their data – often in ways unforeseen by the originator of the data.   Such systems range from heavily bespoke, tightly architected systems, such as that developed in the climate community to support global climate model inter-comparison;  via systems of intermediate complexity developed, for example, using the "linked data" principles;  to loose assemblies of web pages, using vanilla web technologies. Concepts of publication are becoming blurred, with publication meaning anything from "I put it on twitter" to "I published in Nature".
+
+In this talk, we'll present a taxonomy of the information that (nearly) all these systems try to address and discuss the nature of publication in the 21st Century. We’ll describe how information is built up during the life-cycle of datasets, and the importance of data provenance in the production of knowledge. We'll present our concept of the "value proposition" for maintaining digital data. The material will be mainly illustrated with examples from the environmental sciences, but we believe the concepts discussed, and the conclusions drawn, are generic.
+
+Talk: [:static/2011/03/29/data2knowledge.pdf pdf]
+
+
+=== GEOSS Support for IPCC assessment, Geneva, February 2011 ===
+
+This presentation was given as part of the "Managing Data to Support the Assessment Process" session, where I was requested to provide a talk on quality control and documentation. [:static/2011/02/01/qc4ipcc.pdf pdf]
+
+This talk, like most I give, represents the work of a lot of people, and in
+particular the work of the WDCC group at DKRZ (Michael Lautenschlager et al), and the folks in the U.S. Earth System Grid team (a DoE funded activity led by Dean Williams, Don Middleton and others). CMIP5 is of course a WCRP activity, in practice led by Karl Taylor.
+
+Other meeting talks are [http://www.earthobservations.org/geo_me_201102_ipcc.shtml here].
+
+=== Short Presentation, NERC SISB, Birmingham, January 2011 ===
+
+Cut down material from the seminar (below), concentrating on data exascale futures: [:static/2011/01/25/lawrence-exascale-data.pdf pdf]
+
+
+=== Seminar, Reading University, January 2011 ===
+
+==== e-Research in support of climate science ====
+
+The fifth coupled model intercomparison project (CMIP5) will get underway
+for real during 2011, after a phony war of some years duration as
+modelling and archiving centres have been gearing up for the challenge.
+CMIP5 will involve the production of millions of datasets amounting to
+petabytes of data, available in a globally distributed database.
+The importance of that, and other data, in shaping our future decisions
+about reacting to climate change is obvious. Less obvious, but just as
+important, will be the role of the provenance of the data: who produced
+it/them, how, using what technique? Will the difficulty of the
+interpretation be in anyway consistent with the skills of the
+interpreter? Are there any quality metrics? In this talk I'll introduce
+some key parts of the metadata spectrum underlying our efforts to
+document climate data, for use now and into the future, concentrating on
+the information modelling and metadata pipeline being constructed to
+support CMIP5. In doing so we'll touch on the metadata activities of the
+European Metafor project, the software developments being sponsored by
+the US Earth System Grid and European IS-ENES projects, and how all
+these activities are being integrated into a global federated e-
+infrastructure. I'll conclude with the frightening prospects for the
+future in terms of the production and management of the next generation
+of climate simulations. ([:static/2011/01/25/Lawrence_eResearch.pdf pdf])
+
+
+=== An Aussie Triumvirate ===
+
+==== Keynote: Information Network Workshop, Canberra, November, 2010: British experience with building standards based networks for climate and environmental research ====
+
+A talk covering organisational and technological drivers to network interworking, with some experience from the UK and European context, and some comments for the future.
+[:static/2010/11/05/networking.pdf pdf]
+
+All the talks from the meeting are available on the [http://www.osdm.gov.au/Events/271.aspx osdm website].
+
+==== Metadata Workshop, Gold Coast, November 2010: Rethinking metadata to realise the full potential of linked scientific data ====
+
+This talk begins with an introduction to our metafor taxonomy, and why metadata, and metadata tooling, are important. There is an extensive discussion of the importance of model driven architectures, and plans for extending our existing formalism to support both RDF and XML serialisations. We consider our the observations and measurements paradigm needs extension to support climate science, and discuss quality control annotation.
+
+[:static/2010/11/08/metadata.pdf pdf]
+
+All the talks from this meeting are available on an
+[http://ands.org.au/events/metadataworkshop08-11-2010/index.html ANDS website].
+
+==== Keynote: [https://ocs.arcs.org.au/index.php/eRAust/2010/schedConf/program Australasian e-Research 2010], November 2010:
+Provenance, metadata and e-infrastructure to support climate science ====
+The importance of data in shaping our day to day decisions is understood by the person on the street. Less obviously, metadata is important to our decision making: how up to date is my account
+balance? How does the cost of my broadband supply compare with the offer I just read in the newspaper? We just don't think of those things as metadata (one persons data is another persons
+metadata). Similarly, the importance of data in shaping our future decisions about reacting to climate change is obvious. Less obvious, but just as important, is the provenance of the data:who produced it/them, how, using what technique, is the difficulty of the interpretation in anyway consistent with the skills of the interpreter? In this talk I'll introduce some key parts of the metadata spectrum underlying our efforts to document climate data, for use now and into the future. In particular, we'll discuss the information modelling and metadata pipeline being
+constructed to support the currently active global climate model inter-comparison project known as CMIP5. In doing so we'll touch on the metadata activities of the European Metafor project, the
+software developments being sponsored by the US Earth System Grid and European IS-ENES projects, and how all these activities are being integrated into a global federated e-infrastructure. ([:static/2010/11/11/eResearch.keynote.pdf pdf], [https://ocs.arcs.org.au/index.php/eraust/2010/schedConf/presentations all conference talks])
+
+
+=== Cyberinfrastructure Data Challenges, Redmond WA, September 2010 ===
+
+I gave a very short presentation at this NSF sponsored workshop. See [:blog/2010/09/30/cyberinfrastructure_for_data presentation and commentary].
+
+=== Data Standards for the ESA Climate Change Initiative, Frascati, September 2010 ===
+
+I gave this talk ([:static/2010/09/15/Lawrence_DataStandards_100915_v02.pdf pdf]) as an invited expert on what they should be considering doing.
+
+=== Introduction to the DDC,  Boulder, July 2010 ===
+
+to appear.
+
+=== IS-ENES Strategy Scoping Meeting, near Paris, March, 2010 ===
+
+This meeting was targeted as being the first step in a foresight process for establishing a European earth system modelling strategy. This is the talk on software and data infrastructure prepared for the meeting (authored with Eric Guilyardi and Sophie Valcke): [:static/2010/03/30/european-esm-strategy.pdf pdf]
+
+
+=== Big Data Meeting, London, February, 2010 ===
+
+(A  workshop to hear from the users of large data to see what lessons can be learnt from the different disciplines; both academic and users of informatics in industry, and what technologies are envisaged for the future. See the [http://www.qi3.co.uk/archives/2697 agenda].)
+
+*The Earth System Simulation Challenge: from climate models to satellite observations and back again* (Presentation [:static/2010/02/03/Lawrence_bigdata.pdf pdf]).
+
+=== Data-Intensive Research meeting, Leeds, January, 2010 ===
+
+*Turning Petabytes of Globally Distributed Climate Model Data into Policy:* In late 2013 the Intergovernmental Panel for Climate Change (IPCC) will prepare a new assessment of what is known about the physical processes of anthropogenic climate change along with adaptation strategies and impacts. That new assessment will exploit (amongst other things) petabytes of simulation data produced under the auspices of the "Fifth Coupled Model Intercomparison Project, CMIP5". In this presentation, we will briefly discuss the IPCC process, describe what a coupled model actually is, and then introduce the plans for assembling the key simulation outputs into globally replicated petascale databases, and providing appropriate metadata and analysis tools. The main thrust of the presentation will be on the data federation issues, and the major international projects which exist to make this entire activity possible. (Presentation: [:static/2010/01/12/dataintensive.odp odp])
+
+=== NERC Executive Board, Henley, December, 2009 ===
+
+To appear
+
+
+=== NCAS Annual Staff Meeting, Oxford, November 2009 ===
+
+Scientific opportunities for NCAS in the biggest show on earth: Coming soon, with more than 80 experiments and 90,000 years of simulation. ([:static/2009/11/10/CMIP5andNCAS odp])
+
+=== GO-ESSP 2009, Hamburg, October 2009 ===
+
+My talks appear on the [http://go-essp.gfdl.noaa.gov/presentations/2009/ site], including:
+* NetCDF climate forecast conventions status, and
+* Model Metadata for CMIP5
+
+=== Metafor Year One Review, Brussels, May 2009 ===
+
+I presented the status and progress of the metafor workpackages on
+service and tools:
+* WP4: Services ([:static/2009/05/11/metafor_wp4 odp])
+* WP5: Tools ([:static/2009/05/11/metafor_wp5 odp])
+
+=== EGU General Assembly, Vienna, April 2009 ===
+
+
+0 Metrics for Success in the Preservation of Scientific Data at the Centre for Environmental Data Archival (CEDA)
+** Abstract: [:abstracts/2009/01/08/metrics pdf]
+** Presentation: [:talks/2009/04/20/metrics odp]
+0 [:abstracts/2009/01/09/onto A RESTful way to Manage Ontologies]
+0 Metadata Objects for Linking the Environmental Sciences (MOLES)
+** Abstract: [:abstracts/2009/01/12/moles pdf]
+** Presentation: [:talks/2009/04/23/moles odp]
+0 Models, Metadata and Metafor
+** Abstract: [:abstracts/2009/01/12/metafor pdf]
+** Presentation[:talks/2009/04/24/meta4 odp]
+0 The European contribution to a global solution for access to climate model simulations
+** Abstract: [:abstracts/2009/01/12/esnes pdf]
+** Presentation: [:talks/2009/04/20/goessp odp]
+
+=== Geophysical Fluid Dynamics Laboratory, March 2009 ===
+
+The British Atmospheric Data Centre (BADC) is the designated data centre for atmospheric science for the UK Natural Environment Research Council - which means it has two major roles 1) facilitating the doing of atmospheric science, and 2) for acquiring and curating all appropriate products of NERC funded atmospheric science research. In these roles it finds itself in the middle of the scientific communication ecosystem, actively helping the delivery of science – as in for example, taking part in the next Coupled Model Intercomparison Project (CMIP5) as one of the core archive providers  – and in the vanguard of initiatives to establish data journals.
+
+In this presentation, we'll cover a brief introduction to the BADC, and its relationship to  the planned CMIP5 model archive, and some of the issues it raises. Handling the storage  should be relatively trivial (in entirety a piffling few PB globally distributed). Providing useful services and information will be less trivial, we can store PB, but can users use them?  The next IPCC process (the so called “AR5”) is going to require much better communication between components of the community – are we ready for that? Finally, can we, should we consider “publishing” the data or is it enough to “make it/them available for now”?  (Answering the last question will require a definition of publishing.) In all: a tour through some technical problems associated with the production and use of data from CMIP5 in AR5, finishing up with some social issues at the heart of modern science!
+
+Presentation: [:static/2009/03/26/gfdl_seminar.odp odp], [:static/2009/03/26/gfdl_seminar.pdf pdf] (12 & 18 MB respectively).
+
+=== 4th International Digital Curation Conference, Edinburgh, December 2008 ===
+
+I gave a talk on costing metadata, covering the key aspects of the CEDA cost model. ([:talks/2008/12/02/CostingMetadata Presentation])
+
+=== Workshop on the use of GIS/OGC standards in meteorology, ECMWF, November 2008 ===
+
+==== Deploying secure OGC services in front of a heterogeneous data archive.====
+Bryan Lawrence, Dominic Lowe, Phil Kershaw and Stephen Pascoe.
+
+As part of the NERC DataGrid project, the British Atmospheric Data Centre has been developing a software stack which includes bespoke catalogue and information services, and both a Web Map Service and a Web Coverage Service. The server-side software stack is currently being extended to include a Web Feature Service and a more standards compliant interface to the catalogue services. The services which access data are being modified to sit behind a security filter which respects authentication and authorisation on a per-URI basis. In this presentation we will present key features of the services, and their relationship to the underlying archive - mediated via the Climate Sciences Modelling Language (CSML, an application schema of GML). We will dwell on some issues of scalability and metadata ingestion and maintenance.
+
+([:talks/2008/11/24/deployingOGC presentation])
+
+=== Metafor Workshop, September 2008 ===
+
+An introduction to metamodels and their relevance to [metafor] ([:static/2008/09/09/metamodel.ppt ppt])
+
+
+=== Seminar, Oxford University, 2008 ===
+
+This presentation covered much of the same ground of the two EGU talks and my Royal Society presentation.
+
+=== EGU General Assembly, Vienna, April 2008 ===
+
+I should have been involved in two talks one  solicited, and as a co-author on one by Dominic Lowe:
+* Lowe, D.; Woolf, A.; Lawrence, B.N.; Pascoe, S
+''Integrating the Climate Science Modelling Language with
+geospatial software and services'' ([:static/2008/04/18/IntegratingCSML.ppt ppt]), and
+* Lawrence, B.N.; Woolf, A.; Lowe, D.; Pascoe, S.
+''Beyond simple features: Do complex feature types need
+complex service descriptions?'' ([:static/2008/04/18/ServiceDescriptions.ppt ppt])
+
+(but note the latter didn't exactly cover the
+[:abstracts/2008/01/21/servicedescriptions material] I had planned to give, for which we were obviously sorry, but my inability to travel was out of my control).
+
+=== Royal Society e-Science Discussion Meeting, April 2008 ===
+
+I gave one talk ([:static/2008/04/08/InformationInDataGrids.ppt ppt], doesn't include the three movies!) at this meeting which was based on these two papers:
+
+==== Information in environmental data grids ====
+Providing homogeneous access (“services”) to heterogeneous environmental data
+distributed across heterogeneous computing systems on a wide area network, re-
+quires a robust information paradigm which can mediate between diﬀering storage
+and information formats. While there are a number of ISO standards which pro-
+vide some guidance on how to do this, the information landscape within domains
+is not well described. In this paper we present an information taxonomy and two
+information components which have been built for a speciﬁc application. These two
+components, one to aid data understanding, and one to aid data manipulation, are
+both deployed in the UK NERC DataGrid as described elsewhere.
+([:papers/roysoc/LawEA08.pdf pdf])
+
+==== The NERC DataGrid Services ====
+
+This short paper outlines the key components of the NERC DataGrid (NDG): a
+discovery service, a vocabulary service, and a software stack deployed both centrally
+to provide a data discovery portal, and at data providers, to provide local portals
+and data and metadata services.
+([:papers/roysoc/LatEA08.pdf pdf])
+
+=== Seminar, Aston University, 2007 ===
+
+====The NERC DataGrid: Interoperability, web services and the role of XML====
+
+[insert:abstracts/2007/11/13/AstonSeminar]
+
+([:static/2007/11/13/AstonSeminar.ppt huge pdf])
+
+=== e-Science AHM, Nottingham, 2007 ===
+
+[insert:abstracts/2007/04/20/ndgSecurity]
+
+=== GO-ESSP June 2007 ===
+
+[insert:abstracts/2007/04/17/GOESSP-June07]
+
+=== NERC e-science Meeting, Cambridge, May 2007 ===
+
+* I'm giving a talk entitled: ''Components of a DataGrid: from bits to secure features.''
+
+=== Claddier Workshop, May 2007 ===
+
+* I gave the opening talk for the
+[http://claddier.badc.ac.uk/trac/wiki/workshop CLADDIER workshop]:
+presentation ([:static/2007/05/15/claddier_opening.ppt 750 kB ppt]).
+
+=== SEEGRID III, Canberra, November 2006 ===
+
+* Presentation ([:presentations/2006/11/30/OGC-Grid-Collision.ppt 6 MB ppt])
+
+=== TECO-WIS, Seoul, November 2006 ===
+
+[insert:abstracts/2006/11/06/nerc-metadata-gateway]
+
+* Presentation ([:presentations/2006/11/06/nerc-metadata-gateway.ppt 4MB ppt])
+
+=== UKOLN, Bath, July 2006 ===
+
+* Presentation ([:presentations/2006/07/25/NDG_UKOLN_Jul06.ppt 9 MB ppt])
+
+=== GO-ESSP, Livermore, June 2006 ===
+
+* Presentation ([:presentations/2006/06/20/GO-ESSP2006-NDG-Security.ppt 3 MB ppt])
+
+
+=== RDF, Ontologies and Metadata Workshop, Edinburgh, June 2006 ===
+
+[http://wiki.esi.ac.uk/RDF,_Ontologies_and_Meta-Data_Workshop Workshop Page]
+
+* Presentation ([:presentations/2006/06/08/NDG_SemanticEdinburgh06.ppt 6 MB ppt])
+
+=== NERC e-science AHM, April, 2006 ===
+
+[insert:abstracts/2006/04/26/nerc-escience-ahm]
+
+* Presentation [:presentations/2006/04/26/nerc-escience-ahm.ppt 5 MB ppt]
+
+=== Oxford, March, 2006 ===
+
+[insert:abstracts/2006/03/16/Oxford]
+
+* Presentation: [:presentations/2006/03/16/Oxford.ppt 12 MB ppt]
+* Follow up:
+**  [:blog/2006/03/20/journals_and_blogging blog entry to clarify a few things]
