@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Identifiers, Persistence and Citation | Bryan Lawrence</title>
+  <meta name="description" content="Identifiers are pretty important things when you care about curation and citation, and they’ll be pretty important for metafor too.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://bnlawrence.github.io//computing/2008/05/identifiers_persistence_and_citation/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://bnlawrence.github.io//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
+<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Search</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Identifiers, Persistence and Citation</h1>
+    <p class="post-meta">Posted on May 29, 2008 by 
+
+  in
+  
+  <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>Identifiers are pretty important things when you care about curation and citation, and they’ll be pretty important for <a href="/projects/metafor">metafor</a> too.</p>
+
+<p>At the beginning of the NDG project we came up with an identifier schema, which said that all NDG identifiers would look like this <em>idowner__schema__localID</em> e.g.
+<em>badc.nerc.ac.uk__DIF__xyz123</em> where the <em>idowner</em> governed the uniqueness of the <em>localID</em>. If we unpack that a bit, we are asserting that there is an object in the real world which the badc has labeled with local identifier <em>xyz123</em> and we’re describing it with a <em>DIF</em> format object. In practice, the object is always an aggregation, so in ORE terms, there is a resource map which has the above ID.</p>
+
+<p>Sam would argue that we blundered by doing that, he thinks the “real identifier” of the underlying object could be thought of as <em>badc.nerc.ac.uk__xyz123</em>, and we might be better using a restful convention, so that we wrote it as <em>badc.nerc.ac.uk__xyz123.DIF</em>. One of the reasons for his argument is that over time (curation), the format of our description of xyz123 will disappear: for example, we know that we are going to replace DIF with ISO (note that we have lots of other format descriptions of objects as well). This matters, because we now have to consider how we are persisting things, and how are we citing them.  I would argue that the semantics are the same even if the syntax has changed, but I concede the semantics are more obvious in his version, so it’s not too late to change, in particular, I suspect it’s more obvious that <em>badc.nerc.ac.uk__xyz123.atom</em> and <em>badc.nerc.ac.uk__xyz.DIF</em> are two views (resource maps) of the same object (aggregation).</p>
+
+<p>Either way, if we take the persistence issue firstly: once we bed this identifier scheme down, we’re stuck with it, so what do we do when we retire the DIF format view of the resource? Well, I would argue that we should issue an HTTP 301 (Moved Permanently) redirect to the ISO view. This means we can never retire the IRI which includes the DIF, but we can retire the actual document. Note that this is independent of the two versions of the syntax above.</p>
+
+<p>Secondly, what about citation? Well that’s an interesting issue (obviously). You might recall (yeah, unlikely I know), that we came up with a <a href="/computing/2007/05/citation_and_claddier/">citation syntax</a> that looks like this:</p>
+<blockquote>Lawrence, B.N. (1990): My Radar Data, [http://featuretype.registry/verticalProfile anotherID]. British Atmospheric Data Centre [Available from http://badc.nerc.ac.uk/data/mst/v3/ URN:badc.nerc.ac.uk/localID]
+</blockquote>
+
+<p>and we made the point we could use a DOI at the end of that instead. That citation identifier looks a lot like Sam’s form (funny that, Sam was sneaking his ideas in while I wasn’t looking). A legitimate question is what is the point of the URN in that citation? If the data hasn’t moved from <em>http://badc.nerc.ac.uk/data/mst/v3/</em> the URN is redundant, and if it has, how do I actually use the URN? Well, I suspect we need to make the URN dereferenceable, and it should be a splash page to all the current views - which is essentially the same functionality that you get from a DOI. The only question then is what handle system one trusts enough: a DOI, an HDL, or do we trust that even if the badc changes our name, we can keep our address and use redirects? In which case we have</p>
+<blockquote>Lawrence, B.N. (1990): My Radar Data, [http://featuretype.registry/verticalProfile anotherID]. British Atmospheric Data Centre [Available from http://badc.nerc.ac.uk/somepath/badc.nerc.ac.uk/localID].
+</blockquote>
+
+<p>with or without the <em>Available from</em> which I reckon is redundant, and noting that <em>http://badc.nerc.ac.uk/somepath</em> is semantically the same as <em>doi:</em>.  Sam’s form URI wins (it doesn’t necessarily have to, but it’s more economical, in which case the argument for using a handler for citation economy alone is given some weight).</p>
+
+<p>Incidentally, <a href="http://indolenceandselfdoubt.blogspot.com/">James Reid</a> pointed out in <a href="blog/2007/05/21/citation_and_claddier">comments</a> that the <a href="http://thedata.org/citation/standard">Universal Numerical Fingerprint</a> which looks like a pretty interesting concept that might also be relevant. I’ll get back to that one day.</p>
+
+  </article>
+
+<!--
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'bnlawrence';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+-->
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professor of Weather and Climate Computing</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

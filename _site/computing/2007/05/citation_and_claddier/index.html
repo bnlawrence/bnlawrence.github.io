@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Citation and Claddier | Bryan Lawrence</title>
+  <meta name="description" content="For some time now, we’ve been narrowing down how best to do scientific data citations. Last week we had a workshop where we concentrated on a number of issues associated with data publication.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://bnlawrence.github.io//computing/2007/05/citation_and_claddier/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://bnlawrence.github.io//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
+<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Search</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Citation and Claddier</h1>
+    <p class="post-meta">Posted on May 21, 2007 by 
+
+  in
+  
+  <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>For some time now, we’ve been narrowing down how best to do scientific data citations. Last week we had a <a href="http://claddier.badc.ac.uk/trac/wiki/workshop">workshop</a> where we concentrated on a number of issues associated with data publication.</p>
+
+<p>I introduced the workshop with some philosophical bumf (<a href="/assets/talks/claddier_opening.ppt">0.75 MB ppt</a>), and
+I’ll probably say a lot more about it later, but meanwhile, here I want to concentrate on one aspect: We got some real feedback for my proposals for data citation (<a href="/computing/2006/10/citation_hosting_and_publication/">explanation</a> and <a href="/computing/2006/10/citing_data_with_iso19139/">ISO19139 version</a>).</p>
+
+<p>The key criticisms were:</p>
+<ul>
+  <li>Too many things that looked like URLs.</li>
+  <li>Too much stuff</li>
+  <li>The order of material could be reconsidered.</li>
+  <li>(and the particular example I’ve been using could be easier to comprehend if we used examples that weren’t quite so pathological).</li>
+</ul>
+
+<p>Recall that we <a href="/computing/2006/10/citation_hosting_and_publication/">had</a> something that looked like this (no longer a “real” dataset, but simpler as an example):</p>
+<blockquote>Lawrence, B.N. My Radar Data, [Internet], British Atmospheric Data Centre (BADC), 1990, urn badc.nerc.ac.uk/localID, feature anotherID, [http://featuretype.registry/verticalProfile] [downloaded Sep 21 2006, available from http://badc.nerc.ac.uk/data/mst/v3/]
+</blockquote>
+
+<p>where this was essentially</p>
+<blockquote>Author, title, [Internet], Publisher, Date, URN, feature ID, [Feature Type (from a controlled vocabulary)], [downloaded date, available from Distributor website].
+</blockquote>
+
+<p>(It’s important to remember that we believe the feature ID (anotherID) is important because we accept that with data we do expect folk to cite into them on a regular basis e.g. a record in a database etc.)</p>
+
+<p>After some mucking around, the breakout group working on this came to something like this:</p>
+<blockquote>Lawrence, B.N. (1990): My Radar Data, [http://featuretype.registry/verticalProfile anotherID]. *British Atmospheric Data Centre* [Available from http://badc.nerc.ac.uk/data/mst/v3/ URN:badc.nerc.ac.uk/localID]
+</blockquote>
+
+<p>The URN could be a DOI, and in some cases it could be simplified to:</p>
+<blockquote>Lawrence, B.N. (1990): My Radar Data, [http://featuretype.registry/verticalProfile anotherID]. *British Atmospheric Data Centre* DOI:doiaddress.
+</blockquote>
+
+<p>We have made the following assumption, and simplifications from the previous version:</p>
+<ul>
+  <li>We lost [Internet] because we thought it was redundant once the citation has a URL or DOI.</li>
+  <li>In this case we are dealing with “formally published” data, and so there is an <em>expectation</em> that the data wont change, so the download date is redundant.
+    <ul>
+      <li>We thought that a formally published data set should not allowed to grow, later “editions” could provide snapshots. We appreciate that this has implications for numbers of publications etc, but the importance of citing something as it was is preeminent.</li>
+      <li>This is not to preclude folk referencing material on the internet which is changing, but if it is going to be “published” data, then we think we can and should handle it differently.</li>
+    </ul>
+  </li>
+  <li>We expect the target of the URL or DOI to be a <em>metadata</em> document, it should not be a binary target. There is human readable content there which provides more context and the URLs of the actual data. We have left the feature type in there though (as well as the feature ID), because it provides the human parser of a reference list a key hint about the target type<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</li>
+  <li>There could be a mismatch between a dataset which could have a DOI, and the URI of the feature. (We don’t expect all features to have DOIs), and so having two forms of the citation does make sense: the first form above allows a URL which points directly to the feature to be shown (not that does in this example); even if the URL isn’t persistent, the URN will be, and the data object should always be accessible via the publisher,URN,featureID combination. I suppose the DOI version is cleaner<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> provided the feature can be easily obtained from the target of the DOI.</li>
+</ul>
+
+<h4 id="trackbacks-1">trackbacks (1)</h4>
+<p><em><a href="/computing/2008/05/identifiers_persistence_and_citation/">Identifiers, Persistence and Citation</a> (from “Bryan’s Blog” on (on Thursday 29 May, 2008)</em>)Identifiers are pretty important things when you care about curation and citation, and they’ll be pretty important for metafor too.</p>
+
+<h4 id="comments-3">comments (3)</h4>
+<p><em><a href="http://zcologia.com/news/">Sean Gillies</a> (on Monday 21 May, 2007)</em>
+Bryan, ever since I became a librarian, citations are more and more interesting to me. I’m surprised and a bit disappointed that there is not yet a digital citation standard in the humanities either. I also think DOI and other legacy identifiers need to be put out to pasture as soon as possible. URLs win.</p>
+
+<p><em>Bryan (on Monday 21 May, 2007)</em>
+(Just to be careful about terminology: there are plenty of digital citation conventions, but not many for citing non-textural targets). It seems there is a religious belief that opaque URIs are more persistent because when you put semantics in a URI (host, site, whatever), you are guaranteeing that they’ll break eventually. Me, I think that putting a host name in a URI is daft, but proxying should handle the rest, and the religious belief in opaque identifiers is just that (after all, it’s just a clunky form of proxying). But it’s a form of religious war that I think I’ll just give in and lose, there are only so many windmills out there that I can attend to :-)</p>
+
+<p><em><a href="http://toohardtotype.blogspot.com">James Reid</a> (on Wednesday 30 May, 2007)</em>
+Bryan - you might be interested in what the social scientific community are doing, both with respect to research data sharing and also cittaion. See http://thedata.org/citation.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I’ll probably come back to the “manifest” concept that is coming out of the work of Raj Bose and Guy McGarva in Edinburgh another time, but suffice to say “manifest” could itself be a member of the controlled vocabulary: a featurecollection is itself a feature! <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>despite the fact I hate the way most folk create the things: anyone done the stats for how many DOIs are opaque unmemorable strings that are used in the literature and result in mistranscribed versions  which point nowhere or to the wrong place? <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+<!--
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'bnlawrence';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+-->
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professor of Weather and Climate Computing</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

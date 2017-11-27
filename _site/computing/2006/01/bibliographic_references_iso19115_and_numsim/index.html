@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bibliographic References, ISO19115 and NumSim | Bryan Lawrence</title>
+  <meta name="description" content="One of the things one can imagine our NumSim discovery metadata to support is the ability for someone to identify that a particular model component (say the atmosphere) has a bibliographic referenc...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://bnlawrence.github.io//computing/2006/01/bibliographic_references_iso19115_and_numsim/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://bnlawrence.github.io//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
+<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Search</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Bibliographic References, ISO19115 and NumSim</h1>
+    <p class="post-meta">Posted on January 20, 2006 by 
+
+  in
+  
+  <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>One of the things one can imagine our <a href="/computing/2006/01/new_version_of_numsim_available/">NumSim</a> discovery metadata to support is the ability for someone to identify that a particular model component (say the atmosphere) has a bibliographic reference associated with it that describes some part of the system. Having done that, to find all other simulation datasets for which the atmosphere is associated with the same citation. What this implies is that</p>
+<ol>
+  <li>We need to support bibliographic references associated with particular parts of the NumSim extension (as opposed to simply listing them as part of the parent DIF), and</li>
+  <li>We should describe such references in a standards compliant manner, and in such a way that we can format the reference both for automatic discovery and for humans to view on the screen (or paper).</li>
+</ol>
+
+<p>The first of these is in the current schema simply by having reference elements (of type xs:string)  in a reference list itself a subelement of the model components.</p>
+
+<p>Given NumSim is aimed eventually at ISO19115, I thought I’d take a look at the machinery for supporting this “properly”, which I naively thought would be “obvious”. Within ISO19115, it’s clearly the <a href="/assets/images/ISO19115_CI_Citation.jpg">CI_Citation</a> datatype. Ideally then, we should have references of type CI_Citation. At the same time, within <a href="/projects/claddier">CLADDIER</a> we know we have to be able to map between the library communities standard ways of referencing citations … which we might assume to be based around Dublin Core and/or <a href="/notes/ISO690">ISO690</a>.</p>
+
+<p>Currently in NumSim we might have:</p>
+<pre>
+&lt;NS_Reference&gt;
+Pope, V. D., M. L. Gallani, P. R. Rowntree and R. A. Stratton, 2000:
+The impact of new physical parametrizations in the Hadley Centre climate model -- HadAM3.
+Climate Dynamics, 16: 123-146.
+&lt;/NS_Reference&gt;
+</pre>
+<p>How would we code that in ISO19115<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>? Well, it looks horrific.
+I think the clear intention is that authorship should be through the CI_citedResponsibleParty element (see <a href="/assets/images/ISO19115_CI_ResponsibleParty.jpg">CI_ResponsibleParty</a>), so let’s lay this one out in psuedo XML:</p>
+<pre>
+&lt;CI_Citation&gt;
+&lt;title&gt;The Impact of new physical parameterizations &lt;/title&gt;
+&lt;citedResponsibleParty&gt; Pope ...&lt;/citedResponsibleParty&gt;
+&lt;citedResponsibleParty&gt;Gallani ... &lt;/citedResponsibleParty&gt;
+&lt;series&gt;&lt;name&gt;Climate Dynamics&lt;/name&gt;&lt;issueIdentification&gt;45
+&lt;/issueIdentification&gt; &lt;page&gt;123-146&lt;/page&gt;
+</pre>
+<p>well that makes some sense (but what about using collectiveTitle for the journal title?), but we need to dive into that citedResponsibleParty some more.
+Presumably we should have, for example,:</p>
+<pre>
+&lt;citedResponsibleParty&gt;
+&lt;individualName&gt; Pope, V.D. &lt;/individualName&gt;
+&lt;role codeList=? codeListValue-?&gt;
+&lt;/citedResponsibleParty
+</pre>
+<p>which is what I think is what the version I’ve got of ISO19139 would have, i.e., we have to jump off to someone else’s code space (Dublin Core), so this would be a DC.creator tag? This seems rather unfortunate and cumbersome. If we’re going to someone else’s code space, then why not avoid the CI_Citation type for a bibliographic entry anyway, and go straight to Dublin Core or ISO690?</p>
+
+<p>Note that if we stick with this stuff there’s no sensible way to format this stuff either, because we can’t put the initials in their own tag, so when we go to xhtml we can have the first author surname first, and others thereafter.</p>
+
+<p>Alternatively, we could do this (ignoring the XML representation for a moment):</p>
+<pre>
+CI_Citation.title=The Impact of new physical parameterizations ...
+CI_Citation.identifier=doistring
+CI_Citation.identifierType=doi
+CI_Citation.otherCitationDetails=the reference string which is our "standard reference".
+</pre>
+<p>In which case we could use <a href="ISO690">ISO690</a> to get the last string “right”, but relying on the DOI will only work for “modern” references in <em>some</em> journals.</p>
+
+<p>Either way, it’s not a great advertisement for ISO19115, reference lists are a must for any metadata standard. While I appreciate CI_Citation supports a number of citation mechanisms throughout ISO19115, you would have thought making bibliographic citations easy would have been a fundamental requirement! I’m tempted to use an xml schema version of bibtex like <a href="http://bibtexml.sourceforge.net/">this one</a>, which I suppose could legitimately be built in via an extension.</p>
+
+<p>If anyone can give me a cleaner example of how it <strong>should</strong> be done, I’d be grateful!
+Even better, some public domain xml schema to go with the examples.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>here I’m hopping between the content standard, and a draft of ISO19139 dated September 2005 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+<!--
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'bnlawrence';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+-->
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professor of Weather and Climate Computing</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

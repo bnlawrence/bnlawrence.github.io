@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Some Trackback code | Bryan Lawrence</title>
+  <meta name="description" content="So I’ve joined up to the trackback working group, and I decided I’d better have a proper trackback implementation to play with … given this is all very important for claddier the time investment wa...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://bnlawrence.github.io//computing/2006/03/some_trackback_code/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://bnlawrence.github.io//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
+<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Search</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Some Trackback code</h1>
+    <p class="post-meta">Posted on March 1, 2006 by 
+
+  in
+  
+  <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>So I’ve joined up to the <a href="http://www.lifewiki.net/trackback/">trackback working group</a>, and I decided I’d better have a proper trackback implementation to play with … given this is all very important for <a href="/projects/claddier">claddier</a> the time investment was worth it.</p>
+
+<!--more-->
+
+<p>So here is my toy standalone implementation for playing with. I have no idea whether it is actually properly compliant, but it works for me. If folk want to point out why it’s wrong I’ll be grateful. But note it’s only toy code, it’s not for real work.</p>
+
+<p>There are five files <a href="/assets/misc/2006-03-01-trackback.zip">here</a>:</p>
+<ul>
+  <li><code class="highlighter-rouge">NewTrackbackStuff.py</code> - which consists of three classes which I’ll document below: a <em>TrackbackProvider</em> (handles the trackbacks), which uses the <em>Handler</em> to provide a dumb but persistent store. There is also a <em>StandardPing</em> class to help with various manipulations … (it’s really unnecessary, but helped me with debugging and thinking etc).</li>
+  <li><code class="highlighter-rouge">cgi_server.py</code> - a dumb server which runs</li>
+  <li><code class="highlighter-rouge">tb_server.py</code>  on the localhost at port 8001.</li>
+  <li><code class="highlighter-rouge">ElementTree.py</code> (part of the <a href="http://effbot.org/zone/element-index.htm">fabulous package by Fredrik Lundh</a> and included here for completeness)</li>
+  <li><code class="highlighter-rouge">test_tb_server.py</code> which tests the trackback to the persistent store.</li>
+</ul>
+
+<p>It’s all pretty simple stuff, anyway, this is how you invoke trackback, assuming you have the tb_server running locally on port 8001:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">urllib</span><span class="p">,</span><span class="n">urllib2</span>
+
+<span class="n">payload</span><span class="o">=</span><span class="p">{</span><span class="s">'title'</span><span class="p">:</span><span class="s">'a new citing article title'</span><span class="p">,</span>
+		<span class="s">'url'</span><span class="p">:</span><span class="s">'url of citing article'</span><span class="p">,</span>
+		<span class="s">'excerpt'</span><span class="p">:</span><span class="s">'And so we cite blah ... carefully  ...'</span><span class="p">,</span>
+		<span class="s">'blog_name'</span><span class="p">:</span><span class="s">'Name of collection which hosts citing article'</span><span class="p">}</span>
+
+<span class="n">s</span><span class="o">=</span><span class="n">urllib</span><span class="o">.</span><span class="n">urlencode</span><span class="p">(</span><span class="n">payload</span><span class="p">)</span>
+
+<span class="n">req</span><span class="o">=</span><span class="n">urllib2</span><span class="o">.</span><span class="n">Request</span><span class="p">(</span><span class="s">'http://localhost:8001/cgi/tb_server.py/link1'</span><span class="p">)</span>
+<span class="n">req</span><span class="o">.</span><span class="n">add_header</span><span class="p">(</span><span class="s">'User-Agent'</span><span class="p">,</span><span class="s">'bnl trackback tester v0.2'</span><span class="p">)</span>
+<span class="n">req</span><span class="o">.</span><span class="n">add_header</span><span class="p">(</span><span class="s">'Content-Type'</span><span class="p">,</span><span class="s">'application/x-www-form-urlencoded'</span><span class="p">)</span>
+<span class="n">fd</span><span class="o">=</span><span class="n">urllib2</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="n">req</span><span class="p">,</span><span class="n">s</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">fd</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+
+</code></pre></div></div>
+
+<p>There’s not much to say about that. The server looks like this:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/usr/bin/env python</span>
+<span class="kn">from</span> <span class="nn">NewTrackbackStuff</span> <span class="kn">import</span> <span class="n">TrackBackProvider</span><span class="p">,</span><span class="n">Handler</span>
+<span class="kn">import</span> <span class="nn">cgi</span><span class="p">,</span><span class="n">os</span>
+<span class="c">#mport cgitb</span>
+<span class="c">#cgitb.enable()</span>
+
+<span class="n">handler</span><span class="o">=</span><span class="n">Handler</span><span class="p">()</span>
+<span class="n">relative_path</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">"PATH_INFO"</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s">'/'</span><span class="p">)</span>
+<span class="n">method</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">"REQUEST_METHOD"</span><span class="p">)</span>
+<span class="n">cgifields</span><span class="o">=</span><span class="n">cgi</span><span class="o">.</span><span class="n">FieldStorage</span><span class="p">()</span>
+
+<span class="k">print</span> <span class="s">"Content-type: text/html"</span>
+<span class="k">print</span>
+
+<span class="n">tb</span><span class="o">=</span><span class="n">TrackBackProvider</span><span class="p">(</span><span class="n">method</span><span class="p">,</span><span class="n">relative_path</span><span class="p">,</span><span class="n">cgifields</span><span class="p">,</span><span class="n">handler</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">tb</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+
+</code></pre></div></div>
+
+<p>So all the fun stuff is in NewTrackBackStuff in the TrackBackProvider:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">TrackBackProvider</span><span class="p">:</span>
+    	<span class="s">''' This is a very simpler CGI handler for incoming trackback pings, all it
+	does is accept the ping if appropriate, and biff it in a dumb persistence
+	store '''</span>
+	<span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">method</span><span class="p">,</span> <span class="n">relative_path</span><span class="p">,</span> <span class="n">cgifields</span><span class="p">,</span> <span class="n">handler</span><span class="p">):</span>
+		<span class="s">''' Provides trackback services
+		    (The handler provides a persistent store)
+		'''</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">method</span><span class="o">=</span><span class="n">method</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">relative_path</span><span class="o">=</span><span class="n">relative_path</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">fields</span><span class="o">=</span><span class="p">{}</span>
+		<span class="c">#lose the MiniFieldStorage syntax:</span>
+		<span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">cgifields</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">fields</span><span class="p">[</span><span class="n">key</span><span class="p">]</span><span class="o">=</span><span class="n">cgifields</span><span class="p">[</span><span class="n">key</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+        	<span class="bp">self</span><span class="o">.</span><span class="n">handler</span> <span class="o">=</span> <span class="n">handler</span>
+
+		<span class="bp">self</span><span class="o">.</span><span class="n">noid</span><span class="o">=</span><span class="s">'Incorrect permalink ID'</span>
+        	<span class="bp">self</span><span class="o">.</span><span class="n">nostore</span><span class="o">=</span><span class="s">'Cannot store the ping information'</span>
+        	<span class="bp">self</span><span class="o">.</span><span class="n">invalid</span><span class="o">=</span><span class="s">'Invalid ping format'</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">nourl</span><span class="o">=</span><span class="s">'Invalid or nonexistent ping url'</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">noretrieve</span><span class="o">=</span><span class="s">'Unable to retreive information'</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">xmlhdr</span><span class="o">=</span><span class="s">'&lt;?xml version="1.0" encoding="iso-8859-1"?&gt;'</span>
+
+	<span class="k">def</span> <span class="nf">result</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        	<span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">relative_path</span>
+            	<span class="k">if</span> <span class="n">target</span><span class="o">==</span><span class="s">''</span><span class="p">:</span> <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__Response</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">noid</span><span class="p">)</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">handler</span><span class="o">.</span><span class="n">checkTargetExists</span><span class="p">(</span><span class="n">target</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">__Response</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">noid</span><span class="p">)</span>
+		<span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">method</span><span class="o">==</span><span class="s">'POST'</span><span class="p">:</span>
+			<span class="s">''' All incoming pings should be a post '''</span>
+			<span class="k">try</span><span class="p">:</span>
+				<span class="n">ping</span><span class="o">=</span><span class="n">StandardPing</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">fields</span><span class="p">)</span>
+				<span class="k">if</span> <span class="n">ping</span><span class="o">.</span><span class="n">noValidURL</span><span class="p">():</span> <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__Response</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">nourl</span><span class="p">)</span>
+			<span class="k">except</span><span class="p">:</span>
+				<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__Response</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">invalid</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">fields</span><span class="p">))</span>
+			<span class="k">try</span><span class="p">:</span>
+				<span class="n">r</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">handler</span><span class="o">.</span><span class="n">store</span><span class="p">(</span><span class="n">target</span><span class="p">,</span><span class="n">ping</span><span class="p">)</span>
+				<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__Response</span><span class="p">()</span>
+			<span class="k">except</span><span class="p">:</span>
+				<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__Response</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">nostore</span><span class="p">)</span>
+		<span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">method</span><span class="o">==</span><span class="s">'GET'</span><span class="p">:</span>
+			<span class="c"># this should get the resource at the trackback target ...</span>
+			<span class="k">try</span><span class="p">:</span>
+				<span class="n">r</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">handler</span><span class="o">.</span><span class="n">retrieve</span><span class="p">(</span><span class="n">target</span><span class="p">)</span>
+				<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">xmlhdr</span><span class="o">+</span><span class="n">r</span>
+			<span class="k">except</span><span class="p">:</span>
+            			<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__Response</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">noretrieve</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">__Response</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">error</span><span class="o">=</span><span class="s">''</span><span class="p">):</span>
+        	<span class="s">''' Format a compliant reply to an incoming ping '''</span>
+        	<span class="n">e</span><span class="o">=</span><span class="s">'&lt;error&gt;0&lt;/error&gt;'</span>
+        	<span class="k">if</span> <span class="n">error</span><span class="o">!=</span><span class="s">''</span><span class="p">:</span> <span class="n">e</span><span class="o">=</span><span class="s">'&lt;error&gt;1&lt;/error&gt;&lt;message&gt;</span><span class="si">%</span><span class="s">s&lt;/message&gt;'</span><span class="o">%</span><span class="n">error</span>
+        	<span class="n">r</span><span class="o">=</span><span class="s">''</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="bp">self</span><span class="o">.</span><span class="n">xmlhdr</span><span class="p">,</span><span class="s">'&lt;response&gt;'</span><span class="p">,</span><span class="n">e</span><span class="p">,</span><span class="s">'&lt;/response&gt;'</span><span class="p">])</span>
+        	<span class="k">return</span> <span class="n">r</span>
+
+</code></pre></div></div>
+
+<p>which is mainly about handling the error returns. The persistent store, as I say is very dumb, and simply consists of an XML file for this toy, which uses:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Handler</span><span class="p">:</span>
+	<span class="s">''' This provides a simple persistence store for incoming trackbacks.
+	Makes no assumptions beyond assuming the incoming ping is
+	an xml fragment. No logic for ids for the trackbacks etc ... this is
+	supposed to be dumb, and essentially useless for real applications!!'''</span>
+	<span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">xmlfile</span><span class="o">=</span><span class="s">'trackback-archive.xml'</span>
+		<span class="c"># if file doesn't exist create it on store ...</span>
+		<span class="k">try</span><span class="p">:</span>
+			<span class="n">t</span><span class="o">=</span><span class="n">ElementTree</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">xmlfile</span><span class="p">)</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">=</span><span class="n">t</span><span class="o">.</span><span class="n">getroot</span><span class="p">()</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">=</span><span class="n">ElementTree</span><span class="o">.</span><span class="n">Element</span><span class="p">(</span><span class="s">"tracbackArchive"</span><span class="p">)</span>
+	<span class="k">def</span> <span class="nf">checkTargetExists</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">target</span><span class="p">):</span>
+		<span class="s">''' check whether the target link exists '''</span>
+		<span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+			<span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">attrib</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'permalink'</span><span class="p">)</span><span class="o">==</span><span class="n">target</span><span class="p">:</span> <span class="k">return</span> <span class="mi">1</span>
+		<span class="k">return</span> <span class="mi">0</span>
+	<span class="k">def</span> <span class="nf">urlstore</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">target</span><span class="p">,</span><span class="n">ping</span><span class="p">):</span>
+		<span class="s">'''stores a url encoded "standard" ping '''</span>
+		<span class="n">node</span><span class="o">=</span><span class="n">ElementTree</span><span class="o">.</span><span class="n">fromstring</span><span class="p">(</span><span class="n">ping</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">store</span><span class="p">(</span><span class="n">target</span><span class="p">,</span><span class="n">node</span><span class="p">)</span>
+	<span class="k">def</span> <span class="nf">store</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">target</span><span class="p">,</span><span class="n">ping</span><span class="p">):</span>
+		<span class="s">''' stores a ping and associates it with target, quite happy for the
+		moment to have duplicates - assumes the ping is already an ET instance '''</span>
+		<span class="c">#regrettably I think we have to test each child for the attribute name,</span>
+		<span class="c">#I'd prefer to use an xpath like expression ... but don't know how.</span>
+		<span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+			<span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">attrib</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'permalink'</span><span class="p">)</span><span class="o">==</span><span class="n">target</span><span class="p">:</span>
+				<span class="c">#add to an existing target element</span>
+				<span class="n">t</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ping</span><span class="o">.</span><span class="n">element</span><span class="p">)</span>
+				<span class="k">break</span>
+		<span class="k">else</span><span class="p">:</span>
+			<span class="c">#create a new target element</span>
+			<span class="n">t</span><span class="o">=</span><span class="n">ElementTree</span><span class="o">.</span><span class="n">Element</span><span class="p">(</span><span class="s">'target'</span><span class="p">,</span><span class="n">permalink</span><span class="o">=</span><span class="n">target</span><span class="p">)</span>
+			<span class="n">t</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ping</span><span class="o">.</span><span class="n">element</span><span class="p">)</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
+		<span class="n">ElementTree</span><span class="o">.</span><span class="n">ElementTree</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">xmlfile</span><span class="p">)</span>
+		<span class="k">return</span> <span class="mi">0</span>
+	<span class="k">def</span> <span class="nf">retrieve</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">target</span><span class="p">):</span>
+		<span class="s">''' retrieves the target and any pings associate with it '''</span>
+		<span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+			<span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">attrib</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'permalink'</span><span class="p">)</span><span class="o">==</span><span class="n">target</span><span class="p">:</span> <span class="k">return</span> <span class="n">ElementTree</span><span class="o">.</span><span class="n">tostring</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<p>Finally, for handling the ping, I found this useful:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">StandardPing</span><span class="p">:</span>
+	<span class="s">''' Defines a standard trackback ping payload. Use as a toy to validate
+	existing standard pings and convert to XML or urlencode ...'''</span>
+	<span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">argdict</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+		<span class="s">''' Instantiate with payload or empty '''</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">allowed</span><span class="o">=</span><span class="p">(</span><span class="s">'title'</span><span class="p">,</span><span class="s">'url'</span><span class="p">,</span><span class="s">'excerpt'</span><span class="p">,</span><span class="s">'blog_name'</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">element</span><span class="o">=</span><span class="n">ElementTree</span><span class="o">.</span><span class="n">Element</span><span class="p">(</span><span class="s">'ping'</span><span class="p">)</span>
+        	<span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">argdict</span><span class="p">:</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">__setitem__</span><span class="p">(</span><span class="n">key</span><span class="p">,</span><span class="n">argdict</span><span class="p">[</span><span class="n">key</span><span class="p">])</span>
+	<span class="k">def</span> <span class="nf">__setitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">key</span><span class="p">,</span><span class="n">item</span><span class="p">):</span>
+        	<span class="s">''' set item just as if it is dictionary, but keys are limited'''</span>
+        	<span class="k">if</span> <span class="n">key</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">allowed</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">reject</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+        	<span class="n">e</span><span class="o">=</span><span class="n">ElementTree</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">element</span><span class="p">,</span><span class="n">key</span><span class="p">)</span>
+		<span class="n">e</span><span class="o">.</span><span class="n">text</span><span class="o">=</span><span class="n">item</span>
+	<span class="k">def</span> <span class="nf">reject</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">key</span><span class="p">):</span>
+        	<span class="k">raise</span> <span class="s">'Invalid key in TraceBack Ping:'</span><span class="o">+</span><span class="n">key</span>
+	<span class="k">def</span> <span class="nf">toXML</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="s">''' take element tree instance and create xml string '''</span>
+		<span class="n">s</span><span class="o">=</span><span class="n">ElementTree</span><span class="o">.</span><span class="n">tostring</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">element</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">s</span>
+	<span class="k">def</span> <span class="nf">toURLdata</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="s">''' take element tree instance and create url encoded payload string '''</span>
+		<span class="n">s</span><span class="o">=</span><span class="p">[]</span>
+		<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">element</span><span class="p">:</span>
+			<span class="n">s</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">item</span><span class="o">.</span><span class="n">tag</span><span class="p">,</span><span class="n">item</span><span class="o">.</span><span class="n">text</span><span class="p">))</span>
+		<span class="k">return</span> <span class="n">urllib</span><span class="o">.</span><span class="n">urlencode</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+	<span class="k">def</span> <span class="nf">noValidURL</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="s">''' At some point this could check the url for validity etc '''</span>
+		<span class="n">e</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">element</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">'url'</span><span class="p">)</span>
+		<span class="k">if</span> <span class="n">e</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span> <span class="k">return</span> <span class="mi">1</span>
+		<span class="k">if</span> <span class="n">e</span><span class="o">.</span><span class="n">text</span><span class="o">==</span><span class="s">''</span><span class="p">:</span> <span class="k">return</span> <span class="mi">1</span>
+		<span class="k">return</span> <span class="mi">0</span>
+
+</code></pre></div></div>
+
+<p><strong>Update: 15th March, 2006</strong>: Use of blogname replaced with blog_name (might as well get it right :-)</p>
+
+  </article>
+
+<!--
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'bnlawrence';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+-->
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professor of Weather and Climate Computing</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

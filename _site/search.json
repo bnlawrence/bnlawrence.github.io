@@ -1,0 +1,589 @@
+[
+
+  
+    {
+      "title"			: "European Big Data Value Forum",
+      "link"			: "http://bnlawrence.github.io//talks/2017/11/HPC_Bigdata/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "The Data Deluge in High Resolution Climate and Weather Simulation"
+    }
+  
+
+  
+    ,{
+      "title"			: "Science and the Digital Revolution - Data, Standards, and Integration",
+      "link"			: "http://bnlawrence.github.io//computing/2017/11/science_and_the_digital_revolution/",
+      "tag"       : "",
+      "category"  : "computing",
+      "excerpt"		: "I was asked to give a talk at this CODATA meeting which was aimed at developing a roadmap for:  Mobilising community support and advice for discipline-based initiatives to develop online data capacities and services;  Priorities for work on interdisciplinary data integration and flagship projects;  Approaches to funding and coordination; and  Issues of international data governance.Details of my talk are hereThere were some other interesting talks, some of which resonated particularly with me, including  Bill Michener talking about Dataone, and the importance of governance activities where all lines of responsibility are clear: no committees or panels whose remit is unclear or whose reporting lines are non-existent.  Jeremy Fry talking about digital infrastructure in support of (physical) chemistry, who had some thought provoking comments on creativity, “engrooved” bad habits (harking back to a talk by Paul Trowler, which I have yet to get a copy of) and the potential role of AI in scientific discovery: Also, human creativity seems to depend increasingly on the stochasticity of previous experiences - particular life events that allow a researcher to notice something others do not. Although chance has always been a factor in scientific discovery, it is currently playing a much larger role than it should. *([The Atlantic, April 2017](https://www.theatlantic.com/science/archive/2017/04/can-scientific-discovery-be-automated/524136/))*.* [Robert Hanisch](https://www.nist.gov/people/robert-hanisch)  talking about experience of the IAU in developing technical infrastructure, and in particular the governance of technical components for the International Virtual Observatory Alliance. The  [IVOA](http://www.ivoa.net/) attempts to follows the W3C governance model:    * Data access protocols require two independent implementations.    * Notes are promoted to Working Drafts, which become Proposed Recommendations, which get endorsed to become Recommendations, which eventually become standards &#151; although the did note that the formal endorsement step wasn&#39;t (yet?) in practice."
+    }
+  
+
+  
+    ,{
+      "title"			: "Science and the Digital Revolution -  Data, Standards, and Integration",
+      "link"			: "http://bnlawrence.github.io//talks/2017/11/data_interop_lawrence/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "Data Interoperability and Integration: A climate modelling perspective, November 2017"
+    }
+  
+
+  
+    ,{
+      "title"			: "Gung Ho Network Meeting",
+      "link"			: "http://bnlawrence.github.io//talks/2017/07/ppp4_gungho/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "Performance, Portability, Productivity: Which two do you want?"
+    }
+  
+
+  
+    ,{
+      "title"			: "International Supercomputing (ISC) and JASMIN User Conferences",
+      "link"			: "http://bnlawrence.github.io//talks/2017/06/lawrence_jasmin/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "I gave two versions of this talk, one at at the International Supercomputing Conference’s Workshop on HPC I/O in the data centre, and one at the 2017 JASMIN User’s Conference."
+    }
+  
+
+  
+    ,{
+      "title"			: "Week Eight",
+      "link"			: "http://bnlawrence.github.io//diary/2017/02/week_eight/",
+      "tag"       : "",
+      "category"  : "diary",
+      "excerpt"		: "Spent nearly the entire week (and certainly more than a “European maximum 48-hours”) on things to do with ESIWACE (on the deliverable  I mentioned last time, reporting for the EC, etc). I did have a fair chunk of one day on other things as also chaired a meeting of the advisory panel for our climate predictions for the copernicus climate data store project  (CP4CDS, a project about deploying and maintaining sofware for a special ESGF data node to support climate services) - that took up the best part of day. However, that’s pretty much it for the week. Hard to believe we’re two months into the year - and I still haven’t come up for air and managed to create any significant blogging time."
+    }
+  
+
+  
+    ,{
+      "title"			: "Weeks Six and Seven",
+      "link"			: "http://bnlawrence.github.io//diary/2017/02/weeks_six_and_seven/",
+      "tag"       : "",
+      "category"  : "diary",
+      "excerpt"		: "Two weeks to report this time, primarily because I had a day off on sick leave, and two days on real leave, so there’s only seven weekday workdays to talk about (althoughI have just spent bit chunks of both yesterday and today, that is, sat and sun, on work as well)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Space and Open Plan Offices",
+      "link"			: "http://bnlawrence.github.io//management/2017/02/space_and_open_plan_offices/",
+      "tag"       : "management",
+      "category"  : "management",
+      "excerpt"		: "I was paying a bit more attention to twitter this morning than usual (I’m hoping I’ll  get some feedback on my analysis of citations that I posted yesterday). One thing that blew by was this headline the Washington Post:&quot;Google got it wrong. The open-office trend is destroying the workplace.&quot;"
+    }
+  
+
+  
+    ,{
+      "title"			: "Week Five",
+      "link"			: "http://bnlawrence.github.io//diary/2017/02/week_five/",
+      "tag"       : "",
+      "category"  : "diary",
+      "excerpt"		: "Nothing exciting to report. I spent nearly the entire week processing email, interacting with my team (both directly and on slack), and producing short things (e.g. a management level one pager on why NCAS should continue to support the CF conventions, and how). However, I did spend a wee bit of time trying to reinforce some of my observations around why storage is becoming a much bigger deal in environmental science. More on that next …"
+    }
+  
+
+  
+    ,{
+      "title"			: "Why so much data?  Part I -   The rise of direct numerical simulation",
+      "link"			: "http://bnlawrence.github.io//computing/2017/02/so_much_data_one/",
+      "tag"       : "",
+      "category"  : "computing",
+      "excerpt"		: "Over the last decade or so, many in the scientific community (especially in the environmental sciences) have been surprised by the increased cost of data handling - not only in absolute terms, but in terms of the percentage of the cost of doing “normal science”."
+    }
+  
+
+  
+    ,{
+      "title"			: "Week Four",
+      "link"			: "http://bnlawrence.github.io//diary/2017/01/week_four/",
+      "tag"       : "",
+      "category"  : "diary",
+      "excerpt"		: "Not much to report for week four, since the work I did this week was mostly “processing email” - although we did submit the outline EPSRC bid, so one thing actually done (for now). The lack of anything else substantial was down to still being in the States in the early part of the week, coupled with a virulent bout of (probably) food poisoning which knocked me out for a couple of days."
+    }
+  
+
+  
+    ,{
+      "title"			: "Week Three",
+      "link"			: "http://bnlawrence.github.io//diary/2017/01/week_three/",
+      "tag"       : "",
+      "category"  : "diary",
+      "excerpt"		: "Quite a different week, for different reasons."
+    }
+  
+
+  
+    ,{
+      "title"			: "NERC Town Hall Meeting on Data Centre Futures",
+      "link"			: "http://bnlawrence.github.io//talks/2016/10/lawrence_infrastructure/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "Data Centre Technology to Support Environmental Science"
+    }
+  
+
+  
+    ,{
+      "title"			: "Meteorology meets Computer Science Symposium",
+      "link"			: "http://bnlawrence.github.io//talks/2016/09/lawrence/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "Computer Science Issues in Environmental Infrastructure"
+    }
+  
+
+  
+    ,{
+      "title"			: "JASMIN User Conference",
+      "link"			: "http://bnlawrence.github.io//talks/2016/06/jasmin_lawrence/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "Science Drivers: Why JASMIN?"
+    }
+  
+
+  
+    ,{
+      "title"			: "CEDA Vocbulary Meeting",
+      "link"			: "http://bnlawrence.github.io//talks/2016/03/esdoc10minutes/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "A ten minute introduction to ES-DOC technology"
+    }
+  
+
+  
+    ,{
+      "title"			: "IS-ENES2 2nd General Assembly",
+      "link"			: "http://bnlawrence.github.io//talks/2016/02/esdoc4cmip6/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "ESDOC for CMIP6"
+    }
+  
+
+  
+    ,{
+      "title"			: "International Computing in Atmospheric Science (ICAS)",
+      "link"			: "http://bnlawrence.github.io//talks/2015/09/lawrence_icas15/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "UK academic infrastructure to support (big) environmental sciencePresentation: pdf (18 MB).Abstract:  Modern environmental science requires the fusion of ever growing volumes of data from multiple simulation and observational platforms. In the UK we are investing in the infrastructure necessary to provide the generation, management, and analysis of the relevant datasets. This talk discusses the existing and planned hardware and software infrastructure required to support the (primarily) UK academic community in this endeavour, and relates it to key international endeavours at the European and global scale – including earth observation programmes such as the Copernicus Sentinel missions, the European Network for Earth Simulation, and the Earth System Grid Federation."
+    }
+  
+
+  
+    ,{
+      "title"			: "RCUK Cloud Workshop",
+      "link"			: "http://bnlawrence.github.io//talks/2015/06/Lawrence_Cloud/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "Why Cloud? Earth Systems SciencePresentation: pdf (6 MB).Alternative title: Data Driven Science: Bringing Computation to the Data. This talk covered the background trends and described the JASMIN approach."
+    }
+  
+
+  
+    ,{
+      "title"			: "EGU",
+      "link"			: "http://bnlawrence.github.io//talks/2015/04/Lawrence_Tyranny/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "Beating the tyranny of scale with a private cloud configured for Big DataPresentation: pdf (5 MB).At the last minute I found that I wasn’t able to attend, but Phil Kershaw gave my talk. The abstract is available here (pdf)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Big Data and Extreme-Scale Computing (BDEC)",
+      "link"			: "http://bnlawrence.github.io//talks/2015/01/lawrence_4slides/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "There were two back to back meetings organised as part of the 2015 Big Data and Extreme Computing meeting website.  In the first, organised as part of the European Exascale Software Initiative (EESI), I gave a full talk, in the second, I provided a four page position paper with a four page exposition.It starts and Ends with Data: Towards exascale from an earth system science perspectivePresentation: pdf (7 MB).Six sections: the big picture, background trends, hardware issues, software issues, workflow, and a summary.Bringing Compute to the DataPresentation: pdf (3 MB).This was my main BDEC contribution. There was also a four pagesummary paper: pdf."
+    }
+  
+
+  
+    ,{
+      "title"			: "IS-ENES2 Kickoff Meeting",
+      "link"			: "http://bnlawrence.github.io//talks/2013/05/isenes/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "The Future of ESGF in the context of ENES and IS-ENES2Presentation: pdf (2MB).I probably tried to do too much in this talk. There were three subtexts:  We as a community have too much data to handle, and I mentioned the apocryphal estimate that only 2/3 of data written is read … but I confused folks … that figure applies to institutional data, not data in ESGF …  That the migration of data and information between domains (see the talk) requires a lot of effort, and that (nearly) no one recognises or funds that effort (kudos to KNMI :-),  That portals are easy to build, but hard to build right, and maybe we need fewer, or maybe we need more, but either way, they need to both meet requirements in technical functionality, and information (as opposed to data) content."
+    }
+  
+
+  
+    ,{
+      "title"			: "Coupling Workshop (CW2013)",
+      "link"			: "http://bnlawrence.github.io//talks/2013/02/coupling/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "Bridging Communities: Technical Concerns for Building Integrated Environmental ModelsPresentation: pdf (1MB)."
+    }
+  
+
+  
+    ,{
+      "title"			: "2nd IS-ENES Workshop on High-performance computing for Climate Models",
+      "link"			: "http://bnlawrence.github.io//talks/2013/02/hpc-enes/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "Data, the elephant in the room. JASMIN one step along the road to dealing with the elephant.Presentation: pdf (2MB)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Identifiers, Persistence and Citation",
+      "link"			: "http://bnlawrence.github.io//computing/2008/05/identifiers_persistence_and_citation/",
+      "tag"       : "metadata, curation, metafor",
+      "category"  : "computing",
+      "excerpt"		: "Identifiers are pretty important things when you care about curation and citation, and they’ll be pretty important for metafor too."
+    }
+  
+
+  
+    ,{
+      "title"			: "Metadata, Effort and Scope",
+      "link"			: "http://bnlawrence.github.io//computing/2008/05/metadata_effort_and_scope/",
+      "tag"       : "curation, badc, metadata",
+      "category"  : "computing",
+      "excerpt"		: "I keep on harping on about how metadata management is time intensive, and the importance of standards."
+    }
+  
+
+  
+    ,{
+      "title"			: "Citation and Claddier",
+      "link"			: "http://bnlawrence.github.io//computing/2007/05/citation_and_claddier/",
+      "tag"       : "claddier, curation",
+      "category"  : "computing",
+      "excerpt"		: "For some time now, we’ve been narrowing down how best to do scientific data citations. Last week we had a workshop where we concentrated on a number of issues associated with data publication."
+    }
+  
+
+  
+    ,{
+      "title"			: "Citing data with ISO19139",
+      "link"			: "http://bnlawrence.github.io//computing/2006/10/citing_data_with_iso19139/",
+      "tag"       : "iso19115, metadata, ndg, claddier",
+      "category"  : "computing",
+      "excerpt"		: "I thought I might try and work out exactly what tags I might use for my previous citation example, if I was using ISO19139 (i.e. in the metadata of another dataset)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Persistence",
+      "link"			: "http://bnlawrence.github.io//computing/2006/10/persistence/",
+      "tag"       : "curation, claddier",
+      "category"  : "computing",
+      "excerpt"		: "Just after I wrote my last post on data citation, I found Joseph Reagle’s blog entry on bibliography and citation.  He’s making a number of points, one of which was about transience. In the comments to his post, and in Joseph’s comment on my post, two solutions to deal with internet transience are mentioned: the wayback machine and webcite."
+    }
+  
+
+  
+    ,{
+      "title"			: "Citation, Hosting and Publication",
+      "link"			: "http://bnlawrence.github.io//computing/2006/10/citation_hosting_and_publication/",
+      "tag"       : "claddier, metadata, ndg, curation",
+      "category"  : "computing",
+      "excerpt"		: "Returning to my series on citation (parts one."
+    }
+  
+
+  
+    ,{
+      "title"			: "More on citation - part three, delving",
+      "link"			: "http://bnlawrence.github.io//computing/2006/09/more_on_citation_-_part_three_delving/",
+      "tag"       : "curation, ndg, metadata, claddier",
+      "category"  : "computing",
+      "excerpt"		: "Following on …"
+    }
+  
+
+  
+    ,{
+      "title"			: "More on citation - part two, MST",
+      "link"			: "http://bnlawrence.github.io//computing/2006/09/more_on_citation_-_part_two_mst/",
+      "tag"       : "claddier, curation, metadata",
+      "category"  : "computing",
+      "excerpt"		: "Yesterday I started talking about how I think one should cite data we hold on behalf of someone else. That discussion isn’t yet finished, issues of citing within datasets, and other “standards” for citation still need to be discussed (including how we parse and store them electronically), and I still haven’t gotten to addressing any of my points from the original blog entry. Before we go there, it’s helpful to discuss our mst radar data set."
+    }
+  
+
+  
+    ,{
+      "title"			: "More on citation - part one, ashoe",
+      "link"			: "http://bnlawrence.github.io//computing/2006/09/more_on_citation/",
+      "tag"       : "curation, claddier, metadata",
+      "category"  : "computing",
+      "excerpt"		: "We’ve just been having an interesting conversation about the citation of datasets in the context of claddier. I think I’ve got the use of we and I correct in what follows to indicate what I think as opposed to what we discussed and agreed …"
+    }
+  
+
+  
+    ,{
+      "title"			: "RDF and Ontology Workshop",
+      "link"			: "http://bnlawrence.github.io//talks/2006/06/NDG_SemanticEdinburgh06/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "Distributed Data, Distributed Governance, Distributed Vocabularies: The NERC DataGridPresentation: pdf ( 6 MB).The workshop page is available here!"
+    }
+  
+
+  
+    ,{
+      "title"			: "More on Data Citation",
+      "link"			: "http://bnlawrence.github.io//computing/2006/04/more_on_data_citation/",
+      "tag"       : "claddier",
+      "category"  : "computing",
+      "excerpt"		: "There was a lot interest at the e-science meeting about a throw away comment I made about our claddier project."
+    }
+  
+
+  
+    ,{
+      "title"			: "NERC e-Science All-Hands-Meeting",
+      "link"			: "http://bnlawrence.github.io//talks/2006/04/nerc-escience-ahm/",
+      "tag"       : "",
+      "category"  : "talks",
+      "excerpt"		: "NERC DataGrid StatusPresentation: pdf (5 MB).In this presentation, I present some of the motivation for the NERC DataGrid development (the key points being that we want semantic access to distributed data with no centralised user management), link it to the ISO TC211 standards work, and take the listener through a tour of some of the NDG products as they are now. There is a slightly more detailed look at the Climate Sciences Modelling Language, and I conclude with an overview of the NDG roadmap."
+    }
+  
+
+  
+    ,{
+      "title"			: "Journals and Blogging",
+      "link"			: "http://bnlawrence.github.io//academic/2006/03/journals_and_blogging/",
+      "tag"       : "curation, ndg",
+      "category"  : "academic",
+      "excerpt"		: "On Thursday I gave my seminar at Oxford.  Of course I wrote the abstract months before the talk, so I didn’t cover half the things I said I would in any detail, but for the record, the presentation itself is on my Talks page."
+    }
+  
+
+  
+    ,{
+      "title"			: "Some Trackback code",
+      "link"			: "http://bnlawrence.github.io//computing/2006/03/some_trackback_code/",
+      "tag"       : "ndg, computing, claddier",
+      "category"  : "computing",
+      "excerpt"		: "So I’ve joined up to the trackback working group, and I decided I’d better have a proper trackback implementation to play with … given this is all very important for claddier the time investment was worth it."
+    }
+  
+
+  
+    ,{
+      "title"			: "Might trackback grow up?",
+      "link"			: "http://bnlawrence.github.io//computing/2006/02/might-trackback-growup/",
+      "tag"       : "computing, claddier",
+      "category"  : "computing",
+      "excerpt"		: "I’ve been interested in trackback since before I started blogging. I have mused about it in the past, and still think it has significant potential. Our claddier project will exploit a modified version of trackback to explicitly make citation links between repositories."
+    }
+  
+
+  
+    ,{
+      "title"			: "Bibliographic References, ISO19115 and NumSim",
+      "link"			: "http://bnlawrence.github.io//computing/2006/01/bibliographic_references_iso19115_and_numsim/",
+      "tag"       : "curation, ndg, claddier, metadata, iso19115",
+      "category"  : "computing",
+      "excerpt"		: "One of the things one can imagine our NumSim discovery metadata to support is the ability for someone to identify that a particular model component (say the atmosphere) has a bibliographic reference associated with it that describes some part of the system. Having done that, to find all other simulation datasets for which the atmosphere is associated with the same citation. What this implies is that  We need to support bibliographic references associated with particular parts of the NumSim extension (as opposed to simply listing them as part of the parent DIF), and  We should describe such references in a standards compliant manner, and in such a way that we can format the reference both for automatic discovery and for humans to view on the screen (or paper)."
+    }
+  
+
+  
+    ,{
+      "title"			: "New version of NumSim available",
+      "link"			: "http://bnlawrence.github.io//computing/2006/01/new_version_of_numsim_available/",
+      "tag"       : "metafor",
+      "category"  : "computing",
+      "excerpt"		: "A new version of the NumSim metadata schema, along with documentation is now available. NumSim has been designed as a package module to add to standard metadata discovery records to discriminate between data sets which have resulted from simulations."
+    }
+  
+
+  
+    ,{
+      "title"			: "Oxford Seminar in March",
+      "link"			: "http://bnlawrence.github.io//computing/2006/01/oxford-seminar-in-march/",
+      "tag"       : "ndg, badc, curation",
+      "category"  : "computing",
+      "excerpt"		: "I’ve been invited back to Oxford AOPP to give a seminar in March. The seminar coordinator tells me it’ll be over ten years since I last gave a seminar there. Last time it was on gravity waves (no, not gravitational waves!).This time it wont be directly about atmospheric science research, but about very relevant technologies:"
+    }
+  
+
+  
+    ,{
+      "title"			: "Data Citation",
+      "link"			: "http://bnlawrence.github.io//computing/2005/12/data_citation/",
+      "tag"       : "badc, curation, claddier, metadata",
+      "category"  : "computing",
+      "excerpt"		: "One of the aims of CLADDIER is to establish methodologies for data citation.  There are a lot of issues, some of which have been addressed before, by projects, like for example a German pilot experiment. The way I see it, things we haveto address include:  How do we deal with dataset transience? My first reaction to this question was to say that one has to make dataset publication final - if one wants to change the dataset, one should publish a new version. However, it doesn’t take long to realise that while that might make sense for datasets that are in some way canonical, it isn’t a general solution. Many scientific datasets are subject to more or less continual revision as more data is collected (for example, covering a wider spatial or temporal domain), or data is revised as quality control is improved.  In the case of most of our data, the latter situation should result in revised datasets - which was the situation I had envisaged - but in a gene database for example, that doesn’t make nearly as much sense if one plans to cite the database, which one expects to change as new sequences are added and old ones revised. This leads us to  How do we cite something within a database/dataset? Here I think the answer is that database contents should be thought of consisting of features in the OGC/ISO sense; that is, of objects which are instances of some named class which is well defined (with the class definition being well described and lodged in some registry). In that case, all such instance objects should be described by a unique identifier and thus citeable in some way. However, it is important that as such instances are revised/improved/replaced, not only do the new instances carry new identifiers, but the old instances must carry information that they are obsolete.  What metadata is needed to publish a dataset (as opposed to, say, a book)?In the ndg project, we have been investigating metadata, and we think there are at least four categories of metadata, one needs to deal with, which we have briefly summarised as:          A (for Archive): what you need to understand the format and direct content (i.e. what quantities are actually stored).      B (for Browse): what you need to understand the context of the data, and to allow you to choose between otherwise similar datasets (hence Browse).      C (for Character or Citation): what you need to support annotation of the data.      D (For Discovery): what you need to find the datasets  - broadly similar to the catalogue records in a library, but enhanced because we’re dealing with data.        If substantial amounts of metadata are needed, how do we deal with the definition of authorship for datasets? In the four categories above, one might expect the data originator to supply A, and some of the B metadata, but in reality it is rare for a dataset collector to provide enough B metadata … they have too much institutional wisdom which they fail to encode. Hence, to my mind, dataset publication will involve significant efforts from third parties (not the collector, nor necessarily, the publisher), and that effort will be in the form of material which were it in a standalone document, would be reflected with coauthorship … I think however, for data, we need a recognised categories of authorship which clearly delineate between the collector/compiler, and the metadata creators, but which reflect the academic aspirations of both.  If we want reputable data citation systems, how do we deal with refereeing?Clearly we (the BADC) could publish datasets ourselves, and indeed, we intend to do so, however, what guarantee of quality will our users get? Obviously we can do internal quality control, but that can only deal with compliance of the data to some schema, e.g. it has the right metadata, the numbers are within bounds, etc. What we can’t do, and what we need refereeing for is to comment authoritatively on, for examples:          the suitability of using a particular instrument to make a specific measurement, or      the suitability of a particular algorithm for combining data.        How do we deal with persistence of the digital objects that we cite?This is a whole topic in itself, but all objects which we expect to be citable, have to have identifiers which are live as long as the objects, and in particular, are independent of the storage mechanism, or the interfaces."
+    }
+  
+
+  
+    ,{
+      "title"			: "Citation Decay Rate",
+      "link"			: "http://bnlawrence.github.io//computing/2005/05/citation_decay_rate/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "excerpt"		: "I found out via the Digital-Preservation Mailing List about this article about the decay rate for online citations."
+    }
+  
+
+  
+    ,{
+      "title"			: "Function Creep and Institutional Repositories",
+      "link"			: "http://bnlawrence.github.io//computing/2005/03/function_creep_and_institutional_repositories/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "excerpt"		: "The case for institutional repositories (IRs) is well made in Crow et.al.: The Case for Institutional Repositories: A SPARC Position Paper (link)… as long as the definition of “digital collections capturing and preserving the intellectual output of a single or multi-university community” is appropriate."
+    }
+  
+
+  
+    ,{
+      "title"			: "Peopleware",
+      "link"			: "http://bnlawrence.github.io//management/2005/03/peopleware/",
+      "tag"       : "management",
+      "category"  : "management",
+      "excerpt"		: "A few weeks ago, various blogs I read started praising “Pragmatic Version Control using Subversion” by Mike Mason. One thing led to another, and I found this with a list of three seminal books, only one of which I had read (the Mythical Man Month). So, I bit the bullet and bought the other two and the Pragmatic Version Control book as well. One of the ones I bought was “Peopleware - Productive Projects and Teams” by Tom DeMarco and Timothy Lister. It’s fascinating …"
+    }
+  
+
+  
+    ,{
+      "title"			: "More on Trackbacks",
+      "link"			: "http://bnlawrence.github.io//computing/2004/12/moreontrackback/",
+      "tag"       : "xml, computing, ndg",
+      "category"  : "computing",
+      "excerpt"		: "Yesterday I spent some time implementing thetrackback spec in python. Iknow there are other implementationsin python, but I wanted to really understand this stuff.  I’ll put myimplementation up here soon (it’s intended for use in Leonardo andother places), but for now I want to record some of the things thatit got me thinking about.  The key thing I discovered were someinconsistencies in the spec  why does the trackback have (uri,excerpt) but the rss response have(link,description)?  how extensible is it? I want to put some semantics in my trackbackping … to tell the target what sort of trackback is coming in (it might notbe a blog, it might be an analysis programme, or a formal citation).Thinking this must be a bit of old hat for the semantic web folks, I went off on a bit of a google on trackback and semantics."
+    }
+  
+
+
+
+  
+
+  
+    ,{
+      "title"			: "ISO690",
+      "link"			: "http://bnlawrence.github.io//notes/ISO690/",
+      "tag"       : "",
+      "category"  : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "About",
+      "link"			: "http://bnlawrence.github.io//about/",
+      "tag"       : "",
+      "category"  : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Blog",
+      "link"			: "http://bnlawrence.github.io//blog/",
+      "tag"       : "",
+      "category"  : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "CLADDIER",
+      "link"			: "http://bnlawrence.github.io//projects/claddier/",
+      "tag"       : "",
+      "category"  : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "CV",
+      "link"			: "http://bnlawrence.github.io//cv/",
+      "tag"       : "",
+      "category"  : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+
+  
+    ,{
+      "title"			: "Categories",
+      "link"			: "http://bnlawrence.github.io//categories/",
+      "tag"       : "",
+      "category"  : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+
+  
+    ,{
+      "title"			: "Welcome",
+      "link"			: "http://bnlawrence.github.io//",
+      "tag"       : "",
+      "category"  : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+
+  
+    ,{
+      "title"			: "Publications",
+      "link"			: "http://bnlawrence.github.io//publications/",
+      "tag"       : "",
+      "category"  : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Research",
+      "link"			: "http://bnlawrence.github.io//research/",
+      "tag"       : "",
+      "category"  : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+
+  
+    ,{
+      "title"			: "Talks and Seminars",
+      "link"			: "http://bnlawrence.github.io//talks/",
+      "tag"       : "",
+      "category"  : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+
+  
+
+]

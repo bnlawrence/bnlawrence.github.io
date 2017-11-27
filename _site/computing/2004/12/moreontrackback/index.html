@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>More on Trackbacks | Bryan Lawrence</title>
+  <meta name="description" content="Yesterday I spent some time implementing thetrackback spec in python. Iknow there are other implementationsin python, but I wanted to really understand this stuff.  I’ll put myimplementation up her...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://bnlawrence.github.io//computing/2004/12/moreontrackback/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://bnlawrence.github.io//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
+<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Search</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">More on Trackbacks</h1>
+    <p class="post-meta">Posted on December 10, 2004 by 
+
+  in
+  
+  <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>Yesterday I spent some time implementing the
+<a href="http://www.movabletype.org/docs/mttrackback.html">trackback spec</a> in python. I
+know there are <a href="http://www.postneo.com/projects/tblib/">other implementations
+in python</a>, but I wanted to really understand this stuff.  I’ll put my
+implementation up here soon (it’s intended for use in Leonardo and
+other places), but for now I want to record some of the things that
+it got me thinking about.  The key thing I discovered were some
+inconsistencies in the spec</p>
+<ul>
+  <li>why does the trackback have (uri,excerpt) but the rss response have
+(link,description)?</li>
+  <li>how extensible is it? I want to put some semantics in my trackback
+ping … to tell the target what sort of trackback is coming in (it might not
+be a blog, it might be an analysis programme, or a formal citation).
+Thinking this must be a bit of old hat for the semantic web folks, I went off 
+on a bit of a google on trackback and semantics.</li>
+</ul>
+
+<p>Firstly, <a href="http://www.davidgalbraith.org/">David Galbraith</a> on permalinks and
+trackbacks <a href="http://www.davidgalbraith.org/archives/000055.html">wrote</a> in an
+undated page (please put the dates on your pages folks):</p>
+<blockquote>At a recent tech discussion Mark Nottingham pointed out that the real difference between RSS and RDF (the cornerstone of the semantic web initiative) was that RSS was about lists.
+ On the one hand this is true, however, the term list understates a crucial
+ point about weblogging. Weblogging is designed to deal with nuggets of
+ information that an author creates instead of a page that a publisher
+ publishes. A permalink refers to a unique item, and in terms of the semantic
+ web, indicates a component from which meaning can be extracted.
+</blockquote>
+
+<p>Ok, this is fine, but I’m not so interested in web logging per se, I’m
+thinking about links between nuggets that carry information about what
+sort of link they are (sounds like a candidate for rdf to me already) …</p>
+
+<p>(As an aside, I found a two year old
+<a href="http://ln.hixie.ch/?start=1033171507&amp;count=1">post</a> about
+<a href="http://www.hixie.ch/specs/pingback/pingback#status">pingback</a> which compared it with trackback.  It seems there aren’t many active implementations of
+pingback, but if the concept of trackback without semantics is what you want
+it would seem simpler to me. Did it catch on? Doesn’t seem so!)</p>
+
+<p>I found a useful disscussions of trackback in 2003
+<a href="http://w6daily.winn.com/001456.html">here</a> and
+<a href="http://wordpress.org/development/archives/27">here</a>. But better, I found 
+<a href="http://novaspivack.typepad.com/nova_spivacks_weblog/2003/08/semantic_linkin.html">this</a> describing exactly what I mean, and a comment stated “How in particular
+does RDF not work for you as a linking technology”? Which is what I started
+thinking as I read the trackback spec anyway - it uses RDF for the
+autodiscovery, why not in the ping itself?</p>
+
+<p>That’s a very good question, and is a good place to stop for today. My simple
+answer is, where is the (extendable) controlled vocabulary which defines the
+types of triples that would be allowed? I can easily imagine
+    remotelink cites permalink
+    remotelink incorporates permalink 
+    remotelink headlines permalink
+for textural things, but for data, I might want the adjective to be something
+which is more akin to a pointer to workflow … hmmm … but these would be
+meaningless unless a finite group of folk understood and implemented the words
+    cites, incorporates, headlines</p>
+
+<p>Clearly, at this point there are some more things I need to read up on,
+including, but not limited to:</p>
+<ul>
+  <li>foaf: <a href="http://xmlns.com/foaf/0.1/">spec</a>, <a href="http://www.foaf-project.org/">description</a></li>
+  <li>where the atom spec lies on trackbacks (for text isn’t a trackback just an
+atom entity?)</li>
+  <li><a href="http://www.w3.org/TR/xlink-naming">xlink</a></li>
+  <li><a href="http://www.xml.com/pub/a/2004/06/16/dive.html">The atom link Model</a></li>
+</ul>
+
+  </article>
+
+<!--
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'bnlawrence';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+-->
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professor of Weather and Climate Computing</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

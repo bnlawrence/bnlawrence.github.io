@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Metadata, Effort and Scope | Bryan Lawrence</title>
+  <meta name="description" content="I keep on harping on about how metadata management is time intensive, and the importance of standards.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://bnlawrence.github.io//computing/2008/05/metadata_effort_and_scope/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://bnlawrence.github.io//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
+<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Search</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Metadata, Effort and Scope</h1>
+    <p class="post-meta">Posted on May 21, 2008 by 
+
+  in
+  
+  <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>I keep on harping on about how metadata management is time intensive, and the importance of standards.</p>
+
+<p>Users keep on harping on about wanting access to all our data, and our funders keep wanting to cut our funding because “surely we can automate all that stuff now”.</p>
+
+<p>I’ve written <a href="papers/roysoc/LawEA08.pdf">elsewhere about information requirements</a>, this is more a set of generic thoughts.</p>
+
+<p>So here are some rules of thumb, ‘<em>even with a great information infrastructure</em>, about information projects:</p>
+<ul>
+  <li>If you need to code up something to handle a datastream, you might be able to handle o(10) instances per year.</li>
+  <li>If you have to do something o(hundreds of times), it’s possible provided each instance can be done quickly (at most a few hours).</li>
+  <li>o(thousands) are feasible with a modicum of automation (and each instance of automation falls into the first category), and</li>
+  <li>o(tens of thousands and bigger) are highly unlikely without both automation and no requirement for human involvement.</li>
+</ul>
+
+<p>What about processes (as opposed to projects):</p>
+
+<p>In the UK 220 working days a year is about standard. Let’s remove about 20 days for courses, staff meetings etc … so that leaves about 200 days or, for a working day of 7.5  hours, a working year of about 1500 hours.</p>
+
+<p>So a job that takes a few hours per item can only be done a few hundred times a year. A case in point: in the last year 260
+standard names were added to the CF conventions. One person
+(Alison Pamment) read every definition, checked sources, sent emails for revision of name and definition etc. Alison works half time, so she only had 750’ish hours for this job, so I reckon she had a pretty good throughput; averaging roughly three hours per standard name.</p>
+
+<p>Now that job is carried out by NCAS/BADC for <a href="http://www.cfconventions.org">the global community</a>, and the reasonable expectation is that names that are proposed have been through some sort of design, definition, and internal/community vetting process before even getting to CF.</p>
+
+<p>So, from a BADC point of view, we have to go through every datastream, identify all the parameters, compare with the CF definitions, and propose new names etc as necessary.
+If all our data hand standard names, we’d be able to expoit that effort to produce lovely interfaces where people could find all the data we hold without much effort, <em>if they <strong>only</strong> cared about the parameter that was measured.</em> But they don’t. Unfortunately for us (workload), and fortunately for science, people do care about how things are measured (and/or predicted).  So the standard names are the the thin end of the wedge.  We also have to worry about all the rest of the metadata: the instruments, activities, data production tools, observation stations etc (the MOLES entities).</p>
+
+<p>As a backwards looking project: Last year, we think we might have ingested about 20 milliion files. Give or take. Not all of which are marked up with CF standard names, and nearly none (statistically) were associated with MOLES entities. Truthfully we don’t know how much data we have for which our metadata is inadequate (chickens and eggs). As always, we were under-resourced for getting all that information at the time.</p>
+
+<p>My rule of thumb says our only hope of working it out and doing our job properly by getting the information is that we need to identify a few dozen datastreams (at most), and then automate some way of finding out what the appropriate entities and parameters were. If it’s manual we’re stuffed, Sam has another rule of thumb: if something has to be done (as a backwards project, rather than as a forward process) more than a thousand times, unless it’s trivial it wont get done, even with unlimited time, because it’s untenable for one human to do such a thing, and we don’t have enough staff to share it out.</p>
+
+<p>Fortunately, for a domain expert, some of these mappings are trivial. But some wont be, and even distinguishing between them is an issue …</p>
+
+<p>Still, I genuinely believe we can get this right going forward, and do it right for <strong>some</strong> of our data going backwards.  Do I believe non-domain experts could do this at all? <a href="/computing/2005/03/function_creep_and_institutional_repositories/">No I don’t</a>.
+So where does that leave the <a href="http://www.ukrds.ac.uk">UKRDS</a> which, at least on the face of it, has grandiose aims for all research data? (As the intellectual inheritor of the UKDA, I’m all in favour of it, as a project for <strong>all</strong> research data, forget it!)</p>
+
+  </article>
+
+<!--
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'bnlawrence';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+-->
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professor of Weather and Climate Computing</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

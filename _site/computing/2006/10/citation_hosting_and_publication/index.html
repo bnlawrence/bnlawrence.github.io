@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Citation, Hosting and Publication | Bryan Lawrence</title>
+  <meta name="description" content="Returning to my series on citation (parts one.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://bnlawrence.github.io//computing/2006/10/citation_hosting_and_publication/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://bnlawrence.github.io//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
+<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Search</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Citation, Hosting and Publication</h1>
+    <p class="post-meta">Posted on October 20, 2006 by 
+
+  in
+  
+  <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>Returning to my series on citation (parts <a href="/computing/2006/09/more_on_citation/, [two](/computing/2006/09/more_on_citation_-_part_two_mst/), and [three](/computing/2006/09/more_on_citation_-_part_three_delving/)">one</a>.</p>
+
+<p>My last example was an MST data set held at the BADC, and I was suggesting something like this (for a citation):</p>
+<blockquote>Natural Environment Research Council, Mesosphere-Stratosphere-Troposphere Radar at Aberystwyth, [Internet], British Atmospheric Data Centre (BADC), 1990-, urn badc.nerc.ac.uk/data/mst/v3/upd15032006, feature 200409031205 [http://featuretype.registry/verticalProfile] [downloaded Sep 21 2006, available from http://badc.nerc.ac.uk/data/mst/v3/]
+</blockquote>
+
+<p>which I could also write like this to give some hint of the semantics:</p>
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;citation&gt;</span>
+<span class="nt">&lt;Author&gt;</span> Natural Environment Research Council <span class="nt">&lt;/Author&gt;</span>
+<span class="nt">&lt;Title&gt;</span> Mesosphere-Stratosphere-Troposphere Radar at Aberystwyth <span class="nt">&lt;/Title&gt;</span>
+<span class="nt">&lt;Medium&gt;</span> Internet <span class="nt">&lt;/Medium&gt;</span>
+<span class="nt">&lt;Publisher&gt;</span> British Atmospheric Data Centre (BADC) <span class="nt">&lt;/Publisher&gt;</span>
+<span class="nt">&lt;PublicationDate</span> <span class="na">status=</span><span class="s">"ongoing"</span><span class="nt">&gt;</span> 1990<span class="nt">&lt;/PublicationDate&gt;</span>
+<span class="nt">&lt;Identifier&gt;</span> badc.nerc.ac.uk/data/mst/v3/upd15032006<span class="nt">&lt;/Identifier&gt;</span>
+<span class="nt">&lt;Feature&gt;</span>
+<span class="nt">&lt;FeatureType&gt;</span>http://featuretype.registry/verticalProfile<span class="nt">&lt;/FeatureType&gt;</span>
+<span class="nt">&lt;LocalID&gt;</span>200409031205<span class="nt">&lt;/LocalID&gt;</span>
+<span class="nt">&lt;/Feature&gt;</span>
+<span class="nt">&lt;AccessDate&gt;</span> Sep 21 2006 <span class="nt">&lt;/AccessDate&gt;</span>
+<span class="nt">&lt;AvailableAt&gt;&lt;url&gt;</span>http://badc.nerc.ac.uk/data/mst/v3/<span class="nt">&lt;/url&gt;&lt;/AvailableAt&gt;</span>
+<span class="nt">&lt;/citation&gt;</span>
+
+</code></pre></div></div>
+
+<p>The tags are made up, but hopefully identify the important semantic content of the citation. As I said last time, there is some redundant information there, but maybe not (there is no guarantee that the Identifier and the AvailableAt carry the same semantic content).</p>
+
+<p>Inherent in that example, and my meaning, was a concept of publication, and I introduced that distinction by comparing the MST and our ASHOE dataset (which is really “published” elsewhere). In the library world, there is a concept of “Version of Record”, which isn’t exactly analogous, but I would argue BADC holds the dataset equivalent of the version of record for the MST, and NASA AMES the equivalent for the ASHOE dataset.</p>
+
+<p>Generally, in scholarly publication, in the past one distinguished between <em>the refereed literature</em>, the <em>published literature</em> and the <em>grey literature</em><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>, where the latter might not have been allowed as a valid citation.  The situation has become more complicated with the urge to cite digital material, but one of the reasons for the old rules was about attempting to ensure permanence and access - something that is obviously <a href="/computing/2005/05/citation_decay_rate/">becoming a problem again</a>. Thus, we should explore
+the concepts of publication and version of record a bit further, before we create new problems. Cathy Jones, working on the CLADDIER project, has made the point in email that <em>a
+publisher does something to the original that adds value</em>, and I think in the case of digital data, that something should include at least:</p>
+<ul>
+  <li>provision of catalogue metadata</li>
+  <li>some commitment to maintenance of the resource at the AvailableAt url</li>
+  <li>some commitment to the resource being conformant to the description of the Feature</li>
+  <li>some commitment to the maintenance of the mapping between the identifier and the resource.</li>
+</ul>
+
+<p>And so, in a reputable article  (whatever that means), or in the metadata of a <em>published</em> dataset, I wouldn’t allow the citation of a dataset that didn’t meet at least those criteria, but once we have met those criteria, then that first version should be the version of record, and copies held elsewhere should most definitely distinguish between the publisher and the availability URI.</p>
+
+<p>Arguably the 2nd and 4th of these criteria could be collapsed down to the use of a DOI. While that’s true, I think the use  of both helps the citation user (just as I think it best to do a journal citation with all of the volume, page number and DOI). However, if the publisher does choose to use a DOI, it would help if the holders of other copies did not! Whether or not it’s true, the use of a DOI does imply some higher level of ownership than simply making a copy available.</p>
+
+<p>Implicit in my discussion of the metadata of a <em>published</em> dataset, is the idea that just as in the document world, we could introduce the concept of some sort of kite-mark or refereeing of datasets. A refereed dataset would be</p>
+<ul>
+  <li>available at a persistent location</li>
+  <li>accompanied by more comprehensive metadata (which might include calibration information, algorithm descriptions, the algorithm codes themselves etc)</li>
+  <li>quality controlled, with adequate error and/or uncertainty information</li>
+</ul>
+
+<p>and it would have been</p>
+<ul>
+  <li>assessed as to it’s adherence to such standards.</li>
+</ul>
+
+<p>There might or might not be a special graphical interface to the data and other well known interfaces (e.g. WCS etc) ought probably be provided.</p>
+
+<p>Datasets published after going through such a procedure would essentially have come from a “Data Journal”, and so in my example above, such the &lt;Publisher&gt; would become the name of the organisation responsible for the procedure, and the &lt;Title&gt; might well become the title of the “Data Journal”.</p>
+
+<h4 id="trackbacks-3">trackbacks (3)</h4>
+<p><em><a href="/computing/2006/10/persistence/">Persistence</a> (from “Bryan’s Blog” on (on Monday 23 October, 2006)</em>)Just after I wrote my last post on data citation, I found Joeseph Reagle’s blog entry on bibliography and citation. He’s making a number of points, one of which was about transience. In the comments to his post …</p>
+
+<p><em><a href="/computing/2006/10/citing_data_with_iso19139/">Citing data with ISO19139</a> (from “Bryan’s Blog” on (on Wednesday 25 October, 2006)</em>)I thought I might try and work out exactly what tags I might use for my previous citation example, if I was using ISO19139 (i.e. in the metadata of another dataset).</p>
+
+<p><em><a href="/computing/2007/05/citation_and_claddier/">Citation and Claddier</a> (from “Bryan’s Blog” on (on Monday 21 May, 2007)</em>)For some time now, we’ve been narrowing down how best to do scientific data citations. Last week we had a workshop where we concentrated on a number of issues associated with data publication…</p>
+
+<h4 id="comments-7">comments (7)</h4>
+<p><em><a href="http://reagle.org/joseph/">Joseph Reagle</a> (on Friday 20 October, 2006)</em>
+Boy, this reminds me of discussions at the W3C on the Semantic Web and persistence of identifiers and such. Commitment to maintain a dated resource at a given URI certainly has my vote! Unfortunately, few do that, but fortunately, there is the WayBack Machine for some resources…</p>
+
+<p><em>Chris Rusbridge (on Thursday 30 November, 2006)</em>
+I’ve got a couple of comments on this (I’m not sure if there is any mechanism for Bryan finding out about these very late comments, but no doubt I’ll find out), and I’ll make them separately, since I’ve only got this little box.</p>
+
+<p>Yesterday I was at an AHRC seminar on sustainability of data resources. David Bates and Jane Winters reported in part on a survey on peer review and evaluation of digital resources (URL). In section 4.3.3 on post-publication peer review and evaluation of digital resources, they report on the idea of kite-marking:</p>
+
+<p>“A kitemarking scheme was initially viewed as a potential solution to the problem of identifying authoritative digital resources. A simple mark or logo might be included on an ‘approved’ website, to indicate that the resource had met a particular standard. This suggestion was relatively popular among survey respondents, and was welcomed by a minority of focus group participants.70 However, this project concludes that a kitemarking scheme of this type is not a practicable solution to the problem of evaluating digital resources.”</p>
+
+<p>Why did they decide this? They give several reasons, but they concluded:</p>
+
+<p>“… it was felt that kitemarking was not compatible with the concept of peer review: ‘A kitemark implies that there is some body somewhere that is empowered, like the inquisition, to say what’s good and what is bad. Peer review doesn’t work like that … Peer review works by spreading the authority’.”</p>
+
+<p>It was also pointed out in discussion that in the journal world, people make quite subtle distinctions about the status and usefulness of peer-reviewed materials. So if something is rejected by the top history journal, but ends up in a much lower ranked journal, it may still be useful. I’m not <em>quite</em> sure how this translates into data, but it tends to speak against a binary system of kite-mark or no kite-mark.</p>
+
+<p>Even though this is a different domain, I found the arguments persuasive, and would suggest not using the “kite-mark” word!<em>Chris Rusbridge (on Thursday 30 November, 2006)</em>
+Sorry, I didn’t fill in the missing bits. The paper was “Peer review and evaluation of digital resources for the arts and humanities”, at http://www.history.ac.uk/digit/peer/Peer_review_report2006.pdf.</p>
+
+<p>The Appendixes contain some nice guidelines for reviewers.<em>Chris Rusbridge (on Thursday 30 November, 2006)</em>
+    * provision of catalogue metadata
+    * some commitment to maintenance of the resource at the AvailableAt url
+    * […]
+    * some commitment to the maintenance of the mapping between the identifier and the resource.</p>
+
+<p>[…]</p>
+
+<p>Arguably the 2nd and 4th of these criteria could be collapsed down to the use of a DOI.”</p>
+
+<p>This is the bit I am arguing with here. A DOI provides no persistence unless the 4th criterion holds, where “identifier” becomes DOI! There’s no magic here; the commitment to persistence is still required, and is not provided by the International DOI Foundation.</p>
+
+<p>So, you can provide criteria 2 and 4 yourself by using URLs and re-direct tables (if you need to re-structure your URIs), or you can get someone else to do it by using DOIs, and telling them when the resource “moves” (so they can alter their re-direct tables)!</p>
+
+<p>So I don’t think the DOI helps here…</p>
+
+<p><em>Chris Rusbridge (on Thursday 30 November, 2006)</em>
+Why am I niggling away at this? Because I think you have an important point here about citations and publication, that you refer back to from later postings… but I have not been comfortable with all of the details.</p>
+
+<p>So this time, “Version of Record”. I can’t get a good fix on how this is used, although it sometimes seems to refer to the different stages in the publication process. However, NISO has a working party with ALPSP looking at journal versions (see http://www.niso.org/committees/Journal_versioning/JournalVer_comm.html),  and they have a nice diagram that links the Version of Record both with the publication stages, and also with a parallel universe of working paper, conference presentation, blog (!), powerpoint, etc. This is closer, but perhaps still not the relationship that you imply between BADC and the ASHOE dataset.</p>
+
+<p>I’m left wondering if the relationship isn’t in fact closer to that between a publisher and a library. BADC holds a (presumably) exact copy of the publisher’s resource, for the convenience of its clientele, and some incidental preservation benefits resulting from the redundancy.</p>
+
+<p>Sam Peploe in the talk at the DCC Conference, based on the BADC paper, made it clear that there are resources he has to care about, and others he doesn’t have to worry about too much; if he loses them, he can get them again.</p>
+
+<p>If this “library” analogy applies, presumably the BADC would not appear in the citation, other than possibly in the “AvailableAt” field. Even there, it’s possible you should be advising people to cite the “Version of Record”, ie the NASA URL, with maybe an “AlternativeSource” record linking to BADC?</p>
+
+<p><em>Bryan (on Thursday 30 November, 2006)</em>
+Thanks Chris.</p>
+
+<p>Much to think about here.</p>
+
+<p>(I do get automatically notified of content).</p>
+
+<p>I’ll be getting back to thinking about this in a couple of weeks.</p>
+
+<p>Cheers
+Bryan</p>
+
+<p><em>Chris Rusbridge (on Friday 01 December, 2006)</em>
+OK, my last comment, I think, on this page (really these comments relate to the cluster of pages on citations; I apologise if they are a little incoherent, but it’s hard to see them all… and mostly I suspect I’m finding myself pretty much in agreement, after a little digging!).</p>
+
+<p>You’ve caused me to think more about “data publishing”. I can’t find a good definition of it anywhere. I’ve tended to be simplistic and think that “making data available to the public” was a good enough definition, but I think your colleague is right and it needs more than that.</p>
+
+<p>That great reference volume in the sky, Wikipedia (caveat lector!) suggests that “academic publishing” consists of two stages: peer review and production. Paul Ginsparg, in one of his “blurbs” about ArXiv (section 3 of the one on peer review at http://people.ccmr.cornell.edu/~ginsparg/blurb/pg02pr.html) is extremely careful not to use the word “publish” for what ArXiv does: he uses “distribute”. I remember that careful distinction, which relates in part to the fear that journals would decline to publish articles based on pre-prints that had already been “published”.</p>
+
+<p>When it comes down to the lack of peer review in ArXiv, he wrote: “It has been remarked [7] that physicists use the arXiv site and do not appear concerned that the papers on it are not refereed. The vast majority of submissions are nonetheless submitted in parallel to conventional journals (at no “cost” to the author), and those that aren’t are most frequently items such as theses or contributions to conference proceedings that nonetheless have undergone some effective form of review. Moreover, the site has never been a random UseNet newsgroup-like free-for-all. From the outset, a variety of heuristic screening mechanisms have been in place to ensure insofar as possible that submissions are at least of refereeable quality. That means they satisfy the minimal criterion that they would not be peremptorily rejected by any competent journal editor as nutty, offensive, or otherwise manifestly inappropriate, and would instead at least in principle be suitable for review (i.e., without the risk of alienating or wasting the time of a referee, that essential unaccounted resource). These mechanisms are an important – if not essential – component of why readers find the site so useful: though the most recently submitted articles have not yet necessarily undergone formal review, the vast majority of the articles can, would, or do eventually satisfy editorial requirements somewhere. Virtually all are in that grey area of decidability, and virtually none are entirely useless to active physicists.”</p>
+
+<p>I have also hear it said that simply belonging to the High Energy Physics community is itself subject to pretty stringent peer review; you don’t get time on an accellerator without it!</p>
+
+<p>So, after all this, is BADC the publisher of the MST data? I think so: I suspect there are at least two stages of peer review (NERC in setting up and continuing to fund the project, and BADC in applying some, even if minimal, quality checks to the data). You organise the data, supply metadata, and make it available to the “public”. What else could a publisher possibly do? (Ginsparg, in the article above, makes it clear that peer review doesn’t certify the research as “correct”!)</p>
+
+<p>Perhaps there should be a wikipedia page on data publishing??</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Grey Literature:  i.e. documents, bound or otherwise, produced by individuals and/or institutions, but which were not commercially available, and therefore, by implication, not very accessible. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+<!--
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'bnlawrence';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+-->
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professor of Weather and Climate Computing</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

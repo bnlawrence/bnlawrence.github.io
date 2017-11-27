@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Citing data with ISO19139 | Bryan Lawrence</title>
+  <meta name="description" content="I thought I might try and work out exactly what tags I might use for my previous citation example, if I was using ISO19139 (i.e. in the metadata of another dataset).">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://bnlawrence.github.io//computing/2006/10/citing_data_with_iso19139/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://bnlawrence.github.io//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
+<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Search</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Citing data with ISO19139</h1>
+    <p class="post-meta">Posted on October 25, 2006 by 
+
+  in
+  
+  <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>I thought I might try and work out exactly what tags I might use for my <a href="/computing/2006/10/citation_hosting_and_publication/">previous citation example</a>, if I was using ISO19139 (i.e. in the metadata of another dataset).</p>
+
+<p>The appropriate piece of ISO19139/19115 is the <a href="/assets/images/ISO19115_CI_Citation.jpg">CI_Citation</a> element, which <em>defines the metadata describing authoratative reference information …</em> which in my mind should also include other datasets!</p>
+
+<p>Some if it is “straight forward” (I don’t plan to admit how long it took to work this out :-) :</p>
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span class="nt">&lt;CI_Citation</span>  <span class="na">xmlns=</span><span class="s">"http://www.isotc211.org/2005/gmd"</span>
+    <span class="na">xmlns:gco=</span><span class="s">"http://www.isotc211.org/2005/gco"</span>
+    <span class="na">xmlns:xsi=</span><span class="s">"http://www.w3.org/2001/XMLSchema-instance"</span>
+    <span class="na">xsi:schemaLocation=</span><span class="s">"http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/citation.xsd"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- This doesn't validate using the citation.xsd above, but it does validate with local copies of the gmd schemae --&gt;</span>
+   <span class="nt">&lt;title&gt;</span>
+        <span class="nt">&lt;gco:CharacterString&gt;</span>Mesosphere-Stratosphere-Troposphere Radar at Aberystwyth
+        <span class="nt">&lt;/gco:CharacterString&gt;</span>
+    <span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;alternateTitle&gt;</span>
+        <span class="nt">&lt;gco:CharacterString&gt;</span>MST<span class="nt">&lt;/gco:CharacterString&gt;</span>
+    <span class="nt">&lt;/alternateTitle&gt;</span>
+    <span class="nt">&lt;date&gt;</span>
+        <span class="nt">&lt;CI_Date&gt;</span>
+            <span class="nt">&lt;date&gt;</span>
+                <span class="nt">&lt;gco:Date&gt;</span>2006<span class="nt">&lt;/gco:Date&gt;</span>
+            <span class="nt">&lt;/date&gt;</span>
+            <span class="nt">&lt;dateType&gt;</span>
+                <span class="nt">&lt;CI_DateTypeCode</span>
+                    <span class="na">codeList=</span><span class="s">"http://www.isotc211.org/2005/resources/CodeList/gmxCodelists.xml#CI_DateTypeCode"</span>
+                    <span class="na">codeListValue=</span><span class="s">"publication"</span><span class="nt">/&gt;</span>
+            <span class="nt">&lt;/dateType&gt;</span>
+        <span class="nt">&lt;/CI_Date&gt;</span>
+    <span class="nt">&lt;/date&gt;</span>
+    <span class="nt">&lt;identifier&gt;</span>
+        <span class="nt">&lt;MD_Identifier&gt;</span>
+            <span class="nt">&lt;code&gt;</span>
+                <span class="nt">&lt;gco:CharacterString&gt;</span>badc.nerc.ac.uk/data/mst/v3/upd15032006<span class="nt">&lt;/gco:CharacterString&gt;</span>
+            <span class="nt">&lt;/code&gt;</span>
+        <span class="nt">&lt;/MD_Identifier&gt;</span>
+    <span class="nt">&lt;/identifier&gt;</span>
+    <span class="nt">&lt;citedResponsibleParty&gt;</span>
+        <span class="nt">&lt;CI_ResponsibleParty&gt;</span>
+            <span class="nt">&lt;organisationName&gt;</span>
+                <span class="nt">&lt;gco:CharacterString&gt;</span>Natural Environment Research Council<span class="nt">&lt;/gco:CharacterString&gt;</span>
+            <span class="nt">&lt;/organisationName&gt;</span>
+            <span class="nt">&lt;role&gt;</span>
+                <span class="nt">&lt;CI_RoleCode</span>
+                    <span class="na">codeList=</span><span class="s">"http://www.isotc211.org/2005/resources/CodeList/gmxCodelists.xml#CI_RoleCode"</span>
+                    <span class="na">codeListValue=</span><span class="s">"Author"</span><span class="nt">/&gt;</span>
+            <span class="nt">&lt;/role&gt;</span>
+        <span class="nt">&lt;/CI_ResponsibleParty&gt;</span>
+    <span class="nt">&lt;/citedResponsibleParty&gt;</span>
+    <span class="nt">&lt;citedResponsibleParty&gt;</span>
+        <span class="nt">&lt;CI_ResponsibleParty&gt;</span>
+            <span class="nt">&lt;organisationName&gt;</span>
+                <span class="nt">&lt;gco:CharacterString&gt;</span>British Atmospheric Data Centre<span class="nt">&lt;/gco:CharacterString&gt;</span>
+            <span class="nt">&lt;/organisationName&gt;</span>
+            <span class="nt">&lt;role&gt;</span>
+                <span class="nt">&lt;CI_RoleCode</span>
+                    <span class="na">codeList=</span><span class="s">"http://www.isotc211.org/2005/resources/CodeList/gmxCodelists.xml#CI_RoleCode"</span>
+                    <span class="na">codeListValue=</span><span class="s">"Publisher"</span><span class="nt">/&gt;</span>
+            <span class="nt">&lt;/role&gt;</span>
+        <span class="nt">&lt;/CI_ResponsibleParty&gt;</span>
+    <span class="nt">&lt;/citedResponsibleParty&gt;</span>
+    <span class="nt">&lt;citedResponsibleParty&gt;</span>
+        <span class="nt">&lt;CI_ResponsibleParty&gt;</span>
+            <span class="nt">&lt;organisationName&gt;</span>
+                <span class="nt">&lt;gco:CharacterString&gt;</span>British Atmospheric Data Centre<span class="nt">&lt;/gco:CharacterString&gt;</span>
+            <span class="nt">&lt;/organisationName&gt;</span>
+            <span class="nt">&lt;contactInfo&gt;&lt;CI_Contact&gt;&lt;onlineResource&gt;&lt;CI_OnlineResource&gt;</span>
+                <span class="nt">&lt;linkage&gt;&lt;URL&gt;</span>http://badc.nerc.ac.uk/data/mst/v3/<span class="nt">&lt;/URL&gt;&lt;/linkage&gt;</span>
+                <span class="nt">&lt;function&gt;&lt;CI_OnLineFunctionCode</span> <span class="na">codeList=</span><span class="s">"http://www.isotc211.org/2005/resources/CodeList/gmxCodelists.xml#CI_OnlineFunctionCode"</span> <span class="na">codeListValue=</span><span class="s">"download"</span><span class="nt">&gt;&lt;/CI_OnLineFunctionCode&gt;&lt;/function&gt;</span>
+            <span class="nt">&lt;/CI_OnlineResource&gt;</span>
+            <span class="nt">&lt;/onlineResource&gt;&lt;/CI_Contact&gt;&lt;/contactInfo&gt;</span>
+            <span class="nt">&lt;role&gt;&lt;CI_RoleCode</span> <span class="na">codeList=</span><span class="s">"http://www.isotc211.org/2005/resources/CodeList/gmxCodelists.xml#CI_RoleCode"</span> <span class="na">codeListValue=</span><span class="s">"custodian"</span><span class="nt">&gt;&lt;/CI_RoleCode&gt;&lt;/role&gt;</span>
+            <span class="c">&lt;!-- but i don't really understand the distinction between cutodian, resourceProvider and distributor --&gt;</span>
+        <span class="nt">&lt;/CI_ResponsibleParty&gt;</span>
+    <span class="nt">&lt;/citedResponsibleParty&gt;</span>
+    <span class="nt">&lt;presentationForm&gt;</span>
+        <span class="nt">&lt;CI_PresentationFormCode</span>
+            <span class="na">codeList=</span><span class="s">"http://www.isotc211.org/2005/resources/CodeList/gmxCodelists.xml#CI_PresentationFormCode"</span>
+            <span class="na">codeListValue=</span><span class="s">"profileDigital"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;/presentationForm&gt;</span>
+<span class="nt">&lt;/CI_Citation&gt;</span>
+
+
+</code></pre></div></div>
+
+<p>OK, it’s pretty nasty in terms of verbiage, but as (some) folk keep saying, this is for computers not humans  - never mind that a human has to write some code to handle it  - but it’s not as bad as I feared!</p>
+
+<p>In getting that far, we see that I’ve nearly managed to get the same information content, but there are some pretty important omissions (I think, caveat emptor, I’d glad to be wrong about this):</p>
+<ol>
+  <li>I don’t see any way to indicate that the dataset is being updated (the “ongoing” tag in my previous example”, ideally this would require a spot for an MD_MaintenanceFrequencyCode in the citation).</li>
+  <li>I don’t see any way of indicating a particular part of a dataset (that is, having separate identifiers both for the dataset and for particular features within it).</li>
+  <li>Despite support for feature-type descriptions within an ISO19139 document proper (in the MD_FeatureTypeDescription tag), one can’t identify which features are in a cited dataset. We’re reduced to using  CI_PresentationFormCode, which strikes me to be a completely ugly compromise between feature descriptions and a text element. The one I’ve chosen here (profile) is partly right, but doesn’t get across that this dataset consists of timeseries of vertical profiles!</li>
+  <li>One can’t, as far as I can see, identify when the dataset was accessed (or the date of the citations validity) and I think this is rather crucial for citation of online material.</li>
+</ol>
+
+<p>I guess those are the minimum extensions we’d need to support citeable datasets! (By the way, I’ve ignored the option of using otherCitationDetails as one is only allow one of those in the citation!)</p>
+
+<p><strong>Update</strong>: Note that BADC appears as both a publisher and a custodian, actually, following my <a href="blog/2006/10/20/citation_hosting_and_publication">discussion of the distinction</a>, I think at the moment, one would want to remove the publisher role … and leave only the custodian role (in the ISO19139, the text citation form can’t distinguish between these roles).</p>
+
+<h4 id="comments-1">comments (1)</h4>
+<p><em><a href="ken.hale@ionicenterprise.com">Ken Hale</a> (on Monday 21 May, 2007)</em>
+Hi Bryan,</p>
+
+<p>Can you offer any insight into how an XSLT script for an ISO 19139 document like yours would deal with absoulute and relative URI’s for the codelist attributes?  I was hoping to see a reference to an xml:base attribute like this one at the top of your document:</p>
+
+<p>xml:base = “http://www.isotc211.org/schemas/2005/resources/Codelist/” xlink:href = “gmxCodelists.xml”.</p>
+
+<p>Since it’s not there to resolve the URI, how do you recommend writing an XSLT script that could read the various codelist values assigned to the ISO 19139 codelist elements in the xml file?  I found this XSLT snippet which I haven’t figured out how to work:</p>
+
+<xsl:template match="codelist">
+   <xsl:text>&lt;!ENTITY % </xsl:text>
+      <xsl:value-of select="@name" />
+         <xsl:text> '%CodeListValue;'&gt;
+    </xsl:text>
+ </xsl:template>
+
+<p>ESRI uses this to resolve attribute values against an xml file and outputs them as a .dtd file.</p>
+
+<p>I’m not an XSLT or an ISO 19139 metadata guy, so please bear with me if my question sounds confusing!</p>
+
+<p>Thanks,
+Ken</p>
+
+  </article>
+
+<!--
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'bnlawrence';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+-->
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professor of Weather and Climate Computing</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

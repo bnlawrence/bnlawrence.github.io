@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Why so much data?  Part I -   The rise of direct numerical simulation | Bryan Lawrence</title>
+  <meta name="description" content="Over the last decade or so, many in the scientific community (especially in the environmental sciences) have been surprised by the increased cost of data handling - not only in absolute terms, but ...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://bnlawrence.github.io//computing/2017/02/so_much_data_one/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://bnlawrence.github.io//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
+<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Search</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Why so much data?  Part I -   The rise of direct numerical simulation</h1>
+    <p class="post-meta">Posted on February 5, 2017 by 
+
+  in
+  
+  <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>Over the last decade or so, many in the scientific community (especially in the environmental sciences) have been surprised by the increased cost of data handling - not only in absolute terms, but in terms of the percentage of the cost of doing “normal science”.</p>
+
+<p>This increase has been problematic on a number of fronts: not only do individuals not always plan appropriately for managing their data storage and handling, but even where they have, institutions and funding agencies have themselves been surprised and not always too keen to pay up. After all, in a world where there is very little new money in real terms (or even none), an increase in one part of the budget needs to be offset elsewhere. So, the real consequence of these increases in storage cost have to be decreases in the amount of science done (fewer staff/instruments/computers), and that’s unpalatable even if it’s unavoidable. At the moment many choose to think it is avoidable, which is quite a feasible position if you’re an ostrich, but not so good if you’re responsible for delivering science!</p>
+
+<p>In this post, and maybe a couple to follow, I want to address why data handling is becoming a bigger deal in environmental science, and why we can’t avoid spending more of money on it (but also how we can avoid spending more than we need to).</p>
+
+<p>So, what are the factors in play? Well as well as background economics, there are four:</p>
+<ol>
+  <li>The direct influence of Moore’s Law on instrumentation and simulation (finer resolution in space and time means more numbers),</li>
+  <li>The indirect influence of Moore’s Law on what can be simulated (more compute means more things are computable),</li>
+  <li>The growth of interdisciplinarity (more things need to be compared and contrasted) and more people are doing it, and</li>
+  <li>The relationship between Moore’s Law and Kryder’s Law (is the cost of storage falling as rapidly as the cost of creating numbers to be storing is falling?).</li>
+</ol>
+
+<p>Before delving into the technical details, I want to look at one of the underlying scientific trends that arises, partially as a consequence of the “indirect influence of Moore’s Law”: the rise and rise of direct numerical simulation, especially in the environmental sciences.</p>
+
+<p>As noted above, more computability means more things are computable, and when we couple that to increased mathematical sophistication, more and more of the real word is amenable to direct numerical simulation: that is, it can be numerically simulated from fundamental equations rather than approximated by heuristics. The importance of this from a scientific point of view is that if one believes one is simulating the underlying processes properly, one can use the “simulation system” to predict how the system will behave under different circumstances than have been observed (either by coupling it into more complex systems or by using the system to predict past or future behaviour).</p>
+
+<p>To some extent this is the holy grail of science: when one can simulate a system so well that one can’t tell <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> whether one is observing a simulation or the real word, one can believe we understand that part of the real world.</p>
+
+<p>For some time I have been asserting that an ever greater part of environmental science is engaging in direct numerical simulation (DNS), year on year. At the same time, I’ve been asserting that larger and wider communities were interacting around data, and especially around the data from model intercomparison projects, again, year on year. Of course, these assertions were not unrelated!</p>
+
+<p>These assertions were based primarily on my interactions with the scientific community (one of the things about running an environmental data centre for much more than a decade is that my day job has involved interacting with individuals from across the scientific spectrum), and so one might dispute them. However, a year or so ago, I realised I might be able to get some quantitive information to support them by a bit of careful text mining. Unfortunately, I also realised I was never going to get the time to do it properly, so what follows is very amateur, but I hope still interesting. (If you have the skills and access to the data to do this properly, get in touch!)</p>
+
+<p>The following figure is generated by spending a lot of time doing searches on Google Scholar (it would have been rather less time if Google didn’t actively stop one doing this sort of work programmatically - I did try, and it worked fine until their “no robot code” stopped me in my tracks). Each point reflects the number of hits from a  search on a specific set of terms from material restricted to two years.  The terms were chosen to try and reflect five specific categories of interaction:</p>
+<ol>
+  <li>direct numerical simulation (across any discipline) - “dns” in the figure,</li>
+  <li>direct numerical simulation in the environmental sciences - “dns+env” in the figure,</li>
+  <li>model intercomparison projects - “mips”,</li>
+  <li>use of satellite data in environmental science  - “sats”, and</li>
+  <li>regular observations - “sondes”.</li>
+</ol>
+
+<p>(The table at the end of this post gives the details of the exact searches carried out.)</p>
+
+<p><img src="/assets/images/2017-02-05-google_searches.png" alt="Image: IMAGE: static/2017/02/05/google_searches.png " /></p>
+
+<p>The numbers in the legend are firstly the ratio of the last couple of points over the first couple of points - a measure of proportional growth, and secondly, the gradient from a fit to the number of hits per annum - a measure of absolute growth.</p>
+
+<p>The figures back my observations rather nicely:</p>
+<ul>
+  <li>The number of papers on any facet of environmental science is growing. (No news there).</li>
+  <li>The number of papers using direct numerical simulation is growing rapidly, but the use of DNS in environmental sciences is growing even more rapidly, at least using the proportional measure.</li>
+  <li>The increase in papers which use MIP data is explosive, and one can see the direct influence of CMIP5 in the numbers.</li>
+  <li>Growth in observational science is slower than in numerical science, although the effect of increased availability of satellite data is apparent.</li>
+</ul>
+
+<p>Obviously these conclusions could be heavily affected by the search terms I used, so if your mileage varies, let me know!</p>
+
+<p>For the record, these are the exact (full text) searches used:</p>
+<ul>
+  <li>dns: search for the exact phrase “direct numerical simulation”</li>
+  <li>dns+env”: as above, but require one of the following as well: cloud,rain,weather,climate,ocean,atmosphere,land,river,biogeochemistry,aerosol.</li>
+  <li>“sat”: search for an exact match on “nadir sounder” (as a proxy for atmospheric satellite data only, and using that as a proxy for environmental science use of satellites in general).</li>
+  <li>“mips”: exact match for model intercomparison project AND the use of the word simulation AND either atmosphere OR ocean.</li>
+  <li>“sondes”: at least one of “radiosonde” or “dropsonde” appears (being a proxy for any sort of “traditional” observation - words like Lidar and Radar being too difficult to limit to environmental science, at least in this first cut at the problem).</li>
+</ul>
+
+<p>We can have a fun discussion in another post, what “one can’t tell” might mean</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+
+      <p><a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+<!--
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'bnlawrence';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+-->
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professor of Weather and Climate Computing</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->
