@@ -537,7 +537,23 @@ ul.listing li.listing-item a {
   font-weight: 400;
   font-family: 'Titillium Web', sans-serif; }
 
+ul.listing li.summary-item {
+  background-color: #fffeee;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px; }
+  ul.listing li.summary-item h2 {
+    font-size: 1em;
+    color: #333399;
+    font-family: sans-serif;
+    padding-top: 3px;
+    padding-bottom: 3px; }
+    ul.listing li.summary-item h2 a {
+      color: #333399; }
+
 .talks .meeting {
+  padding-top: 3px;
+  padding-bottom: 3px;
   background-color: #fffeee;
   padding-left: 15px;
   padding-right: 15px;
