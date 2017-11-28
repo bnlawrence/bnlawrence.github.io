@@ -2,6 +2,16 @@
 
   
     {
+      "title"			: "Dr Matt Jones",
+      "link"			: "https://www.bnlawrence.net//academic/2017/11/congrats2matt/",
+      "tag"       : "teaching, hpc_io",
+      "category"  : "academic",
+      "excerpt"		: "A good day for any academic - when one of her or his students passes their viva (oral examination) for their doctorate."
+    }
+  
+
+  
+    ,{
       "title"			: "European Big Data Value Forum",
       "link"			: "https://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/",
       "tag"       : "",

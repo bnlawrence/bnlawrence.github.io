@@ -6,9 +6,65 @@
 </description>
     <link>https://www.bnlawrence.net//</link>
     <atom:link href="https://www.bnlawrence.net//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Nov 2017 15:26:32 +0000</pubDate>
-    <lastBuildDate>Tue, 28 Nov 2017 15:26:32 +0000</lastBuildDate>
+    <pubDate>Tue, 28 Nov 2017 16:34:08 +0000</pubDate>
+    <lastBuildDate>Tue, 28 Nov 2017 16:34:08 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Dr Matt Jones</title>
+        <description>&lt;p&gt;A good day for any academic - when one of her or his students passes their viva (oral examination) for their doctorate.&lt;/p&gt;
+
+&lt;p&gt;Today, Matt Jones defended his thesis: &lt;em&gt;Parallel Data Analysis for Atmospheric Science&lt;/em&gt;. Congrats Matt!&lt;/p&gt;
+
+&lt;h2 id=&quot;matts-abstract&quot;&gt;Matt’s Abstract&lt;/h2&gt;
+
+&lt;p&gt;Data sizes are growing in atmospheric science, as climate models increase to higher resolutions
+to improve the representation of atmospheric phenomena, and larger numbers of ensemble
+members are used as to better capture the variability in the atmosphere. New methods
+need to be developed to handle the increasing size of data – traditional analysis scripts often
+inefficiently read and process data, leading to excessive analysis times. Research into large
+data analysis often focuses on providing solutions in the form of software, or hardware, rather
+than providing quantitative results on what factors can reduce performance in an application.
+This thesis quantitatively investigates these factors in the software-hardware stack, in order
+to make decisions of how to handle the large data sizes during application development and
+data management. This is done in the context of an atmospheric science workflow in a high performance
+computing environment.&lt;/p&gt;
+
+&lt;p&gt;A major bottleneck in analysis in atmospheric science is reading data. Two of the primary
+factors which are commonly known to affect the read rate are the read pattern, and the read
+size. These factors are found in this work to reduce the read rate by up to 10-50 times for poor
+combinations. Other factors which could affect the read rate for atmospheric analysis include:
+the programming language, the libraries used, and the file layout.&lt;/p&gt;
+
+&lt;p&gt;NetCDF4 is one of the most commonly used data formats in atmospheric science, and the
+Python library netCDF4-python is one of the main interfaces used. As part of the NetCDF4
+file format, there are options for chunking (multidimensional tiling), and inbuilt compression,
+which can be used to improve read and write performance from the files. It was found that
+at peak performance the netCDF4-python library performs 40% worse than the underlying C
+NetCDF4 library. With respect to chunking and compression, poor combinations of chunking,
+and inbuilt compression, were found to reduce the performance by over 100 times.&lt;/p&gt;
+
+&lt;p&gt;One solution to reduced performance, or a way to reduce analysis times on large datasets,
+is to run applications in parallel. It is important to understand how, on a particular platform,
+application relevant parallel reads will scale in order design an efficient application. The parallel
+scaling of the JASMIN super-data cluster was analysed. The investigation methodology,
+and conclusions from the investigation can be applied to other platforms.
+A case study was used to apply the results from this work in a real atmospheric science
+workflow – a space-time spectral analysis technique. It confirmed that these results do indeed
+apply to real workflows.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Nov 2017 00:00:00 +0000</pubDate>
+        <link>https://www.bnlawrence.net//academic/2017/11/congrats2matt/</link>
+        <guid isPermaLink="true">https://www.bnlawrence.net//academic/2017/11/congrats2matt/</guid>
+        
+        <category>teaching</category>
+        
+        <category>hpc_io</category>
+        
+        
+        <category>academic</category>
+        
+      </item>
     
       <item>
         <title>European Big Data Value Forum</title>
@@ -223,85 +279,6 @@ quite a few things from that will turn up on my blog …&lt;/p&gt;
         
         
         <category>diary</category>
-        
-      </item>
-    
-      <item>
-        <title>Why so much data?  Part I -   The rise of direct numerical simulation</title>
-        <description>&lt;p&gt;Over the last decade or so, many in the scientific community (especially in the environmental sciences) have been surprised by the increased cost of data handling - not only in absolute terms, but in terms of the percentage of the cost of doing “normal science”.&lt;/p&gt;
-
-&lt;p&gt;This increase has been problematic on a number of fronts: not only do individuals not always plan appropriately for managing their data storage and handling, but even where they have, institutions and funding agencies have themselves been surprised and not always too keen to pay up. After all, in a world where there is very little new money in real terms (or even none), an increase in one part of the budget needs to be offset elsewhere. So, the real consequence of these increases in storage cost have to be decreases in the amount of science done (fewer staff/instruments/computers), and that’s unpalatable even if it’s unavoidable. At the moment many choose to think it is avoidable, which is quite a feasible position if you’re an ostrich, but not so good if you’re responsible for delivering science!&lt;/p&gt;
-
-&lt;p&gt;In this post, and maybe a couple to follow, I want to address why data handling is becoming a bigger deal in environmental science, and why we can’t avoid spending more of money on it (but also how we can avoid spending more than we need to).&lt;/p&gt;
-
-&lt;p&gt;So, what are the factors in play? Well as well as background economics, there are four:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;The direct influence of Moore’s Law on instrumentation and simulation (finer resolution in space and time means more numbers),&lt;/li&gt;
-  &lt;li&gt;The indirect influence of Moore’s Law on what can be simulated (more compute means more things are computable),&lt;/li&gt;
-  &lt;li&gt;The growth of interdisciplinarity (more things need to be compared and contrasted) and more people are doing it, and&lt;/li&gt;
-  &lt;li&gt;The relationship between Moore’s Law and Kryder’s Law (is the cost of storage falling as rapidly as the cost of creating numbers to be storing is falling?).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Before delving into the technical details, I want to look at one of the underlying scientific trends that arises, partially as a consequence of the “indirect influence of Moore’s Law”: the rise and rise of direct numerical simulation, especially in the environmental sciences.&lt;/p&gt;
-
-&lt;p&gt;As noted above, more computability means more things are computable, and when we couple that to increased mathematical sophistication, more and more of the real word is amenable to direct numerical simulation: that is, it can be numerically simulated from fundamental equations rather than approximated by heuristics. The importance of this from a scientific point of view is that if one believes one is simulating the underlying processes properly, one can use the “simulation system” to predict how the system will behave under different circumstances than have been observed (either by coupling it into more complex systems or by using the system to predict past or future behaviour).&lt;/p&gt;
-
-&lt;p&gt;To some extent this is the holy grail of science: when one can simulate a system so well that one can’t tell &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; whether one is observing a simulation or the real word, one can believe we understand that part of the real world.&lt;/p&gt;
-
-&lt;p&gt;For some time I have been asserting that an ever greater part of environmental science is engaging in direct numerical simulation (DNS), year on year. At the same time, I’ve been asserting that larger and wider communities were interacting around data, and especially around the data from model intercomparison projects, again, year on year. Of course, these assertions were not unrelated!&lt;/p&gt;
-
-&lt;p&gt;These assertions were based primarily on my interactions with the scientific community (one of the things about running an environmental data centre for much more than a decade is that my day job has involved interacting with individuals from across the scientific spectrum), and so one might dispute them. However, a year or so ago, I realised I might be able to get some quantitive information to support them by a bit of careful text mining. Unfortunately, I also realised I was never going to get the time to do it properly, so what follows is very amateur, but I hope still interesting. (If you have the skills and access to the data to do this properly, get in touch!)&lt;/p&gt;
-
-&lt;p&gt;The following figure is generated by spending a lot of time doing searches on Google Scholar (it would have been rather less time if Google didn’t actively stop one doing this sort of work programmatically - I did try, and it worked fine until their “no robot code” stopped me in my tracks). Each point reflects the number of hits from a  search on a specific set of terms from material restricted to two years.  The terms were chosen to try and reflect five specific categories of interaction:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;direct numerical simulation (across any discipline) - “dns” in the figure,&lt;/li&gt;
-  &lt;li&gt;direct numerical simulation in the environmental sciences - “dns+env” in the figure,&lt;/li&gt;
-  &lt;li&gt;model intercomparison projects - “mips”,&lt;/li&gt;
-  &lt;li&gt;use of satellite data in environmental science  - “sats”, and&lt;/li&gt;
-  &lt;li&gt;regular observations - “sondes”.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;(The table at the end of this post gives the details of the exact searches carried out.)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/2017-02-05-google_searches.png&quot; alt=&quot;Image: IMAGE: static/2017/02/05/google_searches.png &quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The numbers in the legend are firstly the ratio of the last couple of points over the first couple of points - a measure of proportional growth, and secondly, the gradient from a fit to the number of hits per annum - a measure of absolute growth.&lt;/p&gt;
-
-&lt;p&gt;The figures back my observations rather nicely:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The number of papers on any facet of environmental science is growing. (No news there).&lt;/li&gt;
-  &lt;li&gt;The number of papers using direct numerical simulation is growing rapidly, but the use of DNS in environmental sciences is growing even more rapidly, at least using the proportional measure.&lt;/li&gt;
-  &lt;li&gt;The increase in papers which use MIP data is explosive, and one can see the direct influence of CMIP5 in the numbers.&lt;/li&gt;
-  &lt;li&gt;Growth in observational science is slower than in numerical science, although the effect of increased availability of satellite data is apparent.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Obviously these conclusions could be heavily affected by the search terms I used, so if your mileage varies, let me know!&lt;/p&gt;
-
-&lt;p&gt;For the record, these are the exact (full text) searches used:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;dns: search for the exact phrase “direct numerical simulation”&lt;/li&gt;
-  &lt;li&gt;dns+env”: as above, but require one of the following as well: cloud,rain,weather,climate,ocean,atmosphere,land,river,biogeochemistry,aerosol.&lt;/li&gt;
-  &lt;li&gt;“sat”: search for an exact match on “nadir sounder” (as a proxy for atmospheric satellite data only, and using that as a proxy for environmental science use of satellites in general).&lt;/li&gt;
-  &lt;li&gt;“mips”: exact match for model intercomparison project AND the use of the word simulation AND either atmosphere OR ocean.&lt;/li&gt;
-  &lt;li&gt;“sondes”: at least one of “radiosonde” or “dropsonde” appears (being a proxy for any sort of “traditional” observation - words like Lidar and Radar being too difficult to limit to environmental science, at least in this first cut at the problem).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We can have a fun discussion in another post, what “one can’t tell” might mean&lt;/p&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-
-      &lt;p&gt;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sun, 05 Feb 2017 00:00:00 +0000</pubDate>
-        <link>https://www.bnlawrence.net//computing/2017/02/so_much_data_one/</link>
-        <guid isPermaLink="true">https://www.bnlawrence.net//computing/2017/02/so_much_data_one/</guid>
-        
-        
-        <category>computing</category>
         
       </item>
     
