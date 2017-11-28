@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dr Matt Jones | Bryan Lawrence</title>
+  <meta name="description" content="A good day for any academic - when one of her or his students passes their viva (oral examination) for their doctorate.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://www.bnlawrence.net//academic/2017/11/congrats2matt/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="https://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Search</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Dr Matt Jones</h1>
+    <p class="post-meta">Posted on November 28, 2017 by 
+
+  in
+  
+  <a href="/categories/#academic" title="academic">academic</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>A good day for any academic - when one of her or his students passes their viva (oral examination) for their doctorate.</p>
+
+<p>Today, Matt Jones defended his thesis: <em>Parallel Data Analysis for Atmospheric Science</em>. Congrats Matt!</p>
+
+<h2 id="matts-abstract">Matt’s Abstract</h2>
+
+<p>Data sizes are growing in atmospheric science, as climate models increase to higher resolutions
+to improve the representation of atmospheric phenomena, and larger numbers of ensemble
+members are used as to better capture the variability in the atmosphere. New methods
+need to be developed to handle the increasing size of data – traditional analysis scripts often
+inefficiently read and process data, leading to excessive analysis times. Research into large
+data analysis often focuses on providing solutions in the form of software, or hardware, rather
+than providing quantitative results on what factors can reduce performance in an application.
+This thesis quantitatively investigates these factors in the software-hardware stack, in order
+to make decisions of how to handle the large data sizes during application development and
+data management. This is done in the context of an atmospheric science workflow in a high performance
+computing environment.</p>
+
+<p>A major bottleneck in analysis in atmospheric science is reading data. Two of the primary
+factors which are commonly known to affect the read rate are the read pattern, and the read
+size. These factors are found in this work to reduce the read rate by up to 10-50 times for poor
+combinations. Other factors which could affect the read rate for atmospheric analysis include:
+the programming language, the libraries used, and the file layout.</p>
+
+<p>NetCDF4 is one of the most commonly used data formats in atmospheric science, and the
+Python library netCDF4-python is one of the main interfaces used. As part of the NetCDF4
+file format, there are options for chunking (multidimensional tiling), and inbuilt compression,
+which can be used to improve read and write performance from the files. It was found that
+at peak performance the netCDF4-python library performs 40% worse than the underlying C
+NetCDF4 library. With respect to chunking and compression, poor combinations of chunking,
+and inbuilt compression, were found to reduce the performance by over 100 times.</p>
+
+<p>One solution to reduced performance, or a way to reduce analysis times on large datasets,
+is to run applications in parallel. It is important to understand how, on a particular platform,
+application relevant parallel reads will scale in order design an efficient application. The parallel
+scaling of the JASMIN super-data cluster was analysed. The investigation methodology,
+and conclusions from the investigation can be applied to other platforms.
+A case study was used to apply the results from this work in a real atmospheric science
+workflow – a space-time spectral analysis technique. It confirmed that these results do indeed
+apply to real workflows.</p>
+
+  </article>
+
+<!--
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'bnlawrence';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+-->
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->
