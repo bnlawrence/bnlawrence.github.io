@@ -8,7 +8,7 @@ disclaimer: >
   This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur.
   (My daughter is learning Latin, unlike me, who never did!)
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://bnlawrence.github.io" # the base hostname & protocol for your site
+url: "https://www.bnlawrence.net/" # the base hostname & protocol for your site
 twitter_username: bnlawrence
 github_username:  bnlawrence
 bitbucket_username: bnlawrence
@@ -20,7 +20,7 @@ markdown: kramdown
 
 # Other options
 permalink: /:categories/:year/:month/:title/
-jobtitle: "Professor of Weather and Climate Computing"
+jobtitle: Professional Meeting Attendee
 author: Bryan Lawrence
 #excerpt_separator:
 
