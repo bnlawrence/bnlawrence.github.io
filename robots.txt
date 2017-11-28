@@ -1,1 +1,1 @@
-Sitemap: http://bnlawrence.github.io//sitemap.xml
+Sitemap: https://www.bnlawrence.net//sitemap.xml

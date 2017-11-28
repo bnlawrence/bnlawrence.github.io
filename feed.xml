@@ -4,23 +4,23 @@
     <title>Bryan Lawrence</title>
     <description>Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
 </description>
-    <link>http://bnlawrence.github.io//</link>
-    <atom:link href="http://bnlawrence.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Nov 2017 20:52:39 +0000</pubDate>
-    <lastBuildDate>Mon, 27 Nov 2017 20:52:39 +0000</lastBuildDate>
+    <link>https://www.bnlawrence.net//</link>
+    <atom:link href="https://www.bnlawrence.net//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 28 Nov 2017 15:26:32 +0000</pubDate>
+    <lastBuildDate>Tue, 28 Nov 2017 15:26:32 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>European Big Data Value Forum</title>
         <description>&lt;h2 id=&quot;the-data-deluge-in-high-resolution-climate-and-weather-simulation&quot;&gt;The Data Deluge in High Resolution Climate and Weather Simulation&lt;/h2&gt;
 
-&lt;p&gt;Presentation: &lt;a href=&quot;http://bnlawrence.github.io//assets/talks/171122_HPC_Bigdata_Joussaume_VF.pdf&quot;&gt;pdf&lt;/a&gt; (5 MB).&lt;/p&gt;
+&lt;p&gt;Presentation: &lt;a href=&quot;https://www.bnlawrence.net//assets/talks/171122_HPC_Bigdata_Joussaume_VF.pdf&quot;&gt;pdf&lt;/a&gt; (5 MB).&lt;/p&gt;
 
 &lt;p&gt;This talk was given by Sylvie Joussaume, but we had worked on it together, so I think it’s fair enough to include here. We wanted to show the scale of the data problems we have in climate science, and some of the direction in which we are moving with respect to “big data” technologies and algorithms.&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Nov 2017 00:00:00 +0000</pubDate>
-        <link>http://bnlawrence.github.io//talks/2017/11/HPC_Bigdata/</link>
-        <guid isPermaLink="true">http://bnlawrence.github.io//talks/2017/11/HPC_Bigdata/</guid>
+        <link>https://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/</link>
+        <guid isPermaLink="true">https://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/</guid>
         
         
         <category>talks</category>
@@ -55,8 +55,8 @@
 &lt;p&gt;Unfortunately I was not able to go to days one and three of this three day meeting.&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
-        <link>http://bnlawrence.github.io//computing/2017/11/science_and_the_digital_revolution/</link>
-        <guid isPermaLink="true">http://bnlawrence.github.io//computing/2017/11/science_and_the_digital_revolution/</guid>
+        <link>https://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/</link>
+        <guid isPermaLink="true">https://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/</guid>
         
         
         <category>computing</category>
@@ -67,7 +67,7 @@
         <title>Science and the Digital Revolution -  Data, Standards, and Integration</title>
         <description>&lt;h2 id=&quot;data-interoperability-and-integration-a-climate-modelling-perspective-november-2017&quot;&gt;Data Interoperability and Integration: A climate modelling perspective, November 2017&lt;/h2&gt;
 
-&lt;p&gt;Presentation: &lt;a href=&quot;http://bnlawrence.github.io//assets/talks/2017-11-14-171104_data_interop_lawrence.pdf&quot;&gt;pdf&lt;/a&gt; (11.5 MB).&lt;/p&gt;
+&lt;p&gt;Presentation: &lt;a href=&quot;https://www.bnlawrence.net//assets/talks/2017-11-14-171104_data_interop_lawrence.pdf&quot;&gt;pdf&lt;/a&gt; (11.5 MB).&lt;/p&gt;
 
 &lt;p&gt;I was asked to give a talk at a &lt;a href=&quot;http://www.codata.org/&quot;&gt;CODATA&lt;/a&gt; meeting which was aimed at developing a roadmap for:&lt;/p&gt;
 &lt;ol&gt;
@@ -80,8 +80,8 @@
 &lt;p&gt;For this talk I was asked to address an example from the WMO research community on what we have accomplished in standardising a range of things, and reflecting on what has worked/failed and why.  I wasn’t given much time to prepare, so this is what they got!&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
-        <link>http://bnlawrence.github.io//talks/2017/11/data_interop_lawrence/</link>
-        <guid isPermaLink="true">http://bnlawrence.github.io//talks/2017/11/data_interop_lawrence/</guid>
+        <link>https://www.bnlawrence.net//talks/2017/11/data_interop_lawrence/</link>
+        <guid isPermaLink="true">https://www.bnlawrence.net//talks/2017/11/data_interop_lawrence/</guid>
         
         
         <category>talks</category>
@@ -92,14 +92,14 @@
         <title>Gung Ho Network Meeting</title>
         <description>&lt;h2 id=&quot;performance-portability-productivity-which-two-do-you-want&quot;&gt;Performance, Portability, Productivity: Which two do you want?&lt;/h2&gt;
 
-&lt;p&gt;Presentation: &lt;a href=&quot;http://bnlawrence.github.io//assets/talks/2017-07-18-ppp4_gungho.pdf&quot;&gt;pdf&lt;/a&gt; (4 MB).&lt;/p&gt;
+&lt;p&gt;Presentation: &lt;a href=&quot;https://www.bnlawrence.net//assets/talks/2017-07-18-ppp4_gungho.pdf&quot;&gt;pdf&lt;/a&gt; (4 MB).&lt;/p&gt;
 
 &lt;p&gt;I talked about two papers that I’ve recently been involved with: “CPMIP: measurement of real computational performance of Earth System Models in CMIP6” (which appeared in early 2017) and “Crossing the Chasm: How to develop weather
 and climate models for next generation computers?” which at the time was just about to be submitted to GMD.&lt;/p&gt;
 </description>
         <pubDate>Tue, 18 Jul 2017 00:00:00 +0100</pubDate>
-        <link>http://bnlawrence.github.io//talks/2017/07/ppp4_gungho/</link>
-        <guid isPermaLink="true">http://bnlawrence.github.io//talks/2017/07/ppp4_gungho/</guid>
+        <link>https://www.bnlawrence.net//talks/2017/07/ppp4_gungho/</link>
+        <guid isPermaLink="true">https://www.bnlawrence.net//talks/2017/07/ppp4_gungho/</guid>
         
         
         <category>talks</category>
@@ -115,15 +115,15 @@ object store interfaces.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-uk-jasmin-environmental-commons&quot;&gt;The UK JASMIN Environmental Commons&lt;/h2&gt;
 
-&lt;p&gt;Presentation: &lt;a href=&quot;http://bnlawrence.github.io//assets/talks/2017-06-22-lawrence_isc_io.pdf&quot;&gt;pdf&lt;/a&gt; (12 MB - the ISC version).&lt;/p&gt;
+&lt;p&gt;Presentation: &lt;a href=&quot;https://www.bnlawrence.net//assets/talks/2017-06-22-lawrence_isc_io.pdf&quot;&gt;pdf&lt;/a&gt; (12 MB - the ISC version).&lt;/p&gt;
 
 &lt;h2 id=&quot;the-uk-jasmin-environmental-commons-now-and-into-the-future&quot;&gt;The UK JASMIN Environmental Commons: Now and into the Future&lt;/h2&gt;
 
-&lt;p&gt;Presentation: &lt;a href=&quot;http://bnlawrence.github.io//assets/talks/2017-06-27-lawrence_jasmin.pdf&quot;&gt;pdf&lt;/a&gt; (12 MB - the JASMIN user conference version).&lt;/p&gt;
+&lt;p&gt;Presentation: &lt;a href=&quot;https://www.bnlawrence.net//assets/talks/2017-06-27-lawrence_jasmin.pdf&quot;&gt;pdf&lt;/a&gt; (12 MB - the JASMIN user conference version).&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Jun 2017 00:00:00 +0100</pubDate>
-        <link>http://bnlawrence.github.io//talks/2017/06/lawrence_jasmin/</link>
-        <guid isPermaLink="true">http://bnlawrence.github.io//talks/2017/06/lawrence_jasmin/</guid>
+        <link>https://www.bnlawrence.net//talks/2017/06/lawrence_jasmin/</link>
+        <guid isPermaLink="true">https://www.bnlawrence.net//talks/2017/06/lawrence_jasmin/</guid>
         
         
         <category>talks</category>
@@ -135,8 +135,8 @@ object store interfaces.&lt;/p&gt;
         <description>&lt;p&gt;Spent nearly the entire week (and certainly more than a “European maximum 48-hours”) on things to do with ESIWACE (on the deliverable  I mentioned last time, reporting for the EC, etc). I did have a fair chunk of one day on other things as also chaired a meeting of the advisory panel for our climate predictions for the copernicus climate data store project  (CP4CDS, a project about deploying and maintaining sofware for a special ESGF data node to support climate services) - that took up the best part of day. However, that’s pretty much it for the week. Hard to believe we’re two months into the year - and I still haven’t come up for air and managed to create any significant blogging time.&lt;/p&gt;
 </description>
         <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-        <link>http://bnlawrence.github.io//diary/2017/02/week_eight/</link>
-        <guid isPermaLink="true">http://bnlawrence.github.io//diary/2017/02/week_eight/</guid>
+        <link>https://www.bnlawrence.net//diary/2017/02/week_eight/</link>
+        <guid isPermaLink="true">https://www.bnlawrence.net//diary/2017/02/week_eight/</guid>
         
         
         <category>diary</category>
@@ -175,8 +175,8 @@ quite a few things from that will turn up on my blog …&lt;/p&gt;
 &lt;p&gt;… but anyway, that’s the weeks that were.&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-        <link>http://bnlawrence.github.io//diary/2017/02/weeks_six_and_seven/</link>
-        <guid isPermaLink="true">http://bnlawrence.github.io//diary/2017/02/weeks_six_and_seven/</guid>
+        <link>https://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven/</link>
+        <guid isPermaLink="true">https://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven/</guid>
         
         
         <category>diary</category>
@@ -203,8 +203,8 @@ quite a few things from that will turn up on my blog …&lt;/p&gt;
 &lt;blockquote&gt;&quot;...the open-plan proponents' argument that open-plan improves morale and productivity appears to have no basis in the research literature.&quot;&lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
-        <link>http://bnlawrence.github.io//management/2017/02/space_and_open_plan_offices/</link>
-        <guid isPermaLink="true">http://bnlawrence.github.io//management/2017/02/space_and_open_plan_offices/</guid>
+        <link>https://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices/</link>
+        <guid isPermaLink="true">https://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices/</guid>
         
         <category>management</category>
         
@@ -218,8 +218,8 @@ quite a few things from that will turn up on my blog …&lt;/p&gt;
         <description>&lt;p&gt;Nothing exciting to report. I spent nearly the entire week processing email, interacting with my team (both directly and on slack), and producing short things (e.g. a management level one pager on why NCAS should continue to support the &lt;a href=&quot;http://cfconventions.org&quot;&gt;CF conventions&lt;/a&gt;, and how). However, I did spend a wee bit of time trying to reinforce some of my observations around why storage is becoming a much bigger deal in environmental science. More on that next …&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Feb 2017 00:00:00 +0000</pubDate>
-        <link>http://bnlawrence.github.io//diary/2017/02/week_five/</link>
-        <guid isPermaLink="true">http://bnlawrence.github.io//diary/2017/02/week_five/</guid>
+        <link>https://www.bnlawrence.net//diary/2017/02/week_five/</link>
+        <guid isPermaLink="true">https://www.bnlawrence.net//diary/2017/02/week_five/</guid>
         
         
         <category>diary</category>
@@ -297,8 +297,8 @@ quite a few things from that will turn up on my blog …&lt;/p&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 05 Feb 2017 00:00:00 +0000</pubDate>
-        <link>http://bnlawrence.github.io//computing/2017/02/so_much_data_one/</link>
-        <guid isPermaLink="true">http://bnlawrence.github.io//computing/2017/02/so_much_data_one/</guid>
+        <link>https://www.bnlawrence.net//computing/2017/02/so_much_data_one/</link>
+        <guid isPermaLink="true">https://www.bnlawrence.net//computing/2017/02/so_much_data_one/</guid>
         
         
         <category>computing</category>
