@@ -25,8 +25,6 @@ author: Bryan Lawrence
 #excerpt_separator:
 
 # SEO stuff
-google_author: "https://plus.google.com/u/0/110288225974212014913"
-google_site_verification: "nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q"
 
 plugins:
   - jekyll-sitemap
