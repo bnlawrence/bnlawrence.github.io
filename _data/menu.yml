@@ -7,14 +7,19 @@
 - title: "Academic"
   href: "/academic/"
   subcategories:
-      - subtitle: "Short CV"
-        subhref: "/cv/"
+      - subtitle: "Academic"
+        subhref: "/academic/"
+      - subtitle: "Projects"
+        subhref: "/projects/"
       - subtitle: "Publications"
         subhref: "/publications/"
-      - subtitle: "Talks"
-        subhref: "/talks/"
+      - subtitle: "Short CV"
+        subhref: "/cv/"
       - subtitle: "Research"
         subhref: "/research/"
+      - subtitle: "Talks"
+        subhref: "/talks/"
+
 
 - title: "Blog"
   href: "/blog/"
