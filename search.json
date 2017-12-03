@@ -895,7 +895,7 @@
   
     ,{
       "title"			: "Teaching",
-      "url"			: "/teaching",
+      "url"			: "/teaching/",
       "tag"       : "",
       "category"  : "",
       "date" : "",
