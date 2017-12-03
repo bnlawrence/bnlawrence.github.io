@@ -597,6 +597,12 @@ ul.listing li.summary-item {
   .papers .author {
     font-weight: bold; }
 
+.talk-title {
+  font-weight: bold; }
+
+.talk-mtg {
+  font-size: 0.8em; }
+
 /**
  * Syntax highlighting styles
  */

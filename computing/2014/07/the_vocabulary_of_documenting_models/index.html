@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The vocabulary of documenting models | Bryan Lawrence</title>
+  <meta name="description" content="Some time ago our European project Metafor migrated to a global project called es-doc.   During the metafor project we put a lot of effort into trying to develop materials which describe what it is...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://www.bnlawrence.net//computing/2014/07/the_vocabulary_of_documenting_models/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="https://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Search</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">The vocabulary of documenting models</h1>
+    <p class="post-meta">Posted on July 9, 2014 
+
+  in
+  
+  <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>Some time ago our European project Metafor migrated to a global project called <a href="http://es-doc.org">es-doc</a>.   During the metafor project we put a lot of effort into trying to develop materials which describe what it is trying to achieve,  but I think we never really got that right (despite a number of papers on the subject - e.g. <a href="https://doi.org/10.5194/gmd-5-1493-2012">Lawrence et al 2012 </a>, <a href="https://doi.org/10.1175/BAMS-D-11-00035.1">Guilyardi et al 2013</a> etc).</p>
+
+<p>I’m currently in the process of trying to produce a figure on the subject for another publication, and in the process have produced these, which I think might be quite useful for understanding what es-doc is trying to document, and what the main kinds of documentation are that it produces. I’d be interested in feedback as to whether these figures are helpful or not.</p>
+
+<p>In each figure, the boxes and links are not meant to correspond directly to the UML classes and associations of the (es-doc) Common Information Model (although some do) - the intention is to describe the concepts and intent of the various pieces of documentation.</p>
+
+<h4 id="figure-one">Figure One</h4>
+
+<p><img src="/assets/images/2014-07-09-MIPprocess_esdoc.jpg" alt="Figure One" /></p>
+
+<p>The MIPS process involves designing <strong>experiment</strong>s which are provided to modelling centres.</p>
+
+<p>Modelling centres configure model code to produce a <strong>configured model</strong>.</p>
+
+<p>They then run one (or many) <strong>Simulation</strong>s to support one or more experiments. The Simulation will conformTo (NumericalRequirements) of the Experiment, and will produce Output<strong>Data</strong>, and was run on a <strong>Platform</strong>.</p>
+
+<p>The output data is uploaded to the ESGF archive where is supports the MIP.</p>
+
+<p>Each of the coloured boxes represents an <em>es-doc</em> “document-type”.</p>
+
+<h4 id="figure-two">Figure Two</h4>
+
+<p><img src="/assets/images/2014-07-09-simple_esdoc.jpg" alt="Figure Two" /></p>
+
+<p>Neglecting the process, we can look at the various document types and what they are for in more detail.</p>
+
+<p>A simulation (which can also be an aggregation of simulations, also known as an ensemble) will have used some input data, some of which may have been defined and/or constrained by one of the numerical requirements of the experiment.</p>
+
+<p>Constraints on the simulation by the numerical requirements might require conformances - which define how those constraints affect either the data or the code (maybe a choice of a particular code modification, or via a specific parameter choice or choices).</p>
+
+<p>Configured models are described by their Science Properties.</p>
+
+<p>A Simulation document will include all the information coloured in yellow, so it will define which configured model was used via the <strong>uses</strong> relationship, which will point to configured model document, which itself describes the model.</p>
+
+<p>Similarly, an experiment document will define all the various numerical requirements, and may point to some specific input data requirements.</p>
+
+<p>Ideally output data objects will point back at the simulation which produced them.</p>
+
+<h4 id="figure-three">Figure Three</h4>
+
+<p><img src="/assets/images/2014-07-09-Simulations_esdoc.jpg" alt="Figure Three" /></p>
+
+<p>In even more detail we can see that numerical requirements come in a number of flavours, including:</p>
+<ul>
+  <li>SpatioTemporalConstraints - which might define required experimental start dates, durations, and/or the coverage (global, regional etc).</li>
+  <li>Forcings - which generally define how various aspects of the system might be represented, for example, providing Ozone files for a consistent static ozone representation.</li>
+  <li>OutputRequirements - which define what output is required for intercomparison.</li>
+</ul>
+
+<p>Simulation conformances are generally linked to specific numerical requirements and consist of data and code-mod conformances.</p>
+
+<p>ConfiguredModels are configured from BaseModel code (this is not currently implemented in es-doc). In principle they can be described both by their software properties and the science properties (and so can their sub-components).</p>
+
+<p>The run-time performance of the simulation should also be captured by resource and performance characteristics (but this too is not yet supported by es-doc).</p>
+
+<p>A model description document should include all the material in green, including the links.</p>
+
+<h4 id="trackbacks-1">trackbacks (1)</h4>
+
+<p><em><a href="/computing/2014/07/updated_version_of_the_model_documentation_plots/">Updated version of the model documentation plots</a> (from “Bryan’s Blog” on (on Tuesday 29 July, 2014)</em>)I’ve had some feedback, and some more thinking, so here are three updated versions of those plots…</p>
+
+<h4 id="comments-2">comments (2)</h4>
+<p><em>Rupert Ford (on Wednesday 09 July, 2014)</em>
+Hi Bryan, Should Resources and Performance sit off Platform? I would have said that they are properties of the simulation when run on a platform. So Simulation used Resources on Platform and Simulation ranWith Performance on Platform. As you said, it is not UML so perhaps it does not matter!</p>
+
+<p><em>Bryan (on Wednesday 09 July, 2014)</em>
+Agreed.  Resource and Performance are properties of a Simulation.</p>
+
+  </article>
+
+<!--
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'bnlawrence';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+-->
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

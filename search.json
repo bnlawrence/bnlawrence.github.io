@@ -40,7 +40,7 @@
       "tag"       : "",
       "category"  : "talks",
       "date"      : "2017-11-14",
-      "excerpt"		: "Data Interoperability and Integration: A climate modelling perspective, November 2017"
+      "excerpt"		: "Data Interoperability and Integration: A climate modelling perspective"
     }
   
 
@@ -255,6 +255,17 @@
 
   
     ,{
+      "title"			: "playing with docker",
+      "url"			: "/2015/05/playing_with_docker/",
+      "tag"       : "",
+      "category"  : "",
+      "date"      : "2015-05-10",
+      "excerpt"		: "From time to time I get a very short opportunity to try and do some science, and I find the context switching harder and harder. To that end, I want to make more use of ipython-notebook."
+    }
+  
+
+  
+    ,{
       "title"			: "EGU",
       "url"			: "/talks/2015/04/Lawrence_Tyranny/",
       "tag"       : "",
@@ -266,12 +277,155 @@
 
   
     ,{
+      "title"			: "A citation and provenance system for climate modelling",
+      "url"			: "/computing/2015/03/a_citation_and_provenance_system_for_climate_modelling/",
+      "tag"       : "cmip",
+      "category"  : "computing",
+      "date"      : "2015-03-02",
+      "excerpt"		: "What would a modelling citation and provenance system need to do?"
+    }
+  
+
+  
+    ,{
+      "title"			: "Pagico Experience at week one.",
+      "url"			: "/management/2015/02/pagico_experience_at_week_one/",
+      "tag"       : "management",
+      "category"  : "management",
+      "date"      : "2015-02-01",
+      "excerpt"		: "Ok, I promised to report my experience with pagico at week one."
+    }
+  
+
+  
+    ,{
       "title"			: "Big Data and Extreme-Scale Computing (BDEC)",
       "url"			: "/talks/2015/01/lawrence_4slides/",
       "tag"       : "",
       "category"  : "talks",
       "date"      : "2015-01-30",
       "excerpt"		: "There were two back to back meetings organised as part of the 2015 Big Data and Extreme Computing meeting website.  In the first, organised as part of the European Exascale Software Initiative (EESI), I gave a full talk, in the second, I provided a four page position paper with a four page exposition.It starts and Ends with Data: Towards exascale from an earth system science perspectivePresentation: pdf (7 MB).Six sections: the big picture, background trends, hardware issues, software issues, workflow, and a summary.Bringing Compute to the DataPresentation: pdf (3 MB).This was my main BDEC contribution. There was also a four pagesummary paper: pdf."
+    }
+  
+
+  
+    ,{
+      "title"			: "Pagico and getting things done",
+      "url"			: "/management/2015/01/pagico_and_getting_things_done/",
+      "tag"       : "management",
+      "category"  : "management",
+      "date"      : "2015-01-25",
+      "excerpt"		: "Getting Things Done. GTD."
+    }
+  
+
+  
+    ,{
+      "title"			: "Leptoukh Lecture",
+      "url"			: "/academic/2014/12/leptoukh_lecture/",
+      "tag"       : "",
+      "category"  : "academic",
+      "date"      : "2014-12-18",
+      "excerpt"		: "I was honoured by the informatics section of the American Geophysical Union this year by being awarded the Leptoukh Lecture. The abstract and talk itself are on my talks page."
+    }
+  
+
+  
+    ,{
+      "title"			: "AGU Fall Meeting",
+      "url"			: "/talks/2014/12/lawrence_leptoukh/",
+      "tag"       : "",
+      "category"  : "talks",
+      "date"      : "2014-12-17",
+      "excerpt"		: "I was honoured to be the third recipient of the AGU [http://honors.agu.org/section-named-lecture/leptoukh-lecture-earth-and-space-science-informatics/ Leptoukh Lecture] awarded for significant contributions to informatics, computational, or data sciences."
+    }
+  
+
+  
+    ,{
+      "title"			: "Symposium on HPC and Data-Intensive Apps",
+      "url"			: "/talks/2014/11/Lawrence_ICTP/",
+      "tag"       : "",
+      "category"  : "talks",
+      "date"      : "2014-11-14",
+      "excerpt"		: "Or to give it it’s full name: Symposium on HPC and Data-Intensive Applications in Earth Sciences: Challenges and Opportunities@ICTP, Trieste, Italy.I gave two talks at this meeting, the first in the HPC regular session, on behalf of my colleague Pier Luigi Vidale, on UPSCALE, the second a data keynote on day two.Weather and Climate modelling at the Petascale: achievements and perspectives. The roadmap to PRIMAVERAPresentation: pdf (37 MB).Abstract:Recent results and plans from the Joint Met Office/NERC High Resolution Climate Modelling programme are presented, along with a summary of recent and planned model developments. We show the influence of high resolution on a number of important atmospheric phenomena, highlighting both the roles of multiple groups in the work and the need for further resolution and complexity improvements in multiple models. We introduce plans for a project to do just that. A final point is that this work is highly demanding of both the supercomputing and subsequent analysis environments.Infrastructure for Environmental Supercomputing: beyond the HPC!Abstract:We begin by motivating the problems facing us in environmental simulations across scales: complex community interactions, and complex infrastructure. Looking forward we see the drive to increased resolution and complexity leading not only to compute issues, but even more severe data storage and handling issues. We worry about the software consequences before moving to the only possible solution, more and better collaboration, with shared infrastructure. To make progress requires moving past consideration of software interfaces alone to consider also the “collaboration” interfaces. We spend considerable time describing the JASMIN HPC data collaboration environment in the UK, before reaching the final conclusion: Getting our models to run on (new) supercomputers is hard. Getting them to run perfomantly is hard. Analysing, exploiting and archiving the data is (probably) now even harder!Presentation:  pdf (22 MB )"
+    }
+  
+
+  
+    ,{
+      "title"			: "Building your own JASMIN Virtual Machine",
+      "url"			: "/computing/2014/08/building_your_own_jasmin_virtual_machine/",
+      "tag"       : "jasmin",
+      "category"  : "computing",
+      "date"      : "2014-08-04",
+      "excerpt"		: "I make a good deal of use of the JASMIN science virtual machines, but sometimes I want to just do something locally for testing. Fortunately you can build your own virtual machine using the “ JASMIN Analysis Platform” (JAP) to get the same base files."
+    }
+  
+
+  
+    ,{
+      "title"			: "simulation documents",
+      "url"			: "/computing/environment/2014/08/simulation_documents/",
+      "tag"       : "esdoc, metafor, cmip6",
+      "category"  : "computingenvironment",
+      "date"      : "2014-08-01",
+      "excerpt"		: "In my last post I was discussing the relationship between the various elements of documentation necessary to describe the simulation workflow."
+    }
+  
+
+  
+    ,{
+      "title"			: "Updated version of the model documentation plots",
+      "url"			: "/computing/2014/07/updated_version_of_the_model_documentation_plots/",
+      "tag"       : "esdoc",
+      "category"  : "computing",
+      "date"      : "2014-07-29",
+      "excerpt"		: "A couple of weeks ago, I outlined three figures to help describe the model documentation workflow and asked for a bit of feedback."
+    }
+  
+
+  
+    ,{
+      "title"			: "NCAS Science Conference, Bristol",
+      "url"			: "/2014/07/ncas_science_conference-2C_bristol/",
+      "tag"       : "",
+      "category"  : "",
+      "date"      : "2014-07-18",
+      "excerpt"		: "In the middle of two days in Bristol for the NCAS science conference. Good to see what so many of my colleagues are up to (distributed as they are, across the UK)."
+    }
+  
+
+  
+    ,{
+      "title"			: "The vocabulary of documenting models",
+      "url"			: "/computing/2014/07/the_vocabulary_of_documenting_models/",
+      "tag"       : "esdoc, metafor",
+      "category"  : "computing",
+      "date"      : "2014-07-09",
+      "excerpt"		: "Some time ago our European project Metafor migrated to a global project called es-doc.   During the metafor project we put a lot of effort into trying to develop materials which describe what it is trying to achieve,  but I think we never really got that right (despite a number of papers on the subject - e.g. Lawrence et al 2012 , Guilyardi et al 2013 etc)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Gavin's Proposal",
+      "url"			: "/computing/2013/08/gavins_proposal/",
+      "tag"       : "cmip",
+      "category"  : "computing",
+      "date"      : "2013-08-23",
+      "excerpt"		: "Gavin made some proposals in a comment on my blog for how he thought an easy automatic DOI system could be set up for CMIP data in ESGF."
+    }
+  
+
+  
+    ,{
+      "title"			: "confusion on dois",
+      "url"			: "/computing/2013/08/confusion_on_dois/",
+      "tag"       : "",
+      "category"  : "computing",
+      "date"      : "2013-08-13",
+      "excerpt"		: "The discussion on twitter and my blog about DOIs and CMIP5 and what did and didn’t work reflects a bunch of different perspectives."
     }
   
 
@@ -552,6 +706,17 @@
 
   
     ,{
+      "title"			: "Verifyable Statements",
+      "url"			: "/computing/management/2004/12/VerifyableStatements/",
+      "tag"       : "computing, management",
+      "category"  : "computingmanagement",
+      "date"      : "2004-12-22",
+      "excerpt"		: "I have just had my attention drawn to  hacknot where I found an excellent article on “Basic Critical Thinking for Software Developers”. In the article “Mr Ed” makes clear the importance of making verifyable statements if you wantto contribute any information to discussion about software engineeringpractices. I think however, the article has much wider applicability, and applies to just about any discourse. If one wants to minimise wastingtime, being very clear about exactly what you are talking about isabsolutely crucial. James Tauber made much the same point in his blog onSuccessful Technical Discussions."
+    }
+  
+
+  
+    ,{
       "title"			: "More on Trackbacks",
       "url"			: "/computing/2004/12/moreontrackback/",
       "tag"       : "xml, computing, ndg",
@@ -589,6 +754,17 @@
 
   
     ,{
+      "title"			: "Academic",
+      "url"			: "/academic/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
       "title"			: "Blog",
       "url"			: "/blog/",
       "tag"       : "",
@@ -611,7 +787,7 @@
 
   
     ,{
-      "title"			: "CV",
+      "title"			: "Short CV",
       "url"			: "/cv/",
       "tag"       : "",
       "category"  : "",
@@ -650,8 +826,30 @@
 
   
     ,{
+      "title"			: "Projects",
+      "url"			: "/projects/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
       "title"			: "Publications",
       "url"			: "/publications/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Research",
+      "url"			: "/research/",
       "tag"       : "",
       "category"  : "",
       "date" : "",
@@ -674,8 +872,41 @@
 
   
     ,{
+      "title"			: "Graduate Students",
+      "url"			: "/teaching/students/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
       "title"			: "Talks and Seminars",
       "url"			: "/talks/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Talks and Seminars",
+      "url"			: "/talks/summary/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Teaching",
+      "url"			: "/teaching",
       "tag"       : "",
       "category"  : "",
       "date" : "",
