@@ -1,9 +1,14 @@
+- title: "Home"
+  href: "/"
+
 - title: "About"
   href: "/about/"
 
 - title: "Academic"
   href: "/academic/"
   subcategories:
+      - subtitle: "Short CV"
+        subhref: "/cv/"
       - subtitle: "Publications"
         subhref: "/publications/"
       - subtitle: "Talks"
@@ -13,9 +18,6 @@
 
 - title: "Blog"
   href: "/blog/"
-
-- title: "CV"
-  href: "/cv/"
 
 - title: "Search"
   href: /search/
