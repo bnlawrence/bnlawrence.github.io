@@ -3,7 +3,10 @@ title:  Big Data and Extreme-Scale Computing (BDEC)
 location: Barcelona
 when: January, 2015
 layout: talk
-file: 2015-01-28-Lawrence_EESI2015.pdf
+talks:
+    - It starts and Ends with Data-  Towards exascale from an earth system science perspective
+    - Bringing Compute to the Data
+
 filetype: pdf
 categories: talks
 excerpt_separator: "<!--more-->"

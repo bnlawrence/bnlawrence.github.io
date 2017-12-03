@@ -3,7 +3,8 @@ title: RDF and Ontology Workshop
 location: Edinburgh
 when: June, 2006
 layout: talk
-file: 2006-06-08-NDG_SemanticEdinburgh06.ppt
+talks:
+    - Distributed Data, Distributed Governance, Distributed Vocabularies; The NERC DataGrid
 filetype: ppt
 categories: talks
 excerpt_separator: "<!--more-->"

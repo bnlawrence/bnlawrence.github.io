@@ -4,6 +4,8 @@ when: April, 2006
 location: AHM
 layout: talk
 filetype: ppt
+talks:
+    - NERC DataGrid Status
 categories: talks
 excerpt_separator: "<!--more-->"
 ---

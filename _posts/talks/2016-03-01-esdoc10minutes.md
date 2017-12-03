@@ -3,7 +3,8 @@ title: CEDA Vocbulary Meeting
 location: RAL
 when: March, 2016
 layout: talk
-file: 2016-03-01-esdoc10minutes.pdf
+talks:
+    - A ten minute introduction to ES-DOC technology
 filetype: pdf
 categories: talks
 ---

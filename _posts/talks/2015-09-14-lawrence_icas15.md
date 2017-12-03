@@ -3,7 +3,8 @@ title:  International Computing in Atmospheric Science (ICAS)
 location: Annecy
 when: September, 2015
 layout: talk
-file: 2015-09-14-lawrence_icas15.pdf
+talks:
+    - UK academic infrastructure to support (big) environmental science
 filetype: pdf
 categories: talks
 excerpt_separator: "<!--more-->"

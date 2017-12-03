@@ -3,7 +3,8 @@ title: JASMIN User Conference
 location: RAL
 when: June, 2016
 layout: talk
-file: 2016-06-27-jasmin_lawrence.pdf
+talks:
+    - Science Drivers - Why JASMIN?
 filetype: pdf
 categories: talks
 ---

@@ -8,6 +8,7 @@ disclaimer: >
   This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur.
   (My daughter is learning Latin, unlike me, who never did!)
 baseurl: "" # the subpath of your site, e.g. /blog/
+include: ["_pages"]
 url: "https://www.bnlawrence.net/" # the base hostname & protocol for your site
 twitter_username: bnlawrence
 github_username:  bnlawrence
@@ -30,6 +31,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+#  - jemoji
 
 scholar:
     style: apa

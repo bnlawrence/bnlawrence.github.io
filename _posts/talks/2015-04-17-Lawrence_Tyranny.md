@@ -3,7 +3,8 @@ title:  EGU
 location: Vienna
 when: April, 2015
 layout: talk
-file: 2015-04-17-Lawrence_Tyranny.pdf
+talks:
+    - Beating the tyranny of scale with a private cloud configured for Big Data
 filetype: pdf
 categories: talks
 excerpt_separator: "<!--more-->"

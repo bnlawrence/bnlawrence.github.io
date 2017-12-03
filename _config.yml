@@ -12,6 +12,7 @@ url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: bnlawrence
 github_username:  bnlawrence
 bitbucket_username: bnlawrence
+include: ["_pages"]
 address: >
     NCAS, Department of Meteorology
     University of Reading

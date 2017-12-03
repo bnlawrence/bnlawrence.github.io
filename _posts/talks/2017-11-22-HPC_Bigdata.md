@@ -5,6 +5,8 @@ location: Versailles
 layout: talk
 filetype: pdf
 categories: talks
+talks:
+    - The Data Deluge in High Resolution Climate and Weather Simulation
 doi: 10.5281/zenodo.1067572
 ---
 

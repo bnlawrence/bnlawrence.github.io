@@ -3,7 +3,9 @@ title: International Supercomputing (ISC) and JASMIN User Conferences
 location: Frankfurt and Didcot
 when: June 2017
 layout: talk
-file: 2017-06-22-lawrence_isc_io.pdf
+talks:
+    - The UK JASMIN Environmental Commons
+    - The UK JASMIN Environmental Commons - Now and into the Future
 filetype: pdf
 categories: talks
 ---

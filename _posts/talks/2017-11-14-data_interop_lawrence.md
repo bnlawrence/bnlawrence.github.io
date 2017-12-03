@@ -3,13 +3,14 @@ title:  Science and the Digital Revolution -  Data, Standards, and Integration
 location: Royal Society, London
 when: November, 2017
 layout: talk
-file: 2017-11-14-171104_data_interop_lawrence.pdf
+talks:
+    - Data Interoperability and Integration -  A climate modelling perspective.
 filetype: pdf
 categories: talks
 ---
 
-Data Interoperability and Integration: A climate modelling perspective, November 2017
--------------------------------------------------------------------------------------
+Data Interoperability and Integration: A climate modelling perspective
+-----------------------------------------------------------------------
 
 Presentation: [pdf]({{"/assets/talks/2017-11-14-171104_data_interop_lawrence.pdf" | absolute_url}}) (11.5 MB).
 

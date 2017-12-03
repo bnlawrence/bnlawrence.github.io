@@ -3,7 +3,8 @@ title:  RCUK Cloud Workshop
 when: June, 2015
 location: Warwick
 layout: talk
-file: 2015-06-04-Lawrence_Cloud.pdf
+talks:
+    - Why Cloud? Earth Systems Science
 filetype: pdf
 categories: talks
 excerpt_separator: "<!--more-->"

@@ -3,7 +3,8 @@ title: NERC Town Hall Meeting on Data Centre Futures
 location: London
 when: October, 2016
 layout: talk
-file: 2016-10-13-lawrence_infrastructure.pdf
+talks:
+    - Data Centre Technology to Support Environmental Science
 filetype: pdf
 categories: talks
 ---

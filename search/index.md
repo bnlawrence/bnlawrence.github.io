@@ -5,9 +5,11 @@ search_omit: true
 sitemap: false
 ---
 
+<p> This website is indexed for simple search based on title, tags, categories, and the first paragraph or so.<br/> For more comprehensive search you'll probably have to resort to Google! </p>
+
 <!-- Html Elements for Search -->
 <div id="search-container">
-Simple Search: <input type="text" id="search-input" placeholder="search...">
+<p>Search: <input type="text" id="search-input" placeholder="search..."></p>
 <ul id="results-container"></ul>
 </div>
 
@@ -19,6 +21,7 @@ Simple Search: <input type="text" id="search-input" placeholder="search...">
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  json: '/search.json'
+  json: '/search.json',
+  searchResultTemplate: '<li>{date}: <a href="{url}">{title}</a>'
 })
 </script>
