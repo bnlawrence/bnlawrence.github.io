@@ -1,0 +1,18 @@
+---
+layout: page
+---
+
+<h4>{{ page.tag | capitalize }}</h4>
+<ul>
+{% for post in page.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }} | Tags: {{ post | tags }})</li>
+{% endfor %}
+</ul>
+
+<h4> All Tags </h4>
+
+<p>
+| {% for tag in site.tags %}
+<a style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70 }}%" href="/tags/{{ tag | first | slugize }}/">{{ tag | first }}</a> |
+{% endfor %}
+</p>

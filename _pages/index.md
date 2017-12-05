@@ -1,9 +1,21 @@
 ---
 layout: page
-title: "Search"
+title: "Browse and/or Search"
 search_omit: true
 sitemap: false
 ---
+
+<h2> Browse </h2>
+
+<p>
+| {% for tag in site.tags %}
+<a style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70 }}%" href="/tags/{{ tag | first | slugize }}/">{{ tag | first }}</a> |
+{% endfor %}
+</p>
+
+
+<hrule>
+<h2> Simple Search</h2>
 
 <p> This website is indexed for simple search based on title, tags, categories, and the first paragraph or so.<br/> For more comprehensive search you'll probably have to resort to Google! </p>
 
