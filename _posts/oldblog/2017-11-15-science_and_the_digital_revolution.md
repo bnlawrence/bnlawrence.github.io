@@ -3,6 +3,7 @@ layout: post
 title: Science and the Digital Revolution - Data, Standards, and Integration
 last_modified: Wednesday 15 November, 2017
 categories: computing
+tags: data cmip esgf
 excerpt_separator: <!-- More -->
 ---
 

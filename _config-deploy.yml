@@ -31,7 +31,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-#  - jemoji
+  - jekyll/tagging
+ # - jemoji
+
+tag_page_layout: tag_page
+tag_page_dir: tags
+tag_permalink_style: pretty
 
 scholar:
     style: apa

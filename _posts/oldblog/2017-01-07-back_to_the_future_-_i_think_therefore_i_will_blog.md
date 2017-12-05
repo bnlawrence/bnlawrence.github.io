@@ -2,7 +2,7 @@
 layout: post
 title: Back to the Future - I think therefore I WILL blog
 last_modified: Saturday 14 January, 2017
-category: blogging diary
+categories: diary
 ---
 (with apologies to [Descartes](https://en.wikipedia.org/wiki/Cogito_ergo_sum) :-)
 
