@@ -1,187 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bryan Lawrence</title>
-    <description>Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
-</description>
-    <link>https://www.bnlawrence.net//</link>
-    <atom:link href="https://www.bnlawrence.net//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Dec 2017 14:46:29 +0000</pubDate>
-    <lastBuildDate>Tue, 05 Dec 2017 14:46:29 +0000</lastBuildDate>
-    <generator>Jekyll v3.6.2</generator>
-    
-      <item>
-        <title>The Exascale Challenge to the UK - Part One</title>
-        <description>&lt;p&gt;It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - much of which came for free as chips got faster. However, now they’re not so much getting faster as we will get more processors and more processor types, and we have to be smarter about how we programme for them &lt;a href=&quot;#LawChasm17&quot;&gt;(Lawrence et al., n.d.)&lt;/a&gt;. This is a problem for all of science!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
+  <link href="https://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://www.bnlawrence.net//" rel="alternate" type="text/html" />
+  <updated>2017-12-05T17:04:49+00:00</updated>
+  <id>https://www.bnlawrence.net//</id>
 
-&lt;p&gt;The US, Japan and China have been working on the problem for a while, and Europe is rapidly trying to catch up, but the “exascale problem” is all but invisible in the UK. While it’s obviously unfeasible for the UK to build an exascale computer on their own in the current economic and political climate, it’s absolutely the case that UK science and industry will have to work out how to &lt;em&gt;use&lt;/em&gt; exascale computing, not least because the tools and techniques will percolate down eventually. However, even before the percolation, UK will have to &lt;em&gt;exploit&lt;/em&gt; exascale computing to remain competitive, so what will that entail for us?&lt;/p&gt;
+  
+    <title type="html">Bryan Lawrence</title>
+  
 
-&lt;h4 id=&quot;the-challenges&quot;&gt;The Challenges&lt;/h4&gt;
+  
+    <subtitle>Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+</subtitle>
+  
 
-&lt;p&gt;&lt;a href=&quot;#ASAC2014&quot;&gt;(ASCAC Subcommittee, 2014)&lt;/a&gt; list ten challenges, which I’ve reordered and categorised according to my personal bias into “industry”, “computer science”, and “interdisciplinary”, where the latter is meant to indicate that I think these are challenges for computer science, mathematics, and discipline specific practitioners!&lt;/p&gt;
+  
+    <author>
+        <name>Bryan Lawrence</name>
+      
+      
+    </author>
+  
 
-&lt;p&gt;The industry challenges are:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Energy efficiency&lt;/strong&gt;: Creating more energy-efficient circuit, power, and cooling technologies.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Industry Interconnect technology&lt;/strong&gt;: Increasing the performance and energy efficiency of data movement.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Memory Technology&lt;/strong&gt;: Integrating advanced memory technologies to improve both capacity
-and bandwidth.&lt;/p&gt;
+  
+  
+    <entry>
+      <title type="html">The Exascale Challenge to the UK - Part One</title>
+      <link href="https://www.bnlawrence.net//computing/2017/12/exascale/" rel="alternate" type="text/html" title="The Exascale Challenge to the UK - Part One" />
+      <published>2017-12-05T00:00:00+00:00</published>
+      <updated>2017-12-05T00:00:00+00:00</updated>
+      <id>https://www.bnlawrence.net//computing/2017/12/exascale</id>
+      <content type="html" xml:base="https://www.bnlawrence.net//computing/2017/12/exascale/">&lt;p&gt;It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - much of which came for free as chips got faster. However, now they’re not so much getting faster as we will get more processors and more processor types, and we have to be smarter about how we programme for them &lt;a href=&quot;#LawChasm17&quot;&gt;(Lawrence et al., n.d.)&lt;/a&gt;. This is a problem for all of science!&lt;/p&gt;
 
-    &lt;p&gt;Arguably those are things that industry will address, with or without government funding, and it probably wont be UK industry, although once we were players … The computer science challenges are:&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Scalable System Software:&lt;/strong&gt; Developing scalable system software that is power- and resilience- aware.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Resilience and correctness:&lt;/strong&gt; Ensuring correct scientific computation in face of faults, reproducibility, and algorithm verification challenges._&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Programming systems:&lt;/strong&gt; Inventing new programming environments that express massive parallelism, data locality, and resilience_&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Scientific productivity:&lt;/strong&gt; Increasing the productivity of computational scientists with new software engineering tools and environments.&lt;/p&gt;
+&lt;p&gt;The US, Japan and China have been working on the problem for a while, and Europe is rapidly trying to catch up, but the “exascale problem” is all but invisible in the UK. While it’s obviously unfeasible for the UK to build an exascale computer on their own in the current economic and political climate, it’s absolutely the case that UK science and industry will have to work out how to &lt;em&gt;use&lt;/em&gt; exascale computing, not least because the tools and techniques will percolate down eventually. However, even before the percolation, UK will have to &lt;em&gt;exploit&lt;/em&gt; exascale computing to remain competitive, so what will that entail for us?&lt;/p&gt;</content>
 
-    &lt;p&gt;Those are still areas where the UK can and could make a difference, not only scientifically, but in terms of creating opportunities for our own industry. The interdisciplinary challenges are:&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Data management:&lt;/strong&gt; Creating data management software that can handle the volume, velocity and diversity of data that is anticipated.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Exascale Algorithms:&lt;/strong&gt; Reformulating science problems and redesigning, or reinventing, their solution algorithms for exascale systems.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Algorithms for discovery, design, and decision:&lt;/strong&gt; Facilitating mathematical optimization and uncertainty quantification for exascale discovery, design, and decision making.&lt;/p&gt;
+      
+      
+      
+      
+      
 
-    &lt;p&gt;These are all areas where mathematics, computer science, and discipline skills come into play. However, somewhat surprisingly, that list doesn’t include one more important challenge:&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Data Volumes!&lt;/strong&gt; It’s clear (e.g. &lt;a href=&quot;/talks/2017/11/HPC_Bigdata/&quot;&gt;our talk&lt;/a&gt; that using exabytes of data are likely to be a problem for our community before we get to exaflop computing.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;why-is-data-a-problem&quot;&gt;Why is data a problem?&lt;/h4&gt;
-
-&lt;p&gt;Haven’t the big cloud providers and social media giants got this sussed (Google was&lt;a href=&quot;https://what-if.xkcd.com/63/&quot;&gt;reputed to&lt;/a&gt; have exabytes of data years ago, Facebook had an analysis cluster with &lt;a href=&quot;https://code.facebook.com/posts/229861827208629/scaling-the-facebook-data-warehouse-to-300-pb/&quot;&gt;300 PB three years ago&lt;/a&gt; …)  Well yes, they have got volumes stored sussed, but it’s not obvious they have throughput sussed. LOTUS, our JASMIN batch cluster is currently reading up to 2 PB of data a day into analysis workflows, and we’re just one climate site. More importantly, that’s petabytes of 10.5194/gmd-2017-186POSIX file system data a day … we don’t yet have suitable software for our analysis environments for anything else … at scale!&lt;/p&gt;
-
-&lt;p&gt;Some of these issues with data at exascale have been covered in
-&lt;a href=&quot;#AciEA15&quot;&gt;(Acı́n V. et al., 2015)&lt;/a&gt;, who cover some of the many challenges ahead. Some of those key challenges include:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Time to build systems:&lt;/strong&gt; “&lt;em&gt;Although computing and data processing technology is known for its fast growth, assembling these technologies into large-scale, reliable and performant systems often takes about a decade.&lt;/em&gt;”&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Metadata scale issues:&lt;/strong&gt; “&lt;em&gt;The overall increase in scale. The increase in number of objects will affect data and metadata equally, which will need Exascale support. The increase in data volume indicates that when raw data approaches the Zettabyte scale, the metadata handling system will approach the Petabyte scale&lt;/em&gt;”&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Metadata attribution issues:&lt;/strong&gt; “&lt;em&gt;File systems offer virtually no practical support for associating user-specified metadata to data objects, essentially limited to specifying file names. Maintaining (file based) schemes is labour intensive, and would become even more so if support was included for data provenance and preservation.&lt;/em&gt;”&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Variability in the workflow:&lt;/strong&gt; “&lt;em&gt;The challenge is often compounded by the fact that the exact manner in which the data will need to be analysed is not known a priori, hence techniques often used in commercial computing, such as pre-calculation, precise data placement or massive data caching are difficult or impossible to implement&lt;/em&gt;”.&lt;/p&gt;
-
-    &lt;p&gt;They also note the following, in the context of networks, but I think it also applies to data:&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Getting things from research to production:&lt;/strong&gt; “&lt;em&gt;a widening gap between the possibilities … and the capabilities that are actually deployed in production applications.&lt;/em&gt;”
- Much effort globally is being deployed on distributed data solutions but:&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;User Management is Problematic:&lt;/strong&gt; “&lt;em&gt;Current solutions for managing users and their data access roles are, however, very far from being satisfactory. Present systems involve a lot of manual intervention by many parties, and therefore are rather error prone and cumbersome. Furthermore, they are poorly (or not at all) integrated with low level data processing services and between different sites&lt;/em&gt;”.&lt;/p&gt;
-
-    &lt;p&gt;They don’t go into in any detail, but I would also add in terms of data fabric:&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;POSIX &lt;a href=&quot;https://www.nextplatform.com/2017/09/11/whats-bad-posix-io/&quot;&gt;doesn’t scale&lt;/a&gt;&lt;/strong&gt;, at least with thousands of processes trying to open the same file . However, object stores are not the panacea either, at least not for latency constrained writing. We’re going to see tiered storage for sure, potentially with all of burst buffers, object stores, and tape. The good news is that at least we as a community are rather used to some of the ideas needed to manage our data on tape efficiently (e.g. &lt;a href=&quot;#SmarEA17&quot;&gt;(Smart, Quintino, &amp;amp; Raoult, 2017)&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Confusion over need&lt;/strong&gt;: Repositories are not active storage systems - many of the putative solutions in this space, from academia at least, are addressing where to put cold data, not where to put high-volume data that needs to be part of ongoing active workflows for up to years at a time. Both matter.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Costs Matter&lt;/strong&gt;: There is not a good understanding in the user community as to the true cost of storage, when they should re-compute, and where they should be putting their data (in terms of hot/warm/cold storage tiers).  This is in part because there is confusion by providers over these issues too (see the previous point).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;bibliography-for-this-post&quot;&gt;Bibliography for this post&lt;/h4&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;SmarEA17&quot;&gt;Smart, S. D., Quintino, T., &amp;amp; Raoult, B. (2017). A Scalable Object Store for Meteorological and Climate Data (pp. 1–8). ACM Press. https://doi.org/10.1145/3093172.3093238&lt;/span&gt;
-
-&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;AciEA15&quot;&gt;Acı́n V., Bird, I., Boccali, T., Cancio, G., Collier, I. P., Corney, D., … Shiers, J. (2015). Architectures and Methodologies for Future Deployment of Multi-Site Zettabyte-Exascale Data Handling Platforms. &lt;i&gt;Journal of Physics: Conference Series&lt;/i&gt;, &lt;i&gt;664&lt;/i&gt;(4), 042009. https://doi.org/10.1088/1742-6596/664/4/042009&lt;/span&gt;
-
-&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;ASAC2014&quot;&gt;ASCAC Subcommittee. (2014). &lt;i&gt;Top Ten Exascale Research Challenges&lt;/i&gt;.&lt;/span&gt;
-
-&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;LawChasm17&quot;&gt;&lt;span class=&quot;author&quot;&gt;Lawrence&lt;/span&gt;, B. N., Mike Rezny, Reinhard Budich, Peter Bauer, Jörg Behrens, Mick Carter, … Simon Wilson. Crossing the Chasm: How to Develop Weather and Climate Models for next Generation Computers. &lt;i&gt;Geoscientific Model Development Discussions&lt;/i&gt;. https://doi.org/10.5194/gmd-2017-186&lt;/span&gt;
-
-&lt;/li&gt;&lt;/ol&gt;
-</description>
-        <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
-        <link>https://www.bnlawrence.net//computing/2017/12/exascale/</link>
-        <guid isPermaLink="true">https://www.bnlawrence.net//computing/2017/12/exascale/</guid>
-        
-        <category>exascale</category>
-        
-        <category>isenes</category>
-        
-        <category>esiwace</category>
+      <author>
+          <name>Bryan Lawrence</name>
         
         
-        <category>computing</category>
-        
-      </item>
-    
-      <item>
-        <title>Dr Matt Jones</title>
-        <description>&lt;p&gt;A good day for any academic - when one of her or his students passes their viva (oral examination) for their doctorate.&lt;/p&gt;
+      </author>
 
-&lt;p&gt;Today, Matt Jones defended his thesis: &lt;em&gt;Parallel Data Analysis for Atmospheric Science&lt;/em&gt;. Congrats Matt!&lt;/p&gt;
+      
 
-&lt;h2 id=&quot;matts-abstract&quot;&gt;Matt’s Abstract&lt;/h2&gt;
+      
+        <category term="exascale" />
+      
+        <category term="isenes" />
+      
+        <category term="esiwace" />
+      
 
-&lt;p&gt;Data sizes are growing in atmospheric science, as climate models increase to higher resolutions
-to improve the representation of atmospheric phenomena, and larger numbers of ensemble
-members are used as to better capture the variability in the atmosphere. New methods
-need to be developed to handle the increasing size of data – traditional analysis scripts often
-inefficiently read and process data, leading to excessive analysis times. Research into large
-data analysis often focuses on providing solutions in the form of software, or hardware, rather
-than providing quantitative results on what factors can reduce performance in an application.
-This thesis quantitatively investigates these factors in the software-hardware stack, in order
-to make decisions of how to handle the large data sizes during application development and
-data management. This is done in the context of an atmospheric science workflow in a high performance
-computing environment.&lt;/p&gt;
+      
 
-&lt;p&gt;A major bottleneck in analysis in atmospheric science is reading data. Two of the primary
-factors which are commonly known to affect the read rate are the read pattern, and the read
-size. These factors are found in this work to reduce the read rate by up to 10-50 times for poor
-combinations. Other factors which could affect the read rate for atmospheric analysis include:
-the programming language, the libraries used, and the file layout.&lt;/p&gt;
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Dr Matt Jones</title>
+      <link href="https://www.bnlawrence.net//academic/2017/11/congrats2matt/" rel="alternate" type="text/html" title="Dr Matt Jones" />
+      <published>2017-11-28T00:00:00+00:00</published>
+      <updated>2017-11-28T00:00:00+00:00</updated>
+      <id>https://www.bnlawrence.net//academic/2017/11/congrats2matt</id>
+      <content type="html" xml:base="https://www.bnlawrence.net//academic/2017/11/congrats2matt/">&lt;p&gt;A good day for any academic - when one of her or his students passes their viva (oral examination) for their doctorate.&lt;/p&gt;</content>
 
-&lt;p&gt;NetCDF4 is one of the most commonly used data formats in atmospheric science, and the
-Python library netCDF4-python is one of the main interfaces used. As part of the NetCDF4
-file format, there are options for chunking (multidimensional tiling), and inbuilt compression,
-which can be used to improve read and write performance from the files. It was found that
-at peak performance the netCDF4-python library performs 40% worse than the underlying C
-NetCDF4 library. With respect to chunking and compression, poor combinations of chunking,
-and inbuilt compression, were found to reduce the performance by over 100 times.&lt;/p&gt;
+      
+      
+      
+      
+      
 
-&lt;p&gt;One solution to reduced performance, or a way to reduce analysis times on large datasets,
-is to run applications in parallel. It is important to understand how, on a particular platform,
-application relevant parallel reads will scale in order design an efficient application. The parallel
-scaling of the JASMIN super-data cluster was analysed. The investigation methodology,
-and conclusions from the investigation can be applied to other platforms.
-A case study was used to apply the results from this work in a real atmospheric science
-workflow – a space-time spectral analysis technique. It confirmed that these results do indeed
-apply to real workflows.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 28 Nov 2017 00:00:00 +0000</pubDate>
-        <link>https://www.bnlawrence.net//academic/2017/11/congrats2matt/</link>
-        <guid isPermaLink="true">https://www.bnlawrence.net//academic/2017/11/congrats2matt/</guid>
-        
-        <category>teaching</category>
-        
-        <category>hpc_io</category>
+      <author>
+          <name>Bryan Lawrence</name>
         
         
-        <category>academic</category>
-        
-      </item>
-    
-      <item>
-        <title>European Big Data Value Forum</title>
-        <description>&lt;h2 id=&quot;the-data-deluge-in-high-resolution-climate-and-weather-simulation&quot;&gt;The Data Deluge in High Resolution Climate and Weather Simulation&lt;/h2&gt;
+      </author>
 
-&lt;p&gt;Presentation: &lt;a href=&quot;https://www.bnlawrence.net//assets/talks/171122_HPC_Bigdata_Joussaume_VF.pdf&quot;&gt;pdf&lt;/a&gt; (5 MB).&lt;/p&gt;
+      
 
-&lt;p&gt;This talk was given by Sylvie Joussaume, but we had worked on it together, so I think it’s fair enough to include here. We wanted to show the scale of the data problems we have in climate science, and some of the direction in which we are moving with respect to “big data” technologies and algorithms.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 22 Nov 2017 00:00:00 +0000</pubDate>
-        <link>https://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/</link>
-        <guid isPermaLink="true">https://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/</guid>
+      
+        <category term="teaching" />
+      
+        <category term="hpc_io" />
+      
+
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">European Big Data Value Forum</title>
+      <link href="https://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/" rel="alternate" type="text/html" title="European Big Data Value Forum" />
+      <published>2017-11-22T00:00:00+00:00</published>
+      <updated>2017-11-22T00:00:00+00:00</updated>
+      <id>https://www.bnlawrence.net//talks/2017/11/HPC_Bigdata</id>
+      <content type="html" xml:base="https://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/">&lt;h2 id=&quot;the-data-deluge-in-high-resolution-climate-and-weather-simulation&quot;&gt;The Data Deluge in High Resolution Climate and Weather Simulation&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
         
         
-        <category>talks</category>
-        
-      </item>
-    
-      <item>
-        <title>Science and the Digital Revolution - Data, Standards, and Integration</title>
-        <description>&lt;p&gt;I was asked to give a talk at this &lt;a href=&quot;http://www.codata.org/&quot;&gt;CODATA&lt;/a&gt; meeting which was aimed at developing a roadmap for:&lt;/p&gt;
+      </author>
+
+      
+
+      
+
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Science and the Digital Revolution - Data, Standards, and Integration</title>
+      <link href="https://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/" rel="alternate" type="text/html" title="Science and the Digital Revolution - Data, Standards, and Integration" />
+      <published>2017-11-15T00:00:00+00:00</published>
+      <updated>2017-11-15T00:00:00+00:00</updated>
+      <id>https://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution</id>
+      <content type="html" xml:base="https://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/">&lt;p&gt;I was asked to give a talk at this &lt;a href=&quot;http://www.codata.org/&quot;&gt;CODATA&lt;/a&gt; meeting which was aimed at developing a roadmap for:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Mobilising community support and advice for discipline-based initiatives to develop online data capacities and services;&lt;/li&gt;
@@ -190,187 +142,219 @@ apply to real workflows.&lt;/p&gt;
   &lt;li&gt;Issues of international data governance.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Details of my talk are &lt;a href=&quot;/talks/2017/11/data_interop_lawrence/&quot;&gt;here&lt;/a&gt;.
-&lt;!-- More --&gt;
-There were some other interesting talks, some of which resonated particularly with me, including&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dataone.org/organization/executive-team/william-bill-michener&quot;&gt;Bill Michener&lt;/a&gt; talking about Dataone, and the importance of governance activities where all lines of responsibility are clear: no committees or panels whose remit is unclear or whose reporting lines are non-existent.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.southampton.ac.uk/chemistry/about/staff/jgf.page&quot;&gt;Jeremy Fry&lt;/a&gt; talking about digital infrastructure in support of (physical) chemistry, who had some thought provoking comments on creativity, “engrooved” bad habits (harking back to a talk by Paul Trowler, which I have yet to get a copy of) and the potential role of AI in scientific discovery:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt; Also, human creativity seems to depend increasingly on the stochasticity of previous experiences - particular life events that allow a researcher to notice something others do not. Although chance has always been a factor in scientific discovery, it is currently playing a much larger role than it should. *([The Atlantic, April 2017](https://www.theatlantic.com/science/archive/2017/04/can-scientific-discovery-be-automated/524136/))*.
-* [Robert Hanisch](https://www.nist.gov/people/robert-hanisch)  talking about experience of the IAU in developing technical infrastructure, and in particular the governance of technical components for the International Virtual Observatory Alliance. The  [IVOA](http://www.ivoa.net/) attempts to follows the W3C governance model:
-    * Data access protocols require two independent implementations.
-    * Notes are promoted to Working Drafts, which become Proposed Recommendations, which get endorsed to become Recommendations, which eventually become standards &amp;#151; although the did note that the formal endorsement step wasn't (yet?) in practice.
-&lt;/blockquote&gt;
+&lt;p&gt;Details of my talk are &lt;a href=&quot;/talks/2017/11/data_interop_lawrence/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
 
-&lt;p&gt;All communities reported difficulties in funding infrastructure at the sorts of levels necessary, and little or no investment in usability … funders like prototypes … but not boring maintenance and improvement … which means that sometimes scientific take-up falls far below what was envisaged.&lt;/p&gt;
+      
+      
+      
+      
+      
 
-&lt;p&gt;Unfortunately I was not able to go to days one and three of this three day meeting.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
-        <link>https://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/</link>
-        <guid isPermaLink="true">https://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/</guid>
-        
-        <category>data</category>
-        
-        <category>cmip</category>
-        
-        <category>esgf</category>
+      <author>
+          <name>Bryan Lawrence</name>
         
         
-        <category>computing</category>
-        
-      </item>
-    
-      <item>
-        <title>Science and the Digital Revolution -  Data, Standards, and Integration</title>
-        <description>&lt;h2 id=&quot;data-interoperability-and-integration-a-climate-modelling-perspective&quot;&gt;Data Interoperability and Integration: A climate modelling perspective&lt;/h2&gt;
+      </author>
 
-&lt;p&gt;Presentation: &lt;a href=&quot;https://www.bnlawrence.net//assets/talks/2017-11-14-171104_data_interop_lawrence.pdf&quot;&gt;pdf&lt;/a&gt; (11.5 MB).&lt;/p&gt;
+      
 
-&lt;p&gt;I was asked to give a talk at a &lt;a href=&quot;http://www.codata.org/&quot;&gt;CODATA&lt;/a&gt; meeting which was aimed at developing a roadmap for:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Mobilising community support and advice for discipline-based initiatives to develop online data capacities and services;&lt;/li&gt;
-  &lt;li&gt;Priorities for work on interdisciplinary data integration and flagship projects;&lt;/li&gt;
-  &lt;li&gt;Approaches to funding and coordination; and&lt;/li&gt;
-  &lt;li&gt;Issues of international data governance.&lt;/li&gt;
-&lt;/ol&gt;
+      
+        <category term="data" />
+      
+        <category term="cmip" />
+      
+        <category term="esgf" />
+      
 
-&lt;p&gt;For this talk I was asked to address an example from the WMO research community on what we have accomplished in standardising a range of things, and reflecting on what has worked/failed and why.  I wasn’t given much time to prepare, so this is what they got!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
-        <link>https://www.bnlawrence.net//talks/2017/11/data_interop_lawrence/</link>
-        <guid isPermaLink="true">https://www.bnlawrence.net//talks/2017/11/data_interop_lawrence/</guid>
-        
-        
-        <category>talks</category>
-        
-      </item>
-    
-      <item>
-        <title>Gung Ho Network Meeting</title>
-        <description>&lt;h2 id=&quot;performance-portability-productivity-which-two-do-you-want&quot;&gt;Performance, Portability, Productivity: Which two do you want?&lt;/h2&gt;
+      
 
-&lt;p&gt;Presentation: &lt;a href=&quot;https://www.bnlawrence.net//assets/talks/2017-07-18-ppp4_gungho.pdf&quot;&gt;pdf&lt;/a&gt; (4 MB).&lt;/p&gt;
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Science and the Digital Revolution - Data, Standards, and Integration</title>
+      <link href="https://www.bnlawrence.net//talks/2017/11/data_interop_lawrence/" rel="alternate" type="text/html" title="Science and the Digital Revolution -  Data, Standards, and Integration" />
+      <published>2017-11-14T00:00:00+00:00</published>
+      <updated>2017-11-14T00:00:00+00:00</updated>
+      <id>https://www.bnlawrence.net//talks/2017/11/data_interop_lawrence</id>
+      <content type="html" xml:base="https://www.bnlawrence.net//talks/2017/11/data_interop_lawrence/">&lt;h2 id=&quot;data-interoperability-and-integration-a-climate-modelling-perspective&quot;&gt;Data Interoperability and Integration: A climate modelling perspective&lt;/h2&gt;</content>
 
-&lt;p&gt;I talked about two papers that I’ve recently been involved with: “CPMIP: measurement of real computational performance of Earth System Models in CMIP6” (which appeared in early 2017) and “Crossing the Chasm: How to develop weather
-and climate models for next generation computers?” which at the time was just about to be submitted to GMD.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 18 Jul 2017 00:00:00 +0100</pubDate>
-        <link>https://www.bnlawrence.net//talks/2017/07/ppp4_gungho/</link>
-        <guid isPermaLink="true">https://www.bnlawrence.net//talks/2017/07/ppp4_gungho/</guid>
-        
-        
-        <category>talks</category>
-        
-      </item>
-    
-      <item>
-        <title>International Supercomputing (ISC) and JASMIN User Conferences</title>
-        <description>&lt;p&gt;I gave two versions of this talk, one at at the International Supercomputing Conference’s Workshop on HPC I/O in the data centre, and one at the 2017 JASMIN User’s Conference.&lt;/p&gt;
+      
+      
+      
+      
+      
 
-&lt;p&gt;The talk covered the structure and usage of JASMIN, showing there is a lot of data movement both in the batch system and the interactive environment.  One key observation was that we cannot afford to carry on with parallel disk, and we don’t think tape alone is a solution, so we are investigating object stores, and
-object store interfaces.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-uk-jasmin-environmental-commons&quot;&gt;The UK JASMIN Environmental Commons&lt;/h2&gt;
-
-&lt;p&gt;Presentation: &lt;a href=&quot;https://www.bnlawrence.net//assets/talks/2017-06-22-lawrence_isc_io.pdf&quot;&gt;pdf&lt;/a&gt; (12 MB - the ISC version).&lt;/p&gt;
-
-&lt;h2 id=&quot;the-uk-jasmin-environmental-commons-now-and-into-the-future&quot;&gt;The UK JASMIN Environmental Commons: Now and into the Future&lt;/h2&gt;
-
-&lt;p&gt;Presentation: &lt;a href=&quot;https://www.bnlawrence.net//assets/talks/2017-06-27-lawrence_jasmin.pdf&quot;&gt;pdf&lt;/a&gt; (12 MB - the JASMIN user conference version).&lt;/p&gt;
-</description>
-        <pubDate>Tue, 27 Jun 2017 00:00:00 +0100</pubDate>
-        <link>https://www.bnlawrence.net//talks/2017/06/lawrence_jasmin/</link>
-        <guid isPermaLink="true">https://www.bnlawrence.net//talks/2017/06/lawrence_jasmin/</guid>
+      <author>
+          <name>Bryan Lawrence</name>
         
         
-        <category>talks</category>
-        
-      </item>
-    
-      <item>
-        <title>Week Eight</title>
-        <description>&lt;p&gt;Spent nearly the entire week (and certainly more than a “European maximum 48-hours”) on things to do with ESIWACE (on the deliverable  I mentioned last time, reporting for the EC, etc). I did have a fair chunk of one day on other things as also chaired a meeting of the advisory panel for our climate predictions for the copernicus climate data store project  (CP4CDS, a project about deploying and maintaining sofware for a special ESGF data node to support climate services) - that took up the best part of day. However, that’s pretty much it for the week. Hard to believe we’re two months into the year - and I still haven’t come up for air and managed to create any significant blogging time.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-        <link>https://www.bnlawrence.net//diary/2017/02/week_eight/</link>
-        <guid isPermaLink="true">https://www.bnlawrence.net//diary/2017/02/week_eight/</guid>
-        
-        
-        <category>diary</category>
-        
-      </item>
-    
-      <item>
-        <title>Weeks Six and Seven</title>
-        <description>&lt;p&gt;Two weeks to report this time, primarily because I had a day off on sick leave, and two days on real leave, so there’s only seven weekday workdays to talk about (although
-I have just spent bit chunks of both yesterday and today, that is, sat and sun, on work as well).&lt;/p&gt;
+      </author>
 
-&lt;p&gt;Early on the main thing I was doing was trying to catch up on the ever
-increasing email mountain, but  in week six, by the time I took out a day in
-London for a NERC Information Strategy Group meeting (mostly about the future of
-NERC data centres), a half day on technical futures for CEDA, another half day
-on my final CEDA monthly meeting and a follow up meeting on CEDA support for
-&lt;a href=&quot;http://www.sparc-climate.org/&quot;&gt;SPARC&lt;/a&gt;, and a day off on sick leave, that only
-left a few hours here and there to get much done. The net effect of course was
-that the email mountain grew.&lt;/p&gt;
+      
 
-&lt;p&gt;To be fair, it wasn’t so much that the email mountain grew, but the Nozbe task
-list grew. I did manage to process a lot of email, but quite a lot of things
-got thrown onto the pile for “later”.&lt;/p&gt;
+      
 
-&lt;p&gt;Then this last week (week seven), we had a few days on holiday down Dorset/Devon way.
-Just the couple of nights, but real recharge territory. However, back to work
-on Wednesday, and back to London - this time for an NCAS Science Strategy
-Board meeting, so only two real work days available.&lt;/p&gt;
+      
 
-&lt;p&gt;So, in the work time, I did a wee bit of work on the ENES infrastructure foresight that I’ve talked about before, and quite a lot of work on the first deliverable we’ve
-got for &lt;a href=&quot;http://www.esiwace.eu&quot;&gt;ESIWACE&lt;/a&gt;: which is on requirements and business
-modelling for (weather and climate) data centres.  Given the constraints on my
-time during the week, it’s been a big effort on that this weekend too.  I suspect
-quite a few things from that will turn up on my blog …&lt;/p&gt;
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Gung Ho Network Meeting</title>
+      <link href="https://www.bnlawrence.net//talks/2017/07/ppp4_gungho/" rel="alternate" type="text/html" title="Gung Ho Network Meeting" />
+      <published>2017-07-18T00:00:00+01:00</published>
+      <updated>2017-07-18T00:00:00+01:00</updated>
+      <id>https://www.bnlawrence.net//talks/2017/07/ppp4_gungho</id>
+      <content type="html" xml:base="https://www.bnlawrence.net//talks/2017/07/ppp4_gungho/">&lt;h2 id=&quot;performance-portability-productivity-which-two-do-you-want&quot;&gt;Performance, Portability, Productivity: Which two do you want?&lt;/h2&gt;</content>
 
-&lt;p&gt;… but anyway, that’s the weeks that were.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-        <link>https://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven/</link>
-        <guid isPermaLink="true">https://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven/</guid>
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
         
         
-        <category>diary</category>
+      </author>
+
+      
+
+      
+
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">International Supercomputing (ISC) and JASMIN User Conferences</title>
+      <link href="https://www.bnlawrence.net//talks/2017/06/lawrence_jasmin/" rel="alternate" type="text/html" title="International Supercomputing (ISC) and JASMIN User Conferences" />
+      <published>2017-06-27T00:00:00+01:00</published>
+      <updated>2017-06-27T00:00:00+01:00</updated>
+      <id>https://www.bnlawrence.net//talks/2017/06/lawrence_jasmin</id>
+      <content type="html" xml:base="https://www.bnlawrence.net//talks/2017/06/lawrence_jasmin/">&lt;p&gt;I gave two versions of this talk, one at at the International Supercomputing Conference’s Workshop on HPC I/O in the data centre, and one at the 2017 JASMIN User’s Conference.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
         
-      </item>
-    
-      <item>
-        <title>Space and Open Plan Offices</title>
-        <description>&lt;p&gt;I was paying a bit more attention to twitter this morning than usual (I’m hoping I’ll  get some feedback on my analysis of citations that I posted yesterday). One thing that blew by was this headline &lt;a href=&quot;https://www.washingtonpost.com/posteverything/wp/2014/12/30/google-got-it-wrong-the-open-office-trend-is-destroying-the-workplace/?tid=ss_tw&amp;amp;utm_term=.e08d2e093c59&quot;&gt;the Washington Post&lt;/a&gt;:&lt;/p&gt;
+        
+      </author>
+
+      
+
+      
+
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Week Eight</title>
+      <link href="https://www.bnlawrence.net//diary/2017/02/week_eight/" rel="alternate" type="text/html" title="Week Eight" />
+      <published>2017-02-27T00:00:00+00:00</published>
+      <updated>2017-02-27T00:00:00+00:00</updated>
+      <id>https://www.bnlawrence.net//diary/2017/02/week_eight</id>
+      <content type="html" xml:base="https://www.bnlawrence.net//diary/2017/02/week_eight/">&lt;p&gt;Spent nearly the entire week (and certainly more than a “European maximum 48-hours”) on things to do with ESIWACE (on the deliverable  I mentioned last time, reporting for the EC, etc). I did have a fair chunk of one day on other things as also chaired a meeting of the advisory panel for our climate predictions for the copernicus climate data store project  (CP4CDS, a project about deploying and maintaining sofware for a special ESGF data node to support climate services) - that took up the best part of day. However, that’s pretty much it for the week. Hard to believe we’re two months into the year - and I still haven’t come up for air and managed to create any significant blogging time.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Weeks Six and Seven</title>
+      <link href="https://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven/" rel="alternate" type="text/html" title="Weeks Six and Seven" />
+      <published>2017-02-19T00:00:00+00:00</published>
+      <updated>2017-02-19T00:00:00+00:00</updated>
+      <id>https://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven</id>
+      <content type="html" xml:base="https://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven/">&lt;p&gt;Two weeks to report this time, primarily because I had a day off on sick leave, and two days on real leave, so there’s only seven weekday workdays to talk about (although
+I have just spent bit chunks of both yesterday and today, that is, sat and sun, on work as well).&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Space and Open Plan Offices</title>
+      <link href="https://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices/" rel="alternate" type="text/html" title="Space and Open Plan Offices" />
+      <published>2017-02-06T00:00:00+00:00</published>
+      <updated>2017-02-06T00:00:00+00:00</updated>
+      <id>https://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices</id>
+      <content type="html" xml:base="https://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices/">&lt;p&gt;I was paying a bit more attention to twitter this morning than usual (I’m hoping I’ll  get some feedback on my analysis of citations that I posted yesterday). One thing that blew by was this headline &lt;a href=&quot;https://www.washingtonpost.com/posteverything/wp/2014/12/30/google-got-it-wrong-the-open-office-trend-is-destroying-the-workplace/?tid=ss_tw&amp;amp;utm_term=.e08d2e093c59&quot;&gt;the Washington Post&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;&quot;Google got it wrong. The open-office trend is destroying the workplace.&quot;
-&lt;/blockquote&gt;
+&lt;/blockquote&gt;</content>
 
-&lt;p&gt;which took me back to &lt;a href=&quot;/management/2005/03/peopleware/&quot;&gt;something that I wrote in 2005&lt;/a&gt;, reporting on work done long before.&lt;/p&gt;
+      
+      
+      
+      
+      
 
-&lt;p&gt;It seems that Google was ignoring history as well. Unlike them.&lt;/p&gt;
-
-&lt;p&gt;There’s been lots more work done since the work I cited in that blog post, &lt;a href=&quot;https://www.dezeen.com/2016/09/15/open-plan-offices-co-working-less-productive-more-unfriendly-survey-auckland-university-technology/&quot;&gt;for example&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;Workers in open-plan offices are more distracted, unfriendly and uncollaborative than those in traditional workplaces, according to the latest industry survey.
-&lt;/blockquote&gt;
-&lt;blockquote&gt;Employees who have to share their office with more than two people experience high levels of colleague distrust and form fewer co-worker friendships than those working in single-occupancy offices ...
-&lt;/blockquote&gt;
-
-&lt;p&gt;or &lt;a href=&quot;https://digest.bps.org.uk/2013/08/19/the-supposed-benefits-of-open-plan-offices-do-not-outweigh-the-costs/&quot;&gt;this&lt;/a&gt; reporting &lt;a href=&quot;http://dx.doi.org/10.1016/j.jenvp.2013.06.007&quot;&gt;published research&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;&quot;...the open-plan proponents' argument that open-plan improves morale and productivity appears to have no basis in the research literature.&quot;&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
-        <link>https://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices/</link>
-        <guid isPermaLink="true">https://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices/</guid>
-        
-        <category>management</category>
+      <author>
+          <name>Bryan Lawrence</name>
         
         
-        <category>management</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+      </author>
+
+      
+
+      
+        <category term="management" />
+      
+
+      
+
+      
+      
+    </entry>
+  
+</feed>

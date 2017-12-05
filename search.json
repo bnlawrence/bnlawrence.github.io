@@ -7,7 +7,7 @@
       "tag"       : "exascale, isenes, esiwace",
       "category"  : "computing",
       "date"      : "2017-12-05",
-      "excerpt"		: "It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - much of which came for free as chips got faster. However, now they’re not so much getting faster as we will get more processors and more processor types, and we have to be smarter about how we programme for them (Lawrence et al., n.d.). This is a problem for all of science!"
+      "excerpt"		: "It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - much of which came for free as chips got faster. However, now they’re not so much getting faster as we will get more processors and more processor types, and we have to be smarter about how we programme for them (Lawrence et al., n.d.). This is a problem for all of science!The US, Japan and China have been working on the problem for a while, and Europe is rapidly trying to catch up, but the “exascale problem” is all but invisible in the UK. While it’s obviously unfeasible for the UK to build an exascale computer on their own in the current economic and political climate, it’s absolutely the case that UK science and industry will have to work out how to use exascale computing, not least because the tools and techniques will percolate down eventually. However, even before the percolation, UK will have to exploit exascale computing to remain competitive, so what will that entail for us?"
     }
   
 
@@ -798,6 +798,17 @@
 
   
     ,{
+      "title"			: "The Evolution of this Blog",
+      "url"			: "/construction/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
       "title"			: "Short CV",
       "url"			: "/cv/",
       "tag"       : "",
@@ -818,8 +829,6 @@
       "date" : "",
       "excerpt"		: ""
     }
-  
-
   
 
   
