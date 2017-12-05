@@ -6,9 +6,105 @@
 </description>
     <link>https://www.bnlawrence.net//</link>
     <atom:link href="https://www.bnlawrence.net//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Dec 2017 08:54:47 +0000</pubDate>
-    <lastBuildDate>Sun, 03 Dec 2017 08:54:47 +0000</lastBuildDate>
+    <pubDate>Tue, 05 Dec 2017 14:46:29 +0000</pubDate>
+    <lastBuildDate>Tue, 05 Dec 2017 14:46:29 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>The Exascale Challenge to the UK - Part One</title>
+        <description>&lt;p&gt;It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - much of which came for free as chips got faster. However, now they’re not so much getting faster as we will get more processors and more processor types, and we have to be smarter about how we programme for them &lt;a href=&quot;#LawChasm17&quot;&gt;(Lawrence et al., n.d.)&lt;/a&gt;. This is a problem for all of science!&lt;/p&gt;
+
+&lt;p&gt;The US, Japan and China have been working on the problem for a while, and Europe is rapidly trying to catch up, but the “exascale problem” is all but invisible in the UK. While it’s obviously unfeasible for the UK to build an exascale computer on their own in the current economic and political climate, it’s absolutely the case that UK science and industry will have to work out how to &lt;em&gt;use&lt;/em&gt; exascale computing, not least because the tools and techniques will percolate down eventually. However, even before the percolation, UK will have to &lt;em&gt;exploit&lt;/em&gt; exascale computing to remain competitive, so what will that entail for us?&lt;/p&gt;
+
+&lt;h4 id=&quot;the-challenges&quot;&gt;The Challenges&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;#ASAC2014&quot;&gt;(ASCAC Subcommittee, 2014)&lt;/a&gt; list ten challenges, which I’ve reordered and categorised according to my personal bias into “industry”, “computer science”, and “interdisciplinary”, where the latter is meant to indicate that I think these are challenges for computer science, mathematics, and discipline specific practitioners!&lt;/p&gt;
+
+&lt;p&gt;The industry challenges are:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Energy efficiency&lt;/strong&gt;: Creating more energy-efficient circuit, power, and cooling technologies.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Industry Interconnect technology&lt;/strong&gt;: Increasing the performance and energy efficiency of data movement.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Memory Technology&lt;/strong&gt;: Integrating advanced memory technologies to improve both capacity
+and bandwidth.&lt;/p&gt;
+
+    &lt;p&gt;Arguably those are things that industry will address, with or without government funding, and it probably wont be UK industry, although once we were players … The computer science challenges are:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Scalable System Software:&lt;/strong&gt; Developing scalable system software that is power- and resilience- aware.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Resilience and correctness:&lt;/strong&gt; Ensuring correct scientific computation in face of faults, reproducibility, and algorithm verification challenges._&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Programming systems:&lt;/strong&gt; Inventing new programming environments that express massive parallelism, data locality, and resilience_&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Scientific productivity:&lt;/strong&gt; Increasing the productivity of computational scientists with new software engineering tools and environments.&lt;/p&gt;
+
+    &lt;p&gt;Those are still areas where the UK can and could make a difference, not only scientifically, but in terms of creating opportunities for our own industry. The interdisciplinary challenges are:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Data management:&lt;/strong&gt; Creating data management software that can handle the volume, velocity and diversity of data that is anticipated.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Exascale Algorithms:&lt;/strong&gt; Reformulating science problems and redesigning, or reinventing, their solution algorithms for exascale systems.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Algorithms for discovery, design, and decision:&lt;/strong&gt; Facilitating mathematical optimization and uncertainty quantification for exascale discovery, design, and decision making.&lt;/p&gt;
+
+    &lt;p&gt;These are all areas where mathematics, computer science, and discipline skills come into play. However, somewhat surprisingly, that list doesn’t include one more important challenge:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Data Volumes!&lt;/strong&gt; It’s clear (e.g. &lt;a href=&quot;/talks/2017/11/HPC_Bigdata/&quot;&gt;our talk&lt;/a&gt; that using exabytes of data are likely to be a problem for our community before we get to exaflop computing.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;why-is-data-a-problem&quot;&gt;Why is data a problem?&lt;/h4&gt;
+
+&lt;p&gt;Haven’t the big cloud providers and social media giants got this sussed (Google was&lt;a href=&quot;https://what-if.xkcd.com/63/&quot;&gt;reputed to&lt;/a&gt; have exabytes of data years ago, Facebook had an analysis cluster with &lt;a href=&quot;https://code.facebook.com/posts/229861827208629/scaling-the-facebook-data-warehouse-to-300-pb/&quot;&gt;300 PB three years ago&lt;/a&gt; …)  Well yes, they have got volumes stored sussed, but it’s not obvious they have throughput sussed. LOTUS, our JASMIN batch cluster is currently reading up to 2 PB of data a day into analysis workflows, and we’re just one climate site. More importantly, that’s petabytes of 10.5194/gmd-2017-186POSIX file system data a day … we don’t yet have suitable software for our analysis environments for anything else … at scale!&lt;/p&gt;
+
+&lt;p&gt;Some of these issues with data at exascale have been covered in
+&lt;a href=&quot;#AciEA15&quot;&gt;(Acı́n V. et al., 2015)&lt;/a&gt;, who cover some of the many challenges ahead. Some of those key challenges include:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Time to build systems:&lt;/strong&gt; “&lt;em&gt;Although computing and data processing technology is known for its fast growth, assembling these technologies into large-scale, reliable and performant systems often takes about a decade.&lt;/em&gt;”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Metadata scale issues:&lt;/strong&gt; “&lt;em&gt;The overall increase in scale. The increase in number of objects will affect data and metadata equally, which will need Exascale support. The increase in data volume indicates that when raw data approaches the Zettabyte scale, the metadata handling system will approach the Petabyte scale&lt;/em&gt;”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Metadata attribution issues:&lt;/strong&gt; “&lt;em&gt;File systems offer virtually no practical support for associating user-specified metadata to data objects, essentially limited to specifying file names. Maintaining (file based) schemes is labour intensive, and would become even more so if support was included for data provenance and preservation.&lt;/em&gt;”&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Variability in the workflow:&lt;/strong&gt; “&lt;em&gt;The challenge is often compounded by the fact that the exact manner in which the data will need to be analysed is not known a priori, hence techniques often used in commercial computing, such as pre-calculation, precise data placement or massive data caching are difficult or impossible to implement&lt;/em&gt;”.&lt;/p&gt;
+
+    &lt;p&gt;They also note the following, in the context of networks, but I think it also applies to data:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Getting things from research to production:&lt;/strong&gt; “&lt;em&gt;a widening gap between the possibilities … and the capabilities that are actually deployed in production applications.&lt;/em&gt;”
+ Much effort globally is being deployed on distributed data solutions but:&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;User Management is Problematic:&lt;/strong&gt; “&lt;em&gt;Current solutions for managing users and their data access roles are, however, very far from being satisfactory. Present systems involve a lot of manual intervention by many parties, and therefore are rather error prone and cumbersome. Furthermore, they are poorly (or not at all) integrated with low level data processing services and between different sites&lt;/em&gt;”.&lt;/p&gt;
+
+    &lt;p&gt;They don’t go into in any detail, but I would also add in terms of data fabric:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;POSIX &lt;a href=&quot;https://www.nextplatform.com/2017/09/11/whats-bad-posix-io/&quot;&gt;doesn’t scale&lt;/a&gt;&lt;/strong&gt;, at least with thousands of processes trying to open the same file . However, object stores are not the panacea either, at least not for latency constrained writing. We’re going to see tiered storage for sure, potentially with all of burst buffers, object stores, and tape. The good news is that at least we as a community are rather used to some of the ideas needed to manage our data on tape efficiently (e.g. &lt;a href=&quot;#SmarEA17&quot;&gt;(Smart, Quintino, &amp;amp; Raoult, 2017)&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Confusion over need&lt;/strong&gt;: Repositories are not active storage systems - many of the putative solutions in this space, from academia at least, are addressing where to put cold data, not where to put high-volume data that needs to be part of ongoing active workflows for up to years at a time. Both matter.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Costs Matter&lt;/strong&gt;: There is not a good understanding in the user community as to the true cost of storage, when they should re-compute, and where they should be putting their data (in terms of hot/warm/cold storage tiers).  This is in part because there is confusion by providers over these issues too (see the previous point).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;bibliography-for-this-post&quot;&gt;Bibliography for this post&lt;/h4&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;SmarEA17&quot;&gt;Smart, S. D., Quintino, T., &amp;amp; Raoult, B. (2017). A Scalable Object Store for Meteorological and Climate Data (pp. 1–8). ACM Press. https://doi.org/10.1145/3093172.3093238&lt;/span&gt;
+
+&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;AciEA15&quot;&gt;Acı́n V., Bird, I., Boccali, T., Cancio, G., Collier, I. P., Corney, D., … Shiers, J. (2015). Architectures and Methodologies for Future Deployment of Multi-Site Zettabyte-Exascale Data Handling Platforms. &lt;i&gt;Journal of Physics: Conference Series&lt;/i&gt;, &lt;i&gt;664&lt;/i&gt;(4), 042009. https://doi.org/10.1088/1742-6596/664/4/042009&lt;/span&gt;
+
+&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;ASAC2014&quot;&gt;ASCAC Subcommittee. (2014). &lt;i&gt;Top Ten Exascale Research Challenges&lt;/i&gt;.&lt;/span&gt;
+
+&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;LawChasm17&quot;&gt;&lt;span class=&quot;author&quot;&gt;Lawrence&lt;/span&gt;, B. N., Mike Rezny, Reinhard Budich, Peter Bauer, Jörg Behrens, Mick Carter, … Simon Wilson. Crossing the Chasm: How to Develop Weather and Climate Models for next Generation Computers. &lt;i&gt;Geoscientific Model Development Discussions&lt;/i&gt;. https://doi.org/10.5194/gmd-2017-186&lt;/span&gt;
+
+&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+        <link>https://www.bnlawrence.net//computing/2017/12/exascale/</link>
+        <guid isPermaLink="true">https://www.bnlawrence.net//computing/2017/12/exascale/</guid>
+        
+        <category>exascale</category>
+        
+        <category>isenes</category>
+        
+        <category>esiwace</category>
+        
+        
+        <category>computing</category>
+        
+      </item>
     
       <item>
         <title>Dr Matt Jones</title>
@@ -114,6 +210,12 @@ There were some other interesting talks, some of which resonated particularly wi
         <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
         <link>https://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/</link>
         <guid isPermaLink="true">https://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/</guid>
+        
+        <category>data</category>
+        
+        <category>cmip</category>
+        
+        <category>esgf</category>
         
         
         <category>computing</category>
@@ -267,19 +369,6 @@ quite a few things from that will turn up on my blog …&lt;/p&gt;
         
         
         <category>management</category>
-        
-      </item>
-    
-      <item>
-        <title>Week Five</title>
-        <description>&lt;p&gt;Nothing exciting to report. I spent nearly the entire week processing email, interacting with my team (both directly and on slack), and producing short things (e.g. a management level one pager on why NCAS should continue to support the &lt;a href=&quot;http://cfconventions.org&quot;&gt;CF conventions&lt;/a&gt;, and how). However, I did spend a wee bit of time trying to reinforce some of my observations around why storage is becoming a much bigger deal in environmental science. More on that next …&lt;/p&gt;
-</description>
-        <pubDate>Sun, 05 Feb 2017 00:00:00 +0000</pubDate>
-        <link>https://www.bnlawrence.net//diary/2017/02/week_five/</link>
-        <guid isPermaLink="true">https://www.bnlawrence.net//diary/2017/02/week_five/</guid>
-        
-        
-        <category>diary</category>
         
       </item>
     

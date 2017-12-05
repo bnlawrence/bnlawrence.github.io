@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Exascale Challenge to the UK - Part One | Bryan Lawrence</title>
+  <meta name="description" content="It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - m...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://www.bnlawrence.net//computing/2017/12/exascale/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="https://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">The Exascale Challenge to the UK - Part One</h1>
+  <p class="post-meta">Posted on December 5, 2017
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/exascale/" rel="tag">exascale</a>, <a href="/tags/isenes/" rel="tag">isenes</a>, <a href="/tags/esiwace/" rel="tag">esiwace</a>).
+  
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - much of which came for free as chips got faster. However, now they’re not so much getting faster as we will get more processors and more processor types, and we have to be smarter about how we programme for them <a href="#LawChasm17">(Lawrence et al., n.d.)</a>. This is a problem for all of science!</p>
+
+<p>The US, Japan and China have been working on the problem for a while, and Europe is rapidly trying to catch up, but the “exascale problem” is all but invisible in the UK. While it’s obviously unfeasible for the UK to build an exascale computer on their own in the current economic and political climate, it’s absolutely the case that UK science and industry will have to work out how to <em>use</em> exascale computing, not least because the tools and techniques will percolate down eventually. However, even before the percolation, UK will have to <em>exploit</em> exascale computing to remain competitive, so what will that entail for us?</p>
+
+<h4 id="the-challenges">The Challenges</h4>
+
+<p><a href="#ASAC2014">(ASCAC Subcommittee, 2014)</a> list ten challenges, which I’ve reordered and categorised according to my personal bias into “industry”, “computer science”, and “interdisciplinary”, where the latter is meant to indicate that I think these are challenges for computer science, mathematics, and discipline specific practitioners!</p>
+
+<p>The industry challenges are:</p>
+<ol>
+  <li><strong>Energy efficiency</strong>: Creating more energy-efficient circuit, power, and cooling technologies.</li>
+  <li><strong>Industry Interconnect technology</strong>: Increasing the performance and energy efficiency of data movement.</li>
+  <li>
+    <p><strong>Memory Technology</strong>: Integrating advanced memory technologies to improve both capacity
+and bandwidth.</p>
+
+    <p>Arguably those are things that industry will address, with or without government funding, and it probably wont be UK industry, although once we were players … The computer science challenges are:</p>
+  </li>
+  <li><strong>Scalable System Software:</strong> Developing scalable system software that is power- and resilience- aware.</li>
+  <li><strong>Resilience and correctness:</strong> Ensuring correct scientific computation in face of faults, reproducibility, and algorithm verification challenges._</li>
+  <li><strong>Programming systems:</strong> Inventing new programming environments that express massive parallelism, data locality, and resilience_</li>
+  <li>
+    <p><strong>Scientific productivity:</strong> Increasing the productivity of computational scientists with new software engineering tools and environments.</p>
+
+    <p>Those are still areas where the UK can and could make a difference, not only scientifically, but in terms of creating opportunities for our own industry. The interdisciplinary challenges are:</p>
+  </li>
+  <li><strong>Data management:</strong> Creating data management software that can handle the volume, velocity and diversity of data that is anticipated.</li>
+  <li><strong>Exascale Algorithms:</strong> Reformulating science problems and redesigning, or reinventing, their solution algorithms for exascale systems.</li>
+  <li>
+    <p><strong>Algorithms for discovery, design, and decision:</strong> Facilitating mathematical optimization and uncertainty quantification for exascale discovery, design, and decision making.</p>
+
+    <p>These are all areas where mathematics, computer science, and discipline skills come into play. However, somewhat surprisingly, that list doesn’t include one more important challenge:</p>
+  </li>
+  <li><strong>Data Volumes!</strong> It’s clear (e.g. <a href="/talks/2017/11/HPC_Bigdata/">our talk</a> that using exabytes of data are likely to be a problem for our community before we get to exaflop computing.</li>
+</ol>
+
+<h4 id="why-is-data-a-problem">Why is data a problem?</h4>
+
+<p>Haven’t the big cloud providers and social media giants got this sussed (Google was<a href="https://what-if.xkcd.com/63/">reputed to</a> have exabytes of data years ago, Facebook had an analysis cluster with <a href="https://code.facebook.com/posts/229861827208629/scaling-the-facebook-data-warehouse-to-300-pb/">300 PB three years ago</a> …)  Well yes, they have got volumes stored sussed, but it’s not obvious they have throughput sussed. LOTUS, our JASMIN batch cluster is currently reading up to 2 PB of data a day into analysis workflows, and we’re just one climate site. More importantly, that’s petabytes of 10.5194/gmd-2017-186POSIX file system data a day … we don’t yet have suitable software for our analysis environments for anything else … at scale!</p>
+
+<p>Some of these issues with data at exascale have been covered in
+<a href="#AciEA15">(Acı́n V. et al., 2015)</a>, who cover some of the many challenges ahead. Some of those key challenges include:</p>
+
+<ol>
+  <li><strong>Time to build systems:</strong> “<em>Although computing and data processing technology is known for its fast growth, assembling these technologies into large-scale, reliable and performant systems often takes about a decade.</em>”</li>
+  <li><strong>Metadata scale issues:</strong> “<em>The overall increase in scale. The increase in number of objects will affect data and metadata equally, which will need Exascale support. The increase in data volume indicates that when raw data approaches the Zettabyte scale, the metadata handling system will approach the Petabyte scale</em>”</li>
+  <li><strong>Metadata attribution issues:</strong> “<em>File systems offer virtually no practical support for associating user-specified metadata to data objects, essentially limited to specifying file names. Maintaining (file based) schemes is labour intensive, and would become even more so if support was included for data provenance and preservation.</em>”</li>
+  <li>
+    <p><strong>Variability in the workflow:</strong> “<em>The challenge is often compounded by the fact that the exact manner in which the data will need to be analysed is not known a priori, hence techniques often used in commercial computing, such as pre-calculation, precise data placement or massive data caching are difficult or impossible to implement</em>”.</p>
+
+    <p>They also note the following, in the context of networks, but I think it also applies to data:</p>
+  </li>
+  <li><strong>Getting things from research to production:</strong> “<em>a widening gap between the possibilities … and the capabilities that are actually deployed in production applications.</em>”
+ Much effort globally is being deployed on distributed data solutions but:</li>
+  <li>
+    <p><strong>User Management is Problematic:</strong> “<em>Current solutions for managing users and their data access roles are, however, very far from being satisfactory. Present systems involve a lot of manual intervention by many parties, and therefore are rather error prone and cumbersome. Furthermore, they are poorly (or not at all) integrated with low level data processing services and between different sites</em>”.</p>
+
+    <p>They don’t go into in any detail, but I would also add in terms of data fabric:</p>
+  </li>
+  <li><strong>POSIX <a href="https://www.nextplatform.com/2017/09/11/whats-bad-posix-io/">doesn’t scale</a></strong>, at least with thousands of processes trying to open the same file . However, object stores are not the panacea either, at least not for latency constrained writing. We’re going to see tiered storage for sure, potentially with all of burst buffers, object stores, and tape. The good news is that at least we as a community are rather used to some of the ideas needed to manage our data on tape efficiently (e.g. <a href="#SmarEA17">(Smart, Quintino, &amp; Raoult, 2017)</a>).</li>
+  <li><strong>Confusion over need</strong>: Repositories are not active storage systems - many of the putative solutions in this space, from academia at least, are addressing where to put cold data, not where to put high-volume data that needs to be part of ongoing active workflows for up to years at a time. Both matter.</li>
+  <li><strong>Costs Matter</strong>: There is not a good understanding in the user community as to the true cost of storage, when they should re-compute, and where they should be putting their data (in terms of hot/warm/cold storage tiers).  This is in part because there is confusion by providers over these issues too (see the previous point).</li>
+</ol>
+
+<h4 id="bibliography-for-this-post">Bibliography for this post</h4>
+
+<ol class="bibliography"><li><span id="SmarEA17">Smart, S. D., Quintino, T., &amp; Raoult, B. (2017). A Scalable Object Store for Meteorological and Climate Data (pp. 1–8). ACM Press. https://doi.org/10.1145/3093172.3093238</span>
+
+</li>
+<li><span id="AciEA15">Acı́n V., Bird, I., Boccali, T., Cancio, G., Collier, I. P., Corney, D., … Shiers, J. (2015). Architectures and Methodologies for Future Deployment of Multi-Site Zettabyte-Exascale Data Handling Platforms. <i>Journal of Physics: Conference Series</i>, <i>664</i>(4), 042009. https://doi.org/10.1088/1742-6596/664/4/042009</span>
+
+</li>
+<li><span id="ASAC2014">ASCAC Subcommittee. (2014). <i>Top Ten Exascale Research Challenges</i>.</span>
+
+</li>
+<li><span id="LawChasm17"><span class="author">Lawrence</span>, B. N., Mike Rezny, Reinhard Budich, Peter Bauer, Jörg Behrens, Mick Carter, … Simon Wilson. Crossing the Chasm: How to Develop Weather and Climate Models for next Generation Computers. <i>Geoscientific Model Development Discussions</i>. https://doi.org/10.5194/gmd-2017-186</span>
+
+</li></ol>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->
