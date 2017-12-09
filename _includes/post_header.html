@@ -12,5 +12,10 @@
   {% if tagnum != 0 %}
   (tagged: {{ page | tags }}).
   {% endif %}
+  <br/>
+  {% if page.previous.url %} Previous Post: <a class="prev" href="{{page.previous.url}}">&laquo;{{page.previous.title}}&raquo;</a>
+  {% endif %}
+  {% if page.next.url %} Next Post <a class="next" href="{{page.next.url}}">&laquo;{{page.next.title}}&raquo;</a>
+  {% endif %}.
   </p>
 </header>

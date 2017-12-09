@@ -9,7 +9,7 @@ file: 2014-12-17-lawrence_leptoukh.pdf
 filetype: pdf
 categories: talks
 ---
-I was honoured to be the third recipient of the AGU [http://honors.agu.org/section-named-lecture/leptoukh-lecture-earth-and-space-science-informatics/ Leptoukh Lecture] awarded for significant contributions to informatics, computational, or data sciences.
+I was honoured to be the third recipient of the AGU [Leptoukh Lecture](http://honors.agu.org/section-named-lecture/leptoukh-lecture-earth-and-space-science-informatics/) awarded for significant contributions to informatics, computational, or data sciences.
 
  Trends in Computing for Climate Research
 ------------------------------------------

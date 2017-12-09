@@ -9,7 +9,7 @@ disclaimer: >
   (My daughter is learning Latin, unlike me, who never did!)
 baseurl: "" # the subpath of your site, e.g. /blog/
 include: ["_pages"]
-url: "https://www.bnlawrence.net/" # the base hostname & protocol for your site
+url: "http://www.bnlawrence.net/" # the base hostname & protocol for your site
 twitter_username: bnlawrence
 github_username:  bnlawrence
 bitbucket_username: bnlawrence
