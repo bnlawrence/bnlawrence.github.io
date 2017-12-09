@@ -147,7 +147,7 @@
     ,{
       "title"			: "Week Three",
       "url"			: "/diary/2017/01/week_three/",
-      "tag"       : "",
+      "tag"       : "meeting, isenes",
       "category"  : "diary",
       "date"      : "2017-01-23",
       "excerpt"		: "Quite a different week, for different reasons.Firstly, the work.  Up before the larks on Monday to take my daughter to school and then on by Eurostar to Paris. Monday through Wednesday this week was the final general assembly for the IS-ENES2 project: the second “Infrastructure (to support) the European Network for Earth System Modelling”."
@@ -365,6 +365,17 @@
 
   
     ,{
+      "title"			: "NERC ICT Current Awareness",
+      "url"			: "/talks/2014/10/Lawrence_JASMIN/",
+      "tag"       : "jasmin",
+      "category"  : "talks",
+      "date"      : "2014-10-07",
+      "excerpt"		: "JASMIN - A NERC Data Analysis Environment"
+    }
+  
+
+  
+    ,{
       "title"			: "Building your own JASMIN Virtual Machine",
       "url"			: "/computing/2014/08/building_your_own_jasmin_virtual_machine/",
       "tag"       : "jasmin",
@@ -409,12 +420,34 @@
 
   
     ,{
+      "title"			: "NCAS Science Meeting",
+      "url"			: "/talks/2014/07/Lawrence_NCAS_Sci/",
+      "tag"       : "",
+      "category"  : "talks",
+      "date"      : "2014-07-17",
+      "excerpt"		: "The influence of Moore’s Law and friends on our computing environment!"
+    }
+  
+
+  
+    ,{
       "title"			: "The vocabulary of documenting models",
       "url"			: "/computing/2014/07/the_vocabulary_of_documenting_models/",
       "tag"       : "esdoc, metafor",
       "category"  : "computing",
       "date"      : "2014-07-09",
       "excerpt"		: "Some time ago our European project Metafor migrated to a global project called es-doc.   During the metafor project we put a lot of effort into trying to develop materials which describe what it is trying to achieve,  but I think we never really got that right (despite a number of papers on the subject - e.g. Lawrence et al 2012 , Guilyardi et al 2013 etc)."
+    }
+  
+
+  
+    ,{
+      "title"			: "e-Research NZ",
+      "url"			: "/talks/2014/07/e-researchNZ14/",
+      "tag"       : "",
+      "category"  : "talks",
+      "date"      : "2014-07-02",
+      "excerpt"		: "I gave three talks at this meeting:"
     }
   
 
@@ -508,6 +541,28 @@
 
   
     ,{
+      "title"			: "On CMIP6 and DOIs",
+      "url"			: "/computing/2013/08/on_cmip6_and_dois/",
+      "tag"       : "cmip, citation",
+      "category"  : "computing",
+      "date"      : "2013-08-09",
+      "excerpt"		: "There is clearly a lot happening at the CMIP6 meeting, however, as is often the case, only Gavin is tweeting. That’s a shame. Many of us couldn’t get to the meeting (or were not invited, or both). So thanks Gavin!"
+    }
+  
+
+  
+    ,{
+      "title"			: "On advocacy",
+      "url"			: "/environment/2013/08/on_advocacy/",
+      "tag"       : "communication",
+      "category"  : "environment",
+      "date"      : "2013-08-08",
+      "excerpt"		: "I’ve spent a good deal of the last couple of days sitting around waiting, with nothing but my trusty mobile phone and it’s twitter and feed reader client to keep me company. (Technically, I’m on holiday, but for various reasons, I’m not actually on holiday …)"
+    }
+  
+
+  
+    ,{
       "title"			: "IS-ENES2 Kickoff Meeting",
       "url"			: "/talks/2013/05/isenes/",
       "tag"       : "",
@@ -536,6 +591,17 @@
       "category"  : "talks",
       "date"      : "2013-02-01",
       "excerpt"		: "Data, the elephant in the room. JASMIN one step along the road to dealing with the elephant.Presentation: pdf (2MB)."
+    }
+  
+
+  
+    ,{
+      "title"			: "AGU Fall Meeting 2012",
+      "url"			: "/academic/2012/12/agu_fall_meeting_2012/",
+      "tag"       : "meetings",
+      "category"  : "academic",
+      "date"      : "2012-12-06",
+      "excerpt"		: ""
     }
   
 
@@ -989,6 +1055,14 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
+  
+
+  
+
   
 
   
