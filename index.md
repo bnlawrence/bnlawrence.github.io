@@ -5,7 +5,7 @@ title: Welcome
 
 _Currently under [construction](/construction), as I migrate information from my [old blog](http://home.badc.rl.ac.uk/lawrence)!_
 
-This is my blog and website. You can find out more about it and me [here](/about/). My main research interests are climate science and the necessary underpinning software engineering, data science, computer science, and compute and storage architectures. Keep up to date using my
+This is my blog and website. You can find out more about it and me [here](/about/). My main research interests are climate science and the necessary underpinning software engineering, data science, computer science, and compute and storage architectures. Keep up to date using my [feed](/feed.xml).
 
 ## Blog
 
