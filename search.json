@@ -420,12 +420,78 @@
 
   
     ,{
+      "title"			: "Accessing JASMIN from Android",
+      "url"			: "/computing/2013/11/accessing_jasmin_from_android/",
+      "tag"       : "jasmin",
+      "category"  : "computing",
+      "date"      : "2013-11-13",
+      "excerpt"		: "I have a confession to make. I sometimes illicitly work using my android phone and legitimately with my android tablet. Sometimes that work involves wanting to ssh into real computers, and edit files on real computers. One real computer I want to access is JASMIN, and access to JASMIN is controlled by passphrase protected public/private key pairs."
+    }
+  
+
+  
+    ,{
+      "title"			: "vertical resolution",
+      "url"			: "/environment/2013/09/vertical_resolution/",
+      "tag"       : "dynamics",
+      "category"  : "environment",
+      "date"      : "2013-09-18",
+      "excerpt"		: " Last week I pointed out that I wasn’t at all sure the analysis by LFR89 really applied at modern horizontal grid resolutions, since the vertical scales implied for quasi-geostrophic motion didn’t make sense."
+    }
+  
+
+  
+    ,{
+      "title"			: "zotero, zandy, greader, evernote, and me",
+      "url"			: "/academic/2013/09/zotero-2C_zandy-2C_greader-2C_evernote-2C_and_me/",
+      "tag"       : "zotero, evernote",
+      "category"  : "academic",
+      "date"      : "2013-09-11",
+      "excerpt"		: "Quite a while ago (i.e. years), I decided that managing my bibliographic information in a bibtex file wasn’t working any longer. Back then I had a look at Mendeley and Zotero. I can’t really remember why, but I chose Zotero (I think it was a combination of how it worked for me, I played with both, and I didn’t like having to use their PDF viewr. I also had some worries about Mendeley and the software and information IPR … when Elsevier bought out Mendeley I felt vindicated on the latter.)"
+    }
+  
+
+  
+    ,{
+      "title"			: "Vertical and Horizontal Resolution",
+      "url"			: "/environment/2013/09/vertical_and_horizontal_resolution/",
+      "tag"       : "dynamics",
+      "category"  : "environment",
+      "date"      : "2013-09-09",
+      "excerpt"		: "I’ve been delving in the literature a bit this week … considering model resolution and various issues around it. This post is by way of notes from my reading."
+    }
+  
+
+  
+    ,{
+      "title"			: "Storing and manipulating environmental big data with JASMIN",
+      "url"			: "/computing/2013/08/storing_and_manipulating_environmental_big_data_with_jasmin/",
+      "tag"       : "jasmin",
+      "category"  : "computing",
+      "date"      : "2013-08-28",
+      "excerpt"		: "We’re pleased that our paper on the first year of JASMIN has been accepted by the IEEE BigData 2013 conference."
+    }
+  
+
+  
+    ,{
       "title"			: "Gavin's Proposal",
       "url"			: "/computing/2013/08/gavins_proposal/",
       "tag"       : "cmip",
       "category"  : "computing",
       "date"      : "2013-08-23",
       "excerpt"		: "Gavin made some proposals in a comment on my blog for how he thought an easy automatic DOI system could be set up for CMIP data in ESGF."
+    }
+  
+
+  
+    ,{
+      "title"			: "github repo for badc text file code",
+      "url"			: "/computing/2013/08/github_repo_for_badc_text_file_code/",
+      "tag"       : "curation, formats",
+      "category"  : "computing",
+      "date"      : "2013-08-22",
+      "excerpt"		: "Some years ago, my colleagues Graham Parton and Sam Pepler developed a metadata content standard to allow the ingestion of comma separated value (csv) files of data into the BADC archive. What they wanted to do was allow folks whose primary data manipulation tool was a spreadsheet to have a viable and easy mechanism of getting their data into our managed environment."
     }
   
 
@@ -923,6 +989,14 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
+  
+
+  
+
   
 
   

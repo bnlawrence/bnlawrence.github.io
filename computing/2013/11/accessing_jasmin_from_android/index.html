@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Accessing JASMIN from Android | Bryan Lawrence</title>
+  <meta name="description" content="I have a confession to make. I sometimes illicitly work using my android phone and legitimately with my android tablet. Sometimes that work involves wanting to ssh into real computers, and edit fil...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2013/11/accessing_jasmin_from_android/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Accessing JASMIN from Android</h1>
+  <p class="post-meta">Posted on November 13, 2013
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/jasmin/" rel="tag">jasmin</a>).
+  
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>I have a confession to make. I sometimes illicitly work using my android phone and legitimately with my android tablet. Sometimes that work involves wanting to ssh into real computers, and edit files on real computers. One real computer I want to access is JASMIN, and access to JASMIN is controlled by passphrase protected public/private key pairs.</p>
+
+<p>This is how I do it. None of it’s rocket science, but I’m documenting it here, since there a zillions of <em>possible</em> tools, and I spent ages working out which ones I could actually use … so this is to save you that wasted time.</p>
+
+<p>Before we start a couple of words of warning though: To do this you’re going to have to put a copy of your private key on your Android device. It’s important to realise that means someone with access to your android device is only one step away from access to your computing accounts. In my case, to protect that key I have taken three steps: I have encrypted my android device, I have a very short time (30s) before lockdown, and I have remote wipe enabled.  If the bad guys still get access, my key still has a pass phrase! I hope those steps are enough that if I lose my phone/tablet I will realise and block access before anything bad could happen.</p>
+
+<p>You might read elsewhere about how to use dropbear and your public key on your device. Right now, dropbear doesn’t support keys with passphrases, so I am not using dropbear (since to do so would require me to remove the passphrase on my private key). This also means that some Android apps for terminal access which use dropbear under the hood (pretty much any that use busybox) can’t exploit a properly protected public key.  You can use them for lots of things, but don’t use them for JASMIN (or similar) access.</p>
+
+<p>Ok, onwards.</p>
+
+<h4 id="step-1-get-your-key">Step 1: Get your Key</h4>
+
+<p>Get a copy of your ssh private key onto your device. You can do this by any means you like, but ideally you’d do it in a secure way. This is the way I did it:</p>
+<ol>
+  <li>Make sure you have your private key somewhere where you can get at it by <em>password</em> protected ssh (not key protected).</li>
+  <li>Load an app onto your device which gives you an scp/ssh enabled terminal <strong>to your device</strong>. I used AirTerm (which provides a cool floating terminal, very useful on tablets especially). Note that unfortunately AirTerm is <strong>not</strong> suitable for JASMIN access because it appears to use dropbear under the hood, and so it can’t handle our private/public key pairs.
+    <ul>
+      <li>(If you are using AirTerm, you will want to go to preferences and install kbox to follow what I’ve done.)</li>
+    </ul>
+  </li>
+  <li>Fire up AirTerm, and change working directory:</li>
+</ol>
+<pre>
+cd /storage/sdcard0
+</pre>
+<ol>
+  <li>Make a directory for your key, and change into it, something like</li>
+</ol>
+<pre>
+mkdir mystuff
+cd mystuff
+</pre>
+<ol>
+  <li>Now scp your private key into that directory, something like:</li>
+</ol>
+<pre>
+scp you@yourhost.wherever:path_to_key/your_private_key .
+</pre>
+<ol>
+  <li>You may or may not need to move the copy of your your_private_key on yourhost.wherever, depending on whether it’s secure there.</li>
+</ol>
+
+<p>(You’re done with AirTerm for now, but I’m sure you’ll find lots of other uses for it.)</p>
+
+<h4 id="step-2-get-and-configure-juicessh">Step 2: Get and Configure JuiceSSH</h4>
+
+<p>I use JuiceSSH to work with remote sites which use the key infrastructure. It has lots of nice properties (especially the pop up terminal keyboard) and it can manage connections and identities, and handle multi-hop ssh connections (e.g. for JASMIN, as needed to get via the login nodes to the science nodes).</p>
+
+<p>JuiceSSH is pretty straightforward. Here’s what you need for JASMIN.</p>
+<ol>
+  <li>Fire up JuiceSSH. You will need a password for juice itself. Select something memorable and safe … but different from your private key passphrase!
+(If you’re like me, and forget these things, you might want to exploit something like lastpass to put this password in your vault).</li>
+  <li>Add your JASMIN identity:
+    <ul>
+      <li>Select a nickname for this identity, give it your jasmin username, and then choose the private key option. Inside there let smart search find your public key (and then tick it). Update and save.</li>
+    </ul>
+  </li>
+  <li>Now add a connection to jasmin-login1, the options are pretty straightforward. You can test it straight away. If it doesn’t work, ask yourself if you need to use a VPN client on your phone/tablet first to put yourself in the right place for JASMIN to take an inbound connection.</li>
+  <li>You can add a direct connection to jasmin-sci1 (or your science machine) by using the via option in the setup. Here’s an example of how to configure that.</li>
+</ol>
+
+<p><img src="/assets/images/2013-11-13-juice.png" alt="Image: IMAGE: static/2013/11/13/juice.png " /></p>
+
+<p>In that example, “jasmin login” is the nickname I gave to the connection to jasmin-login1, and “bnl jasmin pk” is the nickname for my jasmin identity.</p>
+
+<p>Now you can access JASMIN, but what about editing files?</p>
+
+<h4 id="step-3-get-and-configure-droidedit">Step 3: Get and Configure DroidEdit</h4>
+
+<p>I’m using Droidedit as my tool of choice for editing on Android, although, to be fair, I’m not doing that much editing on Android yet so I’d be interested in hearing if there are other better tools. I primarily chose it because it has support for both pki and editing remote files via sftp.</p>
+
+<p>Once you have DroidEdit, you need to go into settings, and to into the SFTp/FT actions “Add Remote Server”. Configure with path to your private key, and save using the server address jasmin-login1.ceda.ac.uk. Ignore the fact that the test fails (note that it prompts you for a password, not a passphrase).</p>
+
+<p>Then, go back out, and try and open a file on jasmin, this time you’ll get prompted for a passphrase, and voila, it should just work (as before, make sure your android device has used a VPN or whatever to be “in the right place”).</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

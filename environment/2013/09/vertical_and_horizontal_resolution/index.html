@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Vertical and Horizontal Resolution | Bryan Lawrence</title>
+  <meta name="description" content="I’ve been delving in the literature a bit this week … considering model resolution and various issues around it. This post is by way of notes from my reading.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//environment/2013/09/vertical_and_horizontal_resolution/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Vertical and Horizontal Resolution</h1>
+  <p class="post-meta">Posted on September 9, 2013
+  
+  
+      in
+      
+      <a href="/categories/#environment" title="environment">environment</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/dynamics/" rel="tag">dynamics</a>).
+  
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>I’ve been delving in the literature a bit this week … considering model resolution and various issues around it. This post is by way of notes from my reading.</p>
+
+<p>One of the things to consider at any time is do we have enough resolution. Most climate scientists will tell you they need more horizontal resolution, but fewer will concede they need more vertical resolution.</p>
+
+<p>It should be (but appears to be not) well known that just as one has to consider changing the time-step as horizontal resolution is increased, one needs to consider whether there is enough vertical resolution. This issue was dealt with quite a time ago in <a href="https://doi.org/10.1175/1520-0493(1989)117&lt;2575:CVAHR&gt;2.0.CO;2">Lindzen and Fox-Rabinovitz (1989)</a> (hereafter LFR89). There have been some recent follow-ups on the importance for chemistry (e.g <a href="https://doi.org/10.1175/MWR-D-11-00150.1">Kent et al 2012</a>) and on models performance in general (e.g.<a href="https://doi.org/10.1007/s00382-010-0828-9">Marques et al 2011</a>). (It’s probably worth pointing out that the latter, and references therin, point out that model convergence to reality depends as much on how the physics deals with resolution as on the dynamics, but that’s a point for another day … but if you want to go there, you could look at <a href="https://doi.org/10.1007/s00382-001-0222-8">Pope and Stratton 2002</a> and <a href="https://doi.org/10.1175/1520-0442(2001)014&lt;3065:TROWVA&gt;2.0.CO;2">Pope et al 2001</a>, although I have to say both do a bit of special pleading to rule out extra vertical resolution.)</p>
+
+<p>Anyway, I thought it might be interesting to tabulate what sorts of resolution are actually needed for various tasks. It’s important to note that LFR89’s analysis comes up with different resolutions for different tasks and at different latitudes. So, if we’re to take LFR89 at face-value and we’re interested in quasi-geostrophic scales, then we can extend their table to modern model resolutions:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>dx(deg)</th>
+      <th>dx equator</th>
+      <th>dz 60</th>
+      <th>dz 45</th>
+      <th>dz 22.5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.25</td>
+      <td>1m (!!)</td>
+      <td>84m</td>
+      <td>97m</td>
+      <td>69m</td>
+    </tr>
+    <tr>
+      <td>0.5</td>
+      <td>3m (!!)</td>
+      <td>170m</td>
+      <td>190m</td>
+      <td>140m</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>14m (!!)</td>
+      <td>340m</td>
+      <td>390m</td>
+      <td>270m</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>54m (!!)</td>
+      <td>670m</td>
+      <td>780m</td>
+      <td>550m</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>340m</td>
+      <td>1700m</td>
+      <td>1900m</td>
+      <td>1400m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Clearly there is a problem with this analysis in the tropics at all scales, and everywhere at 25km. Common sense suggests one can’t have atmospheric phenomena with horizontal scales of over 50km with vertical scales of 1m. Pretty obviously the scaling assumptions that underly the LFR89 use of quasi-geostrophy are broken.  Which brings us to a moot point in interpreting LFR89. If one starts with a QG equation, we’ve already rejected a bunch of small scales which LFR89 have coming out of the analysis at modern high resolution scales. We probably need to rethink the analysis! (Which is to say, here and now, I’m not going to do that rethinking :-).<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<p>Fortunately for me (in terms of analysis), right now, I’m less interested in the large-scale horizontal flows, but in gravity waves. There the analysis of LFR89 is a bit more timeless. However, the analysis pretty much says, if you’re interested in breaking gravity waves you need infinite resolution. However, they then back off and do a bit of a fudge around effective damping to suggest to resolve gravity wave processes one need resolutions of roughly 0.006*the grid resolution in degrees. For the horizontal resolutions above, that gives us something like 1.5,3,6,12 and 30m vertical resolutions.</p>
+
+<p>That doesn’t look likely any time soon!</p>
+
+<p>Another approach is to look at what people have thought they need (and why). One of the reasons I started all this thinking was because I was wondering how easy it would be to repeat <a href="https://doi.org/10.1029/2008JD010026">Watanabe et al (2008)</a>’s work with the UM. Watanabe et al used a T213L256 model with a model top at 85km, having done a lot of previous work evaluating L250 type models. This is roughly a 0.5 degree model using the table above, and has an average vertical resolution of about 300m, which is not too far from LFR89 in the table above (at least using the value of N discussed in the footnote). Most other models seem to fall well short of that. For the UM, even studies which look at resolved gravity waves in the stratosphere have relatively coarse resolutions, e.g. <a href="https://doi.org/10.1002/qj.763">Shutts and Vosper (2011)</a> use 70 levels to a model top at 80km (again with a model resolution around 0.5 degrees). However, in that model the standard configuration had a time-stepping regime which filtered out resolved gravity waves, so the vertical resolution was constrained by being the same as the standard model, when used in a model which didn’t filter gravity waves. Similarly,  <a href="https://doi.org/10.1029/2009JD013340">Bushel et al (2010)</a> in a study looking at tropical waves and their interaction with ozone use, used a relatively low horizontal and vertical resolution (between 1 and 4 degrees horizontally) and L60 to 84km - but again, resolved gravity waves were filtered out, and parameterisations were used.</p>
+
+<p>As an aside, one of the arguments in <a href="https://doi.org/10.1175/1520-0442(2001)014&lt;3065:TROWVA&gt;2.0.CO;2">Pope et al 2001</a> as to why vertical resolution is less important in the tropics is a reference to <a href="https://doi.org/10.1175/1520-0469(1986)043&lt;2944:LSOTSE&gt;2.0.CO;2">Nigam et al 1986</a> who they assert show that non linear processes smooth fields
+naturally so as to diminish vertical resolution requirements. This is one of the cases where I have some of my own opinions, see, for example <a href="https://doi.org/10.1002/qj.49712555912">Rosier and Lawrence, 1999</a>, discussing, amongst other things pancake structures with small vertical scales in the tropical stratosphere. Given it seems that there is now a body of evidence suggesting that the troposphere does react dynamically to the middle-atmosphere in climatically important ways, that brings me nicely back to wanting more vertical resolution … even if we buy that it’s not needed in the troposphere, and I’m a long way from buying that … yet (<em>particularly given recent results looking at blocking and resolution in CMIP5 models: <a href="https://doi.org10.1002/jgrd.50231/">Anstey et al, 2013</a>.</em>)</p>
+
+<p>However, for the UM, before I worry too much about the vertical resolution, I’ve got to get to the bottom of the time-step filtering I alluded to above.</p>
+
+<h4 id="comments-1">comments (1)</h4>
+
+<p><em><a href="/environment/2013/09/vertical_resolution/">bryan’s trackback</a> (on Wednesday 18 September, 2013)</em>
+Last week I pointed out that I wasn’t at all sure the analysis by LFR89 really applied at modern horizontal grid resolutions, since the vertical scales implied for quasi-geostrophic motion didn’t make sense.
+I’ve done a wee bit more delving, and now I’m sure it’s not appropriate …</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>That said, to repeat their table, I had to replace a 3 in their approximation for N with a 2, and in fact, I’d rather use a tropospheric average of N~0.012, in which case we get nearly a factor of 2 larger required resolution. However, the fundamental issue is still that I would prefer to work through the assumptions of the QG approximation, I think there is a problem in there … but I don’t have time now. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

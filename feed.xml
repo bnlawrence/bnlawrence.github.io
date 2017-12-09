@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
-  <link href="https://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2017-12-05T17:04:49+00:00</updated>
-  <id>https://www.bnlawrence.net//</id>
+  <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
+  <updated>2017-12-09T09:04:42+00:00</updated>
+  <id>http://www.bnlawrence.net//</id>
 
   
     <title type="html">Bryan Lawrence</title>
@@ -27,11 +27,11 @@
   
     <entry>
       <title type="html">The Exascale Challenge to the UK - Part One</title>
-      <link href="https://www.bnlawrence.net//computing/2017/12/exascale/" rel="alternate" type="text/html" title="The Exascale Challenge to the UK - Part One" />
+      <link href="http://www.bnlawrence.net//computing/2017/12/exascale/" rel="alternate" type="text/html" title="The Exascale Challenge to the UK - Part One" />
       <published>2017-12-05T00:00:00+00:00</published>
       <updated>2017-12-05T00:00:00+00:00</updated>
-      <id>https://www.bnlawrence.net//computing/2017/12/exascale</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//computing/2017/12/exascale/">&lt;p&gt;It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - much of which came for free as chips got faster. However, now they’re not so much getting faster as we will get more processors and more processor types, and we have to be smarter about how we programme for them &lt;a href=&quot;#LawChasm17&quot;&gt;(Lawrence et al., n.d.)&lt;/a&gt;. This is a problem for all of science!&lt;/p&gt;
+      <id>http://www.bnlawrence.net//computing/2017/12/exascale</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//computing/2017/12/exascale/">&lt;p&gt;It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - much of which came for free as chips got faster. However, now they’re not so much getting faster as we will get more processors and more processor types, and we have to be smarter about how we programme for them &lt;a href=&quot;#LawChasm17&quot;&gt;(Lawrence et al., n.d.)&lt;/a&gt;. This is a problem for all of science!&lt;/p&gt;
 
 &lt;p&gt;The US, Japan and China have been working on the problem for a while, and Europe is rapidly trying to catch up, but the “exascale problem” is all but invisible in the UK. While it’s obviously unfeasible for the UK to build an exascale computer on their own in the current economic and political climate, it’s absolutely the case that UK science and industry will have to work out how to &lt;em&gt;use&lt;/em&gt; exascale computing, not least because the tools and techniques will percolate down eventually. However, even before the percolation, UK will have to &lt;em&gt;exploit&lt;/em&gt; exascale computing to remain competitive, so what will that entail for us?&lt;/p&gt;</content>
 
@@ -65,11 +65,11 @@
   
     <entry>
       <title type="html">Dr Matt Jones</title>
-      <link href="https://www.bnlawrence.net//academic/2017/11/congrats2matt/" rel="alternate" type="text/html" title="Dr Matt Jones" />
+      <link href="http://www.bnlawrence.net//academic/2017/11/congrats2matt/" rel="alternate" type="text/html" title="Dr Matt Jones" />
       <published>2017-11-28T00:00:00+00:00</published>
       <updated>2017-11-28T00:00:00+00:00</updated>
-      <id>https://www.bnlawrence.net//academic/2017/11/congrats2matt</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//academic/2017/11/congrats2matt/">&lt;p&gt;A good day for any academic - when one of her or his students passes their viva (oral examination) for their doctorate.&lt;/p&gt;</content>
+      <id>http://www.bnlawrence.net//academic/2017/11/congrats2matt</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//academic/2017/11/congrats2matt/">&lt;p&gt;A good day for any academic - when one of her or his students passes their viva (oral examination) for their doctorate.&lt;/p&gt;</content>
 
       
       
@@ -99,11 +99,11 @@
   
     <entry>
       <title type="html">European Big Data Value Forum</title>
-      <link href="https://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/" rel="alternate" type="text/html" title="European Big Data Value Forum" />
+      <link href="http://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/" rel="alternate" type="text/html" title="European Big Data Value Forum" />
       <published>2017-11-22T00:00:00+00:00</published>
       <updated>2017-11-22T00:00:00+00:00</updated>
-      <id>https://www.bnlawrence.net//talks/2017/11/HPC_Bigdata</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/">&lt;h2 id=&quot;the-data-deluge-in-high-resolution-climate-and-weather-simulation&quot;&gt;The Data Deluge in High Resolution Climate and Weather Simulation&lt;/h2&gt;</content>
+      <id>http://www.bnlawrence.net//talks/2017/11/HPC_Bigdata</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/">&lt;h2 id=&quot;the-data-deluge-in-high-resolution-climate-and-weather-simulation&quot;&gt;The Data Deluge in High Resolution Climate and Weather Simulation&lt;/h2&gt;</content>
 
       
       
@@ -129,11 +129,11 @@
   
     <entry>
       <title type="html">Science and the Digital Revolution - Data, Standards, and Integration</title>
-      <link href="https://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/" rel="alternate" type="text/html" title="Science and the Digital Revolution - Data, Standards, and Integration" />
+      <link href="http://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/" rel="alternate" type="text/html" title="Science and the Digital Revolution - Data, Standards, and Integration" />
       <published>2017-11-15T00:00:00+00:00</published>
       <updated>2017-11-15T00:00:00+00:00</updated>
-      <id>https://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/">&lt;p&gt;I was asked to give a talk at this &lt;a href=&quot;http://www.codata.org/&quot;&gt;CODATA&lt;/a&gt; meeting which was aimed at developing a roadmap for:&lt;/p&gt;
+      <id>http://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/">&lt;p&gt;I was asked to give a talk at this &lt;a href=&quot;http://www.codata.org/&quot;&gt;CODATA&lt;/a&gt; meeting which was aimed at developing a roadmap for:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Mobilising community support and advice for discipline-based initiatives to develop online data capacities and services;&lt;/li&gt;
@@ -174,11 +174,11 @@
   
     <entry>
       <title type="html">Science and the Digital Revolution - Data, Standards, and Integration</title>
-      <link href="https://www.bnlawrence.net//talks/2017/11/data_interop_lawrence/" rel="alternate" type="text/html" title="Science and the Digital Revolution -  Data, Standards, and Integration" />
+      <link href="http://www.bnlawrence.net//talks/2017/11/data_interop_lawrence/" rel="alternate" type="text/html" title="Science and the Digital Revolution -  Data, Standards, and Integration" />
       <published>2017-11-14T00:00:00+00:00</published>
       <updated>2017-11-14T00:00:00+00:00</updated>
-      <id>https://www.bnlawrence.net//talks/2017/11/data_interop_lawrence</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//talks/2017/11/data_interop_lawrence/">&lt;h2 id=&quot;data-interoperability-and-integration-a-climate-modelling-perspective&quot;&gt;Data Interoperability and Integration: A climate modelling perspective&lt;/h2&gt;</content>
+      <id>http://www.bnlawrence.net//talks/2017/11/data_interop_lawrence</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2017/11/data_interop_lawrence/">&lt;h2 id=&quot;data-interoperability-and-integration-a-climate-modelling-perspective&quot;&gt;Data Interoperability and Integration: A climate modelling perspective&lt;/h2&gt;</content>
 
       
       
@@ -204,11 +204,11 @@
   
     <entry>
       <title type="html">Gung Ho Network Meeting</title>
-      <link href="https://www.bnlawrence.net//talks/2017/07/ppp4_gungho/" rel="alternate" type="text/html" title="Gung Ho Network Meeting" />
+      <link href="http://www.bnlawrence.net//talks/2017/07/ppp4_gungho/" rel="alternate" type="text/html" title="Gung Ho Network Meeting" />
       <published>2017-07-18T00:00:00+01:00</published>
       <updated>2017-07-18T00:00:00+01:00</updated>
-      <id>https://www.bnlawrence.net//talks/2017/07/ppp4_gungho</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//talks/2017/07/ppp4_gungho/">&lt;h2 id=&quot;performance-portability-productivity-which-two-do-you-want&quot;&gt;Performance, Portability, Productivity: Which two do you want?&lt;/h2&gt;</content>
+      <id>http://www.bnlawrence.net//talks/2017/07/ppp4_gungho</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2017/07/ppp4_gungho/">&lt;h2 id=&quot;performance-portability-productivity-which-two-do-you-want&quot;&gt;Performance, Portability, Productivity: Which two do you want?&lt;/h2&gt;</content>
 
       
       
@@ -234,11 +234,11 @@
   
     <entry>
       <title type="html">International Supercomputing (ISC) and JASMIN User Conferences</title>
-      <link href="https://www.bnlawrence.net//talks/2017/06/lawrence_jasmin/" rel="alternate" type="text/html" title="International Supercomputing (ISC) and JASMIN User Conferences" />
+      <link href="http://www.bnlawrence.net//talks/2017/06/lawrence_jasmin/" rel="alternate" type="text/html" title="International Supercomputing (ISC) and JASMIN User Conferences" />
       <published>2017-06-27T00:00:00+01:00</published>
       <updated>2017-06-27T00:00:00+01:00</updated>
-      <id>https://www.bnlawrence.net//talks/2017/06/lawrence_jasmin</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//talks/2017/06/lawrence_jasmin/">&lt;p&gt;I gave two versions of this talk, one at at the International Supercomputing Conference’s Workshop on HPC I/O in the data centre, and one at the 2017 JASMIN User’s Conference.&lt;/p&gt;</content>
+      <id>http://www.bnlawrence.net//talks/2017/06/lawrence_jasmin</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2017/06/lawrence_jasmin/">&lt;p&gt;I gave two versions of this talk, one at at the International Supercomputing Conference’s Workshop on HPC I/O in the data centre, and one at the 2017 JASMIN User’s Conference.&lt;/p&gt;</content>
 
       
       
@@ -264,11 +264,11 @@
   
     <entry>
       <title type="html">Week Eight</title>
-      <link href="https://www.bnlawrence.net//diary/2017/02/week_eight/" rel="alternate" type="text/html" title="Week Eight" />
+      <link href="http://www.bnlawrence.net//diary/2017/02/week_eight/" rel="alternate" type="text/html" title="Week Eight" />
       <published>2017-02-27T00:00:00+00:00</published>
       <updated>2017-02-27T00:00:00+00:00</updated>
-      <id>https://www.bnlawrence.net//diary/2017/02/week_eight</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//diary/2017/02/week_eight/">&lt;p&gt;Spent nearly the entire week (and certainly more than a “European maximum 48-hours”) on things to do with ESIWACE (on the deliverable  I mentioned last time, reporting for the EC, etc). I did have a fair chunk of one day on other things as also chaired a meeting of the advisory panel for our climate predictions for the copernicus climate data store project  (CP4CDS, a project about deploying and maintaining sofware for a special ESGF data node to support climate services) - that took up the best part of day. However, that’s pretty much it for the week. Hard to believe we’re two months into the year - and I still haven’t come up for air and managed to create any significant blogging time.&lt;/p&gt;</content>
+      <id>http://www.bnlawrence.net//diary/2017/02/week_eight</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//diary/2017/02/week_eight/">&lt;p&gt;Spent nearly the entire week (and certainly more than a “European maximum 48-hours”) on things to do with ESIWACE (on the deliverable  I mentioned last time, reporting for the EC, etc). I did have a fair chunk of one day on other things as also chaired a meeting of the advisory panel for our climate predictions for the copernicus climate data store project  (CP4CDS, a project about deploying and maintaining sofware for a special ESGF data node to support climate services) - that took up the best part of day. However, that’s pretty much it for the week. Hard to believe we’re two months into the year - and I still haven’t come up for air and managed to create any significant blogging time.&lt;/p&gt;</content>
 
       
       
@@ -294,11 +294,11 @@
   
     <entry>
       <title type="html">Weeks Six and Seven</title>
-      <link href="https://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven/" rel="alternate" type="text/html" title="Weeks Six and Seven" />
+      <link href="http://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven/" rel="alternate" type="text/html" title="Weeks Six and Seven" />
       <published>2017-02-19T00:00:00+00:00</published>
       <updated>2017-02-19T00:00:00+00:00</updated>
-      <id>https://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven/">&lt;p&gt;Two weeks to report this time, primarily because I had a day off on sick leave, and two days on real leave, so there’s only seven weekday workdays to talk about (although
+      <id>http://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//diary/2017/02/weeks_six_and_seven/">&lt;p&gt;Two weeks to report this time, primarily because I had a day off on sick leave, and two days on real leave, so there’s only seven weekday workdays to talk about (although
 I have just spent bit chunks of both yesterday and today, that is, sat and sun, on work as well).&lt;/p&gt;</content>
 
       
@@ -325,11 +325,11 @@ I have just spent bit chunks of both yesterday and today, that is, sat and sun, 
   
     <entry>
       <title type="html">Space and Open Plan Offices</title>
-      <link href="https://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices/" rel="alternate" type="text/html" title="Space and Open Plan Offices" />
+      <link href="http://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices/" rel="alternate" type="text/html" title="Space and Open Plan Offices" />
       <published>2017-02-06T00:00:00+00:00</published>
       <updated>2017-02-06T00:00:00+00:00</updated>
-      <id>https://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices/">&lt;p&gt;I was paying a bit more attention to twitter this morning than usual (I’m hoping I’ll  get some feedback on my analysis of citations that I posted yesterday). One thing that blew by was this headline &lt;a href=&quot;https://www.washingtonpost.com/posteverything/wp/2014/12/30/google-got-it-wrong-the-open-office-trend-is-destroying-the-workplace/?tid=ss_tw&amp;amp;utm_term=.e08d2e093c59&quot;&gt;the Washington Post&lt;/a&gt;:&lt;/p&gt;
+      <id>http://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices/">&lt;p&gt;I was paying a bit more attention to twitter this morning than usual (I’m hoping I’ll  get some feedback on my analysis of citations that I posted yesterday). One thing that blew by was this headline &lt;a href=&quot;https://www.washingtonpost.com/posteverything/wp/2014/12/30/google-got-it-wrong-the-open-office-trend-is-destroying-the-workplace/?tid=ss_tw&amp;amp;utm_term=.e08d2e093c59&quot;&gt;the Washington Post&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;&quot;Google got it wrong. The open-office trend is destroying the workplace.&quot;
 &lt;/blockquote&gt;</content>
 
