@@ -3,9 +3,8 @@ layout: post
 title: Week Three
 last_modified: Sunday 29 January, 2017
 categories: diary
+tags: meeting isenes
 excerpt_separator: <!--More-->
-header:
-    teaser: /static/2017/01/16/paris1_teaser.jpg
 ---
 Quite a different week, for different reasons.
 
