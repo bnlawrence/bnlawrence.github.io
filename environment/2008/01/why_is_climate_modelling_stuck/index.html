@@ -27,42 +27,9 @@
 <meta name="twitter:title"   content="Why is climate modelling stuck?">
 
 
-<meta name="twitter:description" content="<p><a href="http://initforthegold.blogspot.com/2007/12/why-is-climate-modeling-stuck.html">Why is climate modelling stuck?</a> Well, I would argue it’s not stuck, so a better question might be: “Why is
+<meta name="twitter:description" content="Why is climate modelling stuck? Well, I would argue it’s not stuck, so a better question might be: “Why is
 climate modelling so hard?”. Michael Tobis is arguing that a modern
-programming language and new tools will make a big difference. Me, I’m
-not so sure. I’m with <a href="http://initforthegold.blogspot.com/2007/12/why-is-climate-modeling-stuck.html#c7506314125949953910">Gavin</a>.
-So here is my perspective on why it’s hard. It is of necessity
-a bit of an abstract argument …</p>
-<ol>
-  <li>We need to start with the modelling process itself. We have a physical
-system with components within it.  Each physical component needs to be
-developed independently, checked independently … This is a scientific, then
-a computational, then a diagnostic problem.</li>
-  <li>Each component needs to talk to other components, so there needs to be a
-communication infrastructure which couples components. Michael has criticised
-ESMF (and by implication PRISM and OASIS etc), but regardless of how you do
-it, you need a coupling framework. This is a computational problem. I think
-it’s harder than Michael thinks it is. Those <a href="http://www.esmf.ucar.edu/">ESMF</a> and <a href="http://www.cerfacs.fr/PRISM/prism.html">PRISM</a> folks are not
-stupid …</li>
-  <li>All those independently checked components may behave in different ways when
-coupled to other components (their interactions are nonlinear). Understanding
-those interactions takes time. This is a scientific and diagnostic problem.</li>
-  <li>We need a dynamical core. It needs to be fast, efficient, mass preserving,
-and stable in a computational sense. Stability is a big problem, given that
-the various parameterisations will perturb it in ways that are quite
-instability inducing. This is both a mathematical and a computational
-problem.</li>
-  <li>We need to worry about memory. We need to worry a lot about memory actually.
-If in our discussion we’re going to get excited about scalability in
-multi-core environments, then yes, I can have 80 (pick a number) cores on my
-chip, but can I have enough memory and memory bandwidth to exploit them? How
-do we distribute our memory around our cores?</li>
-  <li>What about I/O bandwidth? Without great care, the really big memory hungry
-climate models can often get slowed up and be waiting spinning empty CPU
-cycles waiting for I/O. This is a computational problem.</li>
-</ol>
-
-">
+programming language a...">
 
 
 
@@ -172,7 +139,7 @@ cycles waiting for I/O. This is a computational problem.</li>
   <br/>
    Previous Post: <a class="prev" href="/personal/2007/07/yet_more_digital_silence/">&laquo;Yet More Digital Silence&raquo;</a>
   
-   Next Post <a class="next" href="/environment/2008/01/using_more_computer_power_revisited/">&laquo;Using more computer power, revisited.&raquo;</a>
+   Next Post <a class="next" href="/environment/2008/01/using_more_computer_power_revisited/">&laquo;Using more computer power, revisited&raquo;</a>
   .
   </p>
 </header>
