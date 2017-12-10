@@ -2,7 +2,7 @@
 layout: post
 title: vertical resolution
 last_modified: Thursday 19 September, 2013
-tags: dynamics
+tags: dynamics resolution
 categories: environment
 ---
 [ Last week]({% post_url oldblog/2013-09-09-vertical_and_horizontal_resolution %}) I pointed out that I wasn't at all sure the analysis by LFR89 really applied at modern horizontal grid resolutions, since the vertical scales implied for quasi-geostrophic motion didn't make sense.

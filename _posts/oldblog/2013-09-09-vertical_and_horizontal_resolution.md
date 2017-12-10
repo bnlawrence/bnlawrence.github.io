@@ -3,7 +3,7 @@ layout: post
 title: Vertical and Horizontal Resolution
 last_modified: Monday 09 September, 2013
 categories: environment
-tags: dynamics
+tags: dynamics resolution
 ---
 I've been delving in the literature a bit this week ... considering model resolution and various issues around it. This post is by way of notes from my reading.
 
