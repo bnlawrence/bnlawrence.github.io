@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Using more computer power, revisited.
+title: Using more computer power, revisited
 last_modified: Wednesday 23 January, 2008
 tags: climate modelling_futures
 categories: environment
 ---
-In the comments to my post on why [climate modelling is so hard]({% post_url oldblog/2008-01-16-why_is_climate_modelling_stuck %}), Michael Tobis made a few points that need a more elaborate response (in time and text) then was appropriate for the comments section, so this is my attempt to deal with them. But before, I do, let me reiterate that I don't disagree that there are substantial things that could and should be done to improve the way we do climate modelling. Where the contention lies maybe in our expectations of what improvements we might reasonably expect, and hence perhaps in our differing definitions of what might be impressive further progress.
+
+In the comments to my post on why
+[climate modelling is so hard]({% post_url oldblog/2008-01-16-why_is_climate_modelling_stuck %}), Michael Tobis made a few points that need a more elaborate response (in time and text) then was appropriate for the comments section, so this is my attempt to deal with them. But before, I do, let me reiterate that I don't disagree that there are substantial things that could and should be done to improve the way we do climate modelling. Where the contention lies maybe in our expectations of what improvements we might reasonably expect, and hence perhaps in our differing definitions of what might be impressive further progress.
 
 Before I get into the details of my response, I'm going to ask you to read an old post of mine. Way back in [January 2005]({% post_url oldblog/2005-01-24-Model_Resolution %}), I tried to summarise the issues associated with where best to put the effort on improving models: into resolution, ensembles or physics?
 
