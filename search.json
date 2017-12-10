@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "The Exascale Challenge to the UK - Part Two - Compute",
+      "url"			: "/computing/2017/12/exascale2/",
+      "tag"       : "exascale, cms, modelling_futures",
+      "category"  : "computing",
+      "date"      : "2017-12-10",
+      "excerpt"		: "Last time I set up the generic exascale challenge, this time I want to discuss how it is playing out here and now for UK climate modelling. This long-ish post discusses computer hardare and benchmarking of our codes. The next one will discuss the implication for science."
+    }
+  
+
+  
+    ,{
       "title"			: "The Exascale Challenge to the UK - Part One",
       "url"			: "/computing/2017/12/exascale/",
       "tag"       : "exascale, isenes, esiwace",
@@ -466,7 +477,7 @@
     ,{
       "title"			: "vertical resolution",
       "url"			: "/environment/2013/09/vertical_resolution/",
-      "tag"       : "dynamics",
+      "tag"       : "dynamics, resolution",
       "category"  : "environment",
       "date"      : "2013-09-18",
       "excerpt"		: " Last week I pointed out that I wasn’t at all sure the analysis by LFR89 really applied at modern horizontal grid resolutions, since the vertical scales implied for quasi-geostrophic motion didn’t make sense."
@@ -488,7 +499,7 @@
     ,{
       "title"			: "Vertical and Horizontal Resolution",
       "url"			: "/environment/2013/09/vertical_and_horizontal_resolution/",
-      "tag"       : "dynamics",
+      "tag"       : "dynamics, resolution",
       "category"  : "environment",
       "date"      : "2013-09-09",
       "excerpt"		: "I’ve been delving in the literature a bit this week … considering model resolution and various issues around it. This post is by way of notes from my reading."
@@ -607,6 +618,83 @@
 
   
     ,{
+      "title"			: "European Exascale Software Initiative",
+      "url"			: "/computing/2011/07/european_exascale_software_initiative/",
+      "tag"       : "exascale, hpc, meetings, modelling_futures",
+      "category"  : "computing",
+      "date"      : "2011-07-02",
+      "excerpt"		: "Last week I spent two days at the lovely Domaine de Tremblay (an hour from central Paris):"
+    }
+  
+
+  
+    ,{
+      "title"			: "hpc futures - part two",
+      "url"			: "/computing/2011/04/hpc_futures_-_part_two/",
+      "tag"       : "exascale, hpc, badc, resolution, modelling_futures",
+      "category"  : "computing",
+      "date"      : "2011-04-28",
+      "excerpt"		: "What is this exascale wall that I’ve been tweeting about?"
+    }
+  
+
+  
+    ,{
+      "title"			: "hpc futures - part one",
+      "url"			: "/environment/2010/08/hpc_futures_-_part_one/",
+      "tag"       : "climate, modelling_futures, resolution",
+      "category"  : "environment",
+      "date"      : "2010-08-02",
+      "excerpt"		: "Anyone reading my twitter feed will know that I’ve been going to strategy meetings a lot lately.  We’ve been talking a lot about the impending problems with computing as new architectures become more complex. By way of organising my thinking about increased resolution, and in some ways, following up on an even older discourse, I’ve spent a bit of time thinking about computing capacity. Hence this."
+    }
+  
+
+  
+    ,{
+      "title"			: "Computing capacity, capability, climate simulations and impacts.",
+      "url"			: "/environment/2010/03/computing_capacity_capability_climate_simulations_and_impacts/",
+      "tag"       : "climate, resolution, modelling_futures",
+      "category"  : "environment",
+      "date"      : "2010-03-31",
+      "excerpt"		: "One of the outputs of the IS-ENES project is to be a foresight document outlining where European Earth System modelling should be going in the next decade or two. Of course foresight exercises are fraught with difficulty … but we need to try, especially for ESM, where the lead time on developing a really high end model is probably of the order of 10-20 years, and where supercomputer procurements are multi-year events."
+    }
+  
+
+  
+    ,{
+      "title"			: "ENES Earth System Modelling Scoping Meeting",
+      "url"			: "/talks/2010/03/european-esm-strategy/",
+      "tag"       : "modelling_futures",
+      "category"  : "talks",
+      "date"      : "2010-03-30",
+      "excerpt"		: "Software &amp; Data Infrastructure for Earth System Modelling"
+    }
+  
+
+  
+    ,{
+      "title"			: "Journals and Data Curation",
+      "url"			: "/computing/2009/06/journals_and_data_curation/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "date"      : "2009-06-02",
+      "excerpt"		: "I’m hopelessly behind on my blog reading, otherwise I would have spottedthis new Nature policy sooner:Accordingly, we have modified the Nature journal policy on authorship, which is detailed on our [website](http://tinyurl.com/dkgbf8). For papers submitted by collaborations, we now delineate the responsibilities of the senior members of each collaboration group on the paper. Before submitting the paper, at least one senior member from each collaborating group must take responsibility for their group&#39;s contribution. Three major responsibilities are covered: preservation of the original data on which the paper is based, verification that the figures and conclusions accurately reflect the data collected and that manipulations to images are in accordance with Nature journal [guidelines](http://tinyurl.com/cmmrp7), and minimization of obstacles to sharing materials, data and algorithms through appropriate planning."
+    }
+  
+
+  
+    ,{
+      "title"			: "Kia Kaha My Boy",
+      "url"			: "/personal/2008/12/kia_kaha_my_boy/",
+      "tag"       : "",
+      "category"  : "personal",
+      "date"      : "2008-12-24",
+      "excerpt"		: "Evan Lawrence,Born 5 July 2007,Died 18 December 2008. Forever Young:"
+    }
+  
+
+  
+    ,{
       "title"			: "Identifiers, Persistence and Citation",
       "url"			: "/computing/2008/05/identifiers_persistence_and_citation/",
       "tag"       : "metadata, curation, metafor",
@@ -618,12 +706,67 @@
 
   
     ,{
+      "title"			: "Introducing Metafor",
+      "url"			: "/computing/2008/05/introducing_metafor/",
+      "tag"       : "ndg, metadata, metafor",
+      "category"  : "computing",
+      "date"      : "2008-05-23",
+      "excerpt"		: "The EU has recently seen fit to fund a new project called METAFOR."
+    }
+  
+
+  
+    ,{
       "title"			: "Metadata, Effort and Scope",
       "url"			: "/computing/2008/05/metadata_effort_and_scope/",
       "tag"       : "curation, badc, metadata",
       "category"  : "computing",
       "date"      : "2008-05-21",
       "excerpt"		: "I keep on harping on about how metadata management is time intensive, and the importance of standards."
+    }
+  
+
+  
+    ,{
+      "title"			: "Moving Modelling Forward ... in small steps",
+      "url"			: "/environment/2008/01/moving_modelling_forward_in_small_steps/",
+      "tag"       : "climate, modelling_futures",
+      "category"  : "environment",
+      "date"      : "2008-01-29",
+      "excerpt"		: "I’m in the midst of a series of “interesting” meetings about technology, modelling, computing, and collaboration … Confucian times indeed."
+    }
+  
+
+  
+    ,{
+      "title"			: "Using more computer power, revisited.",
+      "url"			: "/environment/2008/01/using_more_computer_power_revisited/",
+      "tag"       : "climate, modelling_futures",
+      "category"  : "environment",
+      "date"      : "2008-01-23",
+      "excerpt"		: "In the comments to my post on why climate modelling is so hard, Michael Tobis made a few points that need a more elaborate response (in time and text) then was appropriate for the comments section, so this is my attempt to deal with them. But before, I do, let me reiterate that I don’t disagree that there are substantial things that could and should be done to improve the way we do climate modelling. Where the contention lies maybe in our expectations of what improvements we might reasonably expect, and hence perhaps in our differing definitions of what might be impressive further progress."
+    }
+  
+
+  
+    ,{
+      "title"			: "Why is climate modelling stuck?",
+      "url"			: "/environment/2008/01/why_is_climate_modelling_stuck/",
+      "tag"       : "climate, resolution, modelling_futures",
+      "category"  : "environment",
+      "date"      : "2008-01-16",
+      "excerpt"		: "Why is climate modelling stuck? Well, I would argue it’s not stuck, so a better question might be: “Why isclimate modelling so hard?”. Michael Tobis is arguing that a modernprogramming language and new tools will make a big difference. Me, I’mnot so sure. I’m with Gavin.So here is my perspective on why it’s hard. It is of necessitya bit of an abstract argument …  We need to start with the modelling process itself. We have a physicalsystem with components within it.  Each physical component needs to bedeveloped independently, checked independently … This is a scientific, thena computational, then a diagnostic problem.  Each component needs to talk to other components, so there needs to be acommunication infrastructure which couples components. Michael has criticisedESMF (and by implication PRISM and OASIS etc), but regardless of how you doit, you need a coupling framework. This is a computational problem. I thinkit’s harder than Michael thinks it is. Those ESMF and PRISM folks are notstupid …  All those independently checked components may behave in different ways whencoupled to other components (their interactions are nonlinear). Understandingthose interactions takes time. This is a scientific and diagnostic problem.  We need a dynamical core. It needs to be fast, efficient, mass preserving,and stable in a computational sense. Stability is a big problem, given thatthe various parameterisations will perturb it in ways that are quiteinstability inducing. This is both a mathematical and a computationalproblem.  We need to worry about memory. We need to worry a lot about memory actually.If in our discussion we’re going to get excited about scalability inmulti-core environments, then yes, I can have 80 (pick a number) cores on mychip, but can I have enough memory and memory bandwidth to exploit them? Howdo we distribute our memory around our cores?  What about I/O bandwidth? Without great care, the really big memory hungryclimate models can often get slowed up and be waiting spinning empty CPUcycles waiting for I/O. This is a computational problem."
+    }
+  
+
+  
+    ,{
+      "title"			: "Yet More Digital Silence",
+      "url"			: "/personal/2007/07/yet_more_digital_silence/",
+      "tag"       : "",
+      "category"  : "personal",
+      "date"      : "2007-07-10",
+      "excerpt"		: "I’m afraid this blog will be quiet for a few weeks now, unlike my house:"
     }
   
 
@@ -849,6 +992,17 @@
 
   
     ,{
+      "title"			: "Model Resolution, Ensembles and Physics",
+      "url"			: "/environment/2005/01/Model_Resolution/",
+      "tag"       : "climate, resolution, modelling_futures",
+      "category"  : "environment",
+      "date"      : "2005-01-24",
+      "excerpt"		: "Last Wednesday I attended a meeting of the Royal Met Society on Perfecting Imperfect Models."
+    }
+  
+
+  
+    ,{
       "title"			: "Verifyable Statements",
       "url"			: "/computing/management/2004/12/VerifyableStatements/",
       "tag"       : "computing, management",
@@ -1055,6 +1209,16 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   

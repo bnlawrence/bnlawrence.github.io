@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Computing capacity, capability, climate simulations and impacts. | Bryan Lawrence</title>
+  <meta name="description" content="One of the outputs of the IS-ENES project is to be a foresight document outlining where European Earth System modelling should be going in the next decade or two. Of course foresight exercises are ...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//environment/2010/03/computing_capacity_capability_climate_simulations_and_impacts/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="Computing capacity, capability, climate simulations and impacts.">
+
+
+<meta name="twitter:description" content="<p>One of the outputs of the <a href="https://is.enes.org/">IS-ENES</a> project is to be a foresight document outlining where European Earth System modelling should be going in the next decade or two. Of course foresight exercises are fraught with difficulty … but we need to try, especially for ESM, where the lead time on developing a really high end model is probably of the order of 10-20 years, and where supercomputer procurements are multi-year events.</p>
+
+">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Computing capacity, capability, climate simulations and impacts.</h1>
+  <p class="post-meta">Posted on March 31, 2010
+  
+  
+      in
+      
+      <a href="/categories/#environment" title="environment">environment</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/climate/" rel="tag">climate</a>, <a href="/tags/resolution/" rel="tag">resolution</a>, <a href="/tags/modelling_futures/" rel="tag">modelling_futures</a>).
+  
+  <br/>
+   Previous Post: <a class="prev" href="/talks/2010/03/european-esm-strategy/">&laquo;ENES Earth System Modelling Scoping Meeting&raquo;</a>
+  
+   Next Post <a class="next" href="/environment/2010/08/hpc_futures_-_part_one/">&laquo;hpc futures - part one&raquo;</a>
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>One of the outputs of the <a href="https://is.enes.org/">IS-ENES</a> project is to be a foresight document outlining where European Earth System modelling should be going in the next decade or two. Of course foresight exercises are fraught with difficulty … but we need to try, especially for ESM, where the lead time on developing a really high end model is probably of the order of 10-20 years, and where supercomputer procurements are multi-year events.</p>
+
+<p>So, there was a meeting near Paris earlier this week that I attended. This blog post is by way of a summary of <strong>my</strong> take on some of the discussion. It’s absolutely not a summary of the meeting, or a prediction of the eventual outcome of the exercise.</p>
+
+<h4 id="background">Background</h4>
+
+<p>Currently, high end climate simulations require significant HPC, but because many climate models don’t scale well on massively parallel supercomputers, we can’t always use the most “capable” HPC machines. So many of these simulations are considered to be “capacity” computing problems: lots of computing is needed, but they don’t necessarily require (or can’t always use) the highest “capability” machines. However, as we increase resolution and/or complexity in models that do scale, the problem does become a capability problem, they can only be done on the highest performance machines. (That said, often relatively poor scalability goes hand in hand with relatively poor portability, so even if several high end capacity machines are available, the porting effort required tends to encourage running ensembles on one very high end machine: turning capacity problems into capability problems.)</p>
+
+<p>Whenever climate modellers get together we bemoan the simulations we can’t do because of lack of computing - so we’re always in the queue for access to capabilty HPC. However, we want capacity too, because at any given time even if our models were both scalable and portable, we’d be wanting to run ensembles using models at one level of resolution and complexity, and at the same time be developing models of the next generation of complexity and resolution (it takes years to move from one generation of model to the next, as it’s not only a software engineering problem, there are science issues to resolve every time we increase either resolution or complexity). So we’re always on a two track journey: exploiting what is available as capacity, and getting the next generation models ready to run as capacity a few years hence via what is currently a capability job.</p>
+
+<p>To give one real practical example, <a href="http://www.cisl.ucar.edu/css/staff/dennis/">John Dennis</a> was telling us about NCAR efforts to “go petascale”, and how, just for debugging he actually needed thousands of processors because the bugs couldn’t be reproduced on less … so that’s a capability problem now, but some time in the future (maybe a long time :-), those architectures will look like capacity computing, and we’ll need the climate codes ready to use those computers.</p>
+
+<p>So climate simulation problems of any given complexity/resolution  travel on a path from capability to capacity, and ideally that journey involves both sophisticated software engineering and high end climate science.</p>
+
+<h4 id="moving-forward">Moving Forward</h4>
+
+<p>In the last decades, much of the community has concentrated on “mitigation” class problems, which are generally of the global scale, and for which global scale models with grid resolutions of hundreds of km are adequate.</p>
+
+<p>Now society and more and more scientists, are turning their minds to the “adaptation” problem as well - we know we’ve got a certain amount of climate change in store (and probably a scary amount), and we need to work out what and where the impacts will be.  But the truth is our global scale models aren’t yet suitable on their own for answering these questions, and we think that’s a function of both complexity and resolution. Hence there are a variety of approaches to dealing with the divergence between our ability to predict climate and our our requirements for climate predictions at human scales (typically km or less).</p>
+
+<p>One of those approaches is to use global models to provide
+“boundary conditions” for “regional models” running at higher resolution. Thus the regional models are effectively running as sophisticated interpolation schemes, providing interpolated results which are consistent with what we know about the dynamics and physics of climate at those resolutions. However, most people agree that it would be far better if we could just avoid regional models and run the climate models at the necessary resolution. However, right now even regional models are too coarse.</p>
+
+<p>Additionally the impacts on the human scale (cities, catchments, mountains etc) need to be further calculated using “Impact Models” which are tailored to the problem of interest.</p>
+
+<p>In the best of all possible worlds, we’d run our global models at a sufficient resolution to resolve the important weather scales (not to predict weather per se, but so we can be confident that the statistics of the weather in our models will behave correctly as the climate changes), and we’d run impact models using statistics generated from those models.</p>
+
+<p>Which brings us back to ensembles. Whatever we do with our climate predictions, we need to ensure that we have enough predictions of the future to gather estimates of the uncertainty in our predictions (and there are at least two sorts of relevant uncertainty: even if we had perfect models, the actual future climate trajectory will be one of many possible future climates, and of course, we don’t have perfect models, and never will).</p>
+
+<p>So, not only do we want more complex higher resolution models, we want ensembles of predictions from those models (and preferably ensembles of predictions by different models, so we can sample both sorts of uncertainty).</p>
+
+<p>How do we get there?</p>
+
+<h4 id="one-way-forward">One way forward?</h4>
+
+<p>One of the breakout groups at the IS-ENES meeting was considering exactly that issue. Clearly our goal should be able to eventually run predictions at the global scale using whatever resolution is necessary to resolve “weather scales”. We suspect that’s down near the 1km scale (and know it’s certainly below the 50 km scale). But we also know that we only want as much resolution is necessary, and no more - because if we don’t need the extra resolution, we want to use the extra computing power to add complexity to our models (more processes).</p>
+
+<p>So, we came up with the following strategy:</p>
+
+<p><img src="/assets/images/2010-03-31-esm-roadmap.png" alt="esm.roadmap.png " /></p>
+
+<ul>
+  <li>
+    <p>On the one strand, we push the sophistication of our global models towards the high resolution higher complexity goal - down the capability path, and at intervals one has the capacity available to run ensembles of the global models so as to provide boundary conditions for regional models.</p>
+  </li>
+  <li>
+    <p>On the other, we run those regional models as ensembles to generate the statistics for the impacts models. Initially with large ensembles of coarser resolution models, but in time, with less diversity in models since it is believed that most of the model part of the uncertainty comes from the boundary conditions as opposed to the characteristics of the regional models themselves. We can then use the extra capacity from using less models to go faster to higher resolution in the regional models.</p>
+  </li>
+  <li>
+    <p>Eventually, the need for regional models should disappear, as either the global models get closer to the resolutions necessary (or they have internal grid refinements) (or both).</p>
+  </li>
+  <li>
+    <p>All the while we improve the software engineering underlying the models so that we can put more energy into maintaining a diversity of scientific models (necessary to get at model uncertainty) and less energy in maintaining a diversity of model frameworks and runtime environments. (See [my talk]/talks/2010/03/european-esm-strategy/) for some aspects of that and other good fun data issues.)</p>
+  </li>
+</ul>
+
+<h4 id="caveats">Caveats</h4>
+<ol>
+  <li>
+    <p>Like I said above, this is my summary of one part of the discussion, this is no way an outcome of the meeting …</p>
+  </li>
+  <li>
+    <p>With apologies to the rest of the earth system community, just because this is flavoured with atmosphere grid cell resolution, doesn’t mean we were avoiding
+the rest of the earth system … it’s just a shorthand for increasing resolution <em>where necessary</em>.</p>
+  </li>
+  <li>
+    <p>The timescales on the diagram are complete fiction, the key point I wanted to make was the simultaneous use of both capability and capacity and the need to be pushing towards better models even while producing our best possible predictions.</p>
+  </li>
+  <li>
+    <p>Oh, and by the way, some of those “capacity” machines running some of the members of the global ensembles would be considered “capability” by many. These terms are indicative not categorical.</p>
+  </li>
+</ol>
+
+<h4 id="trackbacks-1">trackbacks (1)</h4>
+<p><em><a href="/environment/2010/08/hpc_futures_-_part_one/">hpc futures - part one</a> (from “Bryan’s Blog” on (on Tuesday 03 August, 2010)</em></p>
+
+<p>… By way of organising my thinking about increased resolution, and in some ways, following up on an even older discourse, I’ve spent a bit of time thinking about computing capacity…</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2017-12-09T15:54:47+00:00</updated>
+  <updated>2017-12-10T16:39:12+00:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,47 @@
   
 
   
+  
+    <entry>
+      <title type="html">The Exascale Challenge to the UK - Part Two - Compute</title>
+      <link href="http://www.bnlawrence.net//computing/2017/12/exascale2/" rel="alternate" type="text/html" title="The Exascale Challenge to the UK - Part Two - Compute" />
+      <published>2017-12-10T00:00:00+00:00</published>
+      <updated>2017-12-10T00:00:00+00:00</updated>
+      <id>http://www.bnlawrence.net//computing/2017/12/exascale2</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//computing/2017/12/exascale2/">&lt;p&gt;&lt;a href=&quot;/computing/2017/12/exascale/&quot;&gt;Last time&lt;/a&gt; I set up the generic exascale challenge, this time I want to discuss how it is playing out here and now for UK climate modelling. This long-ish post discusses computer hardare and benchmarking of our codes. The next one will discuss the implication for science.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exascale" />
+      
+        <category term="cms" />
+      
+        <category term="modelling_futures" />
+      
+
+      
+        <summary type="html">Discussion of N512 Unified Model benchmark results in anticipation of a future discussion of how next generation HPC might be used.</summary>
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2017-12-10-sypd_noio.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">The Exascale Challenge to the UK - Part One</title>
@@ -315,40 +356,6 @@ I have just spent bit chunks of both yesterday and today, that is, sat and sun, 
 
       
 
-      
-
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Space and Open Plan Offices</title>
-      <link href="http://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices/" rel="alternate" type="text/html" title="Space and Open Plan Offices" />
-      <published>2017-02-06T00:00:00+00:00</published>
-      <updated>2017-02-06T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//management/2017/02/space_and_open_plan_offices/">&lt;p&gt;I was paying a bit more attention to twitter this morning than usual (I’m hoping I’ll  get some feedback on my analysis of citations that I posted yesterday). One thing that blew by was this headline &lt;a href=&quot;https://www.washingtonpost.com/posteverything/wp/2014/12/30/google-got-it-wrong-the-open-office-trend-is-destroying-the-workplace/?tid=ss_tw&amp;amp;utm_term=.e08d2e093c59&quot;&gt;the Washington Post&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;&quot;Google got it wrong. The open-office trend is destroying the workplace.&quot;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="management" />
       
 
       

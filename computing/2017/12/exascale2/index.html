@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Exascale Challenge to the UK - Part Two - Compute | Bryan Lawrence</title>
+  <meta name="description" content="Last time I set up the generic exascale challenge, this time I want to discuss how it is playing out here and now for UK climate modelling. This long-ish post discusses computer hardare and benchma...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2017/12/exascale2/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="The Exascale Challenge to the UK - Part Two - Compute">
+
+
+<meta name="twitter:description" content="Discussion of N512 Unified Model benchmark results in anticipation of a future discussion of how next generation HPC might be used.
+">
+
+
+
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="http://www.bnlawrence.net//assets/images/2017-12-10-sypd_noio.png">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">The Exascale Challenge to the UK - Part Two - Compute</h1>
+  <p class="post-meta">Posted on December 10, 2017
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/exascale/" rel="tag">exascale</a>, <a href="/tags/cms/" rel="tag">cms</a>, <a href="/tags/modelling_futures/" rel="tag">modelling_futures</a>).
+  
+  <br/>
+   Previous Post: <a class="prev" href="/computing/2017/12/exascale/">&laquo;The Exascale Challenge to the UK - Part One&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p><a href="/computing/2017/12/exascale/">Last time</a> I set up the generic exascale challenge, this time I want to discuss how it is playing out here and now for UK climate modelling. This long-ish post discusses computer hardare and benchmarking of our codes. The next one will discuss the implication for science.</p>
+
+<p>One of the things we have recently been trying to do is size the sort of models we might be able to run on the next generation national HPC platform (whatever that might be) and potentially on the pre-exascale and exascale machines we might see in Europe in the next decade. You might wonder why we’re thinking that far ahead, but the bottom line is that it takes years (up to a decade) to develop a (good) model, and we need to be thinking about what modelling programmes we can do with the models we have now, or will have soon, and what models we need to build/acquire/alter.</p>
+
+<p>We have to do this amongst the usual uncertainty in what computing is available, or might be available. There are a couple of constraints: we know that the current generation of the Unified Model gets no benefit from GPU technology, so we’re really going to be looking at CPU variants, and today that would mean some kind of Intel chip - Broadwell, Skylake etc. In the near future we might hope that someone will build a supercomputer using AMD or ARM chip<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+
+<p>We don’t have any information about our codes running on AMD silicon yet (if anyone from AMD wants to talk to us about that, please get in touch), but we do have some information about how ARM might play out from the work Simon McIntosh-Smith’s team are doing on the new <a href="http://gw4.ac.uk/isambard/">ISAMBARD</a> platform. He .. <a href="http://www.goingarm.com/slides/2017/SC17/GoingArm_SC17_Bristol_Isambard.pdf">talked</a> about this at Supercomputing 2017, and there are two relevant slides to talk about:</p>
+
+<p>Firstly (slide 7 if you look on the link above), he showed some benchmark comparisons of a number of codes on a single socket of Broadwell, Skylake and ThunderX2 arm (with 18, 22 and 32 cores respectively). My reading of these benchmark results are there is a 40-50% improvement between Broadwell and Skylake, and in nearly all cases substantial further improvement in the ThunderX2 results, but not breathtakingly more.</p>
+
+<p>However, more importantly from my perspective are the results using the UM and NEMO on the next slide, where a Broadwell/ThunderX2 comparison shows something like a 40% improvement for the UM (the NEMO results were on a slightly different TX2 platform so I won’t muddy the waters talking about them). The UM speed improvements must be coming from a combination of the extra cores and memory bandwidth on the TX2. Of course there are nearly 2x more cores on the TX2 (32) than the Broadwell (18), so the work done per core is less (which is a good reminder that core-hours are a poor comparative measure).</p>
+
+<p>I’m going to go (not very far) out on a limb and suggest then there is likely about 50%  performance advantage between Broadwell nodes and anything we might buy in the near future (less than two or so years) with either Skylake or ThunderX2 nodes.</p>
+
+<p>We have access to a Broadwell system - the NERC NEXCS platform (which actually runs on the Met Office’s Cray XCS-40), so we can establish some benchmarks against which we can utilise that 50% extra speed we might get in the future. We don’t currently have access to a Skylake machine, but we can look at evolution between processors by comparing our results with an Ivy-Bridge machine (ARCHER, a Cray XCS-30).</p>
+
+<p>The following data <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> is from an N512 version of the Unified Model. We first started using this resolution around 2012 as part of the <a href="https://doi.org/10.5194/gmd-7-1629-2014">UPSCALE</a> project - but despite being five years old, it’s still classed as a high resolution climate model. The N512 grid has different spatial resolution at different latitudes, but we tend to call it a 25km class model. To get a sense of what that means, this is what the European orography looks like at N512:</p>
+
+<p><img src="/assets/images/2017-12-10-n512c.png" alt="N512 Europe" /></p>
+
+<p>Ok, so to the data. We have two plots, one where we ran the model without the normal output of variables (for some reason we say “no I/O” when really what we man is no “O”), and one with the normal:</p>
+
+<p><img src="/assets/images/2017-12-10-sypd_noio.png" alt="Without I/O" />
+<img src="/assets/images/2017-12-10-sypd_withio.png" alt="With I/O" /></p>
+
+<p>There are three lines on each plot: the results from using all 36 cores on our two-socket Broadwell nodes on NEXCS, from just using 24 cores on NEXCS (so-called “under-populated”) and results from the Ivy Bridge on ARCHER. What we are showing is how many simulated years we can get from one day of computer time as a function of the number of computer nodes we use for the simulation.</p>
+
+<p>There are some quick conclusions we can draw with confidence:</p>
+
+<ol>
+  <li>Core for core we’ve got no benefit from the advances between Ivy-Bridge and Broadwell (!), but</li>
+  <li>Clearly node-for-node, we have got a substantial speed up, but it’s nothing like the 50% one might expect from having 50% more cores!</li>
+  <li>
+    <p>At least in this configuration, writing data slows the model down rather a lot.</p>
+
+    <p>With slightly lower confidence we can conclude that</p>
+  </li>
+  <li>the machines have sufficient interconnect bandwidth, and that maybe the interconnect latency is constraining scaling (Given scaling performance will be function of the code, the interconnect latency, and the inter-connnect bandwidth, and these two machines have the same interconnect latency but differing bandwidth at the largest scale, the fact that they scale the same suggests the constraint is not the bandwidth).</li>
+</ol>
+
+<p>So what? Next time I’ll discuss what this means for advancing our science. I’ve been <a href="/tags/modelling_futures">blogging about this for a long time</a>, since <a href="/environment/2005/01/Model_Resolution/">2005</a> in fact, so as part of that I’ll be looking at our (my) predictive power.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>A complete discussion would probably also include some mention of IBM Power and NEC, but I don’t have anything useful to say about them right now. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>I’m indebted to Luke Abraham, Ros Hatcher, Grenville Lister, Jeff Cole, and Simon Wilson for their work in the benchmarking exercise. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+	
+  </body>
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->
