@@ -466,6 +466,14 @@ a.tosu {
   display: block;
   font-size: 24px; }
 
+table {
+  border-collapse: collapse;
+  margin-bottom: 15px; }
+
+table, th, td {
+  border: 1px solid black;
+  padding: 2px; }
+
 /**
  * Posts
  */

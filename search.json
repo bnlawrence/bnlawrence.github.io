@@ -607,12 +607,45 @@
 
   
     ,{
+      "title"			: "AGU Fall meeting",
+      "url"			: "/talks/2012/12/LawrenceAGU2012/",
+      "tag"       : "",
+      "category"  : "talks",
+      "date"      : "2012-12-06",
+      "excerpt"		: "Issues to address before we can have an open climate modelling ecosystem"
+    }
+  
+
+  
+    ,{
       "title"			: "AGU Fall Meeting 2012",
       "url"			: "/academic/2012/12/agu_fall_meeting_2012/",
       "tag"       : "meetings",
       "category"  : "academic",
       "date"      : "2012-12-06",
       "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "ESA CCI 3rd Colocation Meeting",
+      "url"			: "/talks/2012/09/lawrence_esa_cci_v04/",
+      "tag"       : "",
+      "category"  : "talks",
+      "date"      : "2012-09-24",
+      "excerpt"		: "Exploiting high volume simulations and observations of the climate"
+    }
+  
+
+  
+    ,{
+      "title"			: "ICT Competitiveness",
+      "url"			: "/talks/2012/09/Lawrence_ICTBigData/",
+      "tag"       : "modelling, futures",
+      "category"  : "talks",
+      "date"      : "2012-09-19",
+      "excerpt"		: "Weather and Climate Computing Futures in the context of European Competitiveness"
     }
   
 
@@ -970,6 +1003,39 @@
 
   
     ,{
+      "title"			: "Managing Action Items",
+      "url"			: "/management/2005/04/managing_action_items/",
+      "tag"       : "management",
+      "category"  : "management",
+      "date"      : "2005-04-28",
+      "excerpt"		: "43 folders (via dirtsimple) has a nice discussion of how to manage one’s action items, particularly in the context of categorising things into “next actions”. I liked the following key points about action item lists (paraphrased):  Actions need to be atomic (if not, put them on a project to-do list)  Make them physical actions (not “think about”, but “write notes” etc)  Make sure that any dependencies are resolved  If it’s not something one is committed to (i.e. learn about something), then put on a different sort of list (e.g. on-hold, learning list, etc).  Make them well defined (begin with a physical verb, e.g. email, call, recode, visit etc).  Make sure the items are complete enough that you know what needs doing and why tomorrow, or next week, when you actually get to doing it."
+    }
+  
+
+  
+    ,{
+      "title"			: "Sleepless in Oxfordshire",
+      "url"			: "/personal/2005/04/sleepless_in_oxfordshire/",
+      "tag"       : "",
+      "category"  : "personal",
+      "date"      : "2005-04-26",
+      "excerpt"		: "Like all new parents, I’m not getting enough sleep, but I’m back at work, sort of."
+    }
+  
+
+  
+    ,{
+      "title"			: "Fine Excuse for Digital Silence",
+      "url"			: "/personal/2005/04/fine_excuse_for_digital_silence/",
+      "tag"       : "",
+      "category"  : "personal",
+      "date"      : "2005-04-14",
+      "excerpt"		: "This blog will go silent for a couple of weeks now, as our first child arrived a couple of days ago, and will be home from the hospital shortly. Everyone tells me I’ll be too tired to do anything. I believe them."
+    }
+  
+
+  
+    ,{
       "title"			: "Function Creep and Institutional Repositories",
       "url"			: "/computing/2005/03/function_creep_and_institutional_repositories/",
       "tag"       : "curation",
@@ -1209,6 +1275,10 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
   
 
   
