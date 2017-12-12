@@ -9,7 +9,7 @@ This is my blog and website. You can find out more about it and me [here](/about
 
 ## Blog
 
-My last few blog items were:
+My last few blog items:
 <ul class="listing">
 {% for post in site.posts limit:6 %}
 	{% unless post.categories contains "talks" %}

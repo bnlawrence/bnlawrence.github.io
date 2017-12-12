@@ -6,7 +6,7 @@ permalink: /blog/
 
 My blogging is very much a case of punctuated equilibrium in recent years, long periods of quiet, followed by a bit of activity. I hope to improve that in the near future. Meanwhile, here is a list of blog posts.
 
-_Note that this list is underpopulated as I have yet to migrate all the material over from my old blog!_
+_Note that this list is vastly underpopulated as I have yet to migrate all the material over from my old blog!_
 
 
 <ul class="listing">

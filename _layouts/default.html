@@ -14,7 +14,11 @@
     </div>
 
     {% include footer.html %}
-	
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
   </body>
+
+
 </html>
 <!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

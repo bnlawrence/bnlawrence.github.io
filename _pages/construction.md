@@ -31,4 +31,8 @@ There are three parallel activities underway:
 1. Choice of blogging technology: [jekyll](https://jekyllrb.com) (after a number of false starts with other techologies).
 1. Blog "theme/template" was based on [Steven Miller's Blog](https://svmiller.com), informed by Michael Rose's [So Simple Theme](https://github.com/mmistakes/so-simple-theme)
     * Thanks both!
+1. Other stuff:
+    * [Google analytics](https://michaelsoolee.com/google-analytics-jekyll/)
+    * [Twitter Cards](http://www.brianbunke.com/blog/2017/09/06/twitter-cards-on-jekyll/)
+    * [Category Navigation](http://ajclarkson.co.uk/blog/jekyll-category-post-navigation/)
 2. Most recent talk and blog content has been migrated, plus a few bits and bobs from the past to make sure it all works.
