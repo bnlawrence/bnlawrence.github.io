@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "ESiWACE General Assembly",
+      "url"			: "/talks/2017/12/esiwace-ga/",
+      "tag"       : "esiwace, exascale",
+      "category"  : "talks",
+      "date"      : "2017-12-12",
+      "excerpt"		: "The talk covers the “exploitability” component of the ESIWACE project. The work we describe is development of cost models for exascale HPC storage, plus new software to write and manage data at scale."
+    }
+  
+
+  
+    ,{
       "title"			: "The Exascale Challenge to the UK - Part Two - Compute",
       "url"			: "/computing/2017/12/exascale2/",
       "tag"       : "exascale, cms, modelling_futures",
