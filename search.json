@@ -651,6 +651,50 @@
 
   
     ,{
+      "title"			: "A tale of two ethics",
+      "url"			: "/academic/2012/02/a_tale_of_two_ethics/",
+      "tag"       : "ethics",
+      "category"  : "academic",
+      "date"      : "2012-02-27",
+      "excerpt"		: "A couple of years ago I took part in a lengthy discussion on scientific ethics. The context of that discussion was “the ethical risks” of any given piece of research, but I well remember the bottom line: in matters of ethics, there is no real black and white, “it all depends”. It’s possible to find a standpoint from which most “thinking people” (whatever that means) will believe you behaved ethically, and a standpoint from which most will not; often for the same action, albeit generally in different contexts!"
+    }
+  
+
+  
+    ,{
+      "title"			: "Reviewing Parson and Fox on the data publication metaphor",
+      "url"			: "/academic/2011/12/reviewing_parson_and_fox_on_the_data_publication_metafor/",
+      "tag"       : "curation",
+      "category"  : "academic",
+      "date"      : "2011-12-16",
+      "excerpt"		: "Mark Parsons have a draft paper out for public review  and are inviting comments there …"
+    }
+  
+
+  
+    ,{
+      "title"			: "Communicating Science (to the media)",
+      "url"			: "/academic/2011/12/communicating_science_to_the_media/",
+      "tag"       : "environment",
+      "category"  : "academic",
+      "date"      : "2011-12-14",
+      "excerpt"		: "Interesting seminar here this morning on the subject."
+    }
+  
+
+  
+    ,{
+      "title"			: "data scientists are anally retentive too!",
+      "url"			: "/computing/2011/12/data_scientists_are_anally_retentive_too/",
+      "tag"       : "metadata, curation",
+      "category"  : "computing",
+      "date"      : "2011-12-08",
+      "excerpt"		: "Well, that title ought to make this blog article inaccessible to those of us with anally retentive firewalls, but because it’s only a minor misquote of an article from the Times Higher Education, it is legitimate!"
+    }
+  
+
+  
+    ,{
       "title"			: "European Exascale Software Initiative",
       "url"			: "/computing/2011/07/european_exascale_software_initiative/",
       "tag"       : "exascale, hpc, meetings, modelling_futures",
@@ -662,12 +706,67 @@
 
   
     ,{
+      "title"			: "Thought provoking talk on climate policy",
+      "url"			: "/environment/2011/05/thought_provoking_talk_on_climate_policy/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2011-05-18",
+      "excerpt"		: "Today at the ICTP workshop on e-infrastructure for climate science,George Philander gave a really thought provoking talk on global warming and aspects of policy consequences - particularly in an African context."
+    }
+  
+
+  
+    ,{
       "title"			: "hpc futures - part two",
       "url"			: "/computing/2011/04/hpc_futures_-_part_two/",
       "tag"       : "exascale, hpc, badc, resolution, modelling_futures",
       "category"  : "computing",
       "date"      : "2011-04-28",
       "excerpt"		: "What is this exascale wall that I’ve been tweeting about?"
+    }
+  
+
+  
+    ,{
+      "title"			: "Pushing Water Analogies too far",
+      "url"			: "/computing/2011/02/pushing_water_analogies_too_far/",
+      "tag"       : "metadata, badc, neodc",
+      "category"  : "computing",
+      "date"      : "2011-02-09",
+      "excerpt"		: "Recently I heard a talk by Kevin Trenbeth, who showed a slide with the following cartoon:"
+    }
+  
+
+  
+    ,{
+      "title"			: "Weather Forecasting's Bad Name",
+      "url"			: "/environment/2011/01/weather_forecastings_bad_name/",
+      "tag"       : "environment, weather",
+      "category"  : "environment",
+      "date"      : "2011-01-31",
+      "excerpt"		: "Sometimes weather forecasting deserves its bad name!"
+    }
+  
+
+  
+    ,{
+      "title"			: "Numerical Observation Time",
+      "url"			: "/computing/2011/01/numerical_observation_time/",
+      "tag"       : "metafor, metadata",
+      "category"  : "computing",
+      "date"      : "2011-01-07",
+      "excerpt"		: "Over four years ago I had a series of conversations with colleagues, that led to my blog posts on meteorological time.Jeremy Tandy has subsequently refined our thinking of all those years ago in a cogent proposal intended for both OGC and WMO which casts the discussion of “forecast time” in an observations and measurements framework."
+    }
+  
+
+  
+    ,{
+      "title"			: "Citation, Digital Object Identifiers, Persistence, Correction and Metadata",
+      "url"			: "/computing/2011/01/citation_digital_object_identifiers_persistence_correction_and_metadata/",
+      "tag"       : "metadata, claddier, badc, curation, identifiers, dois",
+      "category"  : "computing",
+      "date"      : "2011-01-07",
+      "excerpt"		: "CEDA now has a mechanism for minting Digital Object Identifiers (DOIs). This means we need to finalise some decisions of rules of behaviour, which means wehave some interesting issues to address."
     }
   
 
@@ -915,12 +1014,34 @@
 
   
     ,{
+      "title"			: "More Meteorological Time",
+      "url"			: "/computing/2006/04/more_meteorological_time/",
+      "tag"       : "badc, curation, ndg",
+      "category"  : "computing",
+      "date"      : "2006-04-13",
+      "excerpt"		: "My first post at describing the time issues for meteorological metadata led to some confusion, so I’m trying again. I think it helps to consider a diagram:"
+    }
+  
+
+  
+    ,{
       "title"			: "Journals and Blogging",
       "url"			: "/academic/2006/03/journals_and_blogging/",
       "tag"       : "curation, ndg",
       "category"  : "academic",
       "date"      : "2006-03-20",
       "excerpt"		: "On Thursday I gave my seminar at Oxford.  Of course I wrote the abstract months before the talk, so I didn’t cover half the things I said I would in any detail, but for the record, the presentation itself is on my Talks page."
+    }
+  
+
+  
+    ,{
+      "title"			: "Meteorological Time",
+      "url"			: "/computing/2006/03/meteorological_time/",
+      "tag"       : "curation, badc",
+      "category"  : "computing",
+      "date"      : "2006-03-07",
+      "excerpt"		: "One of the problems with producing standard ways of encoding time is that in meteorology we have a lot of times to choose from. This leads to a lot of confusion in the meteorological community as to which time(s) to use in existing metadata standards, and even claims that existing standards cannot cope with meteorological time."
     }
   
 
@@ -1275,6 +1396,18 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   

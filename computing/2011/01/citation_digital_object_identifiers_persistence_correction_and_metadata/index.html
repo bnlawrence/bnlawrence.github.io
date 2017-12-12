@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Citation, Digital Object Identifiers, Persistence, Correction and Metadata | Bryan Lawrence</title>
+  <meta name="description" content="CEDA now has a mechanism for minting Digital Object Identifiers (DOIs). This means we need to finalise some decisions of rules of behaviour, which means wehave some interesting issues to address.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2011/01/citation_digital_object_identifiers_persistence_correction_and_metadata/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="Citation, Digital Object Identifiers, Persistence, Correction and Metadata">
+
+
+<meta name="twitter:description" content="CEDA now has a mechanism for minting Digital Object Identifiers (DOIs). This means we need to finalise some decisions of rules of behaviour, which means we
+have some interesting issues to address.
+
+">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Citation, Digital Object Identifiers, Persistence, Correction and Metadata</h1>
+  <p class="post-meta">Posted on January 7, 2011
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/metadata/" rel="tag">metadata</a>, <a href="/tags/claddier/" rel="tag">claddier</a>, <a href="/tags/badc/" rel="tag">badc</a>, <a href="/tags/curation/" rel="tag">curation</a>, <a href="/tags/identifiers/" rel="tag">identifiers</a>, <a href="/tags/dois/" rel="tag">dois</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/environment/2010/08/hpc_futures_-_part_one/">&laquo;hpc futures - part one&raquo;</a>
+  
+  
+  (in <a href="/categories/#environment" title="environment">environment</a>;
+  in <a href="/categories/#computing" title="computing">computing</a> previous is <a href="/computing/2009/06/journals_and_data_curation/" class="prev">&laquo;Journals and Data Curation&raquo;</a>)
+  
+  .<br/>
+   Next Post <a class="next" href="/computing/2011/01/numerical_observation_time/">&laquo;Numerical Observation Time&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>CEDA now has a mechanism for minting Digital Object Identifiers (DOIs). This means we need to finalise some decisions of rules of behaviour, which means we
+have some interesting issues to address.</p>
+
+<h4 id="traditional-journal-view">Traditional Journal View</h4>
+
+<p>Let’s start by considering how DOIs actually work for traditional journal articles:</p>
+<ol>
+  <li>
+    <p>User dereferences a DOI via https://doi.org/</p>
+  </li>
+  <li>
+    <p>doi.org redirects to a <em>landing page</em> URL. (This is the entire job of the doi handle system done!)</p>
+  </li>
+  <li>
+    <p>Publisher owns the landing page, and prominent on that page is some metadata about the paper of interest, J’, (author, abstract, correct citation etc), and a link to the actual object of interest (J, generally a pdf). NB: There maybe a paywall between the landing page and the object of interest.</p>
+  </li>
+</ol>
+
+<p>Publishers can change the landing page any time they like, but conventionally you had better be able to get to your digital object from there. There are some other de facto rules too:</p>
+<ul>
+  <li>If there is a new version of the paper, a new DOI is needed.</li>
+  <li>Landing pages can have query based links to other things (papers which cite this one) etc …</li>
+  <li>The metadata (J’) shouldn’t change (since it is indelibly linked to the paper). I suppose if the metadata had inadvertently left out an author, a publisher might update it and hope no one noticed … but there is an important thing to understand about this metadata:
+    <ul>
+      <li>It describes the digital object and represents it faithfully. It ought not change, since any change to it, ought to reflect a change to the digital object (and that should trigger a new DOI) …</li>
+      <li>and the original landing page can indicate that a newer version of J exists, but it should still point to the older version!</li>
+    </ul>
+  </li>
+</ul>
+
+<p>So the DOI system is effectively used as follows:</p>
+<blockquote>A DOI resolves to an *representation* of a record that describes a digital object which is *retrievable in its own right*, and that representation can carry lots of other extraneous stuff including material built from interesting queries related to the object of interest.
+</blockquote>
+
+<p>(In most cases the primary representation of the landing page is html, but other representations, including rdf, might exist.)</p>
+
+<h4 id="data-publication">Data Publication</h4>
+
+<p>OK, now consider the data publication version of this story.</p>
+
+<p>Consider a real world observation (O), which used a process (P) to produce a result (R). (Aficionados will recognise a cut down version of O&amp;M.) Expect that we have described these things with metadata O’, P’ and R’, which describe the observational event, the process used, and the result data (syntax mainly).
+You might think of it like this:</p>
+
+<p><img src="/assets/images/2011-01-07-PackagingMetadata.png" alt="Image: PackagingMetadata.png " /></p>
+
+<p>So what does data publication actually mean in this context? Sure we can assign a DOI to each of the O’, P’, R’ entities, but why would we do that, what value would that have over using a URL?</p>
+
+<p>We believe (<a href="/assets/papers/2011/LawEA11_original.pdf">pdf</a>) that the concept of Publication is an important one, which is distinct from publication (making something available on the web). Publication (with the capital) denotes connotations of both persistence and some sort of process to decide on fitness of purpose (peer review in the case of academic Publication).</p>
+
+<p>So how do we peer review data? In our opinion you can’t Publish data without Publishing adequate descriptions of at least the observation event, the process used, and the resulting data. That is, we want to see a form of peer review of the (O’,P’,R’) triumvate. (O&amp;M aficionados: for the purpose of this discussion I’ve collapsed the phenomenon , sampling feature, and feature of interest into the result description, don’t get hung up on that.)</p>
+
+<p>Strictly, in the O&amp;M view of the world, the process description can be reused, so we might assign DOIs to each process (P’).</p>
+
+<p>Clearly we can assign a DOI to R’, but we would argue (<a href="https://doi.org/10.1098/rsta.2008.0237">Lawrence et al 2009</a>) that without O’ and P’, the data is effectively not fit for wide use (and hence Publication). So, better would be to assign a DOI to O’ and ensure that O’ points to R’ and P’ (as it must do, since that’s how it’s defined).</p>
+
+<p>(Not having a DOI for R’ is consistent with the O&amp;M use of composition for R as part of O, but actually I think that’s a bit broken - in O&amp;M - for the case where we want to have observations which are effectively collections of related observations, but that’s a story for another day.)</p>
+
+<p>The html representation of O’ itself (not to be confused with the landing page for O’) could link to R’ and P’, or it could directly compose their content onto the page.</p>
+
+<p>Now we have some interesting issues. Can we imagine R’ being updated because of incompleteness or inaccuracy? Well, yes, but hopefully it’s about as likely as journal metadata changes. From a practical point of view, a cheeky change in R’ wouldn’t affect the conclusions that one might make about how and why someone used R itself. So, we might get away with fixing R’ in place, but in principle one shouldn’t.</p>
+
+<p>What about changes to our description of P’. Someone following a citation to O’ might get entirely the wrong idea of why someone used R (or misunderstand the usage). Hence, the right thing to do would be to:</p>
+<ul>
+  <li>create a new description of P (call it P<sup>+</sup>),</li>
+  <li>create a new description of O (call it O<sup>+</sup>), and ensure it composes P<sup>+</sup>.</li>
+  <li>review these new descriptions, then</li>
+  <li>mint a new DOI for O<sup>+</sup> (and one for P<sup>+</sup> if desired as well).,</li>
+  <li>create new landing pages accordingly, and</li>
+  <li>update the landing page for O’ (and the landing page for P’ if it exists separately) to indicate that a superceded version exists.</li>
+</ul>
+
+<p>Note that none of this discussion depends on the detail of the underlying representation(s) of each of O’,P’,R’, P<sup>+</sup>, or O<sup>+</sup>, these could utilise any technology (including OAI/ORE etc). However, for each object, one of the representations should represent the (apparently) <em>immutable</em> digital object linked via the landing page and the DOI. If that particular representation became unavailable, the replacement representation would become effectively a new editions of the digital object, and the landing page modified accordingly. It might be acceptable, and probably has to be for practical reasons (since such changes are likely to be associated with software changes), that the original DOIs resolve to landing pages that no longer point to the old primary representation - but they had better make the evolution clear.</p>
+
+<p>(Note that one would not countenance the data object R itself being allowed to change format without resulting in a new DOI.)</p>
+
+<p>In terms of the physical infrastructure, one could imagine the landing pages being dynamically generated from the metadata records they are linking to, along with queries making other associations etc. One could even imagine multiple representations of the landing page itself (e.g. XHMTL, multiple dialects of XML, RDF etc). Such different representations could be available by content negotiation - but to reiterate once again - even if multiple representations are available for the digital objects of interest, only one is <em>the</em> object for which the DOI was assigned.</p>
+
+<h4 id="comments-6">comments (6)</h4>
+<p><em>Chris Rusbridge (on Friday 07 January, 2011)</em>
+This is interesting, Bryan. I’ve been concerned about the DOI for data issue, but for different reasons.</p>
+
+<p>I’m not sure this is an issue, but in the above you use R as a result (data) from an observation O (an event). There’s a feeling in my mind of an implied singleness about this and the discussion. But don’t we more often expect to cite collections of results (datasets) referring to multiple observations? Do we have a DOI for each result/observation (a VERY large number of DOIs in many cases)? Or a DOI for each dataset? If the latter, we have to find ways of dealing with the non-immutability of the dataset (see for example Peter Buneman’s paper on database citation, less the strange XML citation format)…</p>
+
+<p>Perhaps I should re-read this more carefully tomorrow…</p>
+
+<p><em>Bryan (on Sunday 09 January, 2011)</em></p>
+
+<p>What is a dataset? Our favourite question. In the context of DOIs and implied credit, that has to be a discipline specific decision as to how many (single) observations are needed to correspond to something worthy of a DOI.</p>
+
+<p>That’s not a problem for O&amp;M though!</p>
+
+<p>O&amp;M is cast in the context of a single observation, but that observation could exploit a sampling feature which is a coverage (in time and/or space) … so the event, might even be associated with a cruise, or year of data collection.</p>
+
+<p>There is also the concept of related_observations, which is behind my cryptic comment about collections … which we certainly can and do have. I’ll write more about collections at a later date.</p>
+
+<p><em>Arif Shaon (on Monday 10 January, 2011)</em></p>
+
+<p>Hi Bryan,</p>
+
+<p>A quick question about the DOI metadata, in particular re “It describes the digital object and represents it faithfully. It ought not change, since any change to it, ought to reflect a change to the digital object (and that should trigger a new DOI) “  What is the definition of a digital object in this context?</p>
+
+<p>If it represents a form of “package” or “container” consisting of a data object (e.g. a publication in PDF) and its corresponding metadata (e.g. an RDF record), then I do agree that the changing the metadata would in effect alter the digital object (according to the OAIS model, it’s fixity info would change).
+However, if the term “digital object” only refers to a data object, then as far as I understand, changing metadata wouldnt necessarily alter the data that it describes.  An example of such a scenario could be adding a new keyword or a new related resource (possibly a “seeAlso” link for linked data) to the metadata record associated with a publication.</p>
+
+<p><em>Bryan (on Monday 10 January, 2011)</em></p>
+
+<p>Hi Arif</p>
+
+<p>I tried to address exactly that point in the article. Sorry it wasn’t clear. In the above example, you <em>could</em> have a DOI pointing to R’ which is essentially just the bare metadata describing (say) a netCDF file. If you change something else (e.g. P’ to become P+), then of course you didn’t change R’, and <em>that particular DOI</em> shouldn’t change. However, we think you should have a DOI pointing at P’ either directly, or via O’ (with P’ encapsulated) …</p>
+
+<p>I personally don’t think there is much to be gained by having DOI’s which point directly to R’ - and if you do, they certainly shouldn’t have academic credit. Hence the specific statement that best practice should be that the DOI points to O’ (which itself points to R’). In other words, without appropriate metadata, data is useless!</p>
+
+<p>The bottom line then is I don’t think we should end up in the second of your two examples! (But if you do, I tried to covered it explicitly anyway: the landing page is the one with queries on it, so adding new “see also” links should be a landing page issue.)</p>
+
+<p><em>Arif Shaon (on Friday 14 January, 2011)</em></p>
+
+<p>Hi Bryan,</p>
+
+<p>Thanks for the clarification. I have now read the second paragraph of your article in more detail, and I can now see that it does address my points.</p>
+
+<p><em>Brian Matthews (on Tuesday 18 January, 2011)</em></p>
+
+<p>Very interesting Bryan, and fits well with the approach we have been taking with ISIS where we are also setting up DOI minting and allocation.  DOIs will be assigned at the granularity of “Investigations” or a run - essentially a beamtime allocation, and the equivalent of your Observations, so the landing page will have O’ equivalent.  As in your model, this might have a number of individual Result sets, reflecting individual shots, but they are “bare” as you say and thus DOI-less (though with some well maintained URI).  P is relatively simple as the collection process is highly constrained in the context of a beamline, and the P’ metadata is folded into O’.</p>
+
+<p>Some to me open questions.  There are issues around when to assign DOIs - as early as possible, but this runs into the mutability question as all the (meta)data may not be there.</p>
+
+<p>And P should decompose for derived data - for provenance tracing.  Is that what the related_observations can do?</p>
+
+<p>Reminds me that I should look at O&amp;M again….</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

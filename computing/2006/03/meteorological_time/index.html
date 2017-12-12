@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Meteorological Time | Bryan Lawrence</title>
+  <meta name="description" content="One of the problems with producing standard ways of encoding time is that in meteorology we have a lot of times to choose from. This leads to a lot of confusion in the meteorological community as t...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2006/03/meteorological_time/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="Meteorological Time">
+
+
+<meta name="twitter:description" content="One of the problems with producing standard ways of encoding time is that in meteorology we have a lot of times to choose from. This leads to a lot of confusion in the meteorological community as t...">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Meteorological Time</h1>
+  <p class="post-meta">Posted on March 7, 2006
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/curation/" rel="tag">curation</a>, <a href="/tags/badc/" rel="tag">badc</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/computing/2006/03/some_trackback_code/">&laquo;Some Trackback code&raquo;</a>
+  
+  .<br/>
+   Next Post <a class="next" href="/academic/2006/03/journals_and_blogging/">&laquo;Journals and Blogging&raquo;</a>
+  
+  
+  (in <a href="/categories/#academic" title="academic">academic</a>;
+  in <a href="/categories/#computing" title="computing">computing</a> next is <a href="/computing/2006/04/more_meteorological_time/" class="next">&laquo;More Meteorological Time&raquo;</a>)
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>One of the problems with producing standard ways of encoding time is that in meteorology we have a lot of times to choose from. This leads to a lot of confusion in the meteorological community as to which time(s) to use in existing metadata standards, and even claims that existing standards cannot cope with meteorological time.</p>
+
+<p>I think this is mainly about confusing storage, description and querying.</p>
+
+<p>Firstly, let’s introduce some time use cases and vocabulary:</p>
+<ol>
+  <li>
+    <p>I run a simulation  model to make some predictions about the future (or past). In either case, I have model time which is related to real world time. In doing so, I may have used an unusual calendar (for example, a 360 day year). We have three concepts and two axes to deal with here: the <strong>Simulation Time</strong> axis (T) and the <strong>Simulation Calendar</strong>. The <strong>Simulation Period</strong> runs from T<sub>0</sub> to T<sub>e</sub>.  We also have to deal with real time, which we’ll denote with a lower case <em>t</em>.</p>
+  </li>
+  <li>
+    <p>Using a numerical weather prediction model.</p>
+
+    <ol>
+      <li>
+        <p>Normally such a model will use a “real” calendar, and the intention is that T corresponds directly to <em>t</em>.</p>
+      </li>
+      <li>It will have used observational data in setting up the initial conditions, and the last time for which observations were allowed into the setup is the <strong>Datum Time</strong> (<em>t</em><sub>d</sub> - note that datum time is a real time, I’ll stop making that point now, you can tell from whether it is T or <em>t</em> whether it’s simulation or real).</li>
+      <li>
+        <p>The time at which the simulation is actually created is also useful metadata, so we’ll give that a name: <strong>Creation Time</strong> (<em>t</em><sub>c</sub>).</p>
+      </li>
+      <li>The time at which the forecast is actually issued is also useful, call it <strong>Issue Time</strong> (<em>t</em><sub>i</sub>). So: t<sub>d</sub> &lt; t<sub>c</sub> &lt; t<sub>i</sub></li>
+      <li>
+        <p>A weather prediction might be run for longer, but it might only be intended to be valid for a specific period called the <strong>ValidUsagePeriod</strong>. This period runs from <em>t</em><sub>i</sub> until the <strong>VerificationTime</strong> (<em>t</em><sub>v</sub>).</p>
+      </li>
+      <li>During the ValidUsagePeriod (and particularly at the end) the forecast data (in time axis T) may be directly compared with real world observations (in time axis <em>t</em>), i.e., they share the same calendar. So now we have the following:
+ T<sub>0</sub> &lt; <em>t<sub>c</sub> *but</em> t’‘<sub>d</sub>  can be either before or after T<sub>0</sub>!
+        <ul>
+          <li>Note also that the VerificationTime is simply a special labelled time, this doesn’t imply that verification can’t be done for any time or times during the ValidUsagePeriod.</li>
+          <li>Note that some are confused about variables which are accumulations, averages, or maximum/minimum, all over some <strong>Interval</strong>. These do not have a special relationship with these variables. When I do my comparisons, I just need to ensure that the intervals are the same on both axes.</li>
+        </ul>
+      </li>
+      <li>We might have an ensemble of simulations, which share the same time properties, and only differ by an <strong>EnsembleID</strong> - we treat this as a time problem because each of these is essentially running with a different instance of T, even though each instance maps directly onto <em>t</em>. But for now we’ll ignore these.</li>
+    </ol>
+  </li>
+  <li>
+    <p>In the specific case of four-dimensional data assimilation we have: T<sub>0</sub> &lt; t<sub>d</sub> &lt; t<sub>c</sub> &lt; t<sub>i</sub> &lt; t<sub>v</sub> &lt; T<sub>e</sub> -
+confused? You shouldn’t be now. But the key point here is that there is only one time axis, and one time calendar both described by T! All the things which are on the <em>t</em> axis are metadata about the data (the prediction).</p>
+  </li>
+  <li>
+    <p>If we consider observations (here defined as including objective analyses) as well, we might want some new time names, it might be helpful to talk about</p>
+
+    <ol>
+      <li>
+        <p>the <strong>ObservationTime</strong> (<em>t</em><sub>o</sub>,the time at which the observation was made, sometimes called the <strong>EventTime</strong>).</p>
+      </li>
+      <li>
+        <p>the <strong>IssueTime</strong> is also relevant here, because the observation may be revised by better calibration or whatever, so we may have two identical observations for the same <em>t</em><sub>o</sub>, but different <em>t</em><sub>i</sub>.</p>
+      </li>
+      <li>
+        <p>a <strong>CollectionPeriod</strong> might be helpful for bounding a period over which observations were collected (which might start before the first observations and finish after the last one, not necessarily beginning with the first and ending with the last!)</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Finally, we have the hybrid series. In this case we might have observations interspersed with forecasts. However, again, there is one common axis time. We’d have to identify how the hybrid was composed in the metadata.</p>
+  </li>
+</ol>
+
+<p>I would argue that this is all easily accommodated in the existing metadata standards, nearly all these times are properties of the data, they’re not intrinsic to the data coverages (in the OGC sense of coverage). Where people mostly get confused is in working out how to store a sequence of, say, five day forecasts, which are initialised one day apart, and where you might want to, for example, extract a time sequence of data which is valid for a specific series of times, but is using the 48 hour forecasts for those times. This I would argue is a problem for your query schema, not your storage schema - for that you simply have a sequence of forecast instances to store, and I think that’s straight forward.</p>
+
+<p>I guess I’ll have to return to the query schema issue.</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->
