@@ -12,7 +12,7 @@ categories: talks
 Data Interoperability and Integration: A climate modelling perspective
 -----------------------------------------------------------------------
 
-Presentation: [pdf]({{"/assets/talks/2017-11-14-171104_data_interop_lawrence.pdf" | absolute_url}}) (11.5 MB).
+Presentation: [pdf](/assets/talks/2017-11-14-171104_data_interop_lawrence.pdf) (11.5 MB).
 
 I was asked to give a talk at a [CODATA](http://www.codata.org/) meeting which was aimed at developing a roadmap for:
 1. Mobilising community support and advice for discipline-based initiatives to develop online data capacities and services;
