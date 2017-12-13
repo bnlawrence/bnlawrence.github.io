@@ -783,6 +783,61 @@
 
   
     ,{
+      "title"			: "Australian Adventures",
+      "url"			: "/computing/2010/11/australian_adventures/",
+      "tag"       : "metadata",
+      "category"  : "computing",
+      "date"      : "2010-11-15",
+      "excerpt"		: "This is going to be a difficult blog entry, because I’m going to have to say some nice things about Australia (something most kiwis find difficult). So, on with it."
+    }
+  
+
+  
+    ,{
+      "title"			: "An Aussie Triumvirate",
+      "url"			: "/talks/2010/11/eResearch-keynote/",
+      "tag"       : "",
+      "category"  : "talks",
+      "date"      : "2010-11-11",
+      "excerpt"		: "These were three talks given in Australia during a short trip in November, 2010. I gave one in Canberra, and two on the Gold Coast."
+    }
+  
+
+  
+    ,{
+      "title"			: "Can we put distributed query to bed please?",
+      "url"			: "/computing/2010/11/can_we_put_distributed_query_to_bed_please-3F/",
+      "tag"       : "ogc",
+      "category"  : "computing",
+      "date"      : "2010-11-09",
+      "excerpt"		: "Yesterday I got caught in a vociferous conversation about the benefits of distributed queries. Vociferous because I was trying to convince a bunch of true believers that distributed query is an edge case - the big use case is harvest, index, and efficient query. (This in the context of exploiting metadata). Clearly Google is an existence proof that harvest+index keeps information seekers happy.Of course that depends on Google understanding the formats, and that there is a smart way to index the data, which either  depends on the content, or  the links between the contentto rank the data."
+    }
+  
+
+  
+    ,{
+      "title"			: "Tales from the EA linux coal front",
+      "url"			: "/computing/2010/10/tales_from_the_ea_linux_coal_front/",
+      "tag"       : "computing, UML",
+      "category"  : "computing",
+      "date"      : "2010-10-21",
+      "excerpt"		: "Infrequently I get to do some real work (i.e. interesting work1), but it’s so infrequent that every time I get to do work, my “environment” has moved on. In this case, I wanted to produce a simple model extending a couple of ISO classes to provide a different view of how we might describe a climate model. A few minute work I thought … but it took me half a day, on and off, to get myself in a position to do that few minutes work. So this is by way of saving someone else the bother of working out how (and one of my colleagues at today’s metafor meeting needs this info too).            really interesting work is actual climate science, and I get to do that even less frequently &#8617;      "
+    }
+  
+
+  
+    ,{
+      "title"			: "Instances and Properties",
+      "url"			: "/computing/2010/10/instances_and_properties/",
+      "tag"       : "metadata, metafor",
+      "category"  : "computing",
+      "date"      : "2010-10-21",
+      "excerpt"		: "Someone else will probably find a better way to express this, and give me the proper language, but meanwhile, I wanted to expose something that I think is important about my meta-model of using domain modelling to produce descriptions of things, and indexes of those descriptions. It came up over lunch time at a metafor coding sprint, and someone asked me to write it down, so here it is."
+    }
+  
+
+  
+    ,{
       "title"			: "hpc futures - part one",
       "url"			: "/environment/2010/08/hpc_futures_-_part_one/",
       "tag"       : "climate, modelling_futures, resolution",
@@ -811,6 +866,17 @@
       "category"  : "talks",
       "date"      : "2010-03-30",
       "excerpt"		: "Software &amp; Data Infrastructure for Earth System Modelling"
+    }
+  
+
+  
+    ,{
+      "title"			: "hollow world and svngate revisited",
+      "url"			: "/computing/2010/03/hollow_world_and_svngate_revisited/",
+      "tag"       : "metadata, computing, UML",
+      "category"  : "computing",
+      "date"      : "2010-03-15",
+      "excerpt"		: "For a number of projects I’m having to revisit some domain modelling, exploiting both HollowWorld and the upcoming ISO19156 Observations and Measurements standard."
     }
   
 
@@ -849,6 +915,17 @@
 
   
     ,{
+      "title"			: "EA and Subversion, Resolved",
+      "url"			: "/computing/2008/05/ea_and_subversion_resolved/",
+      "tag"       : "UML",
+      "category"  : "computing",
+      "date"      : "2008-05-24",
+      "excerpt"		: "The good folks at CodeWeavers have resolved my problems with the subversion client under Wine (which I needed to get working for use from within Enterprise Architect). All kudos to Jeremy White!"
+    }
+  
+
+  
+    ,{
       "title"			: "Introducing Metafor",
       "url"			: "/computing/2008/05/introducing_metafor/",
       "tag"       : "ndg, metadata, metafor",
@@ -866,6 +943,28 @@
       "category"  : "computing",
       "date"      : "2008-05-21",
       "excerpt"		: "I keep on harping on about how metadata management is time intensive, and the importance of standards."
+    }
+  
+
+  
+    ,{
+      "title"			: "More on the windows subversion client under wine.",
+      "url"			: "/computing/2008/04/more_on_the_windows_subversion_client_under_wine/",
+      "tag"       : "UML",
+      "category"  : "computing",
+      "date"      : "2008-04-16",
+      "excerpt"		: "I reported my problems earlier."
+    }
+  
+
+  
+    ,{
+      "title"			: "Subversion under WINE",
+      "url"			: "/computing/2008/04/subversion_under_wine/",
+      "tag"       : "UML",
+      "category"  : "computing",
+      "date"      : "2008-04-01",
+      "excerpt"		: "Today’s task. Trying to get Enterprise Architect workingwith subversion."
     }
   
 
@@ -1418,6 +1517,10 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
   
 
   

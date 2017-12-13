@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Subversion under WINE | Bryan Lawrence</title>
+  <meta name="description" content="Today’s task. Trying to get Enterprise Architect workingwith subversion.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2008/04/subversion_under_wine/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="Subversion under WINE">
+
+
+<meta name="twitter:description" content="Today’s task. Trying to get Enterprise Architect working
+with subversion.
+
+">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Subversion under WINE</h1>
+  <p class="post-meta">Posted on April 1, 2008
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/uml/" rel="tag">UML</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/environment/2008/01/moving_modelling_forward_in_small_steps/">&laquo;Moving Modelling Forward ... in small steps&raquo;</a>
+  
+  
+  (in <a href="/categories/#environment" title="environment">environment</a>;
+  in <a href="/categories/#computing" title="computing">computing</a> previous is <a href="/computing/2007/05/citation_and_claddier/" class="prev">&laquo;Citation and Claddier&raquo;</a>)
+  
+  .<br/>
+   Next Post <a class="next" href="/computing/2008/04/more_on_the_windows_subversion_client_under_wine/">&laquo;More on the windows subversion client under wine.&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>Today’s task. Trying to get Enterprise Architect working
+with subversion.</p>
+
+<p><a href="http://www.sparxsystems.com.au/">Enterprise Architect</a> runs under <a href="http://www.codeweavers.com/products/cxoffice/">CrossOver Office</a> on linux (<a href="http://www.winehq.org/">Wine</a>) and getting it to work with subversion is not as straightforward as one might like (but the folks at sparxsystems are very helpful!)</p>
+
+<p>The first step is to verify that we can use subversion within
+crossover office.</p>
+
+<p>I installed the standard windows 32 bit binary into my EA bottle.</p>
+
+<p>The two repositories I am interested in working with
+are available via https:// and svn+ssh://, and neither worked straightforwardly (I think the sparxsystems folk have only worked with regular svn:// repositories thus far).</p>
+
+<p>To test access, I created simple batch files of the form:</p>
+<pre>
+"C:\Program Files\Subversion\bin\svn.exe" checkout "https://url-stuff" &gt; svnlog.log &amp;2&gt; svnlog-err.log
+</pre>
+<p>and</p>
+<pre>
+"C:\Program Files\Subversion\bin\svn.exe" checkout "svn+ssh://url-stuff" &gt; svnlog.log &amp;2&gt; svnlog-err.log
+</pre>
+<p>which I put in my /home/user/.cxoffice/ea/drive_c/ directory with names something like <em>batfile.bat</em>. (In both cases, the repositories already exist and work fine with linux subversion).</p>
+
+<p>We can then run those windows bat files with a unix script like this one:</p>
+<pre>
+/home/user/cxoffice/bin/wine --bottle "ea" --untrusted --workdir "/home/user/.cxoffice/ea""/drive_c" -- "/home/user/.cxoffice/ea/drive_c/batfile.bat"
+</pre>
+<p>Neither work. The two error messages I got were:</p>
+<ul>
+  <li>(https:) svn: Network socket initialization failed</li>
+  <li>(svn+ssh:) svn: Can’t create tunnel: File not found</li>
+</ul>
+
+<p>I haven’t made much progress with the former. Googling yielded <a href="http://www.winehq.org/pipermail/wine-users/2008-January/028662.html">this query</a> to the wine list. The author got no response and currently has no solution (I checked with him personally).</p>
+
+<p>However, I made real progress with the latter. The best advice I found was <a href="http://subclipse.tigris.org/servlets/ReadMsg?list=users&amp;msgNo=3334">this</a>, but there were enough things to think about for the wine environment that it’s worth documenting here.</p>
+<ol>
+  <li>I spent some fruitless time trying to install tortoiseSVN into my EA bottle under crossover. (It seems to work, but under a win2000 bottle, and EA needs a win98 bottle). I then tried Putty … which installed fine. You’ll need the lot (make sure you download the installer not the simple .exe).</li>
+  <li>You will need a public key and private key set up so that the batch files run by EA (and you in testing) can work, so we get that done first.</li>
+  <li>On my laptop, I used</li>
+</ol>
+
+<pre>
+ssh-keygen -t rsa
+
+</pre>
+<p>to get a public and private key pair (<a href="http://silenceisdefeat.org/wiki/index.php/SSH_Key_Authentication">thanks</a>). For the moment I’m using no passphrase (the laptop disk itself is encrypted).</p>
+
+<ol>
+  <li>
+    <p>Now I had a pair of keys sitting in my laptop ~/.ssh/ directory.</p>
+  </li>
+  <li>
+    <p>The repository I want to get to lives on <em>server</em>, so I log into <em>server</em>, so the public key needs to be there. I changed directory into my .ssh directory there, and</p>
+
+    <ol>
+      <li>
+        <p>created an empty file authorized_keys (just “touch authorized_keys”)</p>
+      </li>
+      <li>
+        <p>opened that file up, and copied in the public key from my laptop directory.</p>
+      </li>
+      <li>
+        <p>Then I tested that key pair from the command line (under linux, ssh you@<em>server</em>). Fine.</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Then putty has to be encouraged to use that private key.</p>
+
+    <ol>
+      <li>Putty doesn’t understand the openssh private key file we’ve just generated, so we need to convert it.
+        <ol>
+          <li>A copy visible to windows is needed (i.e. copied away from the hidden .ssh directory).</li>
+          <li>Run puttygen from the crossover office run windows command (browse to the executable in the Putty Program Files directory).</li>
+          <li>Now click on File&gt; Load Private Key and load the file, then save the private key out as .ppk file. Delete the copy of the private key, and move the .ppk file somewhere special on your drive_c in your windows partition.</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Now you need to make sure that ssh is configured to use your putty. So, that means putting</p>
+  </li>
+</ol>
+<pre>
+ssh = "C:\Program Files\PuTTY\plink.exe" -i "C:\\yourdir\\yourfile.ppk"
+</pre>
+<p>in your subversion config file (which lives in</p>
+<pre>
+.cxoffice/yourEABottle/drive_c/Windows/Application Data/Subversion
+</pre>
+<p>And now at least I can checkout a working copy …</p>
+
+<p>I’ll try and integrate that with EA another day, and the https problem will have to wait too. That lot took more than twice the time I allocated for it …</p>
+
+<h4 id="trackbacks-1">trackbacks (1)</h4>
+<p><em><a href="/computing/2008/04/more_on_the_windows_subversion_client_under_wine/">More on the windows subversion client under wine.</a> (from “Bryan’s Blog” on (on Thursday 17 April, 2008)</em></p>
+
+<p>… by way of notes wrt to the https problems …</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

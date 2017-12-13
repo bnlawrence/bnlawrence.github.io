@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Instances and Properties | Bryan Lawrence</title>
+  <meta name="description" content="Someone else will probably find a better way to express this, and give me the proper language, but meanwhile, I wanted to expose something that I think is important about my meta-model of using dom...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2010/10/instances_and_properties/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="Instances and Properties">
+
+
+<meta name="twitter:description" content="Someone else will probably find a better way to express this, and give me the proper language, but meanwhile, I wanted to expose something that I think is important about my meta-model of using dom...">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Instances and Properties</h1>
+  <p class="post-meta">Posted on October 21, 2010
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/metadata/" rel="tag">metadata</a>, <a href="/tags/metafor/" rel="tag">metafor</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/environment/2010/08/hpc_futures_-_part_one/">&laquo;hpc futures - part one&raquo;</a>
+  
+  
+  (in <a href="/categories/#environment" title="environment">environment</a>;
+  in <a href="/categories/#computing" title="computing">computing</a> previous is <a href="/computing/2010/03/hollow_world_and_svngate_revisited/" class="prev">&laquo;hollow world and svngate revisited&raquo;</a>)
+  
+  .<br/>
+   Next Post <a class="next" href="/computing/2010/10/tales_from_the_ea_linux_coal_front/">&laquo;Tales from the EA linux coal front&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>Someone else will probably find a better way to express this, and give me the proper language, but meanwhile, I wanted to expose something that I think is important about my meta-model of using domain modelling to produce descriptions of things, and indexes of those descriptions. It came up over lunch time at a metafor coding sprint, and someone asked me to write it down, so here it is.</p>
+
+<p>These concepts should be, I think, independent of the actual modelling tool you use to encode these concepts (UML, OWL or whatever), although you would want to encode the concepts using those tools.</p>
+
+<p>Most readers will recognize this as essentially repeating some of the General Feature Model of ISO19109 … with, I think, a few additions, and possibly exposing the contradiction between that and ISO19110 (the feature catalog description … and thanks to Andrew Woolf for bringing the latter to my attention.)</p>
+
+<p>There are a few simple things in this world:</p>
+<ul>
+  <li>Features which are instances of Feature Types, and which have identity:
+    <ul>
+      <li>e.g. I am an instance of the Feature Type Humans. You can use my openid address to unambiguously point to me.</li>
+    </ul>
+  </li>
+  <li>Feature Types, are classes of objects in the real world.
+    <ul>
+      <li>e.g Humans</li>
+    </ul>
+  </li>
+  <li>Features Types have properties, which characterize those Feature Types.
+    <ul>
+      <li>e.g. I have brown eyes.</li>
+    </ul>
+  </li>
+  <li>Properties are attributes of Feature Types which are not interesting in their own right, although they are well defined, and are very useful.
+    <ul>
+      <li>e.g. if you do a search on humans with brown eyes, you are interested in returning instances of human, not instances of brown. (You might be interested in doing a search on colours of eyes in humans and get brown back, but in that case, you are interested in getting members of a vocabulary back, not instances of real world things.)</li>
+      <li>(NB: In ISO19109 such properties are <em>composed</em> into their parent feature descriptions, which is often not very helpful, since it implies that if i use colour as an attribute of human, it might not carry the same connotation as colour when used as an attribute of a dog. This “error” causes problems with serialization to RDF from an ISO19109 compliant domain model, since one can’t necessarily assume that they are the same concept, without some extra baggage, which essentially associates the properties with other entities. This extra baggage is implicit in ISO19110 which allows one to store properties independent of feature types.)</li>
+    </ul>
+  </li>
+  <li>Features have associations with other features, and may be composed or aggregated out of other features.
+    <ul>
+      <li>e.g. My family is a specific aggregation of humans.</li>
+    </ul>
+  </li>
+  <li>We also have to deal with a specific class of features: those with well defined life cycles
+    <ul>
+      <li>e.g. I was born, and will die. Someone is responsible for maintaining the description of me which carries my openid. (That might be me, but for inanimate objects, it’ll be a specific person.)</li>
+      <li>The implication of this is that there is an authoritative description of me, there are authoritative descriptions of my family, and both are bounded by a specific composition of features and set of properties. (In metafor, these compositions are called “documents”, because they themselves are important entities, with life cycles.)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Why is this important? Well, in the context of building software tools which themselves describe software tools (e.g climate models), we need to distinguish between these concepts (e.g. the models, and the language they are written in).</p>
+
+<p>This matters, because we want to serialize these descriptions in both rdf
+triples and XML documents for good reasons: the former yields excellent methods of indexing documents, the latter, excellent technology for document exchange (and differencing.)</p>
+
+<p>(Yes, yes, I know one can compose RDF into things with the properties of documents via OWL, but XML is more useful for handing to a GUI etc, and we can talk about OWL another day.)</p>
+
+<p>When we’ve got this in place, we want to use our RDF to index things, but in general we are interested (from a software perspective) in creating, managing, displaying, and differencing our feature instances, not their properties (humans consume those). So, our domain model - however serialized -  needs to distinguish between all these things.</p>
+
+<h4 id="comments-2">comments (2)</h4>
+
+<p><em>Andrew (on Friday 22 October, 2010)</em></p>
+
+<p>But note the NWIP 19110 removes the inconsistency with GFM wrt ownership of properties by features.</p>
+
+<p>You might also want to look at 19126 which addresses the issue of feature concepts (including properties) and their definitions, separate from their construction into feature models and application schemas.</p>
+
+<p>Re “authoritative description” (of you, or anything else) - the semantic web approach is rather to give you an authoritative <em>label</em> (URI), but recognise that there might be multiple representations and (partial) views of you available through (or linked to) that label.</p>
+
+<p><em>Stephen Pascoe (on Friday 22 October, 2010)</em></p>
+
+<p>It is the final point that I find the most fascinating about the RDF vs. XML.  XML documents are “bounded” whereas RDF is not.  This definitely makes management easier until you start worrying about connections between XML documents.</p>
+
+<p>I’m surprised you propose that differencability is a strength of XML.  The difference between 2 RDF documents could be defined as the set-symmetric-difference of the 2 sets of triples (granted it’s more complex when blank-nodes are involved but you could still define difference independent of the schema).  In contrast I could imagine many different ways of defining difference in XML – assuming you are interested in differencing the semantics rather than just the DOM tree.</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

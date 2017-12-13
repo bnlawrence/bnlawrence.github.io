@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EA and Subversion, Resolved | Bryan Lawrence</title>
+  <meta name="description" content="The good folks at CodeWeavers have resolved my problems with the subversion client under Wine (which I needed to get working for use from within Enterprise Architect). All kudos to Jeremy White!">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2008/05/ea_and_subversion_resolved/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="EA and Subversion, Resolved">
+
+
+<meta name="twitter:description" content="The good folks at CodeWeavers have resolved my problems with the subversion client under Wine (which I needed to get working for use from within Enterprise Architect). All kudos to Jeremy White!
+
+">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">EA and Subversion, Resolved</h1>
+  <p class="post-meta">Posted on May 24, 2008
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/uml/" rel="tag">UML</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/computing/2008/05/introducing_metafor/">&laquo;Introducing Metafor&raquo;</a>
+  
+  .<br/>
+   Next Post <a class="next" href="/computing/2008/05/identifiers_persistence_and_citation/">&laquo;Identifiers, Persistence and Citation&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>The good folks at CodeWeavers have resolved my <a href="/computing/2008/04/more_on_the_windows_subversion_client_under_wine/">problems</a> with the subversion client under Wine (which I needed to get working for use from within <a href="http://www.sparxsystems.com.au/">Enterprise Architect</a>). All kudos to Jeremy White!</p>
+
+<p>I’d got to the point of <a href="http://www.codeweavers.com/support/tickets/browse/?ticket_id=625046">recommending in a support request</a> at codeweavers that a work around might be to try and replace the call to subversion with a windows bat file that invoked linux subversion rather than trying to get windows native subversion working properly.</p>
+
+<p>Jeremy was far smarter than that. Yes, we’ve ended up invoking linux subversion, but via a different route.</p>
+
+<p>The first step we took was to replace the native subversion.exe call with a simple linux script (I had no idea that one could even do that, having assumed that from a windows cmd.exe one had to call windows stuff … but note that the trick was to make sure the script had no filename extension, and point to it in the EA cofiguration as if it were an executable). Having done that, we could see what EA was up to, and we found a few wrinkles.</p>
+
+<p>Jeremy then came up with a winelib application (<a href="http://www.codeweavers.com/support/wiki/EAsvn">svngate</a>) which handles all the issue with windows paths, and also a bug in the way EA uses subversion config-dir (a bug which doesn’t seem to cause problems under windows, even though it ought to).  In passing, Jeremy also fixed a wee bugette in the wine cmd.exe which was also necessary to make things work.
+All the code is on the <a href="http://www.codeweavers.com/support/wiki/EAsvn">crossover wiki</a>.</p>
+
+<p>So I’m a happy codeweavers client. I’m less happy with how Sparx dealt (commercially) with their end of this, but that’s a story for another day.</p>
+
+<p>(<strong>Update 06/06/08</strong>: I’m probably being unfair, their technical support are now taking this and running with it; their linux product will be svngate aware and <em>is</em> getting linux specific bug fixes.)</p>
+
+<p><strong>Update 02/06/08</strong>. There was another wrinkle I discovered after a while … the old cr/lf unix/windows problem. This can be relatively easily fixed,as Jeremy had seen this coming. I created my own version of subversion (/home/user/bsvn) with</p>
+<pre>
+#!/bin/bash
+svn "$*" | flip -m -
+</pre>
+<p>and set SVNGATE_BIN to /home/usr/bsvn!</p>
+
+<p><strong>Update 02/06/09</strong>. Actually that previous script doesn’t quite work in all cases (i.e. where the svn content has blanks and hyphens in filenames). Better
+seems to be:</p>
+<pre>
+#!/bin/bash
+svn "$@" | flip -m -
+</pre>
+
+<h4 id="trackbacks-1">trackbacks (1)</h4>
+
+<p><em><a href="/computing/2010/03/hollow_world_and_svngate_revisited/">hollow world and svngate revisited</a> (from “Bryan’s Blog” on (on Monday 15 March, 2010)</em></p>
+
+<p>… This note is by way of updating my older posts on using subversion in EA …</p>
+
+<h4 id="comments-6">comments (6)</h4>
+
+<p><em>Rafael Coninck Teigão (on Wednesday 18 June, 2008)</em></p>
+
+<p>Hey Bryan,</p>
+
+<p>Great solution! Kudos for taking this matter forward. Anyway, I tried the solution proposed by Jeremy without success. The configuration goes OK and I can update to the latest packages, but when I try to open the context menu for “package control” EA just blinks.</p>
+
+<p>Svngate debug log shows:
+Debug started, pwd [/home/ract/development/e-dj/Artefatos/UML]
+svngate argv[1]: [status|status]
+svngate argv[2]: [–show-updates|–show-updates]
+svngate argv[3]: [–verbose|–verbose]
+svngate argv[4]: [01_Requisitos.xml|01_Requisitos.xml]
+invoking [/usr/bin/svn]
+Debug started, pwd [/home/ract/development/e-dj/Artefatos/UML]
+svngate argv[1]: [status|status]
+svngate argv[2]: [–show-updates|–show-updates]
+svngate argv[3]: [–verbose|–verbose]
+svngate argv[4]: [01_Requisitos.xml|01_Requisitos.xml]
+invoking [/usr/bin/svn]
+svngate rc 4317, errno 25, status 0x0, ifexited 1, realstat 0</p>
+
+<p>Do you have any idea what could possibly be wrong?</p>
+
+<p>Of note is this: when my svn server was offline, I got a message saying that the svn client could not connect to it, making me believe that on the other cases the connection is going through.</p>
+
+<p>Cheers,
+Rafael</p>
+
+<p><em>Bryan (on Wednesday 18 June, 2008)</em></p>
+
+<p>Hi Rafael</p>
+
+<p>Short answer is no. Slightly longer answer is with a bit more playing around I found some more problems, and the folks at Sparx found even more. I believe all the known problems are fixed in release 831 (which wasn’t available last time I looked, but which I hope is available now).</p>
+
+<p>Cheers
+Bryan</p>
+
+<p><em>Bryan (on Wednesday 18 June, 2008)</em></p>
+
+<p>I should have said that there are some things that work fine even with earlier versions, so it might be pot luck if things work or not.</p>
+
+<p><em>Rafael Coninck Teigão (on Tuesday 08 July, 2008)</em></p>
+
+<p>Almost there!</p>
+
+<p>Tried the new build (831). Now it’s possible to select a U*NIX svn client (EA asks whether the client is a UNIX or a Windows one).</p>
+
+<p>EA somehow seems to recognize the repository, but when I try to update the packages or open the project, I get the following message several times:</p>
+
+<p>Code = 0xc00ce558
+Error Description = “XML document must have a top level element”</p>
+
+<p>I thought that maybe this has something to do with the ^M mess, so I created a script just as you did above, to get “flip” to convert the output.</p>
+
+<p>Unfortunately it didn’t work, and I still get the same error.</p>
+
+<p>Have you had success with this last build?</p>
+
+<p>Cheers,
+Rafael.</p>
+
+<p><em>Rafael Coninck Teigão (on Tuesday 08 July, 2008)</em></p>
+
+<p>Oh, and if I try to use SVNGATE, I also get an error:</p>
+
+<p>Error when initializing Version Control provider:
+c:\windows\svnc092.cmd</p>
+
+<p>The part between “svn” and “.cmd” always changes to some 4 digits hexadecimal number.</p>
+
+<p>This is the case with or without the flip thing.</p>
+
+<p>Cheers,
+Rafael</p>
+
+<p><em>Bryan (on Wednesday 16 July, 2008)</em></p>
+
+<p>hi Rafael</p>
+
+<p>I’ve been on holiday, and am under a huge backlog. I’ll get to trying this all out within a few days, and drop you an email as well as put a comment here.</p>
+
+<p>Cheers
+Bryan</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->
