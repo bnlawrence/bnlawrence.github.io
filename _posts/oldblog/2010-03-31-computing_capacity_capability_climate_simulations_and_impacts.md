@@ -53,13 +53,16 @@ So, we came up with the following strategy:
 
 * Eventually, the need for regional models should disappear, as either the global models get closer to the resolutions necessary (or they have internal grid refinements) (or both).
 
-* All the while we improve the software engineering underlying the models so that we can put more energy into maintaining a diversity of scientific models (necessary to get at model uncertainty) and less energy in maintaining a diversity of model frameworks and runtime environments. (See [my talk]{% post_url talks/2010-03-30-european-esm-strategy %}) for some aspects of that and other good fun data issues.)
+* All the while we improve the software engineering underlying the models so that we can put more energy into maintaining a diversity of scientific models (necessary to get at model uncertainty) and less energy in maintaining a diversity of model frameworks and runtime environments. (See [my talk]({% post_url talks/2010-03-30-european-esm-strategy %}) for some aspects of that and other good fun data issues.)
 
-####  Caveats1. Like I said above, this is my summary of one part of the discussion, this is no way an outcome of the meeting ...
+####  Caveats
+1. Like I said above, this is my summary of one part of the discussion, this is no way an outcome of the meeting ...
 
 1. With apologies to the rest of the earth system community, just because this is flavoured with atmosphere grid cell resolution, doesn't mean we were avoiding
-the rest of the earth system ... it's just a shorthand for increasing resolution *where necessary*.
-1. The timescales on the diagram are complete fiction, the key point I wanted to make was the simultaneous use of both capability and capacity and the need to be pushing towards better models even while producing our best possible predictions.
+the rest of the earth system ... it's just a shorthand for increasing resolution *where necessary*.
+
+1. The timescales on the diagram are complete fiction, the key point I wanted to make was the simultaneous use of both capability and capacity and the need to be pushing towards better models even while producing our best possible predictions.
+
 1. Oh, and by the way, some of those "capacity" machines running some of the members of the global ensembles would be considered "capability" by many. These terms are indicative not categorical.
 
 #### trackbacks (1)
