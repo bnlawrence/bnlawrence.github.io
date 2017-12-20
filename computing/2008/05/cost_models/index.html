@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Cost Models | Bryan Lawrence</title>
+  <meta name="description" content="Sam and I had a good chat about cost models today - he’s in the process of honing the model we use for charging NERC for programme data management support.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2008/05/cost_models/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="Cost Models">
+
+
+<meta name="twitter:description" content="Sam and I had a good chat about cost models today - he’s in the process of honing the model we use for charging NERC for programme data management support.
+
+">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Cost Models</h1>
+  <p class="post-meta">Posted on May 20, 2008
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/badc/" rel="tag">badc</a>, <a href="/tags/curation/" rel="tag">curation</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/computing/2008/04/more_on_the_windows_subversion_client_under_wine/">&laquo;More on the windows subversion client under wine.&raquo;</a>
+  
+  .<br/>
+   Next Post <a class="next" href="/computing/2008/05/metadata_effort_and_scope/">&laquo;Metadata, Effort and Scope&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>Sam and I had a good chat about <a href="/computing/2005/07/business_models_and_curation/">cost models</a> today - he’s in the process of honing the model we use for charging NERC for programme data management support.</p>
+
+<p>Most folk think the major cost in data management is for storage, and yes, for a PB-scale repository that might be true, but even then it might not, it all depends on the amount of diversity in the data holdings. If you’re in it for the long time, then the information management costs trump the data storage costs.</p>
+
+<p>Some folk also think that we should spend a lot of time on retention policies, and actively review <strong>and discard</strong> data when it’s no longer relevant. I’m <a href="/computing/2005/11/on_moores_law/">on record</a> that from the point of view of the data storage cost, the data that we hold is a marginal cost on the cost of storing the data we expect. So I asserted to Sam that it’s a waste of time to carry out retention assessment, since the cost of doing so (in person time) outweighs the benefits of removing the data from storage. I then rapidly had to caveat that when we do <em>information migration</em> (from, for example, one metadata system to another), there may be a signficant cost in doing so, so it is appropriate to assess datasets for retention at that point. (But again, this is not about storage costs, it’s about information migration costs).</p>
+
+<p>Sam called me on that too! He pointed out that not looking at something is the same as throwing it out, it just takes longer. His point was that if the designated community associated with the data is itself changing, then their requirements of the dataset may be changing (perhaps the storage format is obsolete from a consumer point of view even if it is ok from a bit-storage point of view, perhaps the information doesn’t include key parameters which define some aspect of the context of the data production etc). In that case, the information value of the data holding is degrading, and at some point the data become worthless.</p>
+
+<p>I nearly argued that the designated communities don’t change faster than our information systems, but while it might be true now for us, it’s almost certainly not true of colleagues in other data centres with more traditional <em>big-iron-databases</em> as both their persistence and information stores … and I hope it wont remain true of us (our current obsession with MOLES changes needs to change to an obsession with populating a relatively static information type landscape).</p>
+
+<p>However, the main cost of data management remains in the ingestion phase, gathering and storing the contextural information and (where the data is high volume) putting the first copy into our archive. Sam had one other trenchant point to make about this: the gathering information phase cost is roughly proportional to the size of the programme generating the data: if it includes lots of people, then finding out what they are doing, and what the data management issues are will be a signficant cost, nearly independent of the actual amount of data that needs to be stored: human communication takes time and costs money!</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

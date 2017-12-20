@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>On Binary XML | Bryan Lawrence</title>
+  <meta name="description" content="NDG reviewers the first time around suggested we would need binary XML. I think they thought we would put all our data in XML, not just the metadata.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2005/01/BinaryXML/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="On Binary XML">
+
+
+<meta name="twitter:description" content="NDG reviewers the first time around suggested we would need binary XML. I think they thought we would put all our data in XML, not just the 
+metadata.
+
+">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">On Binary XML</h1>
+  <p class="post-meta">Posted on January 4, 2005
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/xml/" rel="tag">xml</a>, <a href="/tags/ndg/" rel="tag">ndg</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/computing/management/2004/12/VerifyableStatements/">&laquo;Verifyable Statements&raquo;</a>
+  
+  .<br/>
+   Next Post <a class="next" href="/environment/2005/01/energy/">&laquo;On Energy Supplies&raquo;</a>
+  
+  
+  (in <a href="/categories/#environment" title="environment">environment</a>;
+  in <a href="/categories/#computing" title="computing">computing</a> next is <a href="/computing/2005/01/open_source_licenses/" class="next">&laquo;Open Source Licenses&raquo;</a>)
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>NDG reviewers the first time around suggested we would need binary XML. I think they thought we would put all our data in XML, not just the 
+metadata.</p>
+
+<p>However, there is (was?) an initiative to build 
+<a href="http://www.w3.org/XML/Binary/">binary XML</a>. ( Not to be confused with <a href="http://www.edikt.org/binx/">BinX</a> which is an XML descriptive format for Binary data - or it’s cousin <a href="http://forge.gridforum.org/projects/dfdl-wg/">DFDL</a> )</p>
+
+<p>What we’re interested in is handling XML data itself as XML streams.</p>
+
+<p>Now we could just compress it …  (quoting from <a href="http://www.xml.com/pub/a/2003/08/13/deviant.html">Kendall Grant Clark</a>)
+who said sensibly:</p>
+<blockquote>If you absolutely must have some kind of binary variant, gzip seems hard to beat since it allows you to pick any three from "decent compression factor", "decent (de)compression performance", and "already implemented everywhere".
+</blockquote>
+
+<p>This is a fair point for many applications. However, I think Clark didn’t really cotton onto why we think we need it. In some of our applications, the size of XML documents is a problem. Ok, so use SAX instead of DOM I hear you say? Well maybe, but not always …</p>
+
+<p>The issue is what does one do with encoding environmental datastreams in XML?
+We currently wrap the big stuff in binary formats like NetCDF and HDF, and that isn’t going to change soon. However, we markup the metadata in XML (using our CSML, or CDML, or NCML or ESML or …) and sometimes our metadata needs to encode some of the data (axes for example). While we can encode formulae economically, we can’t handle large wodges of binary data. The same problem exists in the <a href="http://www.w3.org/TR/xbc-use-cases/#FPenergy">energy industry</a>.</p>
+
+<p>With large datasets,  we’ve already got something that gzip doesn’t do well with, so wrapping asci representations of that data (at some resolution which may or may not be machine precision) in xml is going to be <strong>bloat</strong>. Bloating something, then gzipping it does better than you may think, but it’s still <strong>unnecessary</strong> data handling.</p>
+
+<p>To my mind, XML is about data <strong>transfer</strong> not about data <strong>storage</strong>. But this is a problem where we have significant problems with data volume. What we need to avoid is the situation where we have</p>
+<blockquote>Binary Data -&gt; Convert to XML -&gt; Process/Move it -&gt; Convert back -&gt; Binary Data
+</blockquote>
+
+<p>In this case the conversion overheads involved are rather huge, and the risk of precision loss is also significant.</p>
+
+<p><strong>Diversion on binary format conversion</strong></p>
+
+<p>Conversion overheads can also be a problem with binary formats themselves. <strong>Un-necessary</strong> format conversion of any sort should be discouraged. One of my two major beefs with <a href="http://opendap.org">opendap</a> is un-necessary format conversion (the other is to do with access control).</p>
+
+<p>I have no problem with necessary format conversion, for example if you end up with something like</p>
+<blockquote>Binary Data (format m) -&gt; Process/Move -&gt; Binary Data (format n)
+</blockquote>
+
+<p>then the last thing you want to do is produce M times N format converters. What you want to do is produce (at worst) M plus N format converters to an intermediate format. In part, one of the successes of Opendap is that it does address this issue (I think however, the main reason for it’s success is that they produced a netcdf binding for it, thus allowing easy development of remote-access to netcdf data).</p>
+
+<p>What would really help opendap is the ability to avoid the protocol conversion if the user required the same output format as the original data …</p>
+
+<p><strong>Back to Binary XML</strong></p>
+
+<p>While we have engineered around storing massive amounts of binary data in CSML (for now), I can see significant advantages in being able to do so:</p>
+<ul>
+  <li>avoiding un-necessary format conversions</li>
+  <li>known binary precision</li>
+</ul>
+
+<p>resulting in</p>
+<ul>
+  <li>less memory</li>
+  <li>shorter execution times</li>
+</ul>
+
+<p>Unlike many XML applications the last point matters! For very big datasets, it makes such a difference that something untenably slow can suddenly become useable.</p>
+
+<p>Probably the area where this could make the biggest difference in the near future for us is in the handling of observational meteorology data. More on this at a later date …</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

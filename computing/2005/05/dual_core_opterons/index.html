@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dual Core Opterons | Bryan Lawrence</title>
+  <meta name="description" content="In general I try and avoid being a hardware geek, but it appears that I’m going to have to understand the relative performance issues between dual-core opterons and normal ones and xeons …">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2005/05/dual_core_opterons/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="Dual Core Opterons">
+
+
+<meta name="twitter:description" content="In general I try and avoid being a hardware geek, but it appears that I’m going to have to understand the relative performance issues between dual-core opterons and normal ones and xeons …
+
+">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Dual Core Opterons</h1>
+  <p class="post-meta">Posted on May 24, 2005
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/computing/" rel="tag">computing</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/computing/2005/05/grid_architecture/">&laquo;Grid Architecture&raquo;</a>
+  
+  .<br/>
+   Next Post <a class="next" href="/computing/2005/06/terms_and_conditions/">&laquo;Terms and Conditions&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>In general I try and avoid being a hardware geek, but it appears that I’m going to have to understand the relative performance issues between dual-core opterons and normal ones and xeons …</p>
+
+<p>I found <a href="http://www.firingsquad.com/hardware/amd_dual-core_opteron_875/">this review</a>, dated April 2005, which has the following snippets which are perhaps worth remembering:</p>
+<blockquote>From a core perspective, there's really nothing new to report about the Opteron chips. They consist of the same 64KB of data cache, 64KB of instruction cache, and 1MB of L2 cache. Only now, there are two of them manufactured at 90nm ... both cores attach directly to a System Request Queue and crossbar, over which they communicate with the package's three HyperTransport links and integrated memory controller. It still supports dual-channel DDR memory at up to 400MHz and those HT pathways still purr along at 1GHz. The only difference is now there are two cores utilizing them.
+</blockquote>
+
+<p><img src="/assets/images/2005-05-24-dual-opteron.jpg" alt="Image: IMAGE: static/2005/05/24/dual-opteron.jpg " /></p>
+<blockquote>If you're worried about bottlenecking, don't be. AMD is claiming resource conflicts are rare and the impact of shared memory is a roughly 10 percent reduction in bandwidth. In cranking up the HyperTransport frequency last year, AMD helped circumvent any limitations there.
+</blockquote>
+
+<p>Of course that’s all very well, but what about price performance? Well <a href="http://www.anandtech.com/cpuchipsets/showdoc.aspx?i=2397">this review</a> had a very interesting price table, which I’ve repeated here:</p>
+
+<p><img src="/assets/images/2005-05-24-opteronsummarytable.png" alt="Image: IMAGE: static/2005/05/24/opteronsummarytable.png " /></p>
+
+<p>which demonstrates that the extra cores are on average three times more expensive.</p>
+
+<p>The same article has an extensive list of benchmarks, not all of which are particularly relevant to us, but</p>
+<ul>
+  <li><a href="http://www.anandtech.com/cpuchipsets/showdoc.aspx?i=2397&amp;p=10">the sql order test</a> seems to demonstrate that quad xeon processors can’t exploit their memory because:</li>
+</ul>
+<blockquote>the memory bandwidth limitation of the Intel FSB architecture does not allow the quads to really stretch their legs. On the other hand, the Integrated Memory Controller of the Opterons allow them to pull ahead.
+* [the data warehouse test](http://www.anandtech.com/cpuchipsets/showdoc.aspx?i=2397&amp;p=12) shows a clear advantage to the opteron, is good given that it
+</blockquote>
+<blockquote>is all about the number of instructions that can be completed in a given period. The ability to move data quickly in and out of the CPU are the characteristics of a winner ...
+</blockquote>
+
+<p><a href="http://www.linuxhardware.org/article.pl?sid=05/04/21/1747217&amp;mode=thread">Linux hardware</a> also has a review with a number of benchmarks that are possibly a bit more relevant. Here for example is the result from a 5000 element matrix multiply running on dual processors (I think the AMD875 is a dual processor where each processor is dual core):
+<img src="/assets/images/2005-05-24-dualcoreopt-042105_html_39b17817.gif" alt="Image: IMAGE: static/2005/05/24/dualcoreopt-042105_html_39b17817.gif " /></p>
+
+<p>What we see is that once we exploit all the power of the processors, the Opteron shines (but up to then it is perhaps the better maths library on the intel machines which is shining?)</p>
+
+<p>Finally, how well does it do scaling, and what about relative integer/floating point performance? <a href="http://www.infoworld.com/article/05/04/21/17TCamd_1.html">Infoworld</a> has an article which includes those figures and other information. The key table is this one:</p>
+
+<p><img src="/assets/images/2005-05-24-opteron-floatint.png" alt="Image: IMAGE: static/2005/05/24/opteron-floatint.png " /></p>
+
+<p>which speaks for itself. The second core does remarkably well.</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

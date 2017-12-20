@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Metadata, XML and Deja Vu | Bryan Lawrence</title>
+  <meta name="description" content="It’s funny how some concepts and issues are repeated in multiple communities.Recently I attended a meeting called “Activating Metadata” (agenda,talks) held at NIEeS. The sharp eyed amongst you will...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2005/08/metadata-2C_xml_and_dejavu/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="Metadata, XML and Deja Vu">
+
+
+<meta name="twitter:description" content="It’s funny how some concepts and issues are repeated in multiple communities.
+Recently I attended a meeting called “Activating Metadata” (agenda,talks) held at NIEeS. The sharp eyed amongst you wil...">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Metadata, XML and Deja Vu</h1>
+  <p class="post-meta">Posted on August 11, 2005
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/curation/" rel="tag">curation</a>, <a href="/tags/badc/" rel="tag">badc</a>, <a href="/tags/xml/" rel="tag">xml</a>, <a href="/tags/ndg/" rel="tag">ndg</a>, <a href="/tags/metadata/" rel="tag">metadata</a>, <a href="/tags/iso19115/" rel="tag">iso19115</a>, <a href="/tags/metafor/" rel="tag">metafor</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/environment/2005/08/solar_influence_on_recent_climate/">&laquo;Solar Influence on Recent Climate&raquo;</a>
+  
+  
+  (in <a href="/categories/#environment" title="environment">environment</a>;
+  in <a href="/categories/#computing" title="computing">computing</a> previous is <a href="/computing/2005/07/business_models_and_curation/" class="prev">&laquo;Business Models and Curation&raquo;</a>)
+  
+  .<br/>
+   Next Post <a class="next" href="/computing/2005/08/service_chaining/">&laquo;Service Chaining&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>It’s funny how some concepts and issues are repeated in multiple communities.
+Recently I attended a meeting called “Activating Metadata” (<a href="http://www.niees.ac.uk/events/activating_metadata/">agenda</a>,<a href="http://archive.niees.ac.uk/cgi-bin/search.cgi?event_id=metadata2">talks</a>) held at <a href="http://www.niees.ac.uk/">NIEeS</a>. The sharp eyed amongst you will have noted that the link for the talks is …/metadata2 … talks from an earlier event are <a href="http://archive.niees.ac.uk/cgi-bin/search.cgi?event_id=metadata">here</a>.
+There have been other meetings on a similar theme which don’t seem to be archived.</p>
+
+<p>These metadata events are both stimulating and boring in equal measures. Regrettably we go over much the same ground every time (boring), but I learn new things when I meet new communities (stimulating). Fortunately this second meeting was a very different community, being primarily geographers and users of geography data (in a loose definition of the sense). Of course they have their own vocabularies, and needs for specific metadata.</p>
+
+<p>Anyway, there seemed to be a feeling amongst some that metadata standards were a hindrance to academic use of data, and that more “<em>of the right sort of metadata</em>” was needed. While I would obviously argue that more metadata is needed in just about any context, the usual argument that “<em>the standards didnt do it for me therefore I wouldnt use them</em>” was frustrating. Since the meeting, I’ve written to one of the participants, and amongst other things I wrote:</p>
+<blockquote>There are solution frameworks out there, and if one doesn't want to use them,
+one simply contributes to the proliferation of options and consequent user
+confusion. Most importantly, one needs to understand that standards exist not
+as an effort to constain all possible metadata, but to constrain those
+elements where there is a chance of commonality (and interoperation between
+groups). You're free to produce whatever else you like that is relevant to
+your own user community.
+</blockquote>
+
+<p>In quite a different context <a href="http://www.25hoursaday.com/weblog/default.aspx">Dare Obasanjo</a> of Microsoft has been <a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=15341993-4d52-4eb2-8392-b35534e06ea5">discussing</a> the new buzzword <a href="http://www.microformats.org/about/">microformats</a> of XML. This discussion is about whether or not folk should be introducing their own tags into XML documents (with or without namespaces). There seems to have been much blognoise on the topic, but I think Derek (<a href="http://nothing-more.blogspot.com">Only This and Nothing More</a>) got it right:</p>
+<blockquote>Ever sit down at a table with a number of experts in a field that you do not know? They may be speaking English, but that doesn?t mean you understand what they are talking about. If you try and force them to speak in laymen?s terms, the efficiency of the information exchange drops dramatically. Specific languages are sometimes necessary. Individual specialties within Math and Computer Science all have customized definitions of terms, that sometimes conflict. Each specialty evolved it?s terminology to enable efficient, unambiguous communication between specialists in that field. Custom grammars are a necessity for efficient communication. Language reduces to the least common denominator of the intended listenership. If an application expects generic tools to process it's data, then it should use a well known standard. If local efficiency (or development or data) is more important, then use custom formats.
+</blockquote>
+
+<p>Which reads like just the same thing I was saying in the metadata context, hence the Deja Vu.</p>
+
+<p>Metadata standards such as ISO19115 are being designed with just this structure in mind. Indeed, ISO19115 has the following view of how it should be used:
+<img src="/assets/images/2005-08-11-iso19915_extension.png" alt="Image: IMAGE: static/2005/08/11/iso19915_extension.png " /></p>
+
+<p>Similarly, XML documents are built with xml namespaces in mind, and so the XML syntactical rendering of ISO19115 (the almost mythical ISO19139) will be built to allow communities to build such application profiles. I think that’s what my geographer friends and the xml microformatters need to do: Build application profiles of existing standards, with all their own information built in as extensions over the core. Sure not every application will know what it’s about, but all applications conforming to the core standards ought to be able to recognise elements in common, and specific applications exploit the extra information.</p>
+
+<p>How one stores this information is a moot point, flat files, databases, GIS systems whatever, but when we exchange the stuff it’s going to have to be with XML. And with XML, we’ll use namespaces. We fully expect the application profiles of standards to pull in stuff from other namespaces …</p>
+
+<p>… which in the microformatter argument leads to questions about whether or not entries should have the same names in all application profiles. Of course not! We just don’t all use the same names for everything, but where we do have communities intersecting we can build ontologies (which are just sophisticating mappings between terms that we understand). We can then use tools to do conversion between documents, exactly as argued in, for example, Dare’s first article linked above. But, I think the microformat principles linked in the definition above, hold well in the scientific metadata world too:</p>
+<ol>
+  <li>solve a specific problem</li>
+  <li>start as simple as possible</li>
+  <li>design for humans first, machines second</li>
+  <li>reuse building blocks from widely adopted standards</li>
+  <li>modularity / embeddability</li>
+  <li>enable and encourage decentralized development, content, services</li>
+</ol>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

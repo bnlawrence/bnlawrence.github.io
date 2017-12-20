@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "The CF Data Model Paper Appears",
+      "url"			: "/academic/2017/12/cfdm-paper/",
+      "tag"       : "cf, data_modelling",
+      "category"  : "academic",
+      "date"      : "2017-12-20",
+      "excerpt"		: "It’s always a nice present for any academic when a paper finally appears “in print”. After some months in public review, our paper introducing a formal data model for the Climate Forecast (CF) conventions (Hassell, Gregory, Blower, Lawrence, &amp; Taylor, 2017) has appeared in Geoscientific Model Development. Although CF was developed for content stored in NetCDF files, this data model has been developed in such a way that the logic can be used for CF content stored in other formats."
+    }
+  
+
+  
+    ,{
       "title"			: "ESiWACE General Assembly",
       "url"			: "/talks/2017/12/esiwace-ga/",
       "tag"       : "esiwace, exascale",
@@ -653,7 +664,7 @@
     ,{
       "title"			: "ICT Competitiveness",
       "url"			: "/talks/2012/09/Lawrence_ICTBigData/",
-      "tag"       : "modelling, futures",
+      "tag"       : "modelling_futures",
       "category"  : "talks",
       "date"      : "2012-09-19",
       "excerpt"		: "Weather and Climate Computing Futures in the context of European Competitiveness"
@@ -838,6 +849,17 @@
 
   
     ,{
+      "title"			: "The choice is python",
+      "url"			: "/computing/2010/10/the_choice_is_python/",
+      "tag"       : "python",
+      "category"  : "computing",
+      "date"      : "2010-10-13",
+      "excerpt"		: "Summary"
+    }
+  
+
+  
+    ,{
       "title"			: "hpc futures - part one",
       "url"			: "/environment/2010/08/hpc_futures_-_part_one/",
       "tag"       : "climate, modelling_futures, resolution",
@@ -943,6 +965,17 @@
       "category"  : "computing",
       "date"      : "2008-05-21",
       "excerpt"		: "I keep on harping on about how metadata management is time intensive, and the importance of standards."
+    }
+  
+
+  
+    ,{
+      "title"			: "Cost Models",
+      "url"			: "/computing/2008/05/cost_models/",
+      "tag"       : "badc, curation",
+      "category"  : "computing",
+      "date"      : "2008-05-20",
+      "excerpt"		: "Sam and I had a good chat about cost models today - he’s in the process of honing the model we use for charging NERC for programme data management support."
     }
   
 
@@ -1223,12 +1256,188 @@
 
   
     ,{
+      "title"			: "Hemel Hempstead Fire",
+      "url"			: "/environment/2005/12/hemel_hempstead_fire/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2005-12-13",
+      "excerpt"		: "Here is a low resolution copy of an AATSR image of southern England for sunday morning …"
+    }
+  
+
+  
+    ,{
+      "title"			: "Solar Irradiance and Sunspot Cycles",
+      "url"			: "/environment/2005/12/solar_irradiance_and_sunspot_cycles/",
+      "tag"       : "climate",
+      "category"  : "environment",
+      "date"      : "2005-12-08",
+      "excerpt"		: "For once I’m reading some real scientific literature. I’ve been pretty appalling lately, with my RSS aggregator telling me there are about 1400 items from Science and Nature alone that I should have a quick look at (As well as telling me that I’m not spending enough time keeping abreast of developments, I think this also tells me that I need to use some different software - something that does keyword parsing)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Self Contradiction",
+      "url"			: "/environment/2005/12/self_contradiction/",
+      "tag"       : "weather",
+      "category"  : "environment",
+      "date"      : "2005-12-07",
+      "excerpt"		: "Here are two five day forecasts for Oxford issued by the Met Office - both were downloaded this afternoon. The first is via the BBC, the second from the Met Office site itself:   Is it going to rain on Friday or not? Ostensibly these are forecasts issued around the same time (although one can’t see obviously when the forecast was issued for the BBC one) …  and as far as I know, both are issued automagically from the same input data. No wonder weather forecasts sometimes have a bad rep."
+    }
+  
+
+  
+    ,{
+      "title"			: "On Moores Law",
+      "url"			: "/computing/2005/11/on_moores_law/",
+      "tag"       : "computing",
+      "category"  : "computing",
+      "date"      : "2005-11-14",
+      "excerpt"		: "Last week I was involved in a conversation where I was explaining how the BADC deals with storage costs. It’s not a complicated scheme, we basically work on the assumption that as long as we can store the next four years data, we can probably store the entire previous archive as a marginal activity."
+    }
+  
+
+  
+    ,{
+      "title"			: "Trajectory Support for campaigns",
+      "url"			: "/computing/2005/11/trajectory_support_for_campaigns/",
+      "tag"       : "badc",
+      "category"  : "computing",
+      "date"      : "2005-11-10",
+      "excerpt"		: "The BADC provides support for field campaigns in a number of ways. One of those is to provide information about the history of air parcels, and information about their future trajectories. We do this using a code we developed ourselves based on code from John Methven at the University of Reading. We are in the process of considering updating how we provide support, so are developing a use case.    Any feedback we can get is welcome, either to me directly, or via this web page.  (You can find a pdf of the above jpg here)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Beijing Beauty",
+      "url"			: "/personal/2005/10/beijing_beauty/",
+      "tag"       : "meetings",
+      "category"  : "personal",
+      "date"      : "2005-10-10",
+      "excerpt"		: "I’ve had a week in Beijing attending a WMO metadata workshop, and a week off, during which my only use of a computer was to play with photographs!"
+    }
+  
+
+  
+    ,{
+      "title"			: "Service Chaining",
+      "url"			: "/computing/2005/08/service_chaining/",
+      "tag"       : "computing, ndg",
+      "category"  : "computing",
+      "date"      : "2005-08-21",
+      "excerpt"		: "Having spent the last four years as part of the UK e-science community, and buying into the wonders of what “the grid” can do for me, I’ve just spent a bit of time looking into exactly what is in the ISO19119 standard for geographic information services. Despite my colleague Andrew Woolf telling me how important this was, I’ve never really looked into this standard (despite running round banging on about how important standards are, and going on about how good they are in the metadata world, I hadn’t had time to read this one …). Anyway, it turns out to describe what most of the e-science world has been reinventing, and redocumenting in an adhoc manner for the last few years. Oh why oh why do standards organisations hide their wonderful products so successfully that no one uses them?"
+    }
+  
+
+  
+    ,{
+      "title"			: "Metadata, XML and Deja Vu",
+      "url"			: "/computing/2005/08/metadata-2C_xml_and_dejavu/",
+      "tag"       : "curation, badc, xml, ndg, metadata, iso19115, metafor",
+      "category"  : "computing",
+      "date"      : "2005-08-11",
+      "excerpt"		: "It’s funny how some concepts and issues are repeated in multiple communities.Recently I attended a meeting called “Activating Metadata” (agenda,talks) held at NIEeS. The sharp eyed amongst you will have noted that the link for the talks is …/metadata2 … talks from an earlier event are here.There have been other meetings on a similar theme which don’t seem to be archived."
+    }
+  
+
+  
+    ,{
+      "title"			: "Solar Influence on Recent Climate",
+      "url"			: "/environment/2005/08/solar_influence_on_recent_climate/",
+      "tag"       : "climate",
+      "category"  : "environment",
+      "date"      : "2005-08-01",
+      "excerpt"		: "There is a tiny war of words in Nature this week about reconstructions of solar influences on climate. Muscheler et.al. (2005) claim that current solar activity is not particularly unusual in a criticism of Solanki et.al. (2004) (who themselves claim that the last few decades are unusual with respect to the previous 11,000 years).  There is a reply by Solanki et.al which essentially states that Muscheler et al have used an inappropriate normalisation to get large amounts of historical activity. It’s only a tiny war though, because all parties agree with  Solanki and Krivova (2003) who demonstrate that even if the last few decades are unusual, they can’t explain the recent warming."
+    }
+  
+
+  
+    ,{
+      "title"			: "Business Models and Curation",
+      "url"			: "/computing/2005/07/business_models_and_curation/",
+      "tag"       : "curation, badc, management",
+      "category"  : "computing",
+      "date"      : "2005-07-28",
+      "excerpt"		: "While up in Edinburgh, I visited the National Digital Curation Centre. Amongst the many interesting things we talked about was the pesky difficulty of applying business models to curation. Chris Rusbridge at the DCC differentiates between curation and preservation as:  Preservation: something you do for the future, and  Curation: something you do for both now and the future."
+    }
+  
+
+  
+    ,{
+      "title"			: "ERA40 Precipitation and Antarctic Ice",
+      "url"			: "/environment/2005/07/AntarcticIce/",
+      "tag"       : "climate",
+      "category"  : "environment",
+      "date"      : "2005-07-01",
+      "excerpt"		: "There is a fascinating article by Davis et.al. in Science on Antarctic Ice thickness. There is also a perspective piece by David Vaughan of the British Antarctic Survey. The gist of the substantive article is that some parts of the Antarctic land mass are thickening while others are thinning (the results are based on radar altimetry measurements over eleven years). Not surprisingly, they link the thickening versus thinning to precipitation changes. Leaving aside the implications (evidence for climate change and concommitant sea level rise which are the main thrust of the paper [^1]), one of the things I find most interesting is how good the ERA40 precipitation measurements are! The following image shows the ERA40 snow precipitation (left) and ERS elevation changes (reds more precip, snowmass increasing, blues, less precip, less snowmass):"
+    }
+  
+
+  
+    ,{
+      "title"			: "Terms and Conditions",
+      "url"			: "/computing/2005/06/terms_and_conditions/",
+      "tag"       : "badc, curation",
+      "category"  : "computing",
+      "date"      : "2005-06-30",
+      "excerpt"		: "eliterate librarian has drawn my attention to the LexisNexis website and their terms and conditions, which are a joke."
+    }
+  
+
+  
+    ,{
+      "title"			: "Dual Core Opterons",
+      "url"			: "/computing/2005/05/dual_core_opterons/",
+      "tag"       : "computing",
+      "category"  : "computing",
+      "date"      : "2005-05-24",
+      "excerpt"		: "In general I try and avoid being a hardware geek, but it appears that I’m going to have to understand the relative performance issues between dual-core opterons and normal ones and xeons …"
+    }
+  
+
+  
+    ,{
+      "title"			: "Grid Architecture",
+      "url"			: "/computing/2005/05/grid_architecture/",
+      "tag"       : "ndg",
+      "category"  : "computing",
+      "date"      : "2005-05-16",
+      "excerpt"		: "In the NDG we’re grappling with exactly how we deploy the components we’ve designed and started building. There is a nice simplified view of the way these things have to work in theSAKAI EVALUATION EXERCISE report by Crouchley et.al. (pdf):"
+    }
+  
+
+  
+    ,{
       "title"			: "Citation Decay Rate",
       "url"			: "/computing/2005/05/citation_decay_rate/",
       "tag"       : "curation",
       "category"  : "computing",
       "date"      : "2005-05-11",
       "excerpt"		: "I found out via the Digital-Preservation Mailing List about this article about the decay rate for online citations."
+    }
+  
+
+  
+    ,{
+      "title"			: "Glaciers Indicate Temperature Increase",
+      "url"			: "/environment/2005/04/glaciers_indicate_temperature_increase/",
+      "tag"       : "climate",
+      "category"  : "environment",
+      "date"      : "2005-04-29",
+      "excerpt"		: "Back when I started criticising Michael Crichton, I commented on glacial length from what I freely admitted was a state of ignorance."
+    }
+  
+
+  
+    ,{
+      "title"			: "Copyright, Blogs and Fair Use",
+      "url"			: "/academic/2005/04/fairuse/",
+      "tag"       : "blogging",
+      "category"  : "academic",
+      "date"      : "2005-04-29",
+      "excerpt"		: "One of the things I want to do with my blog is often cite research articles, and I often want to include a figure or text from those articles. There is obviously then an issue of copyright that I need to address."
     }
   
 
@@ -1267,12 +1476,45 @@
 
   
     ,{
+      "title"			: "Satellite Temperature Trends",
+      "url"			: "/environment/2005/04/satellite_temperature_trends/",
+      "tag"       : "climate",
+      "category"  : "environment",
+      "date"      : "2005-04-11",
+      "excerpt"		: "There has been some contention over exactly what the satellite data tells us about temperature trends. In particular, analysis of data from the MSUinstruments aboard the NOAA satellites has been interpretted ina number of ways."
+    }
+  
+
+  
+    ,{
       "title"			: "Function Creep and Institutional Repositories",
       "url"			: "/computing/2005/03/function_creep_and_institutional_repositories/",
       "tag"       : "curation",
       "category"  : "computing",
       "date"      : "2005-03-31",
       "excerpt"		: "The case for institutional repositories (IRs) is well made in Crow et.al.: The Case for Institutional Repositories: A SPARC Position Paper (link)… as long as the definition of “digital collections capturing and preserving the intellectual output of a single or multi-university community” is appropriate."
+    }
+  
+
+  
+    ,{
+      "title"			: "JISC Digital Rights Meeting",
+      "url"			: "/computing/2005/03/jisc_digital_rights_meeting/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "date"      : "2005-03-24",
+      "excerpt"		: "On Tuesday I attended a JISC Consultation Workshop  on Rights in Digital Environments. While the emphasis of this meeting was on rights management issues in a learning environment, and on documents etc, there was some interesting discussion on data rights issues. Among a number of interesting discussions and presentations were two that I found especially interesting: one by Charles Oppenheim on IPR issues in general, and one by Podromos Tsiavos on Commons UK."
+    }
+  
+
+  
+    ,{
+      "title"			: "DDT and Malaria",
+      "url"			: "/life/computing/environment/2005/03/ddt_and_malaria/",
+      "tag"       : "crichton, environment",
+      "category"  : "lifecomputingenvironment",
+      "date"      : "2005-03-16",
+      "excerpt"		: "I started my series of responses to State of Fear (SOF) thinking that I was going to be commenting on climate change issues alone. However, Crichton goes off on a lot of tangents, and I now understand why, having understood that State Of Fear is essentially a novel written around a speech where he makes a fairly strong pitch that environmentalism is a new religion. Much of what he says is very fair, not least:Because in the end, science offers us the only way out of politics. And if we allow science to become politicized, then we are lost."
     }
   
 
@@ -1289,12 +1531,353 @@
 
   
     ,{
+      "title"			: "When is a webservice a grid service?",
+      "url"			: "/computing/2005/03/when_is_a_webservice_a_grid_service/",
+      "tag"       : "computing, ndg",
+      "category"  : "computing",
+      "date"      : "2005-03-10",
+      "excerpt"		: "I often get asked what is this thing called a grid. Soon after, I get asked, so what is the difference between a web service and a grid service. The short answer is nothing … the slightly longer answer is a grid service is a web service packaged up to deal with state, notification, and pointers to objects with state. The following schematic outlines a model of a possible transaction I could have with some data."
+    }
+  
+
+  
+    ,{
+      "title"			: "Your website really does need to be current",
+      "url"			: "/computing/2005/03/your_website_really_does_need_to_be_current/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "date"      : "2005-03-09",
+      "excerpt"		: "A lesson from NZ on why an out of date website can be a legal and financial problem.Operators who put up a website and then forget about minding it have been given a sharp reminder by the court that, in some cases, those old prices and specials could constitute violations of the Fair Trading Act ..."
+    }
+  
+
+  
+    ,{
+      "title"			: "Why blogging is good for you (and yes we need a policy)",
+      "url"			: "/computing/2005/03/why_blogging_is_good_for_you/",
+      "tag"       : "badc, blogging",
+      "category"  : "computing",
+      "date"      : "2005-03-09",
+      "excerpt"		: "Tim Bray and Sam Ruby on why blogging is a “Good Thing (TM)”"
+    }
+  
+
+  
+    ,{
+      "title"			: "Meteorological RSS Feeds",
+      "url"			: "/computing/2005/03/meteorological_dinosaurs/",
+      "tag"       : "badc",
+      "category"  : "computing",
+      "date"      : "2005-03-08",
+      "excerpt"		: "I’ve just spent a frustrating hour trying to find rss feedsfor the table of contents of atmospheric and climate journals. I’vefound plenty of websites, and even email notification pages, but all I wantis RSS. Given our discipline really stretches computational abilityat the top end, why can’t I find such a service, when even lawyers do it?"
+    }
+  
+
+  
+    ,{
+      "title"			: "More State of Fear",
+      "url"			: "/environment/2005/03/more_state_of_fear/",
+      "tag"       : "climate, crichton",
+      "category"  : "environment",
+      "date"      : "2005-03-05",
+      "excerpt"		: "Another installment in my (seems likely weekly) discussion of Michael Crichton’s work of fiction. Before I get started, I can highly recommend the essay entitled “Dangerous Fiction” by Jeremy Leggett in New Scientist (5th March Edition)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Content Management, Wikis, Blogging etc",
+      "url"			: "/computing/2005/03/_content_management-2C_wikis-2C_blogging_etc_/",
+      "tag"       : "badc, blogging",
+      "category"  : "computing",
+      "date"      : "2005-03-02",
+      "excerpt"		: "A number of threads are banging around in my mind. Here at the BADC we are running a number of bits of software that all do a bit of the sametask. We run  Leonardo for blogging.  BSCW (Basic Support for Cooperative Working], for collaboratory activities, including private workspaces and file sharing.  A number of kwiki based wikis,  and of course we have our comprehensive (and complicated) web site."
+    }
+  
+
+  
+    ,{
+      "title"			: "HinesParameterisation",
+      "url"			: "/environment/2005/03/HinesParameterisation/",
+      "tag"       : "climate",
+      "category"  : "environment",
+      "date"      : "2005-03-02",
+      "excerpt"		: "Alison has just pointed out that Colin Hines has a new paper on his Doppler Spread Parameterisation. The abstract states that:An embryo Lagrangian DST is introduced and employed to assess the original DST. Earlier results near the Eulerian spectral peak are found to be reasonably valid, whereas those at greater vertical wavenumber are confirmed to have produced too much spreading. The earlier DSP is found to need little if any change, though specific values are suggested for its two most important &quot;fudge factors&quot;."
+    }
+  
+
+  
+    ,{
+      "title"			: "What is a Web Service",
+      "url"			: "/computing/2005/02/_what_is_a_web_service_/",
+      "tag"       : "computing, ndg",
+      "category"  : "computing",
+      "date"      : "2005-02-28",
+      "excerpt"		: "Last week I gave a kick off talk at the National Institute for Environmental e-Science (niees) on “What is a Web Service”. This was in a meeting on “Developing applications for real-time environmental data” (DARTED)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Internet Explorer REALLY Sucks",
+      "url"			: "/computing/2005/02/_internet_explorer_really_sucks_/",
+      "tag"       : "computing",
+      "category"  : "computing",
+      "date"      : "2005-02-28",
+      "excerpt"		: "I’ve been aware that my blog didn’t render properly on internet explorer.I thought it was probably because my CSS and/or my XHTML weren’t standardscompliant. So, I’ve done some testing. My new wikiBNL code and my style sheed have been tested with  An XHTML validator  A CSS validator"
+    }
+  
+
+  
+    ,{
+      "title"			: "Matplotlib",
+      "url"			: "/computing/2005/02/Matplotlib/",
+      "tag"       : "python",
+      "category"  : "computing",
+      "date"      : "2005-02-27",
+      "excerpt"		: "In my last post, I produced a figure of temperature data. As an exercise in learning something new, I produced it with python and matplotlib. I have to say I was pretty impressed with matplotlib. Although I only playedwith the tkinter gui and the postscript and png backends, it looks likethere are lots of other interesting output types including SVG. I’m certainly going to play with it some more."
+    }
+  
+
+  
+    ,{
+      "title"			: "State of Fear, pick my timeseries",
+      "url"			: "/environment/2005/02/state_of_fear_pick_my_timeseries/",
+      "tag"       : "crichton",
+      "category"  : "environment",
+      "date"      : "2005-02-26",
+      "excerpt"		: "Following on from this."
+    }
+  
+
+  
+    ,{
+      "title"			: "M2Crypto Woes",
+      "url"			: "/computing/2005/02/M2CryptoWoes/",
+      "tag"       : "python, computing",
+      "category"  : "computing",
+      "date"      : "2005-02-25",
+      "excerpt"		: "Guido (he of python fame), has a rant about M2Crypto. This is a worry from an NDG point of view. In it he alsomakes the following comment about SWIG as well:... I&#39;ve yet to see an extension module using SWIG that doesn&#39;t make me think it was a mistake to use SWIG instead of manually written wrappers. The extra time paid upfront to create hand-crafted wrappers is gained back hundredfold by time saved debugging the SWIG-generated code later."
+    }
+  
+
+  
+    ,{
+      "title"			: "Orographic cloud in a GCM - the missing cirrus",
+      "url"			: "/environment/2005/02/_orographic_cloud_in_a_gcm-3A_the_missing_cirrus_/",
+      "tag"       : "climate, papers",
+      "category"  : "environment",
+      "date"      : "2005-02-24",
+      "excerpt"		: "At last a chance to talk about real science: Sam Dean, myself, Don Grainger, and Darlene Heuff (Dean et. al.) have had a paper on orographic cirrus accepted by Climate Dynamics. The abstract is:Observations from the International Satellite Cloud Climatology Project (ISCCP) are used to demonstrate that the 19-level HadAM3 version of the UK Met Office Unified Model does not simulate sufficient high cloud over land. By using low-altitude winds from the European Centre for Medium Range Weather Forecasting (ECMWF) Re-Analysis from 1979-1994 (ERA-15) to predict theareas of maximum likelihood of orographic wave generation, it is shown that much of the deficiency is likely to be due to the lack ofa representation of the orographic cirrus generated by sub-grid scale orography. It is probable that this is a problem in most GCMs."
+    }
+  
+
+  
+    ,{
+      "title"			: "Broadband Frustration",
+      "url"			: "/personal/2005/02/BroadbandFrustration/",
+      "tag"       : "broadband",
+      "category"  : "personal",
+      "date"      : "2005-02-24",
+      "excerpt"		: "“Broadband Britain” is a wonderful but empty phrase. I work at home a lot, but it isn’t always easy …"
+    }
+  
+
+  
+    ,{
+      "title"			: "State of Fear, the beginning",
+      "url"			: "/environment/2005/02/state_of_fear_the_beginning/",
+      "tag"       : "crichton",
+      "category"  : "environment",
+      "date"      : "2005-02-19",
+      "excerpt"		: "Well, I threatened to post my thoughts about Michael Crichton’s State of Fear. I finally got to start the book last night,and it’s immediately apparent it’s going to annoy me as I read it. This bookhas 170+ references in a bibliography, so he’s trying to assert somesort of psuedo-scientific credibility. I have a choice now, just read the book, and give an overall opinion, or try and do a piece by piece critique. The former has been done, so I’ll attempt the latter, although I doubt that I will have the time or patience to be very complete …"
+    }
+  
+
+  
+    ,{
+      "title"			: "DataDeluge",
+      "url"			: "/computing/bigdata/2005/02/DataDeluge/",
+      "tag"       : "curation",
+      "category"  : "computingbigdata",
+      "date"      : "2005-02-14",
+      "excerpt"		: "I have just got a hard copy of the JISC briefing paperon the Data Deluge: Preparing for the explosion in Data."
+    }
+  
+
+  
+    ,{
+      "title"			: "Testing, Extreme Programming and Demos",
+      "url"			: "/computing/2005/02/_testing-2C_extreme_programming_and_demos_/",
+      "tag"       : "computing",
+      "category"  : "computing",
+      "date"      : "2005-02-13",
+      "excerpt"		: "Patrick Logan has some really good thoughts on how to do designa demo so that it doesn’t break …"
+    }
+  
+
+  
+    ,{
+      "title"			: "Sunday Morning Procrastination",
+      "url"			: "/computing/2005/02/_sunday_morning_procrastination_/",
+      "tag"       : "curation, xml",
+      "category"  : "computing",
+      "date"      : "2005-02-13",
+      "excerpt"		: "It’s Sunday morning, and outside can’t make up it’s mind whether it is a hailstorm, a gale, rain, or sunshine … clearly time to do something useful. So I’m procrastinating and catching up on blogs and such."
+    }
+  
+
+  
+    ,{
+      "title"			: "Upgraded to v166",
+      "url"			: "/computing/2005/02/_upgraded_to_v166_/",
+      "tag"       : "blogging",
+      "category"  : "computing",
+      "date"      : "2005-02-12",
+      "excerpt"		: "This web site is now running a very slightly modified rev 166 versionof leonardo. I only had to make a few changes:  modify my menu page to use the new calendar insert option  copy my modified wiki04 over top of James …  add one line to the page template to get an image  copied my version of static.py (which handles a few more mime types andslightly different default file locations) over top of the svn version.  fix a whole heap of bugs in my wiki code. (A revised version isat corewiki.tgz)."
+    }
+  
+
+  
+    ,{
+      "title"			: "there is no such thing as a foolish question",
+      "url"			: "/academic/2005/02/no_such_thing_as_a_foolish_question/",
+      "tag"       : "teaching",
+      "category"  : "academic",
+      "date"      : "2005-02-03",
+      "excerpt"		: "Generations of young children have been admonished with variations of a quote typically attributed to Mark Twain:Better to keep your mouth closed and be thought a fool than to open it and remove all doubt"
+    }
+  
+
+  
+    ,{
+      "title"			: "FreeAccess",
+      "url"			: "/computing/2005/01/FreeAccess/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "date"      : "2005-01-31",
+      "excerpt"		: "From JISC:The University of Southampton is to make all its academic and scientific research output freely available. A decision by the University to provide core funding for its Institutional Repository establishes it as a central part of its research infrastructure, marking a new era for Open Access to academic research in the UK. The repository provides a publications database with full text, multimedia and research data."
+    }
+  
+
+  
+    ,{
+      "title"			: "State of Fear, Part 1",
+      "url"			: "/life/computing/2005/01/StateOfFear1/",
+      "tag"       : "crichton",
+      "category"  : "lifecomputing",
+      "date"      : "2005-01-27",
+      "excerpt"		: "A colleague has sent me a copy of The State of Fear by Michael Crichton for my comment. I should hasten to add this colleague is not one ofmy atmospheric science colleagues, who I suspect would all agree withMyles Allen’s review in Nature."
+    }
+  
+
+  
+    ,{
+      "title"			: "Atomic content in NCAS",
+      "url"			: "/computing/2005/01/rss_and_or_atom_in_ncas/",
+      "tag"       : "badc",
+      "category"  : "computing",
+      "date"      : "2005-01-25",
+      "excerpt"		: "The NERC Centres of Atmospheric Science, NCAS, consists of a number of centres and facilities that have their own life and web presences. Today some of us had a brief discussion about whether it would be feasible to utilise RSS and/or Atom to improve the connections between the centres, the ncas website itself, and the wider world."
+    }
+  
+
+  
+    ,{
+      "title"			: "Internet Explorer Sucks",
+      "url"			: "/computing/2005/01/IESucks/",
+      "tag"       : "computing",
+      "category"  : "computing",
+      "date"      : "2005-01-25",
+      "excerpt"		: "I’ve just discovered that Internet Explorer has been rendering the menu for this site with nothing readable in the menu … for three months! (I checked it out on firefox, konqueror, and safari …). The menu used to look like this:"
+    }
+  
+
+  
+    ,{
       "title"			: "Model Resolution, Ensembles and Physics",
       "url"			: "/environment/2005/01/Model_Resolution/",
       "tag"       : "climate, resolution, modelling_futures",
       "category"  : "environment",
       "date"      : "2005-01-24",
       "excerpt"		: "Last Wednesday I attended a meeting of the Royal Met Society on Perfecting Imperfect Models."
+    }
+  
+
+  
+    ,{
+      "title"			: "generateDS",
+      "url"			: "/computing/2005/01/generateDS/",
+      "tag"       : "python, xml",
+      "category"  : "computing",
+      "date"      : "2005-01-21",
+      "excerpt"		: "I’ve just discovered generateDS (via Uche Ogbuj’s column).generateDS.py generates Python data structures (for example, class definitions) from an XML Schema document. These data structures represent the elements in an XML document described by the XML Schema. It also generates parsers that load an XML document into those data structures. In addition, a separate file containing subclasses (stubs) is optionally generated. The user can add methods to the subclasses in order to process the contents of an XML document."
+    }
+  
+
+  
+    ,{
+      "title"			: "Massachusetts Contributes to easier Document Curation",
+      "url"			: "/computing/2005/01/massachusetts_contributes_to_easier_document_curation/",
+      "tag"       : "msxml",
+      "category"  : "computing",
+      "date"      : "2005-01-18",
+      "excerpt"		: "Groklaw reports that the (US) State of Massachusetts is going to require all agencies to store public documents in nonproprietary formats such as HTML or PDF.Acceptable formats, according to the state&#39;s Information Technology Division, are now Rich Text Format v. 1.7 (.rtf); Plain Text Format (.txt); Hypertext Document Format (.htm); Portable Document Format (.pdf) - Reference version 1.5; Extensible Markup Language (XML) v. 1.0 (Third Edition) or v 1.1 &quot;when necessary&quot;."
+    }
+  
+
+  
+    ,{
+      "title"			: "Python Gui Kits",
+      "url"			: "/computing/2005/01/gui_kits_for_python/",
+      "tag"       : "python",
+      "category"  : "computing",
+      "date"      : "2005-01-13",
+      "excerpt"		: "jkx@home has a brief review of his experiencewith python gui toolkits. I’ve been flirting briefly with all of theseexcept glade based kits, so it’s interesting he recommended it."
+    }
+  
+
+  
+    ,{
+      "title"			: "A view of an iceberg/glacier collision from Space",
+      "url"			: "/environment/2005/01/colliding_icebergs_from_space/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2005-01-13",
+      "excerpt"		: "NASA have released a news article showing images from space of a large iceberg (about the size of Long Island, NY) moving towards the Drygalski Ice Tongue. The article speculates the collision is due within a few days, but even if it doesn’t happen, the mpg movie that shows the comparative sizes of Long Island and the iceberg and then the movement of the iceberg is well worth a look."
+    }
+  
+
+  
+    ,{
+      "title"			: "Open Source Licenses",
+      "url"			: "/computing/2005/01/open_source_licenses/",
+      "tag"       : "badc, curation",
+      "category"  : "computing",
+      "date"      : "2005-01-08",
+      "excerpt"		: "We’re in the curation business. That means we’re in the business of keeping our data for a very long time … the reality of data is that it’s always accompanied by software to use it. If we’re serious about longevity of the data we’re forced to be serious about longevity of the accompanying software. In practice, given the way companies can be bought and sold, and rights to software might change, we are required to be very careful about whether our software has legal longevity as well as technical longevity."
+    }
+  
+
+  
+    ,{
+      "title"			: "On Energy Supplies",
+      "url"			: "/environment/2005/01/energy/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2005-01-05",
+      "excerpt"		: "Despite the content of most of my blog entries, I am fundamentally an atmospheric physicist, and only a computer geek by proxy. I’ve resolved as a new years resolution (yet again) to spend more time actually thinking about atmospheric physics. I’m resolved to live up to this by having at least one blog entry a week on atmospheric science (setting little targets does seem to work for me). However, in an act of pseudo-procrastination, I’m avoiding “atmospheric” physics for “environmental” physics first up."
+    }
+  
+
+  
+    ,{
+      "title"			: "On Binary XML",
+      "url"			: "/computing/2005/01/BinaryXML/",
+      "tag"       : "xml, ndg",
+      "category"  : "computing",
+      "date"      : "2005-01-04",
+      "excerpt"		: "NDG reviewers the first time around suggested we would need binary XML. I think they thought we would put all our data in XML, not just the metadata."
     }
   
 
@@ -1311,12 +1894,221 @@
 
   
     ,{
+      "title"			: "Meteorology versus Money",
+      "url"			: "/environment/2004/12/MetVMoney/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2004-12-21",
+      "excerpt"		: "It’s a known problem that “big-money” doesn’t always care about the environment. We all understand about physical pollution (oil in the sea, PM10 in the atmosphere etc), but this one is a little different: The BBC has reportedthe problems that occur with “frequency pollution”."
+    }
+  
+
+  
+    ,{
+      "title"			: "Service Orientated Architecture",
+      "url"			: "/computing/2004/12/SOA/",
+      "tag"       : "ndg",
+      "category"  : "computing",
+      "date"      : "2004-12-20",
+      "excerpt"		: "The NERC DataGrid concept is built around scalability and a service orientated architecture. We’ve gone very much for the minimum central control of anything, and very much a bunch of services that are not all integralto getting things done. As you might expect, the more of the NDG services one deploys, the less you have to do yourself, but we hope that we are imposing the minimum on the user of the system (and data). In fact, I think at the minimum, we are imposing only:  the use of a browser to find data (if they don’t already know where it is).  the user to login somewhere which is “ndg-enabled”. In practice this  requires the user to have their own digital certificate and/or their ndg“login-supplier” to generate a proxy on their behalf."
+    }
+  
+
+  
+    ,{
+      "title"			: "Elements and Attributes",
+      "url"			: "/computing/2004/12/ElementsAndAttributes/",
+      "tag"       : "xml, ndg",
+      "category"  : "computing",
+      "date"      : "2004-12-20",
+      "excerpt"		: "Reminder:    &lt;element has-attribute=”something”&gt; stuff &lt;/element&gt;"
+    }
+  
+
+  
+    ,{
+      "title"			: "Nice review of RSS and scientific publishing",
+      "url"			: "/computing/2004/12/rssreview/",
+      "tag"       : "computing, curation",
+      "category"  : "computing",
+      "date"      : "2004-12-17",
+      "excerpt"		: "See Hammond et.al.(2004) for a nice review of the current state of RSS and it’s existing role in scientificpublishing (in dlib)."
+    }
+  
+
+  
+    ,{
+      "title"			: "xml databases",
+      "url"			: "/computing/2004/12/dbxml2/",
+      "tag"       : "xml, ndg",
+      "category"  : "computing",
+      "date"      : "2004-12-16",
+      "excerpt"		: "NDG is currently being developed around eXist, but we’ve had problems with scalability and reliability. It’s not yet obvious why … but as a consequence we’ve had to have some backup plans for whatwould happen if eXist failed to deliver for us. One of our backup planswas to keep an eye on the Berkely DB XML project. We didn’t use it initially because we wanted to exploitxquery. Well, now, with version 2.07 announced (see previous link), it supports xquery, so no doubt we’ll be testing it in the coming months.It’s very pleasing that there are already suse rpms."
+    }
+  
+
+  
+    ,{
+      "title"			: "Why Python?",
+      "url"			: "/computing/2004/12/WhyPython/",
+      "tag"       : "python, ndg",
+      "category"  : "computing",
+      "date"      : "2004-12-16",
+      "excerpt"		: "I have spent most of today writing a response to the various reviewers about our extension to the NDG activities."
+    }
+  
+
+  
+    ,{
+      "title"			: "renewables",
+      "url"			: "/environment/2004/12/renewables/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2004-12-11",
+      "excerpt"		: "Not sure one should confess to reading slashdot, but theypointed me to this in the Houston Chronicle, basically, the bottom line is that a company (“Green Mountain Energy”) is providing Texan electricity consumers with electric power from a mix of hydroelectric and wind generation at prices competitive with fossil fuel suppliers!! In Texas of all places. There is hope yet."
+    }
+  
+
+  
+    ,{
       "title"			: "More on Trackbacks",
       "url"			: "/computing/2004/12/moreontrackback/",
       "tag"       : "xml, computing, ndg",
       "category"  : "computing",
       "date"      : "2004-12-10",
       "excerpt"		: "Yesterday I spent some time implementing thetrackback spec in python. Iknow there are other implementationsin python, but I wanted to really understand this stuff.  I’ll put myimplementation up here soon (it’s intended for use in Leonardo andother places), but for now I want to record some of the things thatit got me thinking about.  The key thing I discovered were someinconsistencies in the spec  why does the trackback have (uri,excerpt) but the rss response have(link,description)?  how extensible is it? I want to put some semantics in my trackbackping … to tell the target what sort of trackback is coming in (it might notbe a blog, it might be an analysis programme, or a formal citation).Thinking this must be a bit of old hat for the semantic web folks, I went off on a bit of a google on trackback and semantics."
+    }
+  
+
+  
+    ,{
+      "title"			: "Climate Change",
+      "url"			: "/environment/2004/12/ClimateChange/",
+      "tag"       : "climate",
+      "category"  : "environment",
+      "date"      : "2004-12-08",
+      "excerpt"		: "Science has an article that makes it clear that there is no dissension in the scientific community about human impacts of climate change."
+    }
+  
+
+  
+    ,{
+      "title"			: "Citation",
+      "url"			: "/environment/computing/2004/12/Citation/",
+      "tag"       : "climate, curation",
+      "category"  : "environmentcomputing",
+      "date"      : "2004-12-07",
+      "excerpt"		: "I recently had to make a statement on the impact of publishing in a particular journal. I did it, but didn’t like doing it. Most scientists probably have a subliminal hierarchy of journals, something like (for me):  Wow (Nature)  Impressive (Tellus, J.Atmos.Sci., Q. J.Roy.Met.Soc, J. Climate. Climate Dynamics)  Very Good (J. Geophys. Res., Geophys. Res. Letters., Annales Geophysicae)  Good (J. Atmos. Terr. Phys.)  Worth Doing (Weather, Bull. Am. Met. Soc)  Not worth it (censored :-) )."
+    }
+  
+
+  
+    ,{
+      "title"			: "Trackback",
+      "url"			: "/computing/2004/12/trackback/",
+      "tag"       : "computing",
+      "category"  : "computing",
+      "date"      : "2004-12-06",
+      "excerpt"		: "Every day I learn something more about blogging, and every day I can see how utterly useful it will be in a real atmospheric science application, not just as a means of communication amongst computer geeks (myself included I suppose)."
+    }
+  
+
+  
+    ,{
+      "title"			: "forecast xml",
+      "url"			: "/computing/environment/2004/12/_forecast_xml_/",
+      "tag"       : "xml, climate",
+      "category"  : "computingenvironment",
+      "date"      : "2004-12-06",
+      "excerpt"		: "The U.S. National Weather service provide forecast data (apparently just for the continental US) via a SOAP service. It looksvery simple and very easy to use, with a simple syntax. I only found out about it today, even though from the look of the site it has been around a while (the docs date from 2003, and the “trial” was supposed to end on the 1st of August)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Python and Java",
+      "url"			: "/computing/2004/12/_python_and_java_/",
+      "tag"       : "python",
+      "category"  : "computing",
+      "date"      : "2004-12-04",
+      "excerpt"		: "There have been a number of posts in the blogs that I follow about Python is Not Javaby Phillip Eby."
+    }
+  
+
+  
+    ,{
+      "title"			: "Digital Signatures and Digital Preservation",
+      "url"			: "/computing/2004/12/_digital_signatures_and_digital_preservation_/",
+      "tag"       : "xml, ndg",
+      "category"  : "computing",
+      "date"      : "2004-12-01",
+      "excerpt"		: "Those who saw my xmlsec blog will know we are moving to the use of digital signatures in NDG (and BADC) authorisation."
+    }
+  
+
+  
+    ,{
+      "title"			: "b-schema",
+      "url"			: "/computing/2004/11/b-schema/",
+      "tag"       : "ndg, metadata, moles",
+      "category"  : "computing",
+      "date"      : "2004-11-30",
+      "excerpt"		: "The NDG b-schema is the heart of how we plan to support data browsing (as opposed to searching)."
+    }
+  
+
+  
+    ,{
+      "title"			: "xmlsec",
+      "url"			: "/computing/2004/11/_xmlsec_/",
+      "tag"       : "ndg, xml, python",
+      "category"  : "computing",
+      "date"      : "2004-11-26",
+      "excerpt"		: "Yesterday and today I got to spend some substantial time on trains (a trip toLiverpool actually) … and spent the time learning about pyxmlsec (and by implication xmlsec).  I was most interested in theapplication of digitally signing xml documents (and the subsequentverification). We need to do this for NDG authorisation."
+    }
+  
+
+  
+    ,{
+      "title"			: "Is Access Grid worth it?",
+      "url"			: "/computing/environment/2004/11/_is_access_grid_worth_it_/",
+      "tag"       : "computing, environment",
+      "category"  : "computingenvironment",
+      "date"      : "2004-11-24",
+      "excerpt"		: "At a meeting I attended yesterday, there was some discussion as to whether expenditure on supporting access grid was cost effective."
+    }
+  
+
+  
+    ,{
+      "title"			: "Maths and Blogging",
+      "url"			: "/academic/2004/11/_maths_and_blogging_/",
+      "tag"       : "blogging",
+      "category"  : "academic",
+      "date"      : "2004-11-23",
+      "excerpt"		: "Inevitably I’m going to want to put maths in this blog, and if not here, on scientific wikis to support the CF (and other) projects."
+    }
+  
+
+  
+    ,{
+      "title"			: "Knowledge Management Horizon",
+      "url"			: "/computing/2004/11/_knowledge_management_horizon_/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "date"      : "2004-11-22",
+      "excerpt"		: "Today I attended a workshop “on “Towards Integrated Knowledge Management”, organised as part of a DEFRA horizons scanning project. These horizon projects are meant to give DEFRA a chance (!) of being ready for the next environmental crisis, instead of always being in reactive mode. A totally laudable aim."
+    }
+  
+
+  
+    ,{
+      "title"			: "Inaugural Post",
+      "url"			: "/academic/2004/11/inaugural_post/",
+      "tag"       : "blogging",
+      "category"  : "academic",
+      "date"      : "2004-11-21",
+      "excerpt"		: "I’ve been interested in blogs, and blogging software for a long while. I run the KDE akregator on my laptop, and find that i have learnt a lot from other folks ruminations (as well as having been apalled and amused to various degrees).For a long time I’ve also tried various ways of keeping notes, many of which I want to make public to my friends and colleagues. I’ve finally found a piece of software that meets most of my requirements, and because it’s written in python, I can add the functionality that I need as I require it.Thanks to James Tauber ([http://jtauber.com]), I have now got his [http://jtauber.com/leonardo leonardo] software working with a modified wiki handler. This is my first blog entry …"
     }
   
 
@@ -1517,6 +2309,20 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   
