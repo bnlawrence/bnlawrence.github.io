@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Exascale Challenge to the UK - Part Tree - Capacity | Bryan Lawrence</title>
+  <meta name="description" content="In this post we want to consider how much science we can do with the computers we currently have available (ARCHER and NEXCS), and in subsequent posts we’ll consider the route to exascale.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2017/12/exascale3/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="The Exascale Challenge to the UK - Part Tree - Capacity">
+
+
+<meta name="twitter:description" content="In this post we want to consider how much science we can do with the computers we currently have available (ARCHER and NEXCS), and in subsequent posts we’ll consider the route to exascale.
+
+">
+
+
+
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="http://www.bnlawrence.net//assets/images/archer_long_640.png">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">The Exascale Challenge to the UK - Part Tree - Capacity</h1>
+  <p class="post-meta">Posted on December 31, 2017
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/exascale/" rel="tag">exascale</a>, <a href="/tags/cms/" rel="tag">cms</a>, <a href="/tags/modelling_futures/" rel="tag">modelling_futures</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/academic/2017/12/cfdm-paper/">&laquo;The CF Data Model Paper Appears&raquo;</a>
+  
+  
+  (in <a href="/categories/#academic" title="academic">academic</a>;
+  in <a href="/categories/#computing" title="computing">computing</a> previous is <a href="/computing/2017/12/exascale2/" class="prev">&laquo;The Exascale Challenge to the UK - Part Two - Compute&raquo;</a>)
+  
+  .<br/>
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>In this post we want to consider how much <em>science</em> we can do with the computers we currently have available (ARCHER and NEXCS), and in subsequent posts we’ll consider the route to exascale.</p>
+
+<p>To do that, we have to define <em>science</em>. There are a number of ways we can do that, but for the purposes of this exercise we’re going to define it in two ways:</p>
+<ol>
+  <li>What we can do with current generation models, and</li>
+  <li>What we might want to be able to do with future generation models.</li>
+</ol>
+
+<h2 id="how-much-science-can-we-currently-do">How much science can we currently do?</h2>
+
+<p>Obviously we run a mix of models, but for the purposes of this exercise, we’re going to define science, as “number of years we can simulate” using the N512 model we used for benchmarking in the <a href="/computing/2017/12/exascale2/">last post</a>.</p>
+
+<p>However, as discussed in Balaji et al (2017)<sup id="fnref:B"><a href="#fn:B" class="footnote">1</a></sup>, and is clear in the results in that previous post, we have a choice between speed and throughput when working out how much work we can do with a finite amount of compute. If we run as fast as possible (“speed”), we use more nodes per simulated years than if we run slower, so often we choose to run slower to get more throughput, but we still need to run “fast enough”. For the purpose of this exercise we are going to define “fast enough” as 1 simulated year per (real) day (SYPD).</p>
+
+<p>So the question of “how much science can we currently do?” comes down to how many years of the N512 model can we run in one day at 1 SYPD on the platforms we have available.</p>
+
+<p>To address that, we can use the data from the last post. I fitted a quadratic to each curve, and found the minimum number of nodes (of the two solutions) for running at 1 SYPD. These data are summarised in the following table:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th style="text-align: right">ARCHER (24)</th>
+      <th style="text-align: right">NEXUS (24)</th>
+      <th style="text-align: right">NEXUS (36)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>No I/O</td>
+      <td style="text-align: right">383</td>
+      <td style="text-align: right">390</td>
+      <td style="text-align: right">316</td>
+    </tr>
+    <tr>
+      <td>With I/O</td>
+      <td style="text-align: right">568</td>
+      <td style="text-align: right">550</td>
+      <td style="text-align: right">406</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We’ll come back to the difference between the I/O and no I/O runs in a subsequent post, and why the difference shouldn’t be that large, but for the moment we’ll use the no I/O runs to compare the two machines we currently have available, and our portion of them<sup id="fnref:1"><a href="#fn:1" class="footnote">2</a></sup>.</p>
+
+<p>The two platforms these benchmark were run on were NEXCS and ARCHER:</p>
+<ul>
+  <li>NEXCS is a Cray XC-40, with 6720 nodes each with 36 Broadwell cores (currently “number 15 in the world”: <a href="https://www.top500.org/system/178925">top500 entry</a>).</li>
+  <li>ARCHER is a Cray XC-30, with 4920 nodes, each with 24 Ivy Bridge cores (currently “number 79 in the world”: <a href="https://www.top500.org/system/178188">top500 entry</a>).</li>
+</ul>
+
+<p>(We’ll come back to those “number XX” designations in a future post … not least because they’re pretty meaningless in practice!)</p>
+
+<dl class="wp-caption aligncenter" style="max-width: 640px">
+
+<dt><a href=""><img class="" src="/assets/images/mo_nexcs.jpg" alt="One of the Met Office XC-40s (probably not the one we use for NEXCS though!)" /></a></dt>
+
+<dd>One of the Met Office XC-40s (probably not the one we use for NEXCS though!)</dd>
+</dl>
+
+<dl class="wp-caption aligncenter" style="max-width: 640px">
+
+<dt><a href=""><img class="" src="/assets/images/archer_long_640.png" alt="ARCHER" /></a></dt>
+
+<dd>ARCHER</dd>
+</dl>
+
+<p>It’s pretty easy to use those node numbers to assert the relative capability of the machines, in terms of the <em>the number of ensemble members</em> they can run per day as being:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">ARCHER (24)</th>
+      <th style="text-align: right">NEXUS (36)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">4920/383</td>
+      <td style="text-align: right">6720/316</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">= 12.8</td>
+      <td style="text-align: right">= 21.2</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In both cases, the NERC community cannot use all the machines all the time, since NERC has contracted portions of the machine - so we can calculate the number we could sustain long term if we could use the entire NERC computing allocations of 22% and 4.2% respectively:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">ARCHER (24)</th>
+      <th style="text-align: right">NEXUS (36)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">12.8*.22</td>
+      <td style="text-align: right">6720/316</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">= 2.8</td>
+      <td style="text-align: right">= 0.9</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>It doesn’t take a climate expert to realise that we cannot easily conceive of doing centennial scale ensembles of this model with these machines. Any worthwhile experiment will consist of at least a pair of numerical experiments (e.g. a control run and some sort of perturbation), and a minimum of three ensemble members each (preferably a lot more) so we would need (at least) 2 x 3 x 100 years of simulation.  So <strong>one</strong> (we obviously want to do many experiments <sup id="fnref:M"><a href="#fn:M" class="footnote">3</a></sup>) long term NERC climate experiment would require both machines for 600/3.7=162 days, or half a year!</p>
+
+<p>We can do useful time-slice experiments in a reasonable period of time though, since we can typically consider doing 30 years rather than 100 years, and that factor of 3 results in experiments that could in theory be completed in two months or so. Of course, no one user<sup id="fnref:2"><a href="#fn:2" class="footnote">4</a></sup> gets both machines all the time, so the real turn around is much longer.</p>
+
+<p>Still to come in this exciting - ! :-) - set of blog posts:</p>
+
+<ol>
+  <li>What conclusions might we draw from these results for what climate science we might be able to do with the likely available computing in the next few years and beyond? (And how good might our predictions be?),</li>
+  <li>The data issues associated with all of this, and</li>
+  <li>What this means for UK scientific competitiveness.</li>
+</ol>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:B">
+      <p><span id="BalEA17p">Balaji, V., Maisonnave, E., Zadeh, N., Lawrence, B. N., Biercamp, J., Fladrich, U., … Wright, G. (2017). CPMIP: Measurements of Real Computational Performance of Earth System Models in CMIP6. <i>Geosci. Model Dev.</i>, <i>10</i>(1), 19–34. https://doi.org/10.5194/gmd-10-19-2017</span> <a href="#fnref:B" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:1">
+      <p>Many will be surprised at me ignoring I/O for this comparison, given my long-standing statement that I/O will be a rate-limiter for our compute in the near future. Suffice to say, we will get to that argument, but we have to construct the rest of it first. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:M">
+      <p><span id="MeeEA14">Meehl, G. A., Moss, R., Taylor, K. E., Eyring, V., Stouffer, R. J., Bony, S., &amp; Stevens, B. (2014). Climate Model Intercomparisons: Preparing for the Next Phase. <i>Eos, Transactions American Geophysical Union</i>, <i>95</i>(9), 77–78.</span> <a href="#fnref:M" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>It’s important to realise that these large experiments may be run by one or two people operating as a team, but are generally analaysed by <em>much</em> larger teams of people who generate the resulting scientific outputs. However, there are lots of such teams sharing these computers. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

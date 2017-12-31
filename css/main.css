@@ -468,6 +468,7 @@ a.tosu {
 
 table {
   border-collapse: collapse;
+  margin: 0 auto;
   margin-bottom: 15px; }
 
 table, th, td {

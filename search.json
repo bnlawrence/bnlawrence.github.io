@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "The Exascale Challenge to the UK - Part Tree - Capacity",
+      "url"			: "/computing/2017/12/exascale3/",
+      "tag"       : "exascale, cms, modelling_futures",
+      "category"  : "computing",
+      "date"      : "2017-12-31",
+      "excerpt"		: "In this post we want to consider how much science we can do with the computers we currently have available (ARCHER and NEXCS), and in subsequent posts we’ll consider the route to exascale."
+    }
+  
+
+  
+    ,{
       "title"			: "The CF Data Model Paper Appears",
       "url"			: "/academic/2017/12/cfdm-paper/",
       "tag"       : "cf, data_modelling, papers",

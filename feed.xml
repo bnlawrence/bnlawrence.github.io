@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2017-12-31T12:49:57+00:00</updated>
+  <updated>2017-12-31T14:33:48+00:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,45 @@
   
 
   
+  
+    <entry>
+      <title type="html">The Exascale Challenge to the UK - Part Tree - Capacity</title>
+      <link href="http://www.bnlawrence.net//computing/2017/12/exascale3/" rel="alternate" type="text/html" title="The Exascale Challenge to the UK - Part Tree - Capacity" />
+      <published>2017-12-31T00:00:00+00:00</published>
+      <updated>2017-12-31T00:00:00+00:00</updated>
+      <id>http://www.bnlawrence.net//computing/2017/12/exascale3</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//computing/2017/12/exascale3/">&lt;p&gt;In this post we want to consider how much &lt;em&gt;science&lt;/em&gt; we can do with the computers we currently have available (ARCHER and NEXCS), and in subsequent posts we’ll consider the route to exascale.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exascale" />
+      
+        <category term="cms" />
+      
+        <category term="modelling_futures" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/archer_long_640.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">The CF Data Model Paper Appears</title>
@@ -326,36 +365,6 @@
       <updated>2017-07-18T00:00:00+01:00</updated>
       <id>http://www.bnlawrence.net//talks/2017/07/ppp4_gungho</id>
       <content type="html" xml:base="http://www.bnlawrence.net//talks/2017/07/ppp4_gungho/">&lt;h2 id=&quot;performance-portability-productivity-which-two-do-you-want&quot;&gt;Performance, Portability, Productivity: Which two do you want?&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">International Supercomputing (ISC) and JASMIN User Conferences</title>
-      <link href="http://www.bnlawrence.net//talks/2017/06/lawrence_jasmin/" rel="alternate" type="text/html" title="International Supercomputing (ISC) and JASMIN User Conferences" />
-      <published>2017-06-27T00:00:00+01:00</published>
-      <updated>2017-06-27T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//talks/2017/06/lawrence_jasmin</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2017/06/lawrence_jasmin/">&lt;p&gt;I gave two versions of this talk, one at at the International Supercomputing Conference’s Workshop on HPC I/O in the data centre, and one at the 2017 JASMIN User’s Conference.&lt;/p&gt;</content>
 
       
       
