@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2017-12-20T12:36:28+00:00</updated>
+  <updated>2017-12-31T12:02:03+00:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -51,6 +51,8 @@
         <category term="cf" />
       
         <category term="data_modelling" />
+      
+        <category term="papers" />
       
 
       

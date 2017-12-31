@@ -4,7 +4,7 @@
     {
       "title"			: "The CF Data Model Paper Appears",
       "url"			: "/academic/2017/12/cfdm-paper/",
-      "tag"       : "cf, data_modelling",
+      "tag"       : "cf, data_modelling, papers",
       "category"  : "academic",
       "date"      : "2017-12-20",
       "excerpt"		: "It’s always a nice present for any academic when a paper finally appears “in print”. After some months in public review, our paper introducing a formal data model for the Climate Forecast (CF) conventions (Hassell, Gregory, Blower, Lawrence, &amp; Taylor, 2017) has appeared in Geoscientific Model Development. Although CF was developed for content stored in NetCDF files, this data model has been developed in such a way that the logic can be used for CF content stored in other formats."
@@ -860,6 +860,28 @@
 
   
     ,{
+      "title"			: "NSF Cyberinfrastructure for Data",
+      "url"			: "/talks/2010/09/cyberinfrastructure_for_data/",
+      "tag"       : "data_deluge",
+      "category"  : "talks",
+      "date"      : "2010-09-30",
+      "excerpt"		: "Cyberinfrastructure Challenges (from a climate science repository perspective)"
+    }
+  
+
+  
+    ,{
+      "title"			: "cyberinfrastructure for data",
+      "url"			: "/computing/2010/09/cyberinfrastructure_for_data/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "date"      : "2010-09-30",
+      "excerpt"		: "Today I’m sitting in a “data task force” meeting organised by NSF to address future cyberinfrastructure requirements.  We’re in a Microsoft building in Redmond: comedy moment as it seems that of the three dozen or so folks here, half of them are using Macs … (and I suspect a few more are like me, using Linux). That said, I’m obviously drinking from the kool aid, because there is a feeling afoot that Microsoft are doing the right thing in a number of fields nowadays (unlike Oracle who are trending darkwards)."
+    }
+  
+
+  
+    ,{
       "title"			: "hpc futures - part one",
       "url"			: "/environment/2010/08/hpc_futures_-_part_one/",
       "tag"       : "climate, modelling_futures, resolution",
@@ -899,6 +921,17 @@
       "category"  : "computing",
       "date"      : "2010-03-15",
       "excerpt"		: "For a number of projects I’m having to revisit some domain modelling, exploiting both HollowWorld and the upcoming ISO19156 Observations and Measurements standard."
+    }
+  
+
+  
+    ,{
+      "title"			: "Bryan's Fishy Example",
+      "url"			: "/computing/2009/07/bryans_fishy_example/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "date"      : "2009-07-16",
+      "excerpt"		: "I’ve had a few days lately where I’ve trotted out my favourite “easy to understand example” as to why some scientific datasets need to be preserved, and some do not. In the final analysis, we find that it’s easy to identify some datasets as “must preserve” and then we enter “value judgement” territory. But it’s helpful to have a strawman to consider on the way."
     }
   
 
@@ -1498,12 +1531,100 @@
 
   
     ,{
+      "title"			: "Attention Deficit Trait",
+      "url"			: "/management/2005/03/attention_deficit_trait/",
+      "tag"       : "management",
+      "category"  : "management",
+      "date"      : "2005-03-30",
+      "excerpt"		: "eliterate librarian has an article describing this “disorder”, defined asyou&#39;ve become so busy attending to so many inputs and outputs that you become increasingly distracted, irritable, impulsive, restless and, over the long term, underachieving. In other words, it costs you efficiency because you&#39;re doing so much or trying to do so much, it&#39;s as if you&#39;re juggling one more ball than you possibly can."
+    }
+  
+
+  
+    ,{
+      "title"			: "Debunking Crichton Done for Me",
+      "url"			: "/life/computing/2005/03/debunking_crichton_done_for_me/",
+      "tag"       : "crichton",
+      "category"  : "lifecomputing",
+      "date"      : "2005-03-28",
+      "excerpt"		: "I haven’t finished with my comments on Crichton’s book. I have finished reading it, and it sits on my desk with a few bits of paper marking things I want to pick up on … but other things intrude :-)"
+    }
+  
+
+  
+    ,{
       "title"			: "JISC Digital Rights Meeting",
       "url"			: "/computing/2005/03/jisc_digital_rights_meeting/",
       "tag"       : "curation",
       "category"  : "computing",
       "date"      : "2005-03-24",
       "excerpt"		: "On Tuesday I attended a JISC Consultation Workshop  on Rights in Digital Environments. While the emphasis of this meeting was on rights management issues in a learning environment, and on documents etc, there was some interesting discussion on data rights issues. Among a number of interesting discussions and presentations were two that I found especially interesting: one by Charles Oppenheim on IPR issues in general, and one by Podromos Tsiavos on Commons UK."
+    }
+  
+
+  
+    ,{
+      "title"			: "P2PGIS",
+      "url"			: "/computing/2005/03/p2pgis/",
+      "tag"       : "ndg",
+      "category"  : "computing",
+      "date"      : "2005-03-23",
+      "excerpt"		: "I’ve just had my attention drawn (by the good folks at EDINA) to the Peer-to-peer GIS project and the OPen Use Server (OPUS).The link refers to their implementation being based on Java, Apache, PHP and MapServer. It also says that it is based on RoMap.net (Rapid Online Mapping Network), and they say thatRoMap is a set of peer-to-peer protocols and network infrastructure to allow compliant GIS applications to work together over a network."
+    }
+  
+
+  
+    ,{
+      "title"			: "Linus spoof letter to Bill Gates",
+      "url"			: "/computing/2005/03/linus_spoof_letter_to_bill_gates/",
+      "tag"       : "computing",
+      "category"  : "computing",
+      "date"      : "2005-03-23",
+      "excerpt"		: "This is absolutely brilliant!"
+    }
+  
+
+  
+    ,{
+      "title"			: "ICSU Recommendations",
+      "url"			: "/computing/2005/03/icsu_recommendations/",
+      "tag"       : "curation, badc",
+      "category"  : "computing",
+      "date"      : "2005-03-23",
+      "excerpt"		: "Yesterday, while on a train to a JISC meeting in Bristol on Rights in a Digital Environment (of which more later), I found time to read through theICSU Report of the CSPR Assessment Panel on Scientific Data and Information (pdf)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Python Eggs",
+      "url"			: "/computing/2005/03/python_eggs/",
+      "tag"       : "python",
+      "category"  : "computing",
+      "date"      : "2005-03-22",
+      "excerpt"		: "One of the main complaints new users of python give is that the library dependency issue is not as clearly dealt with as it is in the perl and java communities. Today, I found out about the python eggs project via this. In the latter, eggs were described asAn egg is to a Python as a jar is to Java"
+    }
+  
+
+  
+    ,{
+      "title"			: "SOA Design Principles",
+      "url"			: "/computing/2005/03/soa_design_principles/",
+      "tag"       : "ndg",
+      "category"  : "computing",
+      "date"      : "2005-03-20",
+      "excerpt"		: "John Crupi (via Tim Bray) has this to say about the design of Service Orientated Architectures:...for SOA to be successful, it must be a &quot;top-down&quot; approach. And top-down, means problem to architecture to solution. It does not mean, working from what we have and just wrapping it with new technologies just because we can. This bottom-up approach is quite natural and easy and is the perfect recipe for a SOA failure. "
+    }
+  
+
+  
+    ,{
+      "title"			: "Sea Level Rise Predictions",
+      "url"			: "/environment/2005/03/sea_level_rise_predictions/",
+      "tag"       : "climate",
+      "category"  : "environment",
+      "date"      : "2005-03-20",
+      "excerpt"		: "Well, I’m clearly not an oceanographer, but given my recent interest in assertions by Michael Crichton (there is more to come on that subject), I thought this might be interestingfor occasional readers."
     }
   
 
@@ -2309,6 +2430,8 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
   
 
   
