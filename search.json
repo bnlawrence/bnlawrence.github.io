@@ -882,12 +882,45 @@
 
   
     ,{
+      "title"			: "Surface Temperature Workshop",
+      "url"			: "/environment/2010/09/surface_temperature_workshop/",
+      "tag"       : "climate, environment",
+      "category"  : "environment",
+      "date"      : "2010-09-10",
+      "excerpt"		: "I’ve just spent three days in Exeter at a Met Office initiated exercise on issues associated with constructing a new surface temperature working programme."
+    }
+  
+
+  
+    ,{
       "title"			: "hpc futures - part one",
       "url"			: "/environment/2010/08/hpc_futures_-_part_one/",
       "tag"       : "climate, modelling_futures, resolution",
       "category"  : "environment",
       "date"      : "2010-08-02",
       "excerpt"		: "Anyone reading my twitter feed will know that I’ve been going to strategy meetings a lot lately.  We’ve been talking a lot about the impending problems with computing as new architectures become more complex. By way of organising my thinking about increased resolution, and in some ways, following up on an even older discourse, I’ve spent a bit of time thinking about computing capacity. Hence this."
+    }
+  
+
+  
+    ,{
+      "title"			: "too much trac and twitter?",
+      "url"			: "/diary/2010/05/too_much_trac_and_twitter-3F/",
+      "tag"       : "metafor",
+      "category"  : "diary",
+      "date"      : "2010-05-25",
+      "excerpt"		: "Most of the silence on my blog over the last year has been because I have been heavily involved in a lot of management bumf (yawn) and deep in the bowels of some interesting projects (big smile). A lot of the project work has involved documents and wiki work, and in the case of metafor, about 10,000 lines of python using the django framework. If you’re that interested, you can nosy around:  the metafor trac site,  the moles trac site, and  the go-essp trac sitefor a flavour of what I’ve been up to."
+    }
+  
+
+  
+    ,{
+      "title"			: "To shred or not to shred?",
+      "url"			: "/environment/2010/04/to_shred_or_not_to_shred-3F/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2010-04-18",
+      "excerpt"		: "For a long time my wife has been suggesting we should get a garden waste shredder -  we end up taking at least a dozen car loads of green waste to the tip a year, and often end up with piles of stuff waiting for a trip.  I’ve been lukewarm, reckoning that we live close enough to the rubbish tip that buying a shredder is not justified. However, just for the hell of it, and inspired by King of the Road, I thought I’d do the  calculation."
     }
   
 
@@ -915,12 +948,111 @@
 
   
     ,{
+      "title"			: "Quotation of the day",
+      "url"			: "/computing/2010/03/quotation_of_the_day/",
+      "tag"       : "metadata",
+      "category"  : "computing",
+      "date"      : "2010-03-16",
+      "excerpt"		: "Hankin et al at OceanObs09:Today we find remarkable agreement on expectations for vastly improved ocean data management a decade from now -- capabilities that will help to bring significant benefits to ocean research and to society.Advancing data management to such a degree, however, will require cultural and policy changes that areslow to effect. The technological foundations upon which data management systems are built are certain tocontinue advancing rapidly in parallel. These considerations argue for adopting attitudes of pragmatismand realism when planning data management strategies."
+    }
+  
+
+  
+    ,{
       "title"			: "hollow world and svngate revisited",
       "url"			: "/computing/2010/03/hollow_world_and_svngate_revisited/",
       "tag"       : "metadata, computing, UML",
       "category"  : "computing",
       "date"      : "2010-03-15",
       "excerpt"		: "For a number of projects I’m having to revisit some domain modelling, exploiting both HollowWorld and the upcoming ISO19156 Observations and Measurements standard."
+    }
+  
+
+  
+    ,{
+      "title"			: "Oh no  I can't keep up ..",
+      "url"			: "/diary/2009/12/oh_no_google_i_can-27t_keep_up_",
+      "tag"       : "",
+      "category"  : "diary",
+      "date"      : "2009-12-16",
+      "excerpt"		: "As you have all noticed, I’m a tad busy at the moment, and blogging has been the obvious thing missing out. The other thing missing out is new technology:  Google Wave I hear you say?  No …  Google Fusion Tables API… oh no not another thing I can’t pay attention to."
+    }
+  
+
+  
+    ,{
+      "title"			: "Drawn into climategate",
+      "url"			: "/academic/2009/11/drawn_into_climategate/",
+      "tag"       : "environment",
+      "category"  : "academic",
+      "date"      : "2009-11-29",
+      "excerpt"		: "It’s a long time since I bothered to write a letter to the editor, but the cru email controversy pushed me over the edge. Or to be more precise, Anne McElvoy’s opinion piece did. Of course I would never have known anything about it, not normally having access to London Evening Standard , but their letters editor actually approached me to solict an intervention in the next edition (by which I assume that a) he was desperate, and/or b) he figured I might say something silly, or both)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Still here",
+      "url"			: "/diary/2009/11/still_here/",
+      "tag"       : "",
+      "category"  : "diary",
+      "date"      : "2009-11-09",
+      "excerpt"		: "I’m still here … but my day job is all consuming at the moment. Blame CMIP5."
+    }
+  
+
+  
+    ,{
+      "title"			: "erase to transparency",
+      "url"			: "/computing/2009/11/erase_to_transparency/",
+      "tag"       : "gimp",
+      "category"  : "computing",
+      "date"      : "2009-11-09",
+      "excerpt"		: "The easy way (with The GIMP): somehow select an area (choose by fuzzy selector contiguous colour is one good option), then, if your image hasn’t got an alpha channel, add one (right click, choose transparency, add an alpha channel) … then color to alpha (right click, choose transparency, color to alpha)."
+    }
+  
+
+  
+    ,{
+      "title"			: "my hero",
+      "url"			: "/computing/2009/09/my_hero/",
+      "tag"       : "computing, ndg, metafor, advice",
+      "category"  : "computing",
+      "date"      : "2009-09-29",
+      "excerpt"		: "Everyone needs to understand this:A 50%-good solution that people actually have solves more problems and survives longer than a 99% solution that nobody has because it&#39;s in your lab where you&#39;re endlessly polishing the damn thing. Shipping is a feature. A really important feature. Your product must have it."
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading in 2009, 15-18 - Teenage action fodder for summer",
+      "url"			: "/diary/2009/09/reading_in_2009-2C_15-18-3A_teenage_action_fodder_for_summer/",
+      "tag"       : "books",
+      "category"  : "diary",
+      "date"      : "2009-09-17",
+      "excerpt"		: "Even the unobservant readers of this blog will have noticed the silence by now. It’s workload folks … something has to give. I’ll be back …"
+    }
+  
+
+  
+    ,{
+      "title"			: "The relationship between collecting metadata, and the optimum size of a child's plate of food",
+      "url"			: "/environment/computing/2009/08/plate_size/",
+      "tag"       : "cmip5, metadata, metafor",
+      "category"  : "environmentcomputing",
+      "date"      : "2009-08-26",
+      "excerpt"		: "I’ve said it before, and no doubt I’ll have to keep saying it, but the word metadata is understood by nearly every individual differently. This has a number of consequences, starting with defining (in any given) case, what comprises metadata. The problem is nicely encapsulated a recent email on the Galeon list. I hope Gerry Greager wont mind me further publicising his statement:A lot of otherwise really sharp folks tend to  define everyone&#39;s data and metadata by their own prejudices, including  me. After all, MY data&#39;s easy to identify and define, and I can see how YOUR data should be identified and defined, too. What? you don&#39;t agree with me? How dare you?"
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading in 2009, 14 - Canadian Wildish West",
+      "url"			: "/diary/2009/07/reading_in_2009-2C_14-3A_canadian_wildish_west/",
+      "tag"       : "books",
+      "category"  : "diary",
+      "date"      : "2009-07-16",
+      "excerpt"		: "Anne picked up The Tenderness of Wolves by Stef Penney somewhere, but I snaffled it out of her  book queue while she wasn’t looking."
     }
   
 
@@ -937,12 +1069,331 @@
 
   
     ,{
+      "title"			: "cf standard names growth",
+      "url"			: "/computing/environment/2009/07/cf_standard_names_growth/",
+      "tag"       : "curation, cmip5, cf",
+      "category"  : "computingenvironment",
+      "date"      : "2009-07-08",
+      "excerpt"		: "Adequate descriptions of scientific data depend on precise descriptions of what the data actually are. At the heart of that are what we call “phenomenon descriptions”, which at BADC and in much of the climate community, we handle using “CF standard names”."
+    }
+  
+
+  
+    ,{
+      "title"			: "UM Crack Cocaine",
+      "url"			: "/computing/2009/07/UM_Crack_Cocaine/",
+      "tag"       : "wrf, um",
+      "category"  : "computing",
+      "date"      : "2009-07-08",
+      "excerpt"		: "One of the items of discussion at yesterday’s NCAS advisory group was whether or not NCAS should be working with more than one mesocale model (currently we do, with significant efforts invested in both the Met Office Unified Model and the U.S. WRF model)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading in 2009, 11 -  One to miss",
+      "url"			: "/diary/2009/06/reading_in_2009-2C_11-3B_one_to_miss/",
+      "tag"       : "books",
+      "category"  : "diary",
+      "date"      : "2009-06-15",
+      "excerpt"		: "The Genesis Secret by Tom Knox"
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading in 2009, 10 - Careless in Red",
+      "url"			: "/diary/2009/06/reading_in_2009-2C_10-3A_careless_in_red/",
+      "tag"       : "books",
+      "category"  : "diary",
+      "date"      : "2009-06-03",
+      "excerpt"		: "There can’t be many readers of crime novels who don’t eagerly await new Elizabeth George novels. For obvious reasons I wasn’t paying attention last year, so we missed the arrival ofCareless in Red. However, on my March/April US trip, I clearly passed through anairport bookshop or two, and was very pleased to find a new Lynley mystery."
+    }
+  
+
+  
+    ,{
+      "title"			: "Catalogues, Shopping Carts and Portals",
+      "url"			: "/computing/2009/06/catalogues-2C_shopping_carts_and_portals/",
+      "tag"       : "ndg",
+      "category"  : "computing",
+      "date"      : "2009-06-03",
+      "excerpt"		: "The NDG (and INSPIRE) vision is that data providers stand upservices to expose their data and metadata. We imagine that catalogueservices harvest our metadata, and expose it in via catalogueservice interfaces. We imagine that portals exploit the catalogue serviceinterfaces to allow users to select data, and exploit the data invisualisation services."
+    }
+  
+
+  
+    ,{
       "title"			: "Journals and Data Curation",
       "url"			: "/computing/2009/06/journals_and_data_curation/",
       "tag"       : "curation",
       "category"  : "computing",
       "date"      : "2009-06-02",
       "excerpt"		: "I’m hopelessly behind on my blog reading, otherwise I would have spottedthis new Nature policy sooner:Accordingly, we have modified the Nature journal policy on authorship, which is detailed on our [website](http://tinyurl.com/dkgbf8). For papers submitted by collaborations, we now delineate the responsibilities of the senior members of each collaboration group on the paper. Before submitting the paper, at least one senior member from each collaborating group must take responsibility for their group&#39;s contribution. Three major responsibilities are covered: preservation of the original data on which the paper is based, verification that the figures and conclusions accurately reflect the data collected and that manipulations to images are in accordance with Nature journal [guidelines](http://tinyurl.com/cmmrp7), and minimization of obstacles to sharing materials, data and algorithms through appropriate planning."
+    }
+  
+
+  
+    ,{
+      "title"			: "Resource Reality",
+      "url"			: "/computing/2009/05/resource_reality/",
+      "tag"       : "badc",
+      "category"  : "computing",
+      "date"      : "2009-05-28",
+      "excerpt"		: "Why is it then we talk to the private sector, they’re always impressed with what we can do with the resources available (money, people), yet, when we talk to our scientific colleagues, many of them think we must be amazingly inefficient to cost what we do (in terms of, yep, money and people)?"
+    }
+  
+
+  
+    ,{
+      "title"			: "i had to laugh",
+      "url"			: "/computing/2009/05/i_had_to_laugh/",
+      "tag"       : "computing, funny",
+      "category"  : "computing",
+      "date"      : "2009-05-27",
+      "excerpt"		: "and so should you! Read this (unless of course your only exposure to computing languages has been the one true language that you use today, and have always used). Hat tip Ned Batchelder."
+    }
+  
+
+  
+    ,{
+      "title"			: "kubuntu frustration ... again",
+      "url"			: "/computing/2009/05/kubuntu_frustration_..._again/",
+      "tag"       : "kubuntu",
+      "category"  : "computing",
+      "date"      : "2009-05-23",
+      "excerpt"		: "Late last year,  I wanted to upgrade my kubuntu to 8.10 (intrepid)… but I couldn’t because bluetooth was broken in the release."
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading in 2009, 9 - Under Enemy Colours",
+      "url"			: "/diary/2009/05/reading_in_2009-2C_9-3A_under_enemy_colours/",
+      "tag"       : "books",
+      "category"  : "diary",
+      "date"      : "2009-05-16",
+      "excerpt"		: "Well, I’ve read them all (I think), from C.S. Forrester to Alexander Kent, via Patrick O’Brian, Dudley Pope and Richard Woodman, even Julian Stockwin - others too. My shelves groan with “wooden walls” fiction; blamemy dad for introducing me to Hornblower at an impressionable age."
+    }
+  
+
+  
+    ,{
+      "title"			: "Busy Week",
+      "url"			: "/diary/2009/05/busy_week/",
+      "tag"       : "cmip5, metafor",
+      "category"  : "diary",
+      "date"      : "2009-05-13",
+      "excerpt"		: "Just in case you’re wondering why the blogging has dried up yet again (from its already droughty state): I’mhalf way through a seriously silly week. Monday: Brussels, Tuesday, Wednesday: Lancaster, Thursday, Friday: Paris. I seem to be in a maelstrom of meetings and deadlines that never quite ends. This week it’s just a bit more obvious becauseI’m out of town, and I’m generating a huge number of train miles/hours: I will have been travelling for roughly 28 hours this week (although that time is inclusive of trips to and from stations, and underground etc, it still leaves in excess of 15 hours for real work done using my trusty laptop, albeit with a newly dodgy wireless connection)."
+    }
+  
+
+  
+    ,{
+      "title"			: "WCS is dead, long live WFS",
+      "url"			: "/computing/2009/04/wcs_is_dead-2C_long_live_wfs/",
+      "tag"       : "ogc",
+      "category"  : "computing",
+      "date"      : "2009-04-23",
+      "excerpt"		: "For many years Steve Hankin has been asking me why we want WCS when OPeNDAPhas similar functionality, and many, many, working implementations. For justas many years I’ve argued that OPeNDAP has/had three major flaws:  It wasn’t easily securable (soon not to be a problem),  Didn’t have good relationship with metadata, and in particular,  Was all about syntax, not semantics - you subset by array index, notthe desired portion of a semantically described domain (e.ggive me array elements 4-6 compared with give me the array elementswhich lie between latitudes 40 to 60 degrees)."
+    }
+  
+
+  
+    ,{
+      "title"			: "sun_oracle",
+      "url"			: "/computing/2009/04/sun_oracle/",
+      "tag"       : "",
+      "category"  : "computing",
+      "date"      : "2009-04-23",
+      "excerpt"		: "These are strange times we live in …"
+    }
+  
+
+  
+    ,{
+      "title"			: "Newark Liberty International Airport",
+      "url"			: "/diary/2009/04/newark_liberty_international_airport/",
+      "tag"       : "",
+      "category"  : "diary",
+      "date"      : "2009-04-07",
+      "excerpt"		: "Avoid it if you’re travelling internationally."
+    }
+  
+
+  
+    ,{
+      "title"			: "ukrds",
+      "url"			: "/computing/2009/03/ukrds/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "date"      : "2009-03-04",
+      "excerpt"		: "Last Thursday I attended an event to discussthe UK Research Data Service feasibility Study. Chris has blogged the details (sessions1,2,3,4respectively)."
+    }
+  
+
+  
+    ,{
+      "title"			: "irony",
+      "url"			: "/computing/2009/03/irony/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "date"      : "2009-03-03",
+      "excerpt"		: "Does anyone else think that it’s ironic that Peter Suber, open access guru, appears to have written an  article on open access in toll barred Nature Geoscience?"
+    }
+  
+
+  
+    ,{
+      "title"			: "Strongly Defend Weakly Held Positions",
+      "url"			: "/computing/2009/02/strongly_defend_weakly_held_positions/",
+      "tag"       : "curation, management, badc, advice",
+      "category"  : "computing",
+      "date"      : "2009-02-19",
+      "excerpt"		: "I’ve just been at a NERC data management workshop. I may well blog some moreabout it, but one thing I spent a lot of time repeating to lots of peoplewas one of Bob Sutton’s mantras: “Strongly Defend Weakly Held Positions”."
+    }
+  
+
+  
+    ,{
+      "title"			: "obscurity",
+      "url"			: "/computing/2009/02/obscurity/",
+      "tag"       : "blogging",
+      "category"  : "computing",
+      "date"      : "2009-02-03",
+      "excerpt"		: "For some reason both bloglines and technorati seem to have turned up their noses at my blog. I wouldn’t mind, but I kind of rely on them to find if there are any inbound links to my blog (and thus anything worth pursuing). There aint much point asking the lazy web a question if I can’t find any links pointing to the question …"
+    }
+  
+
+  
+    ,{
+      "title"			: "NDG papers appear in Phil Trans",
+      "url"			: "/computing/2009/02/ndg_papers_appear_in_phil_trans/",
+      "tag"       : "ndg, metadata, papers",
+      "category"  : "computing",
+      "date"      : "2009-02-03",
+      "excerpt"		: "I’m really glad to see that our papers on  environmental metadata requirements of grids (really service orientated architectures), and  describing the deployment of NDG"
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading in 2009, 4 -  Engleby not for me",
+      "url"			: "/diary/2009/01/reading_in_2009-2C_4-3A_engleby_not_for_me/",
+      "tag"       : "books",
+      "category"  : "diary",
+      "date"      : "2009-01-31",
+      "excerpt"		: "I have a t-shirt that reads “too many books, too little time”."
+    }
+  
+
+  
+    ,{
+      "title"			: "when the paparazzi are ok",
+      "url"			: "/academic/2009/01/when_the_paparazzi_are_ok/",
+      "tag"       : "",
+      "category"  : "academic",
+      "date"      : "2009-01-30",
+      "excerpt"		: "I stumbled across this a week or two ago, and have had it sitting tabbed waiting for a response since, because it really got my goat!"
+    }
+  
+
+  
+    ,{
+      "title"			: "bbc goes to rdf",
+      "url"			: "/computing/2009/01/bbc_goes_to_rdf/",
+      "tag"       : "metadata, ndg, rdf",
+      "category"  : "computing",
+      "date"      : "2009-01-30",
+      "excerpt"		: "RDF goes big at the BBC!"
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading in 2009, 2 -  Water Supply",
+      "url"			: "/diary/2009/01/Reading-20in-202009-2C-202-3A-20Water-20Supply/",
+      "tag"       : "environment, climate, books",
+      "category"  : "diary",
+      "date"      : "2009-01-28",
+      "excerpt"		: "And so to “When the Rivers Run Dry” by Fred Pearce. Which is about what it says on the tin …"
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading in 2009, 3 - Miss Smilla",
+      "url"			: "/diary/2009/01/reading_in_2009-2C_3-3A_miss_smilla/",
+      "tag"       : "books",
+      "category"  : "diary",
+      "date"      : "2009-01-25",
+      "excerpt"		: "We’ve just spent a week on holiday in Cornwall, where, apart from the IPCC tomes (mostly unopened) and Obama souvenier edition newspapers (mostly disguarded unread), my holiday reading was a reread of Peter Hoeg’s Miss Smilla’s Feeling for Snow."
+    }
+  
+
+  
+    ,{
+      "title"			: "SD cards to the rescue",
+      "url"			: "/computing/2009/01/sd_cards_to_the_rescue/",
+      "tag"       : "badc, curation, storage",
+      "category"  : "computing",
+      "date"      : "2009-01-13",
+      "excerpt"		: "Next generation storage (press release pdf): The next-generation SDXC (eXtended Capacity) memory card specification, pending release in Q1 2009, dramatically improves consumers&#39; digital lifestyles by increasing storage capacity from 32 GB up to 2 TB and increasing SD interface read/write speeds up to 104 MB per second in 2009 with a road map to 300 MB per second. SDXC will provide more portable storage and speed, which are often required to support new features in consumer electronic devices and mobile phones."
+    }
+  
+
+  
+    ,{
+      "title"			: "Heat not Drought",
+      "url"			: "/environment/2009/01/heat_not_drought/",
+      "tag"       : "climate",
+      "category"  : "environment",
+      "date"      : "2009-01-13",
+      "excerpt"		: "Just as my night time reading is all about drought (I’ll tell you about that another day), I find this  fascinating paper in this weeks Science:"
+    }
+  
+
+  
+    ,{
+      "title"			: "EGU 2009",
+      "url"			: "/academic/2009/01/egu_2009/",
+      "tag"       : "ndg, curation, badc, cmip5, metafor, moles",
+      "category"  : "academic",
+      "date"      : "2009-01-13",
+      "excerpt"		: "Well, I haven’t been to a major conference for a while, and I received a raft of invitations to give talks at EGU this year."
+    }
+  
+
+  
+    ,{
+      "title"			: "curation and specification",
+      "url"			: "/computing/2009/01/curation_and_specification/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "date"      : "2009-01-08",
+      "excerpt"		: "Chris Rusbridge has a couple of interesting posts (original and followup) about specification and curation. The gist is that he’s reporting some conversations, which I might baldly summarise as saying something like:  Any application stores data and renders it for consumption (by a human or another layer of software). In the best of possible worlds, a specification for the data structure AND the application functionality should be enough to ensure that a third party could render the data for consumption at the next level without reference to the application code itself. However, certain real world experience suggests that the specifications are not enough, you need the code as well, because real implementors break their specifications.  There was some discussion about the ability of OOXML and ODT to preserve semantic content preferentially over latex and PDF … (primarily I think because some of the key semantic content would have been in figures which could be parsed for logical content, and both latex and pdf would have turned those figures into images).  As a consequence, Chris gets to this position:So ... running code is better than specs as representation information, and Open Source running code is better than proprietary running code. And, even if you migrate on ingest, keep BOTH the rich format and a desiccated format (like PDF/A). It won&#39;t cost you much and may win you some silent thanks from your eventual users!"
+    }
+  
+
+  
+    ,{
+      "title"			: "european summer drying",
+      "url"			: "/environment/2009/01/european_summer_drying/",
+      "tag"       : "climate",
+      "category"  : "environment",
+      "date"      : "2009-01-06",
+      "excerpt"		: "OK, I confess, I’m clearly reading my abstract summaries this morning …"
+    }
+  
+
+  
+    ,{
+      "title"			: "blimey! solar wind and tropical cyclones",
+      "url"			: "/environment/2009/01/blimey-21_solar_wind_and_tropical_cyclones/",
+      "tag"       : "climate",
+      "category"  : "environment",
+      "date"      : "2009-01-06",
+      "excerpt"		: "Here are a couple of papers that I’m going to have to find time to read properly:  Prikryl, P., Ru?in, V., and Rybansk&#39;y, M.: The influence of solar wind on extratropical cyclones ? Part 1: Wilcox effect revisited,  Ann. Geophys., 27, 1-30, 2009, and  Prikryl, P., Muldrew, D. B., and Sofko, G. J.: The influence of solar wind on extratropical cyclones ? Part 2: A link mediated by auroral atmospheric gravity waves?, Ann. Geophys., 27, 31-57, 2009."
     }
   
 
@@ -1543,9 +1994,9 @@
   
     ,{
       "title"			: "Debunking Crichton Done for Me",
-      "url"			: "/life/computing/2005/03/debunking_crichton_done_for_me/",
-      "tag"       : "crichton",
-      "category"  : "lifecomputing",
+      "url"			: "/diary/2005/03/debunking_crichton_done_for_me/",
+      "tag"       : "crichton, environment",
+      "category"  : "diary",
       "date"      : "2005-03-28",
       "excerpt"		: "I haven’t finished with my comments on Crichton’s book. I have finished reading it, and it sits on my desk with a few bits of paper marking things I want to pick up on … but other things intrude :-)"
     }
@@ -1631,9 +2082,9 @@
   
     ,{
       "title"			: "DDT and Malaria",
-      "url"			: "/life/computing/environment/2005/03/ddt_and_malaria/",
-      "tag"       : "crichton, environment",
-      "category"  : "lifecomputingenvironment",
+      "url"			: "/diary/2005/03/ddt_and_malaria/",
+      "tag"       : "crichton, environment, computing",
+      "category"  : "diary",
       "date"      : "2005-03-16",
       "excerpt"		: "I started my series of responses to State of Fear (SOF) thinking that I was going to be commenting on climate change issues alone. However, Crichton goes off on a lot of tangents, and I now understand why, having understood that State Of Fear is essentially a novel written around a speech where he makes a fairly strong pitch that environmentalism is a new religion. Much of what he says is very fair, not least:Because in the end, science offers us the only way out of politics. And if we allow science to become politicized, then we are lost."
     }
@@ -1884,9 +2335,9 @@
   
     ,{
       "title"			: "State of Fear, Part 1",
-      "url"			: "/life/computing/2005/01/StateOfFear1/",
-      "tag"       : "crichton",
-      "category"  : "lifecomputing",
+      "url"			: "/diary/2005/01/StateOfFear1/",
+      "tag"       : "crichton, environment",
+      "category"  : "diary",
       "date"      : "2005-01-27",
       "excerpt"		: "A colleague has sent me a copy of The State of Fear by Michael Crichton for my comment. I should hasten to add this colleague is not one ofmy atmospheric science colleagues, who I suspect would all agree withMyles Allen’s review in Nature."
     }
@@ -2430,6 +2881,26 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   

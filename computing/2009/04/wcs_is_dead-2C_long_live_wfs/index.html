@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>WCS is dead, long live WFS | Bryan Lawrence</title>
+  <meta name="description" content="For many years Steve Hankin has been asking me why we want WCS when OPeNDAPhas similar functionality, and many, many, working implementations. For justas many years I’ve argued that OPeNDAP has/had...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2009/04/wcs_is_dead-2C_long_live_wfs/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="WCS is dead, long live WFS">
+
+
+<meta name="twitter:description" content="For many years Steve Hankin has been asking me why we want WCS when OPeNDAP
+has similar functionality, and many, many, working implementations. For just
+as many years I’ve argued that OPeNDAP has/h...">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">WCS is dead, long live WFS</h1>
+  <p class="post-meta">Posted on April 23, 2009
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/ogc/" rel="tag">ogc</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/computing/2009/04/sun_oracle/">&laquo;sun_oracle&raquo;</a>
+  
+  .<br/>
+   Next Post <a class="next" href="/diary/2009/05/busy_week/">&laquo;Busy Week&raquo;</a>
+  
+  
+  (in <a href="/categories/#diary" title="diary">diary</a>;
+  in <a href="/categories/#computing" title="computing">computing</a> next is <a href="/computing/2009/05/kubuntu_frustration_..._again/" class="next">&laquo;kubuntu frustration ... again&raquo;</a>)
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>For many years Steve Hankin has been asking me why we want WCS when OPeNDAP
+has similar functionality, and many, many, working implementations. For just
+as many years I’ve argued that OPeNDAP has/had three major flaws:</p>
+<ol>
+  <li>It wasn’t easily securable (soon not to be a problem),</li>
+  <li>Didn’t have good relationship with metadata, and in particular,</li>
+  <li>Was all about syntax, not semantics - you subset by array index, not
+the desired portion of a semantically described domain (e.g
+give me array elements 4-6 compared with give me the array elements
+which lie between latitudes 40 to 60 degrees).</li>
+</ol>
+
+<p>but I’ve also admitted that WCS had some flaws too:</p>
+<ol>
+  <li>It might be easier to secure, but only because it (might) be easier to
+implement your own stack …</li>
+  <li>Nearly no working implementations.</li>
+</ol>
+
+<p>You would have thought the latter would be a show stopper, and indeed it is, but
+the first flaw for OPenDAP has also been a show stopper … until now. So, we
+are going to deploy OPenDAP soon … but we still want to deploy something
+which addresses semantic subsetting as well. So we’ve been investing in
+WCS …</p>
+
+<p>… but today I heard a presentation that filled me with horror. Very
+well presented, but still horrific. The plan for the future evolution
+of WCS is so flawed that I can’t see it surviving!</p>
+
+<p>Fortunately, the talk on WCS was followed by one on WFS (declaration: from
+someone in my group) which outlined how WFS can deliver much of the same
+functionality as WCS. It remains to be seen whether it can deliver a
+semantic version of OPenDAP … I hope so, in which case it’ll be
+“WCS is dead, long live WFS”.</p>
+
+<p>So predictions, should either of them read this:</p>
+<ul>
+  <li>Rob Atkinson will smile: He’s been claiming for a while that WCS was, or would be, only a
+convenience API to a WFS!</li>
+  <li>Steve Hankin will role his eyes, and think: “oh no, not another WXS …”</li>
+</ul>
+
+<h4 id="comments-3">comments (3)</h4>
+
+<p><em>Jon Blower (on Wednesday 06 May, 2009)</em></p>
+
+<p>What was the well-presented-but-horrific talk?</p>
+
+<p>We both agree that the WCS world is in a terrible state, and that the ongoing work on securing OPeNDAP is a Good Thing. Certainly we lack a standard way of securing OPeNDAP but it doesn’t seem to me that WCS is inherently any easier to secure.  Without SOAP you could secure both OPeNDAP and WCS using servlet filters (or Python/WSGI equivalents) or proxy servers equally well (or perhaps badly), even if you don’t have access to the source code in question.</p>
+
+<p>I also don’t believe that the semantic subsetting issue is a big deal in practice.  Provided that the OPeNDAPped data uses the CF conventions (admittedly you’re stuffed if they don’t), it’s fairly easy to write a tool that takes geospatial coordinates and generates the necessary array indices - and there are loads of tools that do it already. The WCS syntax is just sugar, and humans don’t generate URLs without tools anyway.  (I’m not saying that semantic subsetting is bad - but this feature alone isn’t very persuasive for me.)</p>
+
+<p>WCS actually hides some very important information - you can’t predict how big the response from a WCS will be, whereas you can with OPeNDAP.  This can be very important when trying to optimize a system.</p>
+
+<p>To sum up, you can build a WCS on top of OPeNDAP, but you can’t build OPeNDAP on top of WCS.  I’ve tried for a number of years now but I still can’t think of a really good reason to adopt WCS…</p>
+
+<p>So I say long live OPeNDAP!  It’s great that you’re able to deploy DAP servers now.  As for WFS, the jury’s out.  Actually it isn’t - the court is only just in session. ;-)</p>
+
+<p><em>Simon Cox (on Wednesday 20 May, 2009)</em></p>
+
+<p>I think Jon has it in a nutshell: “you can build a WCS on top of OPeNDAP” - i.e. use WXS precisely as a facade over OPeNDAP to provide the semantic sugar. While I agree that WCS appears to be heading for a rathole, other WXS interfaces allow mixing of XML/GML for the envelope and metadata, with a link to a suitable protocol for the main payload.</p>
+
+<p>OPeNDAP is a lower-level protocol. It was developed in the scientific community amongst ‘friends’ who are used to think in terms of array indices, etc.</p>
+
+<p>OTOH WXS is (supposed to be) about providing higher-level interfaces, abstracting the semantics which are common to all geographically sensitive disciplines - i.e. standardizing the X-domain stuff - and also providing standard patterns for domain specialization.</p>
+
+<p><em>Rob Atkinson (on Thursday 04 June, 2009)</em>
+:-)</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->
