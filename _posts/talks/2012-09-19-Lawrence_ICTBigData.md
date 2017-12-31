@@ -5,7 +5,7 @@ when: September, 2012
 layout: talk
 categories: talks
 talks: Weather and Climate Computing Futures in the context of European Competitiveness
-tags: modelling futures
+tags: modelling_futures
 ---
 
 Weather and Climate Computing Futures in the context of European Competitiveness
