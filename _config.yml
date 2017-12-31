@@ -47,3 +47,8 @@ scholar:
     bibtex-filters:
       - latex
       - markdown
+
+# Staticman
+repository: "bnlawrence/bnlawrence.github.io"
+staticman:
+  branch: "source"
