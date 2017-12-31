@@ -2,8 +2,8 @@
 layout: post
 title: Debunking Crichton Done for Me
 last_modified: Monday 28 March, 2005
-tags: crichton
-categories: life computing
+tags: crichton environment
+categories: diary
 ---
 
 I haven't finished with my comments on Crichton's book. I have finished reading it, and it sits on my desk with a few bits of paper marking things I want to pick up on ... but other things intrude :-)

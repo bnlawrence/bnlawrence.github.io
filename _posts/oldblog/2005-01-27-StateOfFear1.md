@@ -2,8 +2,8 @@
 layout: post
 title:  State of Fear, Part 1
 last_modified: Thursday 27 January, 2005
-tags: crichton
-categories: life computing
+tags: crichton environment
+categories: diary
 ---
 
 A colleague has sent me a copy of *The State of Fear* by Michael Crichton for my comment. I should hasten to add this colleague is not one of
