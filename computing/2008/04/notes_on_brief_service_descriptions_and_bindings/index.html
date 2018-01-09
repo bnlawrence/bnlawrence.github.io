@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Notes on brief service descriptions and bindings | Bryan Lawrence</title>
+  <meta name="description" content="I’m coming late1 to a discussion about representing services in feeds and catalogues.(See Sean and Jeroen, and especially Doug’s commment on Seans’ post.) I found these while trying to go back to a...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2008/04/notes_on_brief_service_descriptions_and_bindings/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="Notes on brief service descriptions and bindings">
+
+
+<meta name="twitter:description" content="I’m coming late1 to a discussion about representing services in feeds and catalogues.
+(See Sean and Jeroen, and especially Doug’s commment on Seans’ post.) I found these while trying to go back to ...">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Notes on brief service descriptions and bindings</h1>
+  <p class="post-meta">Posted on April 3, 2008
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/ndg/" rel="tag">ndg</a>, <a href="/tags/computing/" rel="tag">computing</a>, <a href="/tags/metadata/" rel="tag">metadata</a>, <a href="/tags/iso19115/" rel="tag">iso19115</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/computing/2008/04/subversion_under_wine/">&laquo;Subversion under WINE&raquo;</a>
+  
+  .<br/>
+   Next Post <a class="next" href="/computing/2008/04/more_on_the_windows_subversion_client_under_wine/">&laquo;More on the windows subversion client under wine.&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>I’m coming late[^1] to a discussion about representing services in feeds and catalogues.
+(See <a href="http://zcologia.com/news/703/representing-ogc-services-in-atom-feeds/">Sean</a> and <a href="http://www.ticheler.net/node/10">Jeroen</a>, and especially Doug’s commment on Seans’ post.) I found these while trying to go back to an old post of Sean’s (which I have yet to find) about REST and WPS, because I wanted to incorporate some of the ideas into a forthcoming <a href="abstracts/2008/01/21/servicedescriptions">presentation</a>. Anyway, a bit of retrospective googling lead me <a href="http://groups.google.com/group/geo-web-rest/browse_thread/thread/c61df07908a6149c">here</a>.</p>
+
+<p>Now as it happens, in my own way, I was <a href="/computing/2008/03/online_resources_in_iso19115_and_moles/">asking the same question</a> just a few days ago. The fact that I was asking it in the context of ISO19115 obscured the semantics of the question, as indeed did most of the discussion linked above. (Actually asking it in the context of ISO19115 ought not have done so, because ISO19115 is a content standard not an implmentation standard, but that’s a by-the-way).</p>
+
+<p>Anyway returning to the question, this is in fact one of the major things behind my much longer <a href="/computing/2008/01/whither_service_descriptions/">rant about service descriptions</a>. So much so that I fancy writing down my current train of thought. Sorry. You really don’t have to read it …</p>
+
+<p>The problem is that catalogues (don’t care what they are done in, Atom, ISOXXX or whatever), have list of datasets (entries or whatever if you have a different application). We want users to be able to select datasets and pass them off to a service client (e.g. Google Earth, a WMS based visualisation client or whatever). What we need to do is be able to flag for each dataset that it can support specific services … which will vary on a dataset by dataset basis.</p>
+
+<p>We have a bunch of choices of how to do this. For each dataset we can load in a bunch of endpoint addresses that specific services can exploit. This is what we currently do (where we potentially have some KMZ endpoints, some WMC endpoints, and a bunch of others). This scales horribly in many ways from a management point of view (add a new service, edit each and every metadata record … and we have lots!).  We do this in the context of a DIF related_URL. If you looked at the XML you get to see stuff like this:</p>
+<pre>
+&lt;Related_URL&gt;
+ &lt;!-- Web Map Context URL is required by NERC Portals --&gt;
+ &lt;Related_URL&gt;&lt;URL_Content_Type&gt;GET DATA &gt; WEB MAP CONTEXT&lt;/URL_Content_Type&gt;
+ &lt;URL&gt;http://ourhost/ukcip_wms?request=GetContext&lt;/URL&gt;
+&lt;/Related_URL&gt;
+</pre>
+<p>To add a new service, we need to create one of these for each dataset for which it can operate on<sup id="fnref:2"><a href="#fn:2" class="footnote">1</a></sup>
+, which will depend on lots of things, including the feature types of the data. Ideally of course we know the feature types of all the data, and so we can script the metadata mods … but if we know that, then why don’t we do late binding? (And automate the process by having service descriptions and data descriptions and let the associations themselves be discoverable (and renderable by the catalogue dynamically as users find things of interest.)</p>
+
+<p>Well of course we’re only crawling (in a software sense) towards adequate feature type descriptions, but the nirvana we want is real enough. But to do that we need some service descriptions …</p>
+
+<p>… which don’t exist, so we have to solve the problem outlined in the first paragraph for the foreseeable future, in a wide variety of contexts (including ISO19115 based catalogues).</p>
+
+<p>Now, back to the main point. For many reasons <a href="http://www.openarchives.org/ore/">ORE</a> is becoming very interesting to us, and so it was great to see Sean <a href="http://groups.google.com/group/geo-web-rest/browse_thread/thread/c61df07908a6149c">making the connection</a> (that I should have made). I like it so much I’m going to repeat his two examples here:</p>
+
+<p>(Sean stuff follows):</p>
+<pre>
+&lt;entry&gt; 
+   &lt;title&gt;Some KML&lt;/title&gt; 
+   &lt;link 
+     rel="alternate" 
+     type="application/vnd.google-earth.kml+xml" 
+     href="..." 
+     /&gt; 
+   ... 
+ &lt;/entry&gt; 
+</pre>
+<p>Otherwise, you use rdf:type (ORE specifies that non-atom elements refer 
+ to the linked resource, not to the entry):</p>
+<pre>
+&lt;entry&gt; 
+   &lt;title&gt;Some Journal Article&lt;/title&gt; 
+   &lt;link 
+     rel="alternate" 
+     type="text/xml" 
+     href="..." 
+     /&gt; 
+   &lt;rdf:type&gt;http://purl.org/eprint/type/JournalArticle&lt;/rdf:type&gt; 
+   ... 
+ &lt;/entry&gt; 
+</pre>
+<p>(Sean stuff concludes)</p>
+
+<p>The point being that where standard resource type names (mime-types) exist, one can use them, and where they don’t, one uses an RDF relationship. (Incidentally, I don’t really see how this differs in semantic content than Stefan Tilkov’s recent <a href="http://www.innoq.com/blog/st/2008/02/decentralizing_media_types.html">proposals for decentralised media types</a>, which got <a href="http://www.innoq.com/blog/st/2008/02/media_types.html">less than enthusaistic reception</a> - even to the point of my not understanding why he thinks his proposal is semantically different from using RDF.)</p>
+
+<p>In the context of MOLES and CSML we’ve been thus far using xlink to try and make these typed links (which answers yet another of Sean’s <a href="http://zcologia.com/news/501/are-gml-documents-hypermedia/">old questions</a>: yes, us). We’ve got so far with it that Andrew Woolf has an OGC best practice recommendation on how to use xlink in this context. I strongly believe that typed links are crucial to our data and metadata systems, but I’m less convinced by xlink … (yeah, we can build tools to navigate using it, but will our best practice paper disappear into the ether?)</p>
+
+<p>So let’s step away from it all and ask questions about the semantics. And when we do that, I expect to come back to both ORE-like concepts and RESTful ones …</p>
+
+<p>If I start with a dataset with a uri, I can consider a few things:</p>
+<ul>
+  <li>I can have a resource available which provides a description of the dataset in a variety of different syntaxes (e.g. the raw XML for GML:CSML and/or MOLES, and html versions of either or both),</li>
+  <li>I can have a bunch of bound-up service+dataset uris which show “summary” visualisations of the data (logos, quicklook aka thumbnail images etc),</li>
+  <li>I can have a service+dataset uri which exposes a human navigable tool to subset/download/visualise or whatever the dataset (i.e. a service which does something to the dataset, but in the first instance what you get back is html which is NOT a representation of the dataset itself, and</li>
+  <li>I can have a naked service endpoint which when I go there, can expose something about the dataset (but maybe exposes multiple other datasets as well).</li>
+</ul>
+
+<p>In both of the last cases, it might be possible to automatically construct a uri to a resource which did represent some property of the dataset given the starting endpoint URI.
+Ideally that’s what you get when you use standardised services … In this latter case it ought to be possible to construct a RESTful URI in the end, even if the service itself wasn’t particularly RESTful (e.g. WMS and WCS).</p>
+
+<p>Now all of the above are really aggregations which brings me back to ORE.</p>
+
+<p>I had better stop now. Conclusions can wait.
+[^1]: I lost contact from the world for most of March. One day I’ll explain why here. Some will know.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:2">
+      <p>This example also shows the situation we’re in of having to have a different WMS endpoint for each dataset … the way WMS works with getCapabilities doesn’t scale to us having one WMS endpoint for all our data. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+  
+
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->
