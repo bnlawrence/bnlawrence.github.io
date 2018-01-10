@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A proposal for profiling ISO19139 | Bryan Lawrence</title>
+  <meta name="description" content="I’ve been flagging issues with profiling ISO19139 for some time - see  Oct 19 andAug 15 and especially the comments in the latter.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2006/11/a_proposal_for_profiling_iso19139/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="A proposal for profiling ISO19139">
+
+
+<meta name="twitter:description" content="I’ve been flagging issues with profiling ISO19139 for some time - see  Oct 19 and
+Aug 15 and especially the comments in the latter.
+
+">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">A proposal for profiling ISO19139</h1>
+  <p class="post-meta">Posted on November 30, 2006
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/ndg/" rel="tag">ndg</a>, <a href="/tags/metadata/" rel="tag">metadata</a>, <a href="/tags/iso19115/" rel="tag">iso19115</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/computing/2006/11/browser_crap/">&laquo;browser crap&raquo;</a>
+  
+  .<br/>
+   Next Post <a class="next" href="/diary/2006/11/wireless_internet_blackspot_-_australia/">&laquo;Wireless Internet Blackspot - Australia&raquo;</a>
+  
+  
+  (in <a href="/categories/#diary" title="diary">diary</a>;
+  in <a href="/categories/#computing" title="computing">computing</a> next is <a href="/computing/2006/12/no_silver_bullet_exists/" class="next">&laquo;No Silver Bullet Exists&raquo;</a>)
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>I’ve been flagging issues with profiling ISO19139 for some time - see  <a href="/computing/2006/10/on_substitution_groups_and_iso19139/">Oct 19</a> and
+<a href="/computing/2006/08/to_extend_or_not_to_extend_">Aug 15</a> and especially the comments in the latter.</p>
+
+<p>Over this week a group of us (Rob Atkinson, Simon Cox, Clemens Portele and myself) have been reviewing the reality of problems with profiling ISO19139 and
+conforming with appendix F of ISO19115.</p>
+
+<p>The following is my summary of what I think we agreed.</p>
+
+<h4 id="extensions">extensions</h4>
+
+<p>We believe the situation is relatively straightforward for
+extensions to ISO19139:</p>
+<ol>
+  <li>A given community decides on a profile</li>
+  <li>The extensions are defined and documented in UML, so that
+an extended element/class is a specialised class which
+    <ol>
+      <li>lives in a specific profile package</li>
+      <li>has a  different name, and</li>
+      <li>has an attribute which documents which iso type it is intended to replace.</li>
+    </ol>
+  </li>
+  <li>This new package is then serialised into a new schema,
+    <ul>
+      <li>where the new class retains the different name from the UML
+definition and maintains the gco:isoType attribute to identify the parent (extended iso) element.</li>
+    </ul>
+  </li>
+  <li>and instances are validated against that schema using standard
+mechanisms.</li>
+  <li>Interoperability requires that when these instances are made
+available outside of the community for which the profile is 
+understood, either the producer should transform the document back
+to vanilla ISO19139 (easily done since all extended elements
+can be renamed using the iso-type attribute along with removal of material 
+from the new namespace).</li>
+</ol>
+
+<h4 id="restrictions">restrictions</h4>
+
+<p>We believe that most communities will be profiling ISO19139 by restriction.</p>
+
+<p>Typical restrictions will include (but not be limited to):</p>
+<ul>
+  <li>limiting the cardinality of attributes (e.g. making an optional
+attribute mandatory),</li>
+  <li>restricting the type of some attributes (e.g. forcing something
+to be a date where currently a date or a string is allowed).</li>
+  <li>replacing string options with codelists</li>
+</ul>
+
+<p>In all these cases, the resulting instance documents ought conform
+directly to the parent ISO19139 schema since these restrictions
+have not introduced new semantics to any element/class - they
+are simply constraints.</p>
+
+<p>Accordingly, where a community profile wishes to restrict a given
+element class we recommend that:</p>
+<ol>
+  <li>The restrictions are defined and documented in UML, so that
+an restricted element/class is a specialised class which
+    <ol>
+      <li>lives in a specific profile package</li>
+      <li>has a different name, and</li>
+      <li>the constraints are modelled using the Object Constraint Language (<a href="http://en.wikipedia.org/wiki/Object_Constraint_Language">OCL</a>), and</li>
+      <li>the specialisation is stereotyped as a &lt;&lt;restriction&gt;&gt; to guide
+serialisation
+<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>.</li>
+    </ol>
+  </li>
+  <li>These constraints are then serialized as <a href="http://www.schematron.com/">schematron</a><sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup> commands, which are
+maintained separately from the profile schema (if it exists - a purely
+restrictive profile would not require a new schema).</li>
+  <li>Instances are then validated using the standard XML techniques
+(which should ensure that they are valid ISO19139) <em>and</em> by
+a schematron processor.</li>
+  <li>Interoperability of these instances is trivial given they directly 
+conform to ISO19139 (there is no requirement by the consumer
+of such a profile to see the constraint serialisation).</li>
+</ol>
+
+<p>For example:
+<img src="/assets/images/2006-11-30-iso19139_restriction.jpg" alt="Image: IMAGE: static/2006/11/30/iso19139_restriction.jpg " /></p>
+
+<p>Right now, the schematron serialisation requires manual (human)
+interpretation of the OCL to construct the serialisation. It
+would appear that a direct serialisation of the full power
+of OCL would be non-trivial, so we are recommending that</p>
+<ol>
+  <li>communities attempt to use the most simple OCL commensurate
+with their restricting requirements, and</li>
+  <li>publicise their best practice, so that eventually</li>
+  <li>it would be possible to codify the best practice into a
+“recommended OCL for profile restrictions” document, which would
+then be amenable to</li>
+  <li>the development of an automatic parser (that, for example
+could be built into a future version of [shape change]).</li>
+</ol>
+
+<p>Thus far the only significant criticism of this schematron 
+serialisation approach is that
+it might not be possible to trivially build a metadata editor which
+conforms to any arbitrary profile since such tooling would
+need to be able to both parse the schema and the schematron.</p>
+
+<p>The only other possible approach would be the “clone-and-modify” 
+approach at serialisation. In this case, at serialisation
+time the schema name changes
+and the element definitions are directly restricted in the 
+new schema. This new schema then looks like, and behaves like
+ISO19139, but isn’t ISO19139: we believe that
+inevitable governance issues would arise in the maintenance
+of the serialisation. Further, like the extension case,
+instances would need transformation when shared outside the 
+community.</p>
+
+<p>However, it would appear that deploying schematron constraints
+may not be that difficult in some tools. For example <a href="http://www-128.ibm.com/developerworks/xml/library/x-xfrmschematron/">tools exist</a> that can use schematron with xforms.</p>
+
+<p>Further, it is our belief that it will be more easy to deal with
+hierarchical (and even multiple-inheritance) profiling
+using the OCL approach as well. For example, an organisation
+generating metadata may belong to multiple governance
+domains (e.g. the BADC is a British institution, producing
+atmospheric data: one might expect our ISO19139 profiles
+to conform to both the British and WMO standard profiles).
+It would be easy to test this for restrictions, we simply
+validate using both schematrons independently!</p>
+
+<p>followed in ISO19139 itself. We’ve chosen <em>restriction</em> here. Although
+we’re not totally comfortable with the particular choice of word, none
+of us could come up with a better one.</p>
+
+<p>we could do without the stereotype since the serialisation code
+could simply identify targets for serialisation into schematron alone
+simply by the fact that the specialisation consisted of OCL alone. However,
+it is possible that profile maintainers might choose to create <em>real</em>
+specialisations in an extension (for example, by categorising a particular
+class into a number of different restricted specialisations, each of which would need
+to be named). Although that’s an extension case, the parser needs to be
+agnostic as to whether it’s an extension or restriction as it processes each
+element from the UML.</p>
+
+<h4 id="comments-10">comments (10)</h4>
+
+<p><em>Jeremy Tandy (on Friday 01 December, 2006)</em></p>
+
+<p>OK …</p>
+
+<p>I agree with your comments on extensions.</p>
+
+<p>But I’ll try to summarise the restriction issues (which thus far have been been causing me problems) …</p>
+
+<p>1) Understand HOW you want to use ISO19115 within your community … this means picking over the ISO standard with practicioners to decide which bits are useful. As you state - most people will ONLY want to ‘profile by restriction’. Noting that ISO19115 declares elements as MANDATORY, CONDITIONAL and OPTIONAL, could a profile (for example) add a restriction such that a mandatory element is no longer required / permitted? I think not, as this would break conformance with the parent standard … but can we clarify?</p>
+
+<p>[As an aside, does this suggest the ISO19139 (the ISO19115 serialisation) should be packaged with a set of schematron constraints that can be used enforce the mandatory-ness (or conditional-ness) of elements?]</p>
+
+<p>Basically - at this point we have an agreement on the INFORMATION MODEL of our profile.</p>
+
+<p>2) Model the agreements in UML … I won’t reiterate what you wrote as it’s pretty clear. However, questions spring to mind …
+(i) we create a new class (in the profile package) with a new name … I guess this is simply a placeholder for the OCL constraints? In this case, I guess it has NO properties of it’s own? If this is true, we should be explicit about this in our ‘UML profile’.
+(ii) a new class created ONLY as a container for constraints is NOT instantiatable … it will NEVER appear in the serialised application schema
+(iii) UML allows me to override a property when I specialise a class, XML does not … at least not across a namespace boundary (I’ll not go into the details here as I think they’ve been discussed adequately elsewhere). What do I mean? Example (illustrative only) … ISO19115 class ‘EX_Extent’ has a property ‘geographicElement’, which is of type ‘EX_GeographicExtent’. ‘EX_GeographicExtent’ (an abstract class) is specialised by 3 classes - implying that the property ‘geographicElement’ can be one of these types. In my profile, I want to restrict EX_Extent such that property ‘geographicElement’ can ONLY be ‘EX_GeographicBoundingBox’. In UML, I could do this by overriding the property geographicElement:EX_GeographicExtent with geographicElement:EX_GeographicBoundingBox. However, the mismatch between UML &amp; XML makes this diffeicult to implement. Your suggestion is that a constraint be used to implement this type of restriction. We should EXPLICITLY disallow restriction by overriding (sa is commonly used within UML).</p>
+
+<p>3) We use a software parser to ‘eat’ the UML model, spitting out a GML application schema containing extensions (if there were any) and a schematron file with the profiling constraints. I guess we could use the name of the ‘faux’ class used a placeholder for the constraint as a title for each constraint block?</p>
+
+<p>4) &amp; 5) etc.</p>
+
+<p>Alternative approaches … I agree with your dislike of ‘clone and modify’.</p>
+
+<p>One thing that we MUST ensure is that any tooling provided to enable people to CREATE metadata instances can READ the profile (GML application schema extensions AND schematron restrictions). This suggests that we need a formal meta-model for a profile, describing the entities contained therein (extensions, restrictions etc.) so that tools know how to interpret the profile. Rob Atkinson has undertaken some work on behalf of the WMO driving down this track … but there’s plenty left to do! Perhaps the schematron - xform tooling is the way to go?</p>
+
+<p>Finally, any profile must also identify specific controlled vocabularies that MUST be used … fleshing out the content model. For example, you may wish to say that ‘at least one keyword must be from NASA’s GCMD science keyword list’. How do we ‘bind’ the controlled vocabulary (often an externally managed entity, far to large to be enumerated) to the profile? Gut feeling is that some form of constraint (serialised as schematron) is in order … but this needs to be formalised.</p>
+
+<p><em>Rob Atkinson (on Monday 04 December, 2006)</em></p>
+
+<p>1) I think it is valid profile to make an optional element mandatory. Instances are still valid, so doesnt invalidate conformance as far as I can see.</p>
+
+<p>2) We dont want to allow extension and lose the ability to do restrictions, so we need to determine behaviour - but essentially it makes no sense to use the «profile» (I prefer to «restriction») stereotype and extend the class. Maybe you need to extend the «restriction» class. More experience required here I think.
+In any case, I think that we should support the UML type-restriction override rather than support a OCL syntax for this. This can be serialised into schematron quite happily from the model.</p>
+
+<p>3) the Faux-class name is intended to be the name of the set of constraints</p>
+
+<p>and - agree we need to back this up with  tooling. This doesnt look too hard though.</p>
+
+<p>Also, agree with Jeremy that we need the  externally managed vocabulary binding as a constraint. This means currently an OCL constraint binding the codespace element of a ScopedName data type - but I’m not quite sure how we bind to a subset of a vocabulary - maybe the codespace needs to be a URN that can express a node in a taxonomy.</p>
+
+<p><em>Simon Cox (on Tuesday 05 December, 2006)</em></p>
+
+<p>From a closer reading of Annex A.4 in ISO FDTS 19139 I now believe these rules are pretty much in place already. 
+As it was not until my fourth or fifth read-through that I spotted it (and in the context of this discussion), this is definitely not presented clearly enough! 
+But it is there.</p>
+
+<p>The first paragraph of 19139 describes how restriction is accomplished in the UML in 19139(*), and the reader is directed to examples in clause 9. 
+The mechanism is “This is … done by … adding an annotation to the UML”. 
+Then “some tool in addition to an XML Schema validator must be used to enforce the … condition”. 
+The conventional UML method of overriding types or cardinalities is not explicitly prohibited, but also not described or otherwise allowed for, while the “annotation” method is. 
+However, there is no guidance on how the “annotations” are formalized, and in the examples they are <em>not</em> OCL constraints.</p>
+
+<p>Then the second and final (one-sentence) paragraph in the sub-clause directs the developer of a <em>user profile</em> to use the same mechanism. 
+The actual sentence is long and elliptical: 
+“Just as restriction of external implementations is done through annotation in UML and enforced via a tool other than an XML Schema validator in the namespaces defined in this Technical Specification, any user profile restrictions should also use this restriction mechanism.” 
+But it appears to be definitive, and essentially matches what is proposed here, modulo some implementation details, the latter of which I think we are (usefully) tightening up by proposing OCL and Schematron.</p>
+
+<p>On to the detail of the proposal: I now agree with Clemens that using a tagged value is more appropriate than a Stereotype. 
+Yeah, I know these are not so obvious in the digram (though EA at least does allow you to make the Tagged Values box visible in a classifier). 
+But tagged values is where implementation-specific directives are indicated. 
+Stereotypes are conceptual extensions, yes which may have implementation specific consequences but that is secondary. 
+Since the “no new element name” rules is XML-specific, it would be wrong to pollute the UML model with it since other platforms may be able to cope with a new class name …</p>
+
+<p>(<em>) However, important context is that 19139 is essentially a UML representation of XML Schema, with stereotypes like «XCGE» used to tie specific XML Schema patterns to UML classes. 
+So it is not actually intended to represent a “conceptual model”, so there may be some apples and oranges here in projecting a mechanism developed for a graphical “XML schema” language into a model … sm.</em>Simon Cox (on Wednesday 06 December, 2006)*
+In his aside above Jeremy wrote “[As an aside, does this suggest the ISO19139 (the ISO19115 serialisation) should be packaged with a set of schematron constraints that can be used enforce the mandatory-ness (or conditional-ness) of elements?] “</p>
+
+<p>The constraints that cannot be enforced using W3C Schema Validation are listed in Annex A Table 1 of ISO FDTS 19139. Yes, these are mostly co-constraints that are marked “Conditional” in 19115.</p>
+
+<p>As part of a job we did for ANZLIC recently Andy Dent wrote Schematron for all of these for which that was possible. i.e. this did not include the character-set constraints, or the uom constraints, but does check for all the others. I have requested permission from ANZLIC to make this available more widely but they have not responded yet.</p>
+
+<p>[[Sorry about the dual posting above - Bryan, perhaps you can remove the first version?]]</p>
+
+<p><em>Jeremy Tandy (on Thursday 07 December, 2006)</em></p>
+
+<p>Simon - I would be interested in seeing the ANZLIC-sponsored schematron constraints! Given that this blog post discusses the UML modeling in addition to the serialization, is there a need to annotate the original ISO19115 model with conditional constraints? (shoot me if this already exists :-) )<em>Simon Cox (on Friday 08 December, 2006)</em>
+In response to Jeremy’s questions:
+(i) I have not yet received permission from ANZLIC to release the Schematron. I don’t expect a knockback though.
+(ii) adding constraints to ISO 19115: yeah, maybe, probably.</p>
+
+<p>As I noted, there is some ambiguity in ISO 19139 as to whether it purely concerns “graphical XML schema” (see stereotypes like «XCGE» etc) or whether it also describes practices related to conceptual modelling (particularly profiles).</p>
+
+<p><em>Nick Ardlie (on Friday 08 December, 2006)</em></p>
+
+<p>A few quick comments.
+Whilst I am largely in favour of the proposed solution, there’s a mild smell to it also ;)
+I think that “smell” comes from the Object-Relational impedence mismatch issue. In this case transfered to Object-XML Schema but the issues are almost the same - deceptive similarities, subtle differences!
+UML-2-XML is solvable but a hard sell. UML+OCL-2-XML+Schematron makes it one big, funky party.
+But I do see some very tangible benefits and, no, I can’t think of a better alternative.</p>
+
+<p>It is right to state that “a direct serialisation of the full power of OCL would be non-trivial”. I would go further and say “impossible” or at least “nonsensical”. (e.g. attempting to assert OCL preconditons &amp; postconditions using Schematron).</p>
+
+<p>Having said that, the proposal is to identify an allowable subset of OCL syntax which is certainly achievable.
+I wonder if NVDL shouldn’t be the intermediate or target language here. XML schema validation + Schematron validation appears to meet MOST of our current validation requirements. Does it make sense to tightly prescribe the combinaton of validation languages (beyond generic namespace validation languages)? Maybe
+If XForms were to prove a valuable technology in the metadata entry tool space then the NVDL validation model would be really useful.</p>
+
+<p>Not sure if there was a misinterpretation of Jeremys comment about mandatory-2-conditional restrictions above. I would have agreed that overiding parental mandatory conditions would be in violation ofany sensible restiction rules. (it enforces a one-way transformation doesn’t it?)</p>
+
+<p>As an addition to Simons post above - regarding the Schematron that Andy Dent wrote for ANZIC, we’ve been running that using oNVDL to assert the ISO19139 schema constraints and Schematron constraints through a single tool/API. It would be good to have it circulated more widely and refined as necessary. (I’m hoping we can contribute some anaysis/feedback in that space shortly)</p>
+
+<p>Another issue that I feel needs addressing is the development of a best-practices model for XLink in GML application serialisations. I feel most people are thinking “self contained documents” which precludes the very real and likely scenario of fine-grained XML fragment serialisations (particularly true for enterprise metatdata systems, I would think). Validation under these conditions becomes a far more complex proposition. The tempation is to say “let the vendors sort that stuff out” whereas some work in this area would probably speed vendor uptake and result in better tools.</p>
+
+<p>cheers,</p>
+
+<p>Nick Ardlie
+Geoscience Australia</p>
+
+<p><em>Jeremy Tandy (on Friday 08 December, 2006)</em></p>
+
+<p>Simon - thanks for the update.
+++++
+Responding to Nick: you were right to spot the misunderstanding regarding overriding of mandatory conditions in base standard … this should be explicitly disallowed (and probably already is).</p>
+
+<p>NVDL … interesting, so I’ll take a closer look (in slowtime).</p>
+
+<p><em>Simon Cox (on Sunday 04 February, 2007)</em></p>
+
+<p>I’ve pulled the threads together in a summary posted here: https://www.seegrid.csiro.au/twiki/bin/view/AppSchemas/MetadataProfiles#A_proposal</p>
+
+<p><em>Andy Dent (on Thursday 08 February, 2007)</em></p>
+
+<p>My nose seems to work the same as Nick Ardlie and I would vastly prefer something that is more readable and easier to write correctly than OCL.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>The use of a stereotype for serialisation guidance is the methodology <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>It was suggested that <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>It may be there are other ways of implementing OCL, but schematron seems to be the tool of choice at the moment <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+  
+
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

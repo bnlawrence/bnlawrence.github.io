@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>On substitution groups and ISO19139 | Bryan Lawrence</title>
+  <meta name="description" content="I have bleated already about the difficulties of using ISO19139 withrestrictions which introduce new tag names.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2006/10/on_substitution_groups_and_iso19139/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="On substitution groups and ISO19139">
+
+
+<meta name="twitter:description" content="I have bleated already about the difficulties of using ISO19139 with
+restrictions which introduce new tag names.
+
+">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">On substitution groups and ISO19139</h1>
+  <p class="post-meta">Posted on October 19, 2006
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/xml/" rel="tag">xml</a>, <a href="/tags/iso19115/" rel="tag">iso19115</a>, <a href="/tags/metadata/" rel="tag">metadata</a>, <a href="/tags/ndg/" rel="tag">ndg</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/computing/2006/09/more_on_citation_-_part_three_delving/">&laquo;More on citation - part three, delving&raquo;</a>
+  
+  .<br/>
+   Next Post <a class="next" href="/computing/2006/10/citation_hosting_and_publication/">&laquo;Citation, Hosting and Publication&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>I have <a href="/computing/2006/08/to_extend_or_not_to_extend_">bleated already</a> about the difficulties of using ISO19139 with
+restrictions which introduce new tag names.</p>
+
+<p>Now the official way to do this is probably to exploit substitution groups in the new xml schema associated with your restriction. So, if one wanted to restrict, for example gmd:MD_Metadata one might start in your new schema with something like</p>
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;element</span> <span class="na">name=</span><span class="s">"restricted_MD_Metadata"</span> <span class="na">type=</span><span class="s">"ourMD_Metadata"</span> <span class="na">substitutionGroup=</span><span class="s">"gmd:MD_Metadata"</span><span class="nt">&gt;</span>
+stuff
+<span class="nt">&lt;/element&gt;</span>
+
+</code></pre></div></div>
+
+<p>(See <a href="http://www.w3schools.com/schema/schema_complex_subst.asp">w3schools</a>,
+the xml schema <a href="http://www.w3.org/TR/2001/REC-xmlschema-0-20010502/">primer</a>, or
+<a href="http://www.datypic.com/books/defxmlschema/chapter16.html">Walmsey, 2001</a>,
+to explain the syntax). Then in the instance document, one would have</p>
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;restricted_MD_Metadata&gt;</span>
+stuff
+<span class="nt">&lt;/restricted_MD_Metadata&gt;</span>
+
+</code></pre></div></div>
+
+<p>At this point one could use the xml schema validation machinery to ensure one had a nice valid instance of the new restricted schema.</p>
+
+<p>My beef is how we use this. The gurus will tell you there is no problem, and maybe there isn’t if one wants to invest an enormous amount of time in complex handlers (even so, maybe it’s <a href="http://lists.xml.org/archives/xml-dev/200508/msg00615.html">
+not that straight forward for data binding</a>, and perhaps the tools 
+aren’t really 
+<a href="http://www.stylusstudio.com/SSDN/default.asp?action=9&amp;read=2948&amp;fid=23">that mature</a> - or weren’t in 2004).</p>
+
+<p>So, if I’m writing code to handle ISO19139 documents, I’m going to be writing xslt or using xpath or xquery to get at particular content or I’m going to have to invest in brute force if I want to handle things in a high level language like python (as far as I know there are no pythonic tools that get close to this sort of requirement internally).</p>
+
+<p>Let’s just explore the brute force method, and a simple use case: I have harvested ISO19139 profiles (I’m starting to think “variants” - complete with quotes - would be a better term :-) from a number of places, and want to deliver the titles to a web page … so I need to find the titles. I can’t assume I can use a simple xpath expression (which <em>is</em> supported in python) to find all the titles. I have to parse all the relevant schemas, and do something complex to find the new title elements. In practice, I have to support each profile as a completely different schema, they might as well not share the ISO19139 heritage - even though there are advantages in the ISO19115 content heritage. Yuck.</p>
+
+<p>OK, now suppose I hand this off to an xquery engine. How easy is that? Let’s assume it’s not buggy … This is essentially the use case described as 
+1.9.4.7 Q7 in the <strong>June 2006</strong> <a href="http://www.w3.org/TR/xquery-use-cases/xquery">use case</a> document. I’m not that familiar with xquery, but it appears that</p>
+<pre>
+schema-element(gmd:MD_Metadata)
+</pre>
+<p>should then match any element which is linked to it via a substitution group declaration like that above. If it really is that simple, then this is much easier than the brute force method, and a good reason for passing my problems to a <em>real</em> xquery engine.</p>
+
+<p>However, this may well work fine for handling document reshaping type tasks, but  returning to the use case, I could well have tens of thousands of harvested documents, if not millions, and so I may well be considering indexing.  I don’t know, but it would appear that one has to rewrite all substitution group elements when producing an index - does our <a href="http://exist.sourceforge.net/">eXist</a> native xml database technology do this automatically for me? I don’t know, and that’s the point.</p>
+
+<p>All this marvellous xml technology is bloody complicated, and all to handle the case that a community wants to restrict the usage of some tags or lists! Why make all this grief? Wouldn’t it be far easier to give community guidance, but accept perfectly valid ISO19139 documents which fall outside that guidance, because we could all simply follow the simple rules in David Orchard’s article <a href="http://www.xml.com/pub/a/2004/10/27/extend.html">article</a>, and especially the one I’ve <a href="/computing/2006/03/some_practicalities_with_iso19139/">highlighted before</a>:</p>
+<blockquote>Document consumers must ingore any XML attributes or elements in a valid XML document that they do not recognise.
+</blockquote>
+
+<p>We could rewrite that as:</p>
+<blockquote>Communities  should give guidance on those ISO19139  attributes or elements that need populating for usage within the community (and which might need to be handled by community tools).
+</blockquote>
+
+<p>Job done. No complicated machinery. More tools available, easier indexing, and much easier human parsing of everything … (from the schemas, to the instances, and all the code that handles them).</p>
+
+<h4 id="trackbacks-1">trackbacks (1)</h4>
+
+<p><em><a href="/computing/2006/11/a_proposal_for_profiling_iso19139/">A proposal for profiling ISO19139</a> (from “Bryan’s Blog” on (on Wednesday 06 December, 2006)</em>)</p>
+
+<p>Over this week a group of us (Rob Atkinson, Simon Cox, Clemens Portele and myself) have been reviewing the reality of problems with profiling ISO19139 and conforming with appendix F of ISO19115. The following is my summary of what I think we agreed.</p>
+
+  </article>
+
+  
+
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

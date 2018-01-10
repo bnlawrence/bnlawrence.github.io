@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Whither parameters in metadata | Bryan Lawrence</title>
+  <meta name="description" content="Last year, there was considerable chatter  on the metadata mailing list about where the right place was to put which parameters were measured  in an ISO19115 metadata record.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2006/01/whither_parameters_in_metadata/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="Whither parameters in metadata">
+
+
+<meta name="twitter:description" content="Last year, there was considerable chatter  on the metadata mailing list about where the right place was to put which parameters were measured  in an ISO19115 metadata record.
+
+">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Whither parameters in metadata</h1>
+  <p class="post-meta">Posted on January 3, 2006
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/ndg/" rel="tag">ndg</a>, <a href="/tags/metadata/" rel="tag">metadata</a>, <a href="/tags/iso19115/" rel="tag">iso19115</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/computing/2005/12/data_citation/">&laquo;Data Citation&raquo;</a>
+  
+  .<br/>
+   Next Post <a class="next" href="/computing/2006/01/oxford-seminar-in-march/">&laquo;Oxford Seminar in March&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>Last year, there was considerable chatter  on the <a href="http://lists.geocomm.com/mailman/listinfo/metadata">metadata mailing list</a> about where the right place was to put <em>which parameters were measured</em>  in an ISO19115 metadata record.</p>
+
+<p>The WMO has had the same problem with working out how to produce the WMO core ISO19115 schema. First iterations assumed the best thing to do was to put such things in feature instances themselves in the metadata documents. While this is legal (although not the way it was done by the WMO tech team initially), if one follows the appropriate extension mechanisms and produces metadata instances for all feature instances, it does lead to cumbersome metadata.</p>
+
+<p>I think this is easily avoided by only using ISO19115 metadata for datasets which are aggregations of feature instances, but that still leaves the problem of where the <em>measured parameters</em> go …</p>
+
+<p>Various responses on the metadata list  implied that parameters themselves (as opposed to keywords) should end up in feature descriptions, which some thought, like the initial WMO thoughts, ought to be included in ISO19139 documents (ISO19139 is the xml encoding of ISO19115).  However, for volume reasons, and because it simply wont be  right in most profiles of ISO19115 (based on ISO19139 or not) the correct thing to do is to refer to feature instance documents from within the metadata instance documents.</p>
+
+<p>Regrettably though the most likely thing one wants to do when searching for data (i.e. parsing dataset metadata) is to search for specific types (parameters) of data (as well as use keyword vocabularies) which implies that whether or not the <strong>features</strong> are in the metadata instances, the <strong>parameters</strong> should be in the ISO19115 documents, so let’s track down where and how the features are encoded.</p>
+
+<p>Well,  <a href="iso/iso19110">iso19110</a> only tells us how to define feature types - not instances - and even then doesn’t define a schema for them. ISO19136, the geography markup language (GML) provides mechanisms for building XML application schemas, so that’s the one that tells us how to define feature types in terms of XML. It’s those actual application schema instances which provide the formalism for encoding feature instances.</p>
+
+<p>OK, so now we know that the parameters are encoded in data dictionaries within the instances defined by application schema themselves encoded using 19136 (GML). However, we also know that in reality we need some of these things inside our discovery documents.</p>
+
+<p>My take on this is we have to use the ISO19115 extension mechanism to get the parameter names into the ISO19115 profiles we use … and have an explicit overlap between the feature instance dictionaries and the discovery records (i.e. an overlap, not a replication of all of it). While overlaps are redundant, I think we expect to generate our ISO19115 docs from our feature instance docs anyway, so the redundancy can simply be thought of as input data rather than additional data.</p>
+
+<p>Maybe this is all obvious anyway (after all, it’s explicitly what the NDG metadata taxonomy states) but I felt like spelling it out.</p>
+
+<h4 id="comments-2">comments (2)</h4>
+
+<p><em>John Hockaday (on Thursday 11 May, 2006)</em></p>
+
+<p>I disagree with your solution.  ISO 19115 metadata is for many different types of data.  The hierarchyLevel elements covers 16 different data types.  One of these types is “featureType” another is “attributeType”.</p>
+
+<p>This indicates that metadata can and should be entered for “featureTypes” and “attributeTypes”.  In this way they will be discoverable because of their metadata being recorded in a Catalogue Service or something similar.</p>
+
+<p>ISO 19115 metadata standard is for all types of data not just datasets.  I agree that one can have an online link off to the feature catalogue but to define and discover feature and attribute types the metadata for these data types should be created and made public.</p>
+
+<p>Thanks.</p>
+
+<p><em>Bryan (on Friday 12 May, 2006)</em></p>
+
+<p>It’s a volume thing. We have literally millions of feature instances (billions depending on how you define them), if we catalogue them individually, we have two major problems: (1) how to maintain the metadata, and (2) we need a way of ranking them which gets the user to the data they are actually interested in. Well, one decision any data provider can always make is to aggregate things in ways that make clear the things exist and are discoverable, but help the user discriminate, and simplify maintenance.</p>
+
+<p>We simply don’t have the staff for any other approach.</p>
+
+  </article>
+
+  
+
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

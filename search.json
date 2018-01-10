@@ -1212,6 +1212,17 @@
 
   
     ,{
+      "title"			: "Reading in 2009, 13 -  Songs of Earth and Power",
+      "url"			: "/diary/2009/07/Reading-20in-202009-2C-2013-3A-20Songs-20of-20Earth-20and-20Power/",
+      "tag"       : "books",
+      "category"  : "diary",
+      "date"      : "2009-07-03",
+      "excerpt"		: "I suspect I bought Songs ofEarth and Power by Greg Bear more thanten years ago - the price tag on the back is in NZD … and obviously I’ve read it at least once before …"
+    }
+  
+
+  
+    ,{
       "title"			: "ukcp09",
       "url"			: "/environment/2009/07/ukcp09/",
       "tag"       : "climate, environment",
@@ -1229,6 +1240,28 @@
       "category"  : "diary",
       "date"      : "2009-07-01",
       "excerpt"		: "So, I’ve been quiet. That’s what happens when you go on holiday, where the electrons don’t go …camping in the “Doone Valley” for three nights, followed by six nights “on the beach” in Hayle."
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading in 2009, 12 -  Roman capers",
+      "url"			: "/diary/2009/06/reading_in_2009-2C_12-3A_roman_capers/",
+      "tag"       : "books",
+      "category"  : "diary",
+      "date"      : "2009-06-17",
+      "excerpt"		: "Fire in the East by Harry Sidebottom was another airport purchase (the second of the two I took to Vienna).Unlike the last one this one came home, partly because I hadn’tfinished it, and partly because it’s a rollicking good read if you’reinto “late classical period military romps” … (when the Romanswere Romans and the Gauls  - with the honourable exception of Asterix and allthe other anti-Roman heroes -  were cowering behind their druids’ skirts)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Interoperability, Data Fusion and Mashups",
+      "url"			: "/computing/2009/06/interoperability-2C_data_fusion_and_mashups/",
+      "tag"       : "curation, ndg",
+      "category"  : "computing",
+      "date"      : "2009-06-17",
+      "excerpt"		: "I’m involved in the development and implementation of a new NERC information strategy, and it’s quite clear that amongst those of us developing the strategy, and amongst those making decisions in response to the strategy, there is a clear lack of agreement and/or understanding what the following three terms mean: interoperability, mashups, and data fusion. Some folk use them interchangably, some use them with specific activities in mind. Confusion about definition always  leads to slower progress."
     }
   
 
@@ -1278,12 +1311,34 @@
 
   
     ,{
+      "title"			: "the doi saga continued",
+      "url"			: "/computing/2009/06/the_doi_saga_continued/",
+      "tag"       : "curation",
+      "category"  : "computing",
+      "date"      : "2009-06-09",
+      "excerpt"		: "Chris made a fairly ascerbic (and fair) comment when I complained about the disappearance of the digital identity of one of my papers. Amongst other things, he found the current(!) doi for it …"
+    }
+  
+
+  
+    ,{
       "title"			: "Peak Everything revisited",
       "url"			: "/environment/2009/06/peak_everything_revisited/",
       "tag"       : "environment",
       "category"  : "environment",
       "date"      : "2009-06-09",
       "excerpt"		: "Despite appearances to the contrary, I’m not planning on disappearing down a computing geek hole, and forgetting about climate and the environment, it’s just that the day-to-day problems on the top of the list at the moment are “informatics” related."
+    }
+  
+
+  
+    ,{
+      "title"			: "unhinged doi - who ya gonna call?",
+      "url"			: "/academic/2009/06/unhinged_doi-3A_who_ya_gonna_call-3F/",
+      "tag"       : "curation",
+      "category"  : "academic",
+      "date"      : "2009-06-04",
+      "excerpt"		: "My publications list hasLawrence, B.N., 2001: A Gravity Wave Induced Quasi-Biennial Oscillation in a three-dimensional mechanistic model. Q. J. R. Meteorol. Soc., 127, pg(s). 2005-2021. doi:10.1256/smsqj.57607"
     }
   
 
@@ -1333,6 +1388,17 @@
 
   
     ,{
+      "title"			: "i had to laugh, part 2",
+      "url"			: "/computing/2009/05/i_had_to_laugh-2C_part_2/",
+      "tag"       : "computing, funny",
+      "category"  : "computing",
+      "date"      : "2009-05-28",
+      "excerpt"		: "Maybe I should now have a category on programming language humour. Meanwhile, Chris responded to this by digging out an email from 1994 on howto shoot yourself in the foot using a multitude of languages. I googled it, andfound a more extensive compendium (especially within the 301 comments) …"
+    }
+  
+
+  
+    ,{
       "title"			: "i had to laugh",
       "url"			: "/computing/2009/05/i_had_to_laugh/",
       "tag"       : "computing, funny",
@@ -1377,6 +1443,28 @@
 
   
     ,{
+      "title"			: "lowering my co2 emissions one step more",
+      "url"			: "/environment/2009/04/ecomotive_start/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2009-04-30",
+      "excerpt"		: "Our blue 1987 Megane catastrophically failed an MOT a few weeks ago (which means that it’s hors de combat, we can’t drive it on public roads, not get it insured). So it’s off to the knackers yard … (yes, we really did have  two Renault Meganes, albeit very different models, and yes, we do need two cars given where we live and work) …"
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading in 2009, 6,7,8 -  The Language of the Stones Trilogy",
+      "url"			: "/diary/2009/04/reading_in_2009-2C_6-2C7-2C8-3A_the_language_of_the_stones_trilogy/",
+      "tag"       : "books",
+      "category"  : "diary",
+      "date"      : "2009-04-29",
+      "excerpt"		: "The Language of the Stones,  The Giant’s Dance, and Whitemantle, by Robert Carter."
+    }
+  
+
+  
+    ,{
       "title"			: "WCS is dead, long live WFS",
       "url"			: "/computing/2009/04/wcs_is_dead-2C_long_live_wfs/",
       "tag"       : "ogc",
@@ -1399,6 +1487,17 @@
 
   
     ,{
+      "title"			: "Tales from the EGU",
+      "url"			: "/diary/2009/04/tales_from_the_egu/",
+      "tag"       : "meetings, egu",
+      "category"  : "diary",
+      "date"      : "2009-04-22",
+      "excerpt"		: "Vignettes from EGU  None (for now). I forgot the cable for my compact camera!"
+    }
+  
+
+  
+    ,{
       "title"			: "Scientific Method",
       "url"			: "/computing/2009/04/scientific_method/",
       "tag"       : "curation, badc",
@@ -1416,6 +1515,17 @@
       "category"  : "diary",
       "date"      : "2009-04-07",
       "excerpt"		: "Avoid it if you’re travelling internationally."
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading 2009, 5 -  Pillars need shortening",
+      "url"			: "/diary/2009/03/reading_2009-2C_5-3A_pillars_need_shortening/",
+      "tag"       : "books",
+      "category"  : "diary",
+      "date"      : "2009-03-13",
+      "excerpt"		: "Well, it’s some time since I caught up with my reading reports. Many weeks agoI waded through Ken Follett’s The Pillars of the Earth.I say wade in both a positive and negative sense: it’s a long shallow book, with lots of good bitsand a fair bit of meandering, rather like wading through a river via warm pools interspersed with cold."
     }
   
 
@@ -1575,12 +1685,34 @@
 
   
     ,{
+      "title"			: "Two degrees of Warming",
+      "url"			: "/environment/2009/01/two_degrees_of_warming/",
+      "tag"       : "climate",
+      "category"  : "environment",
+      "date"      : "2009-01-09",
+      "excerpt"		: "William asked what ML thought would happen with two degrees. I suspect the reason he asked that is that most of us believe that two degrees is in the pipeline, and pretty much inescapable now. Indeed, I reckon we’ll see it (wrt 1960) within a few decades (wrt now)."
+    }
+  
+
+  
+    ,{
       "title"			: "curation and specification",
       "url"			: "/computing/2009/01/curation_and_specification/",
       "tag"       : "curation",
       "category"  : "computing",
       "date"      : "2009-01-08",
       "excerpt"		: "Chris Rusbridge has a couple of interesting posts (original and followup) about specification and curation. The gist is that he’s reporting some conversations, which I might baldly summarise as saying something like:  Any application stores data and renders it for consumption (by a human or another layer of software). In the best of possible worlds, a specification for the data structure AND the application functionality should be enough to ensure that a third party could render the data for consumption at the next level without reference to the application code itself. However, certain real world experience suggests that the specifications are not enough, you need the code as well, because real implementors break their specifications.  There was some discussion about the ability of OOXML and ODT to preserve semantic content preferentially over latex and PDF … (primarily I think because some of the key semantic content would have been in figures which could be parsed for logical content, and both latex and pdf would have turned those figures into images).  As a consequence, Chris gets to this position:So ... running code is better than specs as representation information, and Open Source running code is better than proprietary running code. And, even if you migrate on ingest, keep BOTH the rich format and a desiccated format (like PDF/A). It won&#39;t cost you much and may win you some silent thanks from your eventual users!"
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading in 2009, 1 -  Six Degrees",
+      "url"			: "/diary/2009/01/reading_in_2009-2C_1-3A_six_degrees/",
+      "tag"       : "books",
+      "category"  : "diary",
+      "date"      : "2009-01-06",
+      "excerpt"		: "So clearly in the last few weeks I’ve not been working and I’ve had half as many kids to look after … so in between tears I’ve been dealing with fears …. the sort that abound if you make it much past the first chapter of Mark Lynas’ book:Six Degrees: Our Future on a Hotter Planet."
     }
   
 
@@ -1641,6 +1773,17 @@
 
   
     ,{
+      "title"			: "CMIP5 - The Federation",
+      "url"			: "/environment/2008/11/cmip5_-_the_federation/",
+      "tag"       : "cmip5",
+      "category"  : "environment",
+      "date"      : "2008-11-14",
+      "excerpt"		: "Next week there is a meeting which I hope will finalise the data requirements to participate in CMIP5. I can’t go, but there are a number of issues on the table which I care about, I’ll try and write about each in it’s own blog post, which you’ll be able to find by looking at my (new) CMIP5 category page."
+    }
+  
+
+  
+    ,{
       "title"			: "tales from the sleep deprived",
       "url"			: "/diary/2008/11/tales_from_the_sleep_deprived/",
       "tag"       : "",
@@ -1669,6 +1812,160 @@
       "category"  : "environment",
       "date"      : "2008-11-05",
       "excerpt"		: "My blogging has almost dried up. It will be back, but maybe not yet."
+    }
+  
+
+  
+    ,{
+      "title"			: "delicious on konqueror",
+      "url"			: "/computing/2008/10/delicious_on_konqueror/",
+      "tag"       : "kubuntu",
+      "category"  : "computing",
+      "date"      : "2008-10-15",
+      "excerpt"		: "I’ve just spent three weeks without my laptop. That’s a story in itself. (IBM worldwide warranty for Lenovo might well work, but glacially, and  their ability to communicate sucks beyond belief … but I’ll tell that story another day, if I can be bothered)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Virtual Conferencing",
+      "url"			: "/computing/2008/10/virtual_conferencing/",
+      "tag"       : "",
+      "category"  : "computing",
+      "date"      : "2008-10-06",
+      "excerpt"		: "For various reasons I’m unable to travel much at the moment, yet the last few weeks has seen two of the most important events of the year for me: one in Seattle and one in Toulouse. I was there, but not there, for both."
+    }
+  
+
+  
+    ,{
+      "title"			: "Reading Time and Reading Speed - both adrift",
+      "url"			: "/diary/2008/09/reading_time_and_reading_speed_-_both_adrift/",
+      "tag"       : "",
+      "category"  : "diary",
+      "date"      : "2008-09-21",
+      "excerpt"		: "When I was a lad, I thought nothing of reading a book a day. Now a book takes literally weeks to read, that’s a combination of a lack of time to read (when I was a lad, hours of reading per day was fine, now it’s minutes), and I suspect I read slower as well now too. Maybe I take more in now (though I’m not convinced, I can still read a book many times over and enjoy it nearly as much each time)."
+    }
+  
+
+  
+    ,{
+      "title"			: "why global warming is too slow",
+      "url"			: "/environment/2008/09/why_global_warming_is_too_slow/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2008-09-01",
+      "excerpt"		: "Another video to add to my collection: This one (by Dan Gilbert) is on why global warming hasn’t resulted in (much) action: it turns out it’s not PAINful (Personal, Abrupt, Immoral, Now)."
+    }
+  
+
+  
+    ,{
+      "title"			: "Balancing Harmonisation",
+      "url"			: "/computing/2008/08/balancing_harmonisation/",
+      "tag"       : "metadata, metafor",
+      "category"  : "computing",
+      "date"      : "2008-08-14",
+      "excerpt"		: "Of course all this nattering about formalising information model development is precisely the process that both GEOSS and INSPIRE are going through. The difference for us is that we’re a small domain, a lot of what we want to model (in the information sense) is not geospatial, and our user community is both global and not EO in the GEOSS sense."
+    }
+  
+
+  
+    ,{
+      "title"			: "Oil Demand",
+      "url"			: "/environment/2008/08/oil_demand/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2008-08-13",
+      "excerpt"		: "Some interesting numbers:"
+    }
+  
+
+  
+    ,{
+      "title"			: "Formalising Information Model Development",
+      "url"			: "/computing/2008/08/formalising_information_model_development/",
+      "tag"       : "metafor, ndg, metadata",
+      "category"  : "computing",
+      "date"      : "2008-08-13",
+      "excerpt"		: "Our metafor project is trying to establish a formal methodology for constructing UML, working with that UML in a team, and building multiple implementations using combinations of RDF and XML-Schema."
+    }
+  
+
+  
+    ,{
+      "title"			: "Model Intercomparison, Resolution, Ensembles",
+      "url"			: "/environment/computing/2008/07/model_intercomparison-2C_resolution-2C_ensembles/",
+      "tag"       : "cmip5, metafor",
+      "category"  : "environmentcomputing",
+      "date"      : "2008-07-28",
+      "excerpt"		: "We’ve talked about the trade off between these things, but the reality is whichever way we go we get more data, and more data means more problems.This is what’s on my mind:Fortunately there is another wall (unfortunately it’s full too), and scope to replace these with higher capacity units, but we’ll need more power into the room too … (and more rooms) …"
+    }
+  
+
+  
+    ,{
+      "title"			: "The Rising Storm",
+      "url"			: "/environment/2008/07/the_rising_storm/",
+      "tag"       : "environment, climate",
+      "category"  : "environment",
+      "date"      : "2008-07-18",
+      "excerpt"		: "I’ve been on holiday … more of that anon. When I catch up on email and administrivia enough to return to things of interest to others, blogging will return too …"
+    }
+  
+
+  
+    ,{
+      "title"			: "anatomy of a mip - part2",
+      "url"			: "/computing/2008/06/anatomy_of_a_mip_-_part2/",
+      "tag"       : "metadata, metafor, curation, moles",
+      "category"  : "computing",
+      "date"      : "2008-06-18",
+      "excerpt"		: "My recent description of the key components of model intercomparison projects was done both as input to metafor deliberations and as preparation for a visit by Simon Cox. We spent a bit of that visit time discussing the UML describing such projects (which appeared in the previous post). In doing so, we managed a few simplifications and fixes to my UML …"
+    }
+  
+
+  
+    ,{
+      "title"			: "The anatomy of a mip",
+      "url"			: "/computing/2008/06/the_anatomy_of_a_mip/",
+      "tag"       : "metadata, metafor, curation",
+      "category"  : "computing",
+      "date"      : "2008-06-12",
+      "excerpt"		: "We’re in the process of documenting a specific model intercomparison project (MIP) for the purposes of the Rapid programme. It’s the same issue we have for CCMVAL1, and for metafor in general.            that link doesn’t exist at the time of writing, but it will :-) &#8617;      "
+    }
+  
+
+  
+    ,{
+      "title"			: "moles basic concepts",
+      "url"			: "/computing/2008/06/moles_basic_concepts/",
+      "tag"       : "ndg, metadata, metafor, moles",
+      "category"  : "computing",
+      "date"      : "2008-06-04",
+      "excerpt"		: "Another interim version of MOLES, the main changes here are to  make clear that dgEntity and dgBase are abstract (never instantiated),  for the moment at least, not all moles entities are discoverable  explicitly include attributes necessary for the mandatory ISO elements."
+    }
+  
+
+  
+    ,{
+      "title"			: "Having our granule cake and eating it too",
+      "url"			: "/computing/2008/06/having_our_granule_cake_and_eating_it_too/",
+      "tag"       : "metadata, ndg, metafor, moles",
+      "category"  : "computing",
+      "date"      : "2008-06-04",
+      "excerpt"		: "Over on import cartography, Sean is convinced he’s not sabotaging the fight for a sustainable climate. He’s right."
+    }
+  
+
+  
+    ,{
+      "title"			: "Simple Thinking",
+      "url"			: "/environment/2008/06/simple_thinking/",
+      "tag"       : "environment, climate",
+      "category"  : "environment",
+      "date"      : "2008-06-03",
+      "excerpt"		: "I’m quite surprised this hasn’t appeared on more of the blogs I read! (Simple thinking about the choices and risks about taking action on climate change!)"
     }
   
 
@@ -1729,12 +2026,100 @@
 
   
     ,{
+      "title"			: "Beginning to get a grip on ORE",
+      "url"			: "/computing/2008/05/beginning_to_get_a_grip_on_ore/",
+      "tag"       : "ndg, metadata, metafor",
+      "category"  : "computing",
+      "date"      : "2008-05-16",
+      "excerpt"		: "This Friday afternoon I was trying to get to the bottom of ORE. ORE is pretty much defined in RDF and lots of accompanying text. I’ve been trying to find a way of boiling down the essence of it.  UML (at least as I use it) doesn’t quite do the job, so this is the best I could do:"
+    }
+  
+
+  
+    ,{
+      "title"			: "From ORE to DublinCore",
+      "url"			: "/computing/2008/05/from_ore_to_dublincore/",
+      "tag"       : "metadata, ndg, iso19115, metafor",
+      "category"  : "computing",
+      "date"      : "2008-05-09",
+      "excerpt"		: "Standards really are like buses, there’s another along every minute, exactly which one should you choose? I’m deepin a little “standards review” as part of our MOLES upgrade. I plan to muse on the role of standards another day, this post is really about Dublin Core!"
+    }
+  
+
+  
+    ,{
+      "title"			: "RDF software stacks.",
+      "url"			: "/computing/2008/05/rdf_software_stacks/",
+      "tag"       : "metadata, ndg, badc, metafor",
+      "category"  : "computing",
+      "date"      : "2008-05-08",
+      "excerpt"		: "So we want an RDF triple store with all the trimmings!"
+    }
+  
+
+  
+    ,{
+      "title"			: "chaiten",
+      "url"			: "/environment/2008/05/chaiten/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2008-05-07",
+      "excerpt"		: "There’s nothing like a big volcano to remind one of our precarious hold on planet earth. Thanks to James for drawing my attention to Chaiten, and the fabulous pictures, via: Alan Sullivan,   nuestroclima and the NASA earth observatory."
+    }
+  
+
+  
+    ,{
+      "title"			: "Big Java",
+      "url"			: "/computing/2008/05/big_java/",
+      "tag"       : "python",
+      "category"  : "computing",
+      "date"      : "2008-05-07",
+      "excerpt"		: "Tim Bray:You know, thoseof us out there in the Ruby/Python/Erlang fringes might think we&#39;re buildingthe Next Big Thing, and we might be right too, but make no mistake about it:as of today, Java is the Big Leagues, the Show, where you find the most BigMoney and Big Iron and Big Projects.  You don&#39;t have to love it, but you&#39;d bemoronic to ignore it."
+    }
+  
+
+  
+    ,{
+      "title"			: "atom for moles",
+      "url"			: "/computing/2008/05/atom_for_moles/",
+      "tag"       : "ndg, metadata, metafor",
+      "category"  : "computing",
+      "date"      : "2008-05-07",
+      "excerpt"		: "As we progress with our MOLES updating, the issue of how best to serialise the MOLES content becomes rather crucial, as it impacts storage, presentation, and yes, semantic content: some buckets are better than other buckets!"
+    }
+  
+
+  
+    ,{
+      "title"			: "First time grant holder experience",
+      "url"			: "/2008/04/first_time_grant_holder_experience/",
+      "tag"       : "",
+      "category"  : "",
+      "date"      : "2008-04-21",
+      "excerpt"		: "Buried in a Wall Street Journal article  (thanks Michael) about the lack of involvement of the US presidential candidates in science issues is an interesting statistic:At the National Institutes of Health, the average age of a first grant is 42 for a Ph.D. and 44 for an M.D."
+    }
+  
+
+  
+    ,{
       "title"			: "More on the windows subversion client under wine.",
       "url"			: "/computing/2008/04/more_on_the_windows_subversion_client_under_wine/",
       "tag"       : "UML",
       "category"  : "computing",
       "date"      : "2008-04-16",
       "excerpt"		: "I reported my problems earlier."
+    }
+  
+
+  
+    ,{
+      "title"			: "Semis here we come",
+      "url"			: "/diary/2008/04/semis_here_we_come/",
+      "tag"       : "",
+      "category"  : "diary",
+      "date"      : "2008-04-06",
+      "excerpt"		: "At last some sporting good news. Semi-Finals here we come."
     }
   
 
@@ -1762,12 +2147,78 @@
 
   
     ,{
+      "title"			: "more MOLES version two thinking",
+      "url"			: "/computing/2008/04/more_moles_version_two_thinking/",
+      "tag"       : "ndg, metadata, iso19115, metafor, moles",
+      "category"  : "computing",
+      "date"      : "2008-04-01",
+      "excerpt"		: "We’ve made some more progress with our thinking since last week … but there is more to come."
+    }
+  
+
+  
+    ,{
+      "title"			: "early MOLES version two thinking",
+      "url"			: "/computing/2008/03/early_moles_version_two_thinking/",
+      "tag"       : "ndg, metadata, iso19115, moles",
+      "category"  : "computing",
+      "date"      : "2008-03-20",
+      "excerpt"		: "Today’s task was going through MOLES V1 and trying to capture the key semantics in UML."
+    }
+  
+
+  
+    ,{
+      "title"			: "The Scope of ISO19115",
+      "url"			: "/computing/2008/03/the_scope_of_iso19115/",
+      "tag"       : "metadata, ndg, iso19115",
+      "category"  : "computing",
+      "date"      : "2008-03-19",
+      "excerpt"		: "We’re taking the first steps towards refactoring our Metadata Objects for Linking Environmental Sciences (MOLES) schema to be more easily understood and implementable and to support (if not conform with) the new Observations and Measurements OGC specification. In doing so it became obvious to me that I need to think about the relationship between MOLES entities and ISO discovery metadata."
+    }
+  
+
+  
+    ,{
       "title"			: "Online Resources in ISO19115 and MOLES",
       "url"			: "/computing/2008/03/online_resources_in_iso19115_and_moles/",
       "tag"       : "ndg, metadata, iso19115, moles",
       "category"  : "computing",
       "date"      : "2008-03-19",
       "excerpt"		: "ISO19115 is a brave attempt to classify metadata. I think some aspects of it are fatally flawed in an RDF world, but some are not, and we’re likely to support it for some time to come. But, let’s face it, ISO19115 isn’t all inclusive, sohow do we reference external information? This posting is all questions. Hopefully tomorrow I’ll provide answers!"
+    }
+  
+
+  
+    ,{
+      "title"			: "authkit and pylons don't quite fit",
+      "url"			: "/computing/2008/02/authkit_and_pylons_don-27t_quite_fit/",
+      "tag"       : "pyleo, python",
+      "category"  : "computing",
+      "date"      : "2008-02-17",
+      "excerpt"		: "Background - I’m using genshi as my templating engine in pylons 0.9.6.1 and I want to authkit to do access controland authentication. This is in the context of pyleo."
+    }
+  
+
+  
+    ,{
+      "title"			: "on global warming urgency",
+      "url"			: "/environment/2008/02/on_global_warming_urgency/",
+      "tag"       : "climate, environment",
+      "category"  : "environment",
+      "date"      : "2008-02-15",
+      "excerpt"		: "Steven Sherwood (in a Science letter), with respect the urgency for action in response to global warming:Greater urgency comes from the rapid growth rate (especially in the developing world) of the very infrastructure that is so problematic. Mitigating climate change is often compared to turning the Titanic away from an iceberg. But this &quot;Titanic&quot; is getting bigger and less maneuverable as we wait--and that causes prospects to deteriorate nonlinearly, and on a time scale potentially much shorter than the time scale on which the system itself responds."
+    }
+  
+
+  
+    ,{
+      "title"			: "Data Publication",
+      "url"			: "/computing/2008/02/data_publication/",
+      "tag"       : "curation, claddier",
+      "category"  : "computing",
+      "date"      : "2008-02-01",
+      "excerpt"		: "As part of the claddier project, we have been working on a number of issues associated with how one publishes data (as opposed to journal articles which may or may not describe data)."
     }
   
 
@@ -1812,6 +2263,28 @@
       "category"  : "environment",
       "date"      : "2008-01-16",
       "excerpt"		: "Why is climate modelling stuck? Well, I would argue it’s not stuck, so a better question might be: “Why isclimate modelling so hard?”. Michael Tobis is arguing that a modernprogramming language and new tools will make a big difference. Me, I’mnot so sure. I’m with Gavin.So here is my perspective on why it’s hard. It is of necessitya bit of an abstract argument …  We need to start with the modelling process itself. We have a physicalsystem with components within it.  Each physical component needs to bedeveloped independently, checked independently … This is a scientific, thena computational, then a diagnostic problem.  Each component needs to talk to other components, so there needs to be acommunication infrastructure which couples components. Michael has criticisedESMF (and by implication PRISM and OASIS etc), but regardless of how you doit, you need a coupling framework. This is a computational problem. I thinkit’s harder than Michael thinks it is. Those ESMF and PRISM folks are notstupid …  All those independently checked components may behave in different ways whencoupled to other components (their interactions are nonlinear). Understandingthose interactions takes time. This is a scientific and diagnostic problem.  We need a dynamical core. It needs to be fast, efficient, mass preserving,and stable in a computational sense. Stability is a big problem, given thatthe various parameterisations will perturb it in ways that are quiteinstability inducing. This is both a mathematical and a computationalproblem.  We need to worry about memory. We need to worry a lot about memory actually.If in our discussion we’re going to get excited about scalability inmulti-core environments, then yes, I can have 80 (pick a number) cores on mychip, but can I have enough memory and memory bandwidth to exploit them? Howdo we distribute our memory around our cores?  What about I/O bandwidth? Without great care, the really big memory hungryclimate models can often get slowed up and be waiting spinning empty CPUcycles waiting for I/O. This is a computational problem."
+    }
+  
+
+  
+    ,{
+      "title"			: "virtualenv",
+      "url"			: "/computing/2008/01/virtualenv/",
+      "tag"       : "pyleo, python",
+      "category"  : "computing",
+      "date"      : "2008-01-02",
+      "excerpt"		: "One more thing to remember. I’m going to be building pyleo using pylons 0.9.6.1, but the ndg stuff (also on my laptop) is using pylons 0.9.5. Library incompatibility is scary. Fortunately, we have virtualenv to the rescue."
+    }
+  
+
+  
+    ,{
+      "title"			: "the leonardo file system",
+      "url"			: "/computing/2008/01/the_leonardo_file_system/",
+      "tag"       : "pyleo, python",
+      "category"  : "computing",
+      "date"      : "2008-01-02",
+      "excerpt"		: "The most difficult thing about porting leonardo is interfacing with the leonardo file system (lfs). The lfs was designed to allow multiple backends through a relatively simple interface … of course it’s not properly documented anywhere, so remembering how it works was a bit difficult.The following piece of code shows the general principle:~~~~~ pythonfrom filesystem import LeonardoFileSystemimport sys,os.pathdef WalkAndReport(leodir,inipath=’/’):    ‘’’ Walks a leonardo filesystem and reports the contents in the same way    as doing ls -R would do ‘’’"
     }
   
 
@@ -1883,6 +2356,17 @@
 
   
     ,{
+      "title"			: "Access Control",
+      "url"			: "/computing/2006/12/access_control/",
+      "tag"       : "ndg, python",
+      "category"  : "computing",
+      "date"      : "2006-12-19",
+      "excerpt"		: "I’ve said it before, and I’ll say it again. If you have high volume or high value real resources on the web, you need access control!"
+    }
+  
+
+  
+    ,{
       "title"			: "Service Orientated Architecture - Two Years On!",
       "url"			: "/computing/2006/12/service_orientated_architecture_-_two_years_on/",
       "tag"       : "ndg",
@@ -1927,6 +2411,50 @@
 
   
     ,{
+      "title"			: "A proposal for profiling ISO19139",
+      "url"			: "/computing/2006/11/a_proposal_for_profiling_iso19139/",
+      "tag"       : "ndg, metadata, iso19115",
+      "category"  : "computing",
+      "date"      : "2006-11-30",
+      "excerpt"		: "I’ve been flagging issues with profiling ISO19139 for some time - see  Oct 19 andAug 15 and especially the comments in the latter."
+    }
+  
+
+  
+    ,{
+      "title"			: "browser crap",
+      "url"			: "/computing/2006/11/browser_crap/",
+      "tag"       : "ndg, computing",
+      "category"  : "computing",
+      "date"      : "2006-11-15",
+      "excerpt"		: "As is fairly obvious from the range of dribble that appears on this website, I dabble in many of the technologies my team work with. One of the things I’ve been doing is developing the interface to the new NDG discovery service (this is the sort of thing I find I can do on the train home from meetings when my brain is too addled to think properly as it’s kind of mechanical: make mistake, fix it, move slowly on - it beats sudoku and patience and the other stuff I see tired folk do at the end of the day)."
+    }
+  
+
+  
+    ,{
+      "title"			: "climate change speed",
+      "url"			: "/environment/2006/11/climate_change_speed/",
+      "tag"       : "climate, environment",
+      "category"  : "environment",
+      "date"      : "2006-11-12",
+      "excerpt"		: "Climate change is one of those (many) phrases that every reader/listener interprets in their own way. James Annan has interpretted it in one way in a discussion which I’ll summarise as “the a priori1 position that climate change would be detrimental has no scientific/logical underpinning”. (Well, actually I think he’s really expressing the converse: “that no change is the best possible outcome, is not necessarily wrong”; but it amounts to the same thing.)            Here my definition (and I think that of James) is that a priori means “before we do/did any calculations that actually show the expected climate change would be detrimental” &#8617;      "
+    }
+  
+
+  
+    ,{
+      "title"			: "Answers.Yahoo.Com to the rescue",
+      "url"			: "/diary/2006/11/answers.yahoo.com_to_the_rescue/",
+      "tag"       : "",
+      "category"  : "diary",
+      "date"      : "2006-11-12",
+      "excerpt"		: "Once upon a time  I mentioned that we now have a megane estate car. I raved about it’s fuel economy."
+    }
+  
+
+  
+    ,{
       "title"			: "Citing data with ISO19139",
       "url"			: "/computing/2006/10/citing_data_with_iso19139/",
       "tag"       : "iso19115, metadata, ndg, claddier",
@@ -1955,6 +2483,17 @@
       "category"  : "computing",
       "date"      : "2006-10-20",
       "excerpt"		: "Returning to my series on citation (parts one."
+    }
+  
+
+  
+    ,{
+      "title"			: "On substitution groups and ISO19139",
+      "url"			: "/computing/2006/10/on_substitution_groups_and_iso19139/",
+      "tag"       : "xml, iso19115, metadata, ndg",
+      "category"  : "computing",
+      "date"      : "2006-10-19",
+      "excerpt"		: "I have bleated already about the difficulties of using ISO19139 withrestrictions which introduce new tag names."
     }
   
 
@@ -1993,6 +2532,61 @@
 
   
     ,{
+      "title"			: "Diesel v Petrol",
+      "url"			: "/environment/2006/09/diesel_v_petrol/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2006-09-13",
+      "excerpt"		: "Over the summer we upgraded our petrol engine renault megane hatchback and replaced it with a diesel megane estate (the dCi-100 version). We’ve gone from 40 miles per gallon (sorry about the imperial units) to between 55 and 60 miles per gallon. (Our first full tank did 59.5 mpg.)"
+    }
+  
+
+  
+    ,{
+      "title"			: "to extend or not to extend ...",
+      "url"			: "/computing/2006/08/to_extend_or_not_to_extend_",
+      "tag"       : "iso19115, metadata, ndg",
+      "category"  : "computing",
+      "date"      : "2006-08-15",
+      "excerpt"		: "A few months ago I wrote a few words about practicalities with ISO1939. The key reason for using ISO19139 is that it is a standard for metadata interoperability. A key a priori assumption is that one has a community who have agreed to interoperate … because in practice to interoperate will require a profile of ISO19139 which defines for a community what interoperability means to them."
+    }
+  
+
+  
+    ,{
+      "title"			: "On Access Control",
+      "url"			: "/computing/2006/08/on_access_control/",
+      "tag"       : "ndg",
+      "category"  : "computing",
+      "date"      : "2006-08-15",
+      "excerpt"		: "As part of the dews project, we need to deliver access control for OGC Web Services. In particular, we’re planning on limiting access to resources delivered by geoserver. The current concept for dealing with this is displayed in some simple UML:"
+    }
+  
+
+  
+    ,{
+      "title"			: "Granule Concepts",
+      "url"			: "/computing/2006/08/granule_concepts/",
+      "tag"       : "ndg, metadata, moles",
+      "category"  : "computing",
+      "date"      : "2006-08-11",
+      "excerpt"		: "We’ve been struggling with a few concepts in mapping how we want variables and datasets to be related. The struggle, as in most technical discussions is that one needs to be very exact about what one is saying. To try and simplify our discussions (and maybe yours), I’ve tried to produce some UML which relates concepts like datasets and files to thing we actually deal with."
+    }
+  
+
+  
+    ,{
+      "title"			: "what is bt up to this time?",
+      "url"			: "/diary/2006/08/what_is_bt_up_to_this_time-3F/",
+      "tag"       : "broadband",
+      "category"  : "diary",
+      "date"      : "2006-08-09",
+      "excerpt"		: "For the last three nights (including tonight), konqueror has been misbehaving on both my home linux systems (one running Suse, one kubuntu). Neither O/S has been modified for a long time …"
+    }
+  
+
+  
+    ,{
       "title"			: "Affording Interfaces",
       "url"			: "/computing/2006/07/affording_interfaces/",
       "tag"       : "ndg",
@@ -2010,6 +2604,39 @@
       "category"  : "computing",
       "date"      : "2006-07-27",
       "excerpt"		: "When we produced the Exeter Communique, we spent a lot of time talking about something that Simon Cox has termed “processing affordance”. A processing affordance is a property of a feature[^1] type which expresses “what can be done to or with it”."
+    }
+  
+
+  
+    ,{
+      "title"			: "Curious as to how this forecast goes.",
+      "url"			: "/environment/2006/07/curious_as_to_how_this_forecast_goes",
+      "tag"       : "environment, weather",
+      "category"  : "environment",
+      "date"      : "2006-07-16",
+      "excerpt"		: "The met office via the BBC is forecasting another hot week:it’ll be interesting to see how this one goes …"
+    }
+  
+
+  
+    ,{
+      "title"			: "What does a forecast icon mean?",
+      "url"			: "/environment/2006/07/what_does_a_forecast_icon_mean-3F/",
+      "tag"       : "weather",
+      "category"  : "environment",
+      "date"      : "2006-07-05",
+      "excerpt"		: "Well, the forecast is beginning to go pear-shaped, although notthrough lack of heat … or perhaps not. Here are four MetOffice via BBC weather forecast snapshots, but I’m not really sure what they mean …"
+    }
+  
+
+  
+    ,{
+      "title"			: "The Great British Summer",
+      "url"			: "/diary/2006/07/the_great_british_summer/",
+      "tag"       : "environment",
+      "category"  : "diary",
+      "date"      : "2006-07-03",
+      "excerpt"		: "The great British summer gets a pretty bad press from folks who come from my part of the world, but in my experience it’s pretty unjustified. I think British weather gets its crap reputation (deservedly) from the other seasons, when it’s not to unusual to go weeks without seeing even a glimpse of the sun. Having said that, occasionally, summer does go awol here in some years, but those years are getting fewer and further between …"
     }
   
 
@@ -2065,6 +2692,17 @@
       "category"  : "computing",
       "date"      : "2006-04-13",
       "excerpt"		: "My first post at describing the time issues for meteorological metadata led to some confusion, so I’m trying again. I think it helps to consider a diagram:"
+    }
+  
+
+  
+    ,{
+      "title"			: "Some practicalities with ISO19139",
+      "url"			: "/computing/2006/03/some_practicalities_with_iso19139/",
+      "tag"       : "metadata, ndg, iso19115",
+      "category"  : "computing",
+      "date"      : "2006-03-28",
+      "excerpt"		: "A number of us in the met community are rushing towards implementing anumber of standards that should improve interoperability across the environmentalsciences. One of those is ISO19139 which (we hope) will soon be standard xmlimplementation of ISO19115 (the content standard for discoverymetadata)."
     }
   
 
@@ -2136,6 +2774,17 @@
 
   
     ,{
+      "title"			: "Merging Metadata Always Lowers Quality",
+      "url"			: "/computing/2006/01/merging_metadata_always_lowers_quality/",
+      "tag"       : "ndg, metadata, curation",
+      "category"  : "computing",
+      "date"      : "2006-01-22",
+      "excerpt"		: "I just found Stefano Mazzocchi’s Blog via Dare Obasanjo.  It looks like Stefano doesn’t blog very frequently, but what he does write is well worth reading. His latest, entitled “On the quality of Metadata” makes the assertion thatmerging two (or more) datasets with high quality metadata results in a new dataset with much lower quality metadata. "
+    }
+  
+
+  
+    ,{
       "title"			: "Bibliographic References, ISO19115 and NumSim",
       "url"			: "/computing/2006/01/bibliographic_references_iso19115_and_numsim/",
       "tag"       : "curation, ndg, claddier, metadata, iso19115",
@@ -2164,6 +2813,17 @@
       "category"  : "computing",
       "date"      : "2006-01-05",
       "excerpt"		: "I’ve been invited back to Oxford AOPP to give a seminar in March. The seminar coordinator tells me it’ll be over ten years since I last gave a seminar there. Last time it was on gravity waves (no, not gravitational waves!).This time it wont be directly about atmospheric science research, but about very relevant technologies:"
+    }
+  
+
+  
+    ,{
+      "title"			: "Whither parameters in metadata",
+      "url"			: "/computing/2006/01/whither_parameters_in_metadata/",
+      "tag"       : "ndg, metadata, iso19115",
+      "category"  : "computing",
+      "date"      : "2006-01-03",
+      "excerpt"		: "Last year, there was considerable chatter  on the metadata mailing list about where the right place was to put which parameters were measured  in an ISO19115 metadata record."
     }
   
 
@@ -2257,8 +2917,19 @@
 
   
     ,{
+      "title"			: "Nature DOI Failure",
+      "url"			: "/academic/2005/08/nature_doi_failure/",
+      "tag"       : "",
+      "category"  : "academic",
+      "date"      : "2005-08-11",
+      "excerpt"		: "I don’t know what it is with Nature, but yet  again, when I use their RSS feed to browse the table of contents of the current issue, not one of the doi links to the complete story resolves!"
+    }
+  
+
+  
+    ,{
       "title"			: "Metadata, XML and Deja Vu",
-      "url"			: "/computing/2005/08/metadata-2C_xml_and_dejavu/",
+      "url"			: "/computing/2005/08/metadata_xml_and_dejavu/",
       "tag"       : "curation, badc, xml, ndg, metadata, iso19115, metafor",
       "category"  : "computing",
       "date"      : "2005-08-11",
@@ -3332,6 +4003,10 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
   
 
   

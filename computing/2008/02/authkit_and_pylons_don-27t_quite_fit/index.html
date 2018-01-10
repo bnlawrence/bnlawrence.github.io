@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>authkit and pylons don't quite fit | Bryan Lawrence</title>
+  <meta name="description" content="Background - I’m using genshi as my templating engine in pylons 0.9.6.1 and I want to authkit to do access controland authentication. This is in the context of pyleo.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2008/02/authkit_and_pylons_don-27t_quite_fit/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="authkit and pylons don't quite fit">
+
+
+<meta name="twitter:description" content="Background - I’m using genshi as my templating engine in pylons 0.9.6.1 and I want to authkit to do access control
+and authentication. This is in the context of pyleo.
+
+">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">authkit and pylons don't quite fit</h1>
+  <p class="post-meta">Posted on February 17, 2008
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/pyleo/" rel="tag">pyleo</a>, <a href="/tags/python/" rel="tag">python</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/environment/2008/02/on_global_warming_urgency/">&laquo;on global warming urgency&raquo;</a>
+  
+  
+  (in <a href="/categories/#environment" title="environment">environment</a>;
+  in <a href="/categories/#computing" title="computing">computing</a> previous is <a href="/computing/2008/02/data_publication/" class="prev">&laquo;Data Publication&raquo;</a>)
+  
+  .<br/>
+   Next Post <a class="next" href="/computing/2008/03/online_resources_in_iso19115_and_moles/">&laquo;Online Resources in ISO19115 and MOLES&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>Background - I’m using genshi as my templating engine in pylons 0.9.6.1 and I want to authkit to do access control
+and authentication. This is in the context of <a href="/tags/pyleo">pyleo</a>.</p>
+
+<p>I’m following the guidance in the <a href="http://wiki.pylonshq.com/display/pysbook/Authentication+and+Authorization">draft pylons book</a>.</p>
+
+<p>Problem of the day: wrapping the signin template in the site look-n-feel. This is slightly less than trivial because the signin template is produced by authkit, but it doesn’t have easy direct access to the pylons templating system because pylons is yet to be instantiated (in the middleware stack).</p>
+
+<p>The recommended way of doing it is to create a file (in pyleo’s lib directory called “template”) which loads what is needed to control the signin template (in a functinn called “make_template”), and point to that using</p>
+<pre>
+authkit.form.template.obj = pyleo.lib.template:make_template
+</pre>
+<p>in the <em>development.ini</em> file so that authkit can render a nice sign-in page.</p>
+
+<p>There are a few problems in the current version of the guidance:</p>
+<ol>
+  <li>The current version of the doc wrongly has “template” instead of “make_template” after the colon in the development.ini config file.</li>
+  <li>For genshi, we don’t want to call a template called “/signin.mako” we want to call “signin”,</li>
+  <li>if your site banner wants to look at the c or g variable you have to do rather better than what is done 
+with the State variable pretending to be c in the example template file. At the very least you need to add a <strong>getitem</strong> method so that 
+at least calls to <em>c.something</em> in your site templating code won’t break, even if they don’t work …
+You might also probably need to access to the pylons globals …</li>
+</ol>
+
+<p>At this stage, my template.py which provides the render function at the authkit level looks like this:</p>
+<pre>
+import pylons
+from pylons.templating import Buffet
+from pylons import config
+import pyleo.lib.helpers as h
+from pyleo.lib.app_globals import Globals
+
+class MyBuffet(Buffet):
+    def _update_names(self, ns):
+        return ns
+
+def_eng = config['buffet.template_engines'][0]
+
+buffet = MyBuffet(
+    def_eng['engine'],
+    template_root=def_eng['template_root'],
+    **def_eng['template_options']
+)
+
+for e in config['buffet.template_engines'][1:]:
+    buffet.prepare(
+        e['engine'],
+        template_root=e['template_root'],
+        alias=e['alias'],
+        **e['template_options']
+    )
+
+class State:
+    def __getitem__(self,v):
+        return ''
+c = State()
+
+g=Globals()
+
+def make_template():
+    ''' In the following call, namespace is a dictionary of stuff for the templating
+    engine ... which is why c is a (nearly) empty class, and h is the normal helper '''
+    return buffet.render(
+        template_name="signin",
+        namespace=dict(h=h, g=g, c=State())
+    ).replace("%", "%%").replace("FORM_ACTION", "%s")
+</pre>
+<p>Now it nearly works properly, but the pyleo site template currently uses the pylons <em>c</em> variable to produce a menu which is data dependent and obviously that doesn’t work properly. We need to work out some way to get at that from “outside” pylons (which is where authkit lives).  While that’s a problem that can wait, it’s a problem that needs solving …</p>
+
+  </article>
+
+  
+
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

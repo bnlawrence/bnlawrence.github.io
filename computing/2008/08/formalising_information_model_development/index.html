@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Formalising Information Model Development | Bryan Lawrence</title>
+  <meta name="description" content="Our metafor project is trying to establish a formal methodology for constructing UML, working with that UML in a team, and building multiple implementations using combinations of RDF and XML-Schema.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2008/08/formalising_information_model_development/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="Formalising Information Model Development">
+
+
+<meta name="twitter:description" content="Our metafor project is trying to establish a formal methodology for constructing UML, working with that UML in a team, and building multiple implementations using combinations of RDF and XML-Schema.
+
+">
+
+
+
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Formalising Information Model Development</h1>
+  <p class="post-meta">Posted on August 13, 2008
+  
+  
+      in
+      
+      <a href="/categories/#computing" title="computing">computing</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/metafor/" rel="tag">metafor</a>, <a href="/tags/ndg/" rel="tag">ndg</a>, <a href="/tags/metadata/" rel="tag">metadata</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/environment/computing/2008/07/model_intercomparison-2C_resolution-2C_ensembles/">&laquo;Model Intercomparison, Resolution, Ensembles&raquo;</a>
+  
+  .<br/>
+   Next Post <a class="next" href="/environment/2008/08/oil_demand/">&laquo;Oil Demand&raquo;</a>
+  
+  
+  (in <a href="/categories/#environment" title="environment">environment</a>;
+  in <a href="/categories/#computing" title="computing">computing</a> next is <a href="/computing/2008/08/balancing_harmonisation/" class="next">&laquo;Balancing Harmonisation&raquo;</a>)
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>Our <a href="/tags/metafor">metafor</a> project is trying to establish a formal methodology for constructing UML, working with that UML in a team, and building multiple implementations using combinations of RDF and XML-Schema.</p>
+
+<p>There are some interesting problems to overcome:</p>
+<ol>
+  <li>Establishing UML conventions that will allow code generation.</li>
+  <li>Dealing with version control of the UML. (And dealing with different versions of XMI).</li>
+  <li>Dealing with code generation itself.</li>
+</ol>
+
+<p>(In this context, code generation is simply the generation of XML-Schema and/or RDF which contain appropriate data models).</p>
+
+<p>I’ll try and address these in a series of posts. (I was once told that it’s a bad idea when being interviewed live to say something like “there are three points I want to make” because you’re bound to forget the third under the pressure of a live interview. I suspect I have form for listing things I will post about, and never getting around to doing so, which must be the blogging equivalent, and thus something to be avoided. We’ll see.)</p>
+
+<p>But before we do this, there are some vocabulary issues that need expansion. Metafor is about building a “Common Information Model” (or CIM) for climate (and other numerical) models. Such models describe the earth system using mathematical equations encoded as computer programmes, and are used as part of activities to produce data (often starting with various data inputs). I’ve described some of this <a href="/computing/2008/06/anatomy_of_a_mip_-_part2/">before</a>. Like most folk entering this sort of activity I’ve typically blundered straight into defining things without thinking about the process clearly.  Perhaps I’ve learnt a few things along the way about why that’s not so clever …</p>
+
+<p>The first step before we construct any conventions is to consider the structure we’re actually talking about. Much of this is <strong>really</strong> well documented in section 7.4 of ISO19101 and in the entirety of ISO19103 (<em>Geographic information - Conceptual schema language</em>) but since those documents are not easily accessible, we’ll try and summarise.</p>
+
+<p>(Note that we’re using model in two different ways: in the context of “information” and the the context of “simulations”, hopefully the context will help make clear which is which).</p>
+
+<p>Firstly, from <a href="http://en.wikipedia.org/wiki/Metamodeling">wikipedia</a> we have :</p>
+<blockquote>... a model is an abstraction of phenomena in the real world; a metamodel is yet another abstraction, highlighting properties of the model itself. A model conforms to its metamodel in the way that a computer program conforms to the grammar of the programming language in which it is written.
+</blockquote>
+
+<p>So, to construct our CIM, we need to construct a metamodel, which provides some rules about how to construct it. Clearly our metamodel includes the exploitation of UML, but it needs to be more than that, otherwise we’ll not be able to build something we can serialise into RDF and XML without a lot of human interaction. It’s that “more” that we need to consider in a later post … but meanwhile, we also need to relate the metamodel, and our own information model with their actual application in schema, and we also need to remember we live in a world where others are doing similar things.</p>
+
+<p>I’ve tried to summarise all this in a customised schematic version of figure 4 in ISO19101:
+<img src="/assets/images/2008-08-13-concept.png" alt="Image: IMAGE: static/2008/08/13/concept.png " /></p>
+
+  </article>
+
+  
+
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111008496-1');
+</script>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->
