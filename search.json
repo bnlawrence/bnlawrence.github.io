@@ -1861,6 +1861,17 @@
 
   
     ,{
+      "title"			: "Defining a Metamodel - Part One",
+      "url"			: "/computing/2008/08/defining_a_metamodel_-_part_one/",
+      "tag"       : "metadata, metafor, ndg",
+      "category"  : "computing",
+      "date"      : "2008-08-19",
+      "excerpt"		: "I’ve just introduced the concept of a  metamodel as being a key component of the conceptual formalism required to come up with a conceptual model of the world expressed in a conceptual schema."
+    }
+  
+
+  
+    ,{
       "title"			: "Balancing Harmonisation",
       "url"			: "/computing/2008/08/balancing_harmonisation/",
       "tag"       : "metadata, metafor",
@@ -1922,6 +1933,17 @@
       "category"  : "computing",
       "date"      : "2008-06-18",
       "excerpt"		: "My recent description of the key components of model intercomparison projects was done both as input to metafor deliberations and as preparation for a visit by Simon Cox. We spent a bit of that visit time discussing the UML describing such projects (which appeared in the previous post). In doing so, we managed a few simplifications and fixes to my UML …"
+    }
+  
+
+  
+    ,{
+      "title"			: "exposing mips in moles",
+      "url"			: "/computing/2008/06/exposing_mips_in_moles/",
+      "tag"       : "moles, metafor, curation, badc",
+      "category"  : "computing",
+      "date"      : "2008-06-13",
+      "excerpt"		: "In my previous posting, I should have pointed out that the MIP of interest is theRAPID thermohaline circulation model intercomparison project (THCMIP)."
     }
   
 
@@ -2092,6 +2114,28 @@
 
   
     ,{
+      "title"			: "Implementing my RDFa wiki code",
+      "url"			: "/computing/2008/04/implementing_my_rdfa_wiki_code/",
+      "tag"       : "metadata, ndg, python, metafor",
+      "category"  : "computing",
+      "date"      : "2008-04-25",
+      "excerpt"		: "I claimed it would be straightforward to add the RDFa syntax to my wiki."
+    }
+  
+
+  
+    ,{
+      "title"			: "creating RDFa",
+      "url"			: "/computing/2008/04/creating_rdfa/",
+      "tag"       : "metadata, ndg, metafor",
+      "category"  : "computing",
+      "date"      : "2008-04-23",
+      "excerpt"		: "Let’s just assume for a moment that I want to create RDFa in XHTML. Just how should I go about it? It appears that there are no html authoring tools that are “RDFa aware”!"
+    }
+  
+
+  
+    ,{
       "title"			: "First time grant holder experience",
       "url"			: "/2008/04/first_time_grant_holder_experience/",
       "tag"       : "",
@@ -2109,6 +2153,17 @@
       "category"  : "computing",
       "date"      : "2008-04-16",
       "excerpt"		: "I reported my problems earlier."
+    }
+  
+
+  
+    ,{
+      "title"			: "On typed links.",
+      "url"			: "/computing/2008/04/on_typed_links",
+      "tag"       : "ndg, metadata, metafor",
+      "category"  : "computing",
+      "date"      : "2008-04-10",
+      "excerpt"		: "Being a collection of links and notes."
     }
   
 
@@ -2191,6 +2246,17 @@
 
   
     ,{
+      "title"			: "More quotations - Static Maps, Public Trusts, and Bad Processes",
+      "url"			: "/computing/2008/02/more_quotations_-_static_maps-2C_public_trusts-2C_and_bad_processes/",
+      "tag"       : "ndg, environment, computing",
+      "category"  : "computing",
+      "date"      : "2008-02-22",
+      "excerpt"		: "I’m so limited to time at the moment that I’m limited to quoting, but the three snippets I’ve got today resonate as much as the last ones …"
+    }
+  
+
+  
+    ,{
       "title"			: "authkit and pylons don't quite fit",
       "url"			: "/computing/2008/02/authkit_and_pylons_don-27t_quite_fit/",
       "tag"       : "pyleo, python",
@@ -2208,6 +2274,17 @@
       "category"  : "environment",
       "date"      : "2008-02-15",
       "excerpt"		: "Steven Sherwood (in a Science letter), with respect the urgency for action in response to global warming:Greater urgency comes from the rapid growth rate (especially in the developing world) of the very infrastructure that is so problematic. Mitigating climate change is often compared to turning the Titanic away from an iceberg. But this &quot;Titanic&quot; is getting bigger and less maneuverable as we wait--and that causes prospects to deteriorate nonlinearly, and on a time scale potentially much shorter than the time scale on which the system itself responds."
+    }
+  
+
+  
+    ,{
+      "title"			: "Finding is not enough",
+      "url"			: "/computing/2008/02/finding_is_not_enough/",
+      "tag"       : "ndg",
+      "category"  : "computing",
+      "date"      : "2008-02-15",
+      "excerpt"		: "It seems to be my day for wanting to quote folk:"
     }
   
 
@@ -2285,6 +2362,39 @@
       "category"  : "computing",
       "date"      : "2008-01-02",
       "excerpt"		: "The most difficult thing about porting leonardo is interfacing with the leonardo file system (lfs). The lfs was designed to allow multiple backends through a relatively simple interface … of course it’s not properly documented anywhere, so remembering how it works was a bit difficult.The following piece of code shows the general principle:~~~~~ pythonfrom filesystem import LeonardoFileSystemimport sys,os.pathdef WalkAndReport(leodir,inipath=’/’):    ‘’’ Walks a leonardo filesystem and reports the contents in the same way    as doing ls -R would do ‘’’"
+    }
+  
+
+  
+    ,{
+      "title"			: "discovery and google",
+      "url"			: "/computing/2007/12/discovery_and_google/",
+      "tag"       : "ndg",
+      "category"  : "computing",
+      "date"      : "2007-12-19",
+      "excerpt"		: "Bill de hOra1[Knol](http://googleblog.blogspot.com/2007/12/encouraging-people-to-contribute.html) is a case of not so much of changing the Google mission, but the battlefield. Google now realise it&#39;s easier to organise well marked up content and have figured out a way to deal with what is known as metacrap by centralising where content is manufactured.            Bill, should you ever see this, sorry, unicode is broken in this version of Leonardo … I really need to fix it … but I suspect rewriting Leonardo might be my method and that wont be any day soon. &#8617;      "
+    }
+  
+
+  
+    ,{
+      "title"			: "raw and refereed data",
+      "url"			: "/computing/2007/12/raw_and_refereed_data/",
+      "tag"       : "claddier, curation",
+      "category"  : "computing",
+      "date"      : "2007-12-17",
+      "excerpt"		: "I’m still chasing up peer review of data. My it’s hard to find anything useful in the peer reviewed literature on the subject, or indeed on the wider Internet …"
+    }
+  
+
+  
+    ,{
+      "title"			: "A definition of intelligence",
+      "url"			: "/environment/2007/12/a_definition_of_intelligence/",
+      "tag"       : "environment",
+      "category"  : "environment",
+      "date"      : "2007-12-04",
+      "excerpt"		: "This quote is apparently from Piaget, but I got it from Calvin via a comment on Jeff Fleck’s blog:intelligence is what you use when you don&#39;t know what to do, when neither innateness nor learning has prepared you for the particular situation."
     }
   
 
@@ -3550,6 +3660,17 @@
       "category"  : "computing",
       "date"      : "2005-01-08",
       "excerpt"		: "We’re in the curation business. That means we’re in the business of keeping our data for a very long time … the reality of data is that it’s always accompanied by software to use it. If we’re serious about longevity of the data we’re forced to be serious about longevity of the accompanying software. In practice, given the way companies can be bought and sold, and rights to software might change, we are required to be very careful about whether our software has legal longevity as well as technical longevity."
+    }
+  
+
+  
+    ,{
+      "title"			: "Searching Techniques",
+      "url"			: "/computing/2005/01/searching_techniques/",
+      "tag"       : "ndg",
+      "category"  : "computing",
+      "date"      : "2005-01-07",
+      "excerpt"		: "Serendipity is a strange thing. Two days ago we started a discussion on the internal NDG mailing list about what should or shouldn’t be in our B metadata elements (the schema is nearly fixed, but would we allow XHTML markup within some elements?). The discussion broadened into what B metadata is for (B is browse metadata in our NDG lexicion). We were discussing what belonged inthe browse metadata and what belonged in extra (E) metadata held alongside the data. This morning, I came across Derek’s blog on Search is not Search, which prompted me to a) read the paper it refers to (of which more below), and b) organise my own thinking a bit more."
     }
   
 
