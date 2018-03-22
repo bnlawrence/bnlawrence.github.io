@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2018-03-22T09:54:18+00:00</updated>
+  <updated>2018-03-22T10:02:33+00:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,39 @@
   
 
   
+  
+    <entry>
+      <title type="html">Requirements for a global data infrastructure in support of CMIP6</title>
+      <link href="http://www.bnlawrence.net//computing/2018/03/wip-paper/" rel="alternate" type="text/html" title="Requirements for a global data infrastructure in support of CMIP6" />
+      <published>2018-03-22T00:00:00+00:00</published>
+      <updated>2018-03-22T00:00:00+00:00</updated>
+      <id>http://www.bnlawrence.net//computing/2018/03/wip-paper</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//computing/2018/03/wip-paper/">&lt;p&gt;Our paper on the work of the WCRP Working Group on Climate Modeling (WGCM) Infrastructure Panel (WIP) wrecommendations for the global data infrastructure needed to support CMIP design, future growth and evolution has &lt;a href=&quot;https://www.geosci-model-dev-discuss.net/gmd-2018-52/&quot;&gt;just appeared&lt;/a&gt; in GMD discussions.
+Please have a look and potentially contribute to the online review/discussion.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="cmip6" />
+      
+
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">The Exascale Challenge to the UK - Part Tree - Capacity</title>
@@ -335,36 +368,6 @@
       <updated>2017-11-14T00:00:00+00:00</updated>
       <id>http://www.bnlawrence.net//talks/2017/11/data_interop_lawrence</id>
       <content type="html" xml:base="http://www.bnlawrence.net//talks/2017/11/data_interop_lawrence/">&lt;h2 id=&quot;data-interoperability-and-integration-a-climate-modelling-perspective&quot;&gt;Data Interoperability and Integration: A climate modelling perspective&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Gung Ho Network Meeting</title>
-      <link href="http://www.bnlawrence.net//talks/2017/07/ppp4_gungho/" rel="alternate" type="text/html" title="Gung Ho Network Meeting" />
-      <published>2017-07-18T00:00:00+01:00</published>
-      <updated>2017-07-18T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//talks/2017/07/ppp4_gungho</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2017/07/ppp4_gungho/">&lt;h2 id=&quot;performance-portability-productivity-which-two-do-you-want&quot;&gt;Performance, Portability, Productivity: Which two do you want?&lt;/h2&gt;</content>
 
       
       

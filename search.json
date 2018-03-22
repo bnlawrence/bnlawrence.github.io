@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "Requirements for a global data infrastructure in support of CMIP6",
+      "url"			: "/computing/2018/03/wip-paper/",
+      "tag"       : "cmip6",
+      "category"  : "computing",
+      "date"      : "2018-03-22",
+      "excerpt"		: "Our paper on the work of the WCRP Working Group on Climate Modeling (WGCM) Infrastructure Panel (WIP) wrecommendations for the global data infrastructure needed to support CMIP design, future growth and evolution has just appeared in GMD discussions.Please have a look and potentially contribute to the online review/discussion."
+    }
+  
+
+  
+    ,{
       "title"			: "The Exascale Challenge to the UK - Part Tree - Capacity",
       "url"			: "/computing/2017/12/exascale3/",
       "tag"       : "exascale, cms, modelling_futures",
