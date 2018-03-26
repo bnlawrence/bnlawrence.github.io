@@ -1433,6 +1433,10 @@
 <lastmod>2018-03-22T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>http://www.bnlawrence.net//talks/2018/03/data-science/</loc>
+<lastmod>2018-03-26T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://www.bnlawrence.net//notes/ISO690/</loc>
 </url>
 <url>
@@ -1689,6 +1693,9 @@
 </url>
 <url>
 <loc>http://www.bnlawrence.net//tags/data_modelling/</loc>
+</url>
+<url>
+<loc>http://www.bnlawrence.net//tags/science/</loc>
 </url>
 <url>
 <loc>http://www.bnlawrence.net//assets/abstracts/2009-01-08-metrics.pdf</loc>
@@ -2037,5 +2044,9 @@
 <url>
 <loc>http://www.bnlawrence.net//assets/talks/2017-11-14-171104_data_interop_lawrence.pdf</loc>
 <lastmod>2017-11-15T12:01:36+00:00</lastmod>
+</url>
+<url>
+<loc>http://www.bnlawrence.net//assets/talks/2018-03-06_data_science.pdf</loc>
+<lastmod>2018-03-26T15:46:19+01:00</lastmod>
 </url>
 </urlset>

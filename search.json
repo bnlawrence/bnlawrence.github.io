@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "Data Sciences for Climate and Environment (Alan Turing Institute)",
+      "url"			: "/talks/2018/03/data-science/",
+      "tag"       : "data, science",
+      "category"  : "talks",
+      "date"      : "2018-03-26",
+      "excerpt"		: "This talk covers a range of challenges for, and examples of, using (modern) data science techniques in Environmental Science (of course we have been using data science forever).  Some issues with hardware and software environment are discussed."
+    }
+  
+
+  
+    ,{
       "title"			: "Requirements for a global data infrastructure in support of CMIP6",
       "url"			: "/computing/2018/03/wip-paper/",
       "tag"       : "cmip6",
@@ -4135,6 +4146,8 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
   
 
   
