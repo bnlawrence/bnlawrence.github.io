@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2018-03-27T17:45:25+01:00</updated>
+  <updated>2018-04-13T13:45:11+01:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,41 @@
   
 
   
+  
+    <entry>
+      <title type="html">Workload - Where does Bryan spend his time?</title>
+      <link href="http://www.bnlawrence.net//management/2018/04/workload/" rel="alternate" type="text/html" title="Workload - Where does Bryan spend his time?" />
+      <published>2018-04-12T00:00:00+01:00</published>
+      <updated>2018-04-12T00:00:00+01:00</updated>
+      <id>http://www.bnlawrence.net//management/2018/04/workload</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//management/2018/04/workload/">&lt;p&gt;I’ve always wondered where I spend my time. I keep records for some projects because one has to, but I’ve never found a way of recording interesting information easily enough. That changed recently: it turns out it is now possible to get a handle on where you spend time pretty easily, and at the same time learn about what applications you use most.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="workload" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-04-12-workload_applications_18Q1.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">Data Sciences for Climate and Environment (Alan Turing Institute)</title>
@@ -343,51 +378,6 @@ Please have a look and potentially contribute to the online review/discussion.&l
 
       
 
-      
-
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Science and the Digital Revolution - Data, Standards, and Integration</title>
-      <link href="http://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/" rel="alternate" type="text/html" title="Science and the Digital Revolution - Data, Standards, and Integration" />
-      <published>2017-11-15T00:00:00+00:00</published>
-      <updated>2017-11-15T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//computing/2017/11/science_and_the_digital_revolution/">&lt;p&gt;I was asked to give a talk at this &lt;a href=&quot;http://www.codata.org/&quot;&gt;CODATA&lt;/a&gt; meeting which was aimed at developing a roadmap for:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Mobilising community support and advice for discipline-based initiatives to develop online data capacities and services;&lt;/li&gt;
-  &lt;li&gt;Priorities for work on interdisciplinary data integration and flagship projects;&lt;/li&gt;
-  &lt;li&gt;Approaches to funding and coordination; and&lt;/li&gt;
-  &lt;li&gt;Issues of international data governance.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Details of my talk are &lt;a href=&quot;/talks/2017/11/data_interop_lawrence/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="data" />
-      
-        <category term="cmip" />
-      
-        <category term="esgf" />
       
 
       
