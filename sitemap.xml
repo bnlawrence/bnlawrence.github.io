@@ -1441,6 +1441,10 @@
 <lastmod>2018-04-12T00:00:00+01:00</lastmod>
 </url>
 <url>
+<loc>http://www.bnlawrence.net//talks/2018/06/EuroHPC-Requirements/</loc>
+<lastmod>2018-06-13T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://www.bnlawrence.net//notes/ISO690/</loc>
 </url>
 <url>
@@ -1705,6 +1709,9 @@
 <loc>http://www.bnlawrence.net//tags/workload/</loc>
 </url>
 <url>
+<loc>http://www.bnlawrence.net//tags/eurohpc/</loc>
+</url>
+<url>
 <loc>http://www.bnlawrence.net//assets/abstracts/2009-01-08-metrics.pdf</loc>
 <lastmod>2009-01-12T10:29:53+00:00</lastmod>
 </url>
@@ -1723,6 +1730,10 @@
 <url>
 <loc>http://www.bnlawrence.net//assets/abstracts/2009-01-12-moles.pdf</loc>
 <lastmod>2009-01-12T10:31:14+00:00</lastmod>
+</url>
+<url>
+<loc>http://www.bnlawrence.net//assets/abstracts/2018-06-13-EuroHPC_ESIWACE_OnePageRequirements.pdf</loc>
+<lastmod>2018-06-13T10:40:50+01:00</lastmod>
 </url>
 <url>
 <loc>http://www.bnlawrence.net//assets/images/2017-12-20-datamodel.pdf</loc>
@@ -2055,5 +2066,9 @@
 <url>
 <loc>http://www.bnlawrence.net//assets/talks/2018-03-26_data_science.pdf</loc>
 <lastmod>2018-03-27T17:43:13+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.bnlawrence.net//assets/talks/2018-06-13-EuroHPC_Esiwace_v3.pdf</loc>
+<lastmod>2018-06-13T08:42:35+01:00</lastmod>
 </url>
 </urlset>

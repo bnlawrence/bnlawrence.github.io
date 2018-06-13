@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "EuroHPC Requirements Workshop",
+      "url"			: "/talks/2018/06/EuroHPC-Requirements/",
+      "tag"       : "data-science, esiwace, eurohpc, exascale",
+      "category"  : "talks",
+      "date"      : "2018-06-13",
+      "excerpt"		: "EuroHPC: Requirements from Weather and Climate"
+    }
+  
+
+  
+    ,{
       "title"			: "Workload - Where does Bryan spend his time?",
       "url"			: "/management/2018/04/workload/",
       "tag"       : "workload",
@@ -4157,6 +4168,8 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
   
 
   

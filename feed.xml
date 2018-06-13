@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2018-04-13T13:45:11+01:00</updated>
+  <updated>2018-06-13T13:17:53+01:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,47 @@
   
 
   
+  
+    <entry>
+      <title type="html">EuroHPC Requirements Workshop</title>
+      <link href="http://www.bnlawrence.net//talks/2018/06/EuroHPC-Requirements/" rel="alternate" type="text/html" title="EuroHPC Requirements Workshop" />
+      <published>2018-06-13T00:00:00+01:00</published>
+      <updated>2018-06-13T00:00:00+01:00</updated>
+      <id>http://www.bnlawrence.net//talks/2018/06/EuroHPC-Requirements</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2018/06/EuroHPC-Requirements/">&lt;h2 id=&quot;eurohpc-requirements-from-weather-and-climate&quot;&gt;EuroHPC: Requirements from Weather and Climate&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="data-science" />
+      
+        <category term="esiwace" />
+      
+        <category term="eurohpc" />
+      
+        <category term="exascale" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-06-13-eurohpc.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">Workload - Where does Bryan spend his time?</title>
@@ -348,36 +389,6 @@ Please have a look and potentially contribute to the online review/discussion.&l
         <category term="teaching" />
       
         <category term="hpc_io" />
-      
-
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">European Big Data Value Forum</title>
-      <link href="http://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/" rel="alternate" type="text/html" title="European Big Data Value Forum" />
-      <published>2017-11-22T00:00:00+00:00</published>
-      <updated>2017-11-22T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//talks/2017/11/HPC_Bigdata</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2017/11/HPC_Bigdata/">&lt;h2 id=&quot;the-data-deluge-in-high-resolution-climate-and-weather-simulation&quot;&gt;The Data Deluge in High Resolution Climate and Weather Simulation&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
       
 
       
