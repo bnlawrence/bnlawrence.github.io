@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2018-06-13T13:17:53+01:00</updated>
+  <updated>2018-06-26T14:44:59+01:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,43 @@
   
 
   
+  
+    <entry>
+      <title type="html">Data-Intensive weather and climate science</title>
+      <link href="http://www.bnlawrence.net//talks/2018/06/climate-data-for-mpe/" rel="alternate" type="text/html" title="Data-Intensive weather and climate science" />
+      <published>2018-06-25T00:00:00+01:00</published>
+      <updated>2018-06-25T00:00:00+01:00</updated>
+      <id>http://www.bnlawrence.net//talks/2018/06/climate-data-for-mpe</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2018/06/climate-data-for-mpe/">&lt;h2 id=&quot;climate-data-issues-systems-and-opportunities&quot;&gt;Climate Data: Issues, Systems, and Opportunities&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="data-science" />
+      
+        <category term="exascale" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-06-25-archive_size-vol.pdf" />
+      
+    </entry>
   
     <entry>
       <title type="html">EuroHPC Requirements Workshop</title>
@@ -355,40 +392,6 @@ Please have a look and potentially contribute to the online review/discussion.&l
         <category term="isenes" />
       
         <category term="esiwace" />
-      
-
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Dr Matt Jones</title>
-      <link href="http://www.bnlawrence.net//academic/2017/11/congrats2matt/" rel="alternate" type="text/html" title="Dr Matt Jones" />
-      <published>2017-11-28T00:00:00+00:00</published>
-      <updated>2017-11-28T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//academic/2017/11/congrats2matt</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//academic/2017/11/congrats2matt/">&lt;p&gt;A good day for any academic - when one of her or his students passes their viva (oral examination) for their doctorate.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="teaching" />
-      
-        <category term="hpc_io" />
       
 
       

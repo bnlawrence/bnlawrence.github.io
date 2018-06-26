@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "Data-Intensive weather and climate science",
+      "url"			: "/talks/2018/06/climate-data-for-mpe/",
+      "tag"       : "data-science, exascale",
+      "category"  : "talks",
+      "date"      : "2018-06-25",
+      "excerpt"		: "Climate Data: Issues, Systems, and Opportunities"
+    }
+  
+
+  
+    ,{
       "title"			: "EuroHPC Requirements Workshop",
       "url"			: "/talks/2018/06/EuroHPC-Requirements/",
       "tag"       : "data-science, esiwace, eurohpc, exascale",
