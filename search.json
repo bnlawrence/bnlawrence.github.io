@@ -2,6 +2,28 @@
 
   
     {
+      "title"			: "Getting to know an Ipad: Week One",
+      "url"			: "/academic/2018/07/ipad/",
+      "tag"       : "management",
+      "category"  : "academic",
+      "date"      : "2018-07-02",
+      "excerpt"		: "I was an early adopter of Android tablets, and my most recent one (a 2014 Samsung Galaxy Note 10.1) was excellent. It’s still excellent, but runs an ancient version of Android – too ancient for my paranoia about information security, so it needed replacement."
+    }
+  
+
+  
+    ,{
+      "title"			: "JASMIN User Conference",
+      "url"			: "/talks/2018/06/jasmin-uc/",
+      "tag"       : "data-science, exascale, JASMIN",
+      "category"  : "talks",
+      "date"      : "2018-06-27",
+      "excerpt"		: "The Changing Nature of JASMIN"
+    }
+  
+
+  
+    ,{
       "title"			: "Data-Intensive weather and climate science",
       "url"			: "/talks/2018/06/climate-data-for-mpe/",
       "tag"       : "data-science, exascale",
@@ -4179,6 +4201,8 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
   
 
   
