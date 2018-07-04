@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2018-07-02T14:41:19+01:00</updated>
+  <updated>2018-07-04T07:58:57+01:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,41 @@
   
 
   
+  
+    <entry>
+      <title type="html">Workload Revisited</title>
+      <link href="http://www.bnlawrence.net//management/2018/07/workload2/" rel="alternate" type="text/html" title="Workload Revisited" />
+      <published>2018-07-03T00:00:00+01:00</published>
+      <updated>2018-07-03T00:00:00+01:00</updated>
+      <id>http://www.bnlawrence.net//management/2018/07/workload2</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//management/2018/07/workload2/">&lt;p&gt;&lt;a href=&quot;/management/2018/04/workload/&quot;&gt;In April&lt;/a&gt; I reported my first couple of months of workload anlaysis using the &lt;a href=&quot;https://timingapp.com&quot;&gt;timing app&lt;/a&gt;. I’ve now done three more months, so was interested to look at how I’d done.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="workload" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-07-02-workload_applications_18Q2.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">Getting to know an Ipad: Week One</title>
@@ -352,43 +387,6 @@ Please have a look and potentially contribute to the online review/discussion.&l
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2017-12-20-datamodel.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">ESiWACE General Assembly</title>
-      <link href="http://www.bnlawrence.net//talks/2017/12/esiwace-ga/" rel="alternate" type="text/html" title="ESiWACE General Assembly" />
-      <published>2017-12-12T00:00:00+00:00</published>
-      <updated>2017-12-12T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//talks/2017/12/esiwace-ga</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2017/12/esiwace-ga/">The talk covers the &quot;exploitability&quot; component of the ESIWACE project. The work we describe is development of cost models for exascale HPC storage, plus new software to write and manage data at scale.</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="esiwace" />
-      
-        <category term="exascale" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/talks/2017-12-12-esiwace_eg.png" />
       
     </entry>
   
