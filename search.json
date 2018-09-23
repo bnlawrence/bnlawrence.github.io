@@ -2,6 +2,28 @@
 
   
     {
+      "title"			: "Extreme Data Workshop",
+      "url"			: "/talks/2018/09/lawrence-extreme-data/",
+      "tag"       : "data-science, exascale, JASMIN",
+      "category"  : "talks",
+      "date"      : "2018-09-18",
+      "excerpt"		: "Beating Data Bottlenecks in Weather and Climate Science"
+    }
+  
+
+  
+    ,{
+      "title"			: "Open Meeting for Hydro-JULES - Next generation land-surface and hydrological predictions",
+      "url"			: "/talks/2018/09/lawrence-hydrojules/",
+      "tag"       : "jules, hydrology, climate, exascale, hydro-jules",
+      "category"  : "talks",
+      "date"      : "2018-09-10",
+      "excerpt"		: "Building a Community Hydrological Model"
+    }
+  
+
+  
+    ,{
       "title"			: "Workload Revisited",
       "url"			: "/management/2018/07/workload2/",
       "tag"       : "workload",
@@ -4212,6 +4234,12 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
+  
+
   
 
   

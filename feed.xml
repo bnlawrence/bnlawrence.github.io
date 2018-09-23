@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2018-07-04T08:06:00+01:00</updated>
+  <updated>2018-09-23T17:39:53+01:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,88 @@
   
 
   
+  
+    <entry>
+      <title type="html">Extreme Data Workshop</title>
+      <link href="http://www.bnlawrence.net//talks/2018/09/lawrence-extreme-data/" rel="alternate" type="text/html" title="Extreme Data Workshop" />
+      <published>2018-09-18T00:00:00+01:00</published>
+      <updated>2018-09-18T00:00:00+01:00</updated>
+      <id>http://www.bnlawrence.net//talks/2018/09/lawrence-extreme-data</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2018/09/lawrence-extreme-data/">&lt;h2 id=&quot;beating-data-bottlenecks-in-weather-and-climate-science&quot;&gt;Beating Data Bottlenecks in Weather and Climate Science&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="data-science" />
+      
+        <category term="exascale" />
+      
+        <category term="JASMIN" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-09-18-extreme-data-attendees.jpg" />
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Open Meeting for Hydro-JULES - Next generation land-surface and hydrological predictions</title>
+      <link href="http://www.bnlawrence.net//talks/2018/09/lawrence-hydrojules/" rel="alternate" type="text/html" title="Open Meeting for Hydro-JULES - Next generation land-surface and hydrological predictions" />
+      <published>2018-09-10T00:00:00+01:00</published>
+      <updated>2018-09-10T00:00:00+01:00</updated>
+      <id>http://www.bnlawrence.net//talks/2018/09/lawrence-hydrojules</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2018/09/lawrence-hydrojules/">&lt;h2 id=&quot;building-a-community-hydrological-model&quot;&gt;Building a Community Hydrological Model&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="jules" />
+      
+        <category term="hydrology" />
+      
+        <category term="climate" />
+      
+        <category term="exascale" />
+      
+        <category term="hydro-jules" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-09-10-jwcrp-hydrojules-components.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">Workload Revisited</title>
@@ -309,84 +391,6 @@ Please have a look and potentially contribute to the online review/discussion.&l
       
 
       
-      
-    </entry>
-  
-    <entry>
-      <title type="html">The Exascale Challenge to the UK - Part Tree - Capacity</title>
-      <link href="http://www.bnlawrence.net//computing/2017/12/exascale3/" rel="alternate" type="text/html" title="The Exascale Challenge to the UK - Part Tree - Capacity" />
-      <published>2017-12-31T00:00:00+00:00</published>
-      <updated>2017-12-31T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//computing/2017/12/exascale3</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//computing/2017/12/exascale3/">&lt;p&gt;In this post we want to consider how much &lt;em&gt;science&lt;/em&gt; we can do with the computers we currently have available (ARCHER and NEXCS), and in subsequent posts we’ll consider the route to exascale.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exascale" />
-      
-        <category term="cms" />
-      
-        <category term="modelling_futures" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/archer_long_640.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">The CF Data Model Paper Appears</title>
-      <link href="http://www.bnlawrence.net//academic/2017/12/cfdm-paper/" rel="alternate" type="text/html" title="The CF Data Model Paper Appears" />
-      <published>2017-12-20T00:00:00+00:00</published>
-      <updated>2017-12-20T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//academic/2017/12/cfdm-paper</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//academic/2017/12/cfdm-paper/">&lt;p&gt;It’s always a nice present for any academic when a paper finally appears “in print”. After some months in public review, our paper introducing a formal data model for the Climate Forecast (CF) conventions &lt;a href=&quot;#HasEA17&quot;&gt;(Hassell, Gregory, Blower, Lawrence, &amp;amp; Taylor, 2017)&lt;/a&gt; has appeared in &lt;em&gt;Geoscientific Model Development&lt;/em&gt;. Although CF was developed for content stored in NetCDF files, this data model has been developed in such a way that the logic can be used for CF content stored in other formats.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="cf" />
-      
-        <category term="data_modelling" />
-      
-        <category term="papers" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2017-12-20-datamodel.png" />
       
     </entry>
   
