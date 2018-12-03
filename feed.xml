@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2018-09-23T19:41:17+01:00</updated>
+  <updated>2018-12-03T14:41:04+00:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,45 @@
   
 
   
+  
+    <entry>
+      <title type="html">NERC HPC Strategy</title>
+      <link href="http://www.bnlawrence.net//talks/2018/11/NERC-HPC/" rel="alternate" type="text/html" title="NERC HPC Strategy" />
+      <published>2018-11-27T00:00:00+00:00</published>
+      <updated>2018-11-27T00:00:00+00:00</updated>
+      <id>http://www.bnlawrence.net//talks/2018/11/NERC-HPC</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2018/11/NERC-HPC/">&lt;h2 id=&quot;trends-and-context-for-environmental-hpc&quot;&gt;Trends and Context for Environmental HPC&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+        <category term="JASMIN" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-11-17-Kinter.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">Extreme Data Workshop</title>
@@ -358,39 +397,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-03-26-xkcd_machine_unlearning_2x.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Requirements for a global data infrastructure in support of CMIP6</title>
-      <link href="http://www.bnlawrence.net//computing/2018/03/wip-paper/" rel="alternate" type="text/html" title="Requirements for a global data infrastructure in support of CMIP6" />
-      <published>2018-03-22T00:00:00+00:00</published>
-      <updated>2018-03-22T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//computing/2018/03/wip-paper</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//computing/2018/03/wip-paper/">&lt;p&gt;Our paper on the work of the WCRP Working Group on Climate Modeling (WGCM) Infrastructure Panel (WIP) wrecommendations for the global data infrastructure needed to support CMIP design, future growth and evolution has &lt;a href=&quot;https://www.geosci-model-dev-discuss.net/gmd-2018-52/&quot;&gt;just appeared&lt;/a&gt; in GMD discussions.
-Please have a look and potentially contribute to the online review/discussion.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="cmip6" />
-      
-
-      
-
-      
       
     </entry>
   

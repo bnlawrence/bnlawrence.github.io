@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "NERC HPC Strategy",
+      "url"			: "/talks/2018/11/NERC-HPC/",
+      "tag"       : "HPC, exascale, JASMIN",
+      "category"  : "talks",
+      "date"      : "2018-11-27",
+      "excerpt"		: "Trends and Context for Environmental HPC"
+    }
+  
+
+  
+    ,{
       "title"			: "Extreme Data Workshop",
       "url"			: "/talks/2018/09/lawrence-extreme-data/",
       "tag"       : "data-science, exascale, JASMIN",
@@ -4234,6 +4245,8 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
   
 
   
