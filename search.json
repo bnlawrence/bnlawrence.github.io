@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "Customised Supercomputing",
+      "url"			: "/talks/2019/02/supercomputing-jasmin-diversity/",
+      "tag"       : "HPC, exascale, JASMIN",
+      "category"  : "talks",
+      "date"      : "2019-02-11",
+      "excerpt"		: "Supercomputers are no longer all the same and it will get worse; a climate modelling perspective"
+    }
+  
+
+  
+    ,{
       "title"			: "NERC HPC Strategy",
       "url"			: "/talks/2018/11/NERC-HPC/",
       "tag"       : "HPC, exascale, JASMIN",

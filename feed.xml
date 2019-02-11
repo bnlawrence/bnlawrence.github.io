@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2018-12-03T15:51:36+00:00</updated>
+  <updated>2019-02-11T12:19:57+00:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,45 @@
   
 
   
+  
+    <entry>
+      <title type="html">Customised Supercomputing</title>
+      <link href="http://www.bnlawrence.net//talks/2019/02/supercomputing-jasmin-diversity/" rel="alternate" type="text/html" title="Customised Supercomputing" />
+      <published>2019-02-11T00:00:00+00:00</published>
+      <updated>2019-02-11T00:00:00+00:00</updated>
+      <id>http://www.bnlawrence.net//talks/2019/02/supercomputing-jasmin-diversity</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2019/02/supercomputing-jasmin-diversity/">&lt;h2 id=&quot;supercomputers-are-no-longer-all-the-same-and-it-will-get-worse-a-climate-modelling-perspective&quot;&gt;Supercomputers are no longer all the same and it will get worse; a climate modelling perspective&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+        <category term="JASMIN" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/190211_jasmin-concurrency-supercomputing.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">NERC HPC Strategy</title>
@@ -362,41 +401,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-04-12-workload_applications_18Q1.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Data Sciences for Climate and Environment (Alan Turing Institute)</title>
-      <link href="http://www.bnlawrence.net//talks/2018/03/data-science/" rel="alternate" type="text/html" title="Data Sciences for Climate and Environment (Alan Turing Institute)" />
-      <published>2018-03-26T00:00:00+01:00</published>
-      <updated>2018-03-26T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//talks/2018/03/data-science</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2018/03/data-science/">This talk covers a range of challenges for, and examples of, using (modern) data science techniques in Environmental Science (of course we have been using data science forever).  Some issues with hardware and software environment are discussed.</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="data-science" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-03-26-xkcd_machine_unlearning_2x.png" />
       
     </entry>
   
