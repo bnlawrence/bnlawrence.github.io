@@ -2,7 +2,18 @@
 
   
     {
-      "title"			: "Customised Supercomputing",
+      "title"			: "NCAS Seminar",
+      "url"			: "/talks/2019/03/end-of-climate-modelling/",
+      "tag"       : "HPC, exascale",
+      "category"  : "talks",
+      "date"      : "2019-03-01",
+      "excerpt"		: "The end of Climate Modelling as we know it"
+    }
+  
+
+  
+    ,{
+      "title"			: "Computer Science Seminar",
       "url"			: "/talks/2019/02/supercomputing-jasmin-diversity/",
       "tag"       : "HPC, exascale, JASMIN",
       "category"  : "talks",

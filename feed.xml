@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2019-02-11T12:19:57+00:00</updated>
+  <updated>2019-03-01T12:31:43+00:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -26,8 +26,45 @@
   
   
     <entry>
-      <title type="html">Customised Supercomputing</title>
-      <link href="http://www.bnlawrence.net//talks/2019/02/supercomputing-jasmin-diversity/" rel="alternate" type="text/html" title="Customised Supercomputing" />
+      <title type="html">NCAS Seminar</title>
+      <link href="http://www.bnlawrence.net//talks/2019/03/end-of-climate-modelling/" rel="alternate" type="text/html" title="NCAS Seminar" />
+      <published>2019-03-01T00:00:00+00:00</published>
+      <updated>2019-03-01T00:00:00+00:00</updated>
+      <id>http://www.bnlawrence.net//talks/2019/03/end-of-climate-modelling</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2019/03/end-of-climate-modelling/">&lt;h2 id=&quot;the-end-of-climate-modelling-as-we-know-it&quot;&gt;The end of Climate Modelling as we know it&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/19-03-01-cambrian.png" />
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Computer Science Seminar</title>
+      <link href="http://www.bnlawrence.net//talks/2019/02/supercomputing-jasmin-diversity/" rel="alternate" type="text/html" title="Computer Science Seminar" />
       <published>2019-02-11T00:00:00+00:00</published>
       <updated>2019-02-11T00:00:00+00:00</updated>
       <id>http://www.bnlawrence.net//talks/2019/02/supercomputing-jasmin-diversity</id>
@@ -366,41 +403,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-06-13-eurohpc.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Workload - Where does Bryan spend his time?</title>
-      <link href="http://www.bnlawrence.net//management/2018/04/workload/" rel="alternate" type="text/html" title="Workload - Where does Bryan spend his time?" />
-      <published>2018-04-12T00:00:00+01:00</published>
-      <updated>2018-04-12T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//management/2018/04/workload</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//management/2018/04/workload/">&lt;p&gt;I’ve always wondered where I spend my time. I keep records for some projects because one has to, but I’ve never found a way of recording interesting information easily enough. That changed recently: it turns out it is now possible to get a handle on where you spend time pretty easily, and at the same time learn about what applications you use most.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="workload" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-04-12-workload_applications_18Q1.png" />
       
     </entry>
   
