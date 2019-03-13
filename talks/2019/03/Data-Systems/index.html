@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>NCAS Seminar | Bryan Lawrence</title>
-  <meta name="description" content="The end of Climate Modelling as we know it">
+  <title>ESIWACE2 Kick-Off | Bryan Lawrence</title>
+  <meta name="description" content="Data Systems at Scale">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.bnlawrence.net//talks/2019/03/end-of-climate-modelling/">
+  <link rel="canonical" href="http://www.bnlawrence.net//talks/2019/03/Data-Systems/">
   <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -24,17 +24,17 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:site"    content="@bnlawrence">
-<meta name="twitter:title"   content="NCAS Seminar">
+<meta name="twitter:title"   content="ESIWACE2 Kick-Off">
 
 
-<meta name="twitter:description" content="The end of Climate Modelling as we know it
+<meta name="twitter:description" content="Data Systems at Scale
 
 ">
 
 
 
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="http://www.bnlawrence.net//assets/images/2019-03-01-cambrian.png">
+<meta name="twitter:image" content="http://www.bnlawrence.net//assets/images/2019-03-12_data_systems_at_scale.png">
 
 <!-- end of Twitter cards -->
 
@@ -123,8 +123,8 @@
         <div class="post">
 
  <header class="post-header">
-  <h1 class="post-title">NCAS Seminar</h1>
-  <p class="post-meta">Posted on March 1, 2019
+  <h1 class="post-title">ESIWACE2 Kick-Off</h1>
+  <p class="post-meta">Posted on March 12, 2019
   
   
       in
@@ -134,46 +134,38 @@
   
   
   
-  (tagged: <a href="/tags/hpc/" rel="tag">HPC</a>, <a href="/tags/exascale/" rel="tag">exascale</a>).
+  (tagged: <a href="/tags/hpc/" rel="tag">HPC</a>, <a href="/tags/exascale/" rel="tag">exascale</a>, <a href="/tags/esiwace/" rel="tag">esiwace</a>).
   
   <br/>
   
   
-  Previous Post: <a class="prev" href="/talks/2019/02/supercomputing-jasmin-diversity/">&laquo;Computer Science Seminar&raquo;</a>
+  Previous Post: <a class="prev" href="/talks/2019/03/end-of-climate-modelling/">&laquo;NCAS Seminar&raquo;</a>
   
   .<br/>
-   Next Post <a class="next" href="/talks/2019/03/Data-Systems/">&laquo;ESIWACE2 Kick-Off&raquo;</a>
-  
   .
   </p>
 </header>
 
 
   <article class="post-content">
-    <h2 id="the-end-of-climate-modelling-as-we-know-it">The end of Climate Modelling as we know it</h2>
+    <h2 id="data-systems-at-scale">Data Systems at Scale</h2>
 
-<p>Presentation: <a href="/assets/talks/2019-03-01-uor-ncas-seminar.pdf">pdf</a> (15 MB)</p>
+<p>Presentation: <a href="/assets/talks/190312_esiwace2_wp4.pdf">pdf</a> (0.5MB)</p>
 
-<p>This was a seminar given in Meteorology at the University of Reading as part of the NCAS seminar series.</p>
+<p>This was a presentation given as part of the <a href="https://www.esiwace.eu/events/joint-meeting-2019/esiwace-annual-meeting-and-esiwace2-kickoff-meeting">esiwace2 kickoff</a>. It describes one of the work packages,  WP4, which is about data systems at scale. Here the definition of “at scale” means “for weather and climate simulation on exascale (and pre-exascale) supercomputing” <em>and</em> for downstream analysis systems. We expect I/O performance and data volumes will limit their exploitation without new storage and analysis libraries.</p>
 
-<p>In this presentation I was aiming to introduce a meteorology and climate science community to the upcoming difficulties with computing: from the massive explosion in hardware variety that we associate with the end of Moore’s Law, to the fact that in about a decade we may only be able to go faster by spending more money on power (provided we have the parallelisation). Similar problems with storage arising from both costs and bandwidth are coming …</p>
+<p>This work package describes an ambitious programme of work, building on lessons learnt from ESiWACE. It will address a range of issues in workflow, from modifications to a workflow engine (<a href="https://cylc.github.io/">cylc</a>) and a scheduler (<a href="https://slurm.schedmd.com/">slurm</a>), to new I/O libraries and data handling tools. Some integration with <a href="https://pangeo.io/">pangeo</a> is likely. There is a key role for ensemble analysis tools to mitigate aqainst writing data in the first place.</p>
 
-<p>I set this in the scene of our existing experience of decades of unbridled increases in computing at more or less the same power consumption until the last decade when we’ve still had more compute, but at the same power cost per flop (for CPUs at least).</p>
-
-<p>Of course it wont mean the end of climate science, and it will probably take longer to arrive than currently being predicted, but it does mean a change in the way we organise ourselves, in terms of sharing data and experiment design, and it certainly means “going faster” will require being smarter, with maths, AI etc.</p>
-
-<p>This seminar differs from my <a href="/talks/2019/02/supercomputing-jasmin-diversity/">last one</a> in that I didn’t talk about JASMIN at all, and I spent more time on the techniques we will need to <a href="https://doi.org/10.5194/gmd-11-1799-2018">cross the chasm</a> between science code and the changing hardware.</p>
-
-<p>I finished with some guidance for our community: we will need to become better at using the right tool(s) for the job, rather than treating everything as a nail because we have a really cool hammer:</p>
+<p>A key goal will be to deploy these new tool in real workflows, within the project, and elsewhere, and to develop them in a way that has a credible path to sustainability. In practice deployability is likely to involve three key facets:</p>
 
 <ul>
-  <li>More use of hierarchy of models;</li>
-  <li>Precision use of resolution;</li>
-  <li>Selective use of complexity;</li>
-  <li>Less use of “ensembles of opportunity”, much more use of “designed ensembles”;</li>
-  <li>Duration and Ensemble Size : thinking harder a priori about what is needed;</li>
-  <li>Much more use of emulation.</li>
+  <li>portability, to ensure a wider range of stakeholders,</li>
+  <li>containerisation, to deliver as much as possible within userspace, and</li>
+  <li>vendor engagement alongside open-source products, allowing differentiation in the market and realistic business models for those developing customised high-performance storage solutions.</li>
 </ul>
+
+<p>The work package is being led from the University of Reading (Computer Science, and NCAS), with partners from CNRS-IPSL, STFC, Seagate, DDN, DKRZ, ICHEC, and the Met Office.</p>
+
 
   </article>
 

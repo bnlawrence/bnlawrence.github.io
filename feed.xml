@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2019-03-01T12:36:57+00:00</updated>
+  <updated>2019-03-13T06:49:55+00:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,45 @@
   
 
   
+  
+    <entry>
+      <title type="html">ESIWACE2 Kick-Off</title>
+      <link href="http://www.bnlawrence.net//talks/2019/03/Data-Systems/" rel="alternate" type="text/html" title="ESIWACE2 Kick-Off" />
+      <published>2019-03-12T00:00:00+00:00</published>
+      <updated>2019-03-12T00:00:00+00:00</updated>
+      <id>http://www.bnlawrence.net//talks/2019/03/Data-Systems</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2019/03/Data-Systems/">&lt;h2 id=&quot;data-systems-at-scale&quot;&gt;Data Systems at Scale&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+        <category term="esiwace" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2019-03-12_data_systems_at_scale.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">NCAS Seminar</title>
@@ -362,47 +401,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-06-25-archive_size-vol.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">EuroHPC Requirements Workshop</title>
-      <link href="http://www.bnlawrence.net//talks/2018/06/EuroHPC-Requirements/" rel="alternate" type="text/html" title="EuroHPC Requirements Workshop" />
-      <published>2018-06-13T00:00:00+01:00</published>
-      <updated>2018-06-13T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//talks/2018/06/EuroHPC-Requirements</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2018/06/EuroHPC-Requirements/">&lt;h2 id=&quot;eurohpc-requirements-from-weather-and-climate&quot;&gt;EuroHPC: Requirements from Weather and Climate&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="data-science" />
-      
-        <category term="esiwace" />
-      
-        <category term="eurohpc" />
-      
-        <category term="exascale" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-06-13-eurohpc.png" />
       
     </entry>
   
