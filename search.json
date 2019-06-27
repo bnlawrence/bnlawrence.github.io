@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "The UM User's Workshop 2019 - Next Generation Modellin Systems",
+      "url"			: "/talks/2019/06/umuw/",
+      "tag"       : "HPC, exascale",
+      "category"  : "talks",
+      "date"      : "2019-06-18",
+      "excerpt"		: "Challenges facing the modelling community"
+    }
+  
+
+  
+    ,{
       "title"			: "ESIWACE2 Kick-Off",
       "url"			: "/talks/2019/03/Data-Systems/",
       "tag"       : "HPC, exascale, esiwace",

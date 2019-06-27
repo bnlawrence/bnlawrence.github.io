@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2019-03-13T06:49:55+00:00</updated>
+  <updated>2019-06-27T09:26:20+01:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,43 @@
   
 
   
+  
+    <entry>
+      <title type="html">The UM User’s Workshop 2019 - Next Generation Modellin Systems</title>
+      <link href="http://www.bnlawrence.net//talks/2019/06/umuw/" rel="alternate" type="text/html" title="The UM User's Workshop 2019 - Next Generation Modellin Systems" />
+      <published>2019-06-18T00:00:00+01:00</published>
+      <updated>2019-06-18T00:00:00+01:00</updated>
+      <id>http://www.bnlawrence.net//talks/2019/06/umuw</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2019/06/umuw/">&lt;h2 id=&quot;challenges-facing-the-modelling-community&quot;&gt;Challenges facing the modelling community&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2019-06-17-hardware_miracles.jpg" />
+      
+    </entry>
   
     <entry>
       <title type="html">ESIWACE2 Kick-Off</title>
@@ -364,43 +401,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-06-27_juc_changing_jasmin.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Data-Intensive weather and climate science</title>
-      <link href="http://www.bnlawrence.net//talks/2018/06/climate-data-for-mpe/" rel="alternate" type="text/html" title="Data-Intensive weather and climate science" />
-      <published>2018-06-25T00:00:00+01:00</published>
-      <updated>2018-06-25T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//talks/2018/06/climate-data-for-mpe</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2018/06/climate-data-for-mpe/">&lt;h2 id=&quot;climate-data-issues-systems-and-opportunities&quot;&gt;Climate Data: Issues, Systems, and Opportunities&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="data-science" />
-      
-        <category term="exascale" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-06-25-archive_size-vol.png" />
       
     </entry>
   
