@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "On scientific software - a beginning",
+      "url"			: "/management/2020/05/software1/",
+      "tag"       : "workload",
+      "category"  : "management",
+      "date"      : "2020-05-27",
+      "excerpt"		: "All the opprobrium for Neil Ferguson’s epidemiological code has got to me. Enough that I’m going to commit myself to a series of blog posts, after a long silence here … (note that I have not committed to the interval period though!)"
+    }
+  
+
+  
+    ,{
       "title"			: "Earthcube - What about Data?",
       "url"			: "/talks/2020/05/What-about-simulations/",
       "tag"       : "",

@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2020-05-05T17:43:28+01:00</updated>
+  <updated>2020-05-27T16:34:56+01:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,41 @@
   
 
   
+  
+    <entry>
+      <title type="html">On scientific software - a beginning</title>
+      <link href="http://www.bnlawrence.net//management/2020/05/software1/" rel="alternate" type="text/html" title="On scientific software - a beginning" />
+      <published>2020-05-27T00:00:00+01:00</published>
+      <updated>2020-05-27T00:00:00+01:00</updated>
+      <id>http://www.bnlawrence.net//management/2020/05/software1</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//management/2020/05/software1/">&lt;p&gt;All the opprobrium for Neil Ferguson’s epidemiological &lt;em&gt;code&lt;/em&gt; has got to me. Enough that I’m going to commit myself to a &lt;em&gt;series&lt;/em&gt; of blog posts, after a long silence here … (note that I have not committed to the interval period though!)&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="workload" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-05-27-software-quality.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">Earthcube - What about Data?</title>
@@ -367,38 +402,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-07-02-workload_applications_18Q2.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Getting to know an Ipad: Week One</title>
-      <link href="http://www.bnlawrence.net//academic/2018/07/ipad/" rel="alternate" type="text/html" title="Getting to know an Ipad: Week One" />
-      <published>2018-07-02T00:00:00+01:00</published>
-      <updated>2018-07-02T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//academic/2018/07/ipad</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//academic/2018/07/ipad/">&lt;p&gt;I was an early adopter of Android tablets, and my most recent one (a 2014 Samsung Galaxy Note 10.1) was excellent. It’s still excellent, but runs an ancient version of Android – too ancient for my paranoia about information security, so it needed replacement.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="management" />
-      
-
-      
-
-      
       
     </entry>
   
