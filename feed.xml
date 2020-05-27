@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2020-05-27T16:34:56+01:00</updated>
+  <updated>2020-05-27T17:45:34+01:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -27,11 +27,11 @@
   
     <entry>
       <title type="html">On scientific software - a beginning</title>
-      <link href="http://www.bnlawrence.net//management/2020/05/software1/" rel="alternate" type="text/html" title="On scientific software - a beginning" />
+      <link href="http://www.bnlawrence.net//academic/2020/05/software1/" rel="alternate" type="text/html" title="On scientific software - a beginning" />
       <published>2020-05-27T00:00:00+01:00</published>
       <updated>2020-05-27T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//management/2020/05/software1</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//management/2020/05/software1/">&lt;p&gt;All the opprobrium for Neil Ferguson’s epidemiological &lt;em&gt;code&lt;/em&gt; has got to me. Enough that I’m going to commit myself to a &lt;em&gt;series&lt;/em&gt; of blog posts, after a long silence here … (note that I have not committed to the interval period though!)&lt;/p&gt;</content>
+      <id>http://www.bnlawrence.net//academic/2020/05/software1</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/05/software1/">&lt;p&gt;All the opprobrium for Neil Ferguson’s epidemiological &lt;em&gt;code&lt;/em&gt; has got to me. Enough that I’m going to commit myself to a &lt;em&gt;series&lt;/em&gt; of blog posts, after a long silence here … (note that I have not committed to the interval period though!)&lt;/p&gt;</content>
 
       
       
@@ -48,7 +48,15 @@
       
 
       
-        <category term="workload" />
+        <category term="software" />
+      
+        <category term="curation" />
+      
+        <category term="FAIR" />
+      
+        <category term="publishing" />
+      
+        <category term="journals" />
       
 
       
