@@ -151,36 +151,36 @@
     <p>The most difficult thing about porting leonardo is interfacing with the leonardo file system (lfs). The lfs was designed to allow multiple backends through a relatively simple interface … of course it’s not properly documented anywhere, so remembering how it works was a bit difficult.
 The following piece of code shows the general principle:</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">filesystem</span> <span class="kn">import</span> <span class="n">LeonardoFileSystem</span>
-<span class="kn">import</span> <span class="nn">sys</span><span class="p">,</span><span class="n">os</span><span class="o">.</span><span class="n">path</span>
+<span class="kn">import</span> <span class="nn">sys</span><span class="p">,</span><span class="n">os</span><span class="p">.</span><span class="n">path</span>
 <span class="k">def</span> <span class="nf">WalkAndReport</span><span class="p">(</span><span class="n">leodir</span><span class="p">,</span><span class="n">inipath</span><span class="o">=</span><span class="s">'/'</span><span class="p">):</span>
     <span class="s">''' Walks a leonardo filesystem and reports the contents in the same way
     as doing ls -R would do '''</span>
 
     <span class="k">def</span> <span class="nf">walk</span><span class="p">(</span><span class="n">lfs</span><span class="p">,</span><span class="n">path</span><span class="p">):</span>
-        <span class="n">directories</span><span class="p">,</span><span class="n">files</span><span class="o">=</span><span class="n">lfs</span><span class="o">.</span><span class="n">get_children</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        <span class="n">directories</span><span class="p">,</span><span class="n">files</span><span class="o">=</span><span class="n">lfs</span><span class="p">.</span><span class="n">get_children</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
-            <span class="n">leof</span><span class="o">=</span><span class="n">lfs</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span><span class="n">f</span><span class="p">))</span>
-            <span class="c">#The following is the actual content at the path ... if it exists.</span>
-            <span class="c">#It's what you would feed to a presentation layer ...    </span>
-            <span class="n">content</span><span class="o">=</span><span class="n">leof</span><span class="o">.</span><span class="n">get_content</span><span class="p">()</span>
-            <span class="k">print</span> <span class="s">'</span><span class="si">%</span><span class="s">s (</span><span class="si">%</span><span class="s">s)'</span><span class="o">%</span><span class="p">(</span><span class="n">f</span><span class="p">,</span><span class="n">leof</span><span class="o">.</span><span class="n">get_content_type</span><span class="p">())</span>
-            <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">leof</span><span class="o">.</span><span class="n">get_properties</span><span class="p">():</span> <span class="k">print</span> <span class="s">'---'</span><span class="p">,</span><span class="n">p</span><span class="p">,</span><span class="n">leof</span><span class="o">.</span><span class="n">get_property</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
-            <span class="c">#check for comments and trackbacks ... is there any other sort?</span>
-            <span class="n">comments</span><span class="o">=</span><span class="n">leof</span><span class="o">.</span><span class="n">enclosures</span><span class="p">(</span><span class="s">'comment'</span><span class="p">)</span><span class="o">+</span><span class="n">leof</span><span class="o">.</span><span class="n">enclosures</span><span class="p">(</span><span class="s">'trackback'</span><span class="p">)</span>
-            <span class="c">#comments and trackbacks are leo files ...</span>
-            <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">comments</span><span class="p">:</span>
-                <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">c</span><span class="o">.</span><span class="n">get_properties</span><span class="p">():</span> <span class="k">print</span> <span class="s">'------'</span><span class="p">,</span><span class="n">p</span><span class="p">,</span><span class="n">c</span><span class="o">.</span><span class="n">get_property</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+            <span class="n">leof</span><span class="o">=</span><span class="n">lfs</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span><span class="n">f</span><span class="p">))</span>
+            <span class="c1">#The following is the actual content at the path ... if it exists.
+</span>            <span class="c1">#It's what you would feed to a presentation layer ...    
+</span>            <span class="n">content</span><span class="o">=</span><span class="n">leof</span><span class="p">.</span><span class="n">get_content</span><span class="p">()</span>
+            <span class="k">print</span> <span class="s">'%s (%s)'</span><span class="o">%</span><span class="p">(</span><span class="n">f</span><span class="p">,</span><span class="n">leof</span><span class="p">.</span><span class="n">get_content_type</span><span class="p">())</span>
+            <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">leof</span><span class="p">.</span><span class="n">get_properties</span><span class="p">():</span> <span class="k">print</span> <span class="s">'---'</span><span class="p">,</span><span class="n">p</span><span class="p">,</span><span class="n">leof</span><span class="p">.</span><span class="n">get_property</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+            <span class="c1">#check for comments and trackbacks ... is there any other sort?
+</span>            <span class="n">comments</span><span class="o">=</span><span class="n">leof</span><span class="p">.</span><span class="n">enclosures</span><span class="p">(</span><span class="s">'comment'</span><span class="p">)</span><span class="o">+</span><span class="n">leof</span><span class="p">.</span><span class="n">enclosures</span><span class="p">(</span><span class="s">'trackback'</span><span class="p">)</span>
+            <span class="c1">#comments and trackbacks are leo files ...
+</span>            <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">comments</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">c</span><span class="p">.</span><span class="n">get_properties</span><span class="p">():</span> <span class="k">print</span> <span class="s">'------'</span><span class="p">,</span><span class="n">p</span><span class="p">,</span><span class="n">c</span><span class="p">.</span><span class="n">get_property</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">directories</span><span class="p">:</span>
-            <span class="n">leod</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span><span class="n">d</span><span class="p">)</span>
-            <span class="k">print</span> <span class="s">'*** </span><span class="si">%</span><span class="s">s ***  (</span><span class="si">%</span><span class="s">s)'</span><span class="o">%</span><span class="p">(</span><span class="n">d</span><span class="p">,</span><span class="n">leod</span><span class="p">)</span>
+            <span class="n">leod</span><span class="o">=</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span><span class="n">d</span><span class="p">)</span>
+            <span class="k">print</span> <span class="s">'*** %s ***  (%s)'</span><span class="o">%</span><span class="p">(</span><span class="n">d</span><span class="p">,</span><span class="n">leod</span><span class="p">)</span>
             <span class="n">walk</span><span class="p">(</span><span class="n">lfs</span><span class="p">,</span><span class="n">leod</span><span class="p">)</span>
 
     <span class="n">lfs</span><span class="o">=</span><span class="n">LeonardoFileSystem</span><span class="p">(</span><span class="n">leodir</span><span class="p">)</span>
     <span class="n">walk</span><span class="p">(</span><span class="n">lfs</span><span class="p">,</span><span class="n">inipath</span><span class="p">)</span>
 <span class="k">if</span> <span class="n">__name__</span><span class="o">==</span><span class="s">"__main__"</span><span class="p">:</span>
-    <span class="n">lfsroot</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span><span class="o">==</span><span class="mi">3</span><span class="p">:</span>
-        <span class="n">inipath</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+    <span class="n">lfsroot</span><span class="o">=</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">)</span><span class="o">==</span><span class="mi">3</span><span class="p">:</span>
+        <span class="n">inipath</span><span class="o">=</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
     <span class="k">else</span><span class="p">:</span> <span class="n">inipath</span><span class="o">=</span><span class="s">'/'</span>
     <span class="n">WalkAndReport</span><span class="p">(</span><span class="n">lfsroot</span><span class="p">,</span><span class="n">inipath</span><span class="p">)</span>
 
@@ -267,17 +267,6 @@ The following piece of code shows the general principle:</p>
   </div>
 
 </footer>
-
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-111008496-1');
-</script>
 
     
   </body>

@@ -28,7 +28,6 @@
 
 
 <meta name="twitter:description" content="I’ve been delving in the literature a bit this week … considering model resolution and various issues around it. This post is by way of notes from my reading.
-
 ">
 
 
@@ -215,7 +214,7 @@
   </tbody>
 </table>
 
-<p>Clearly there is a problem with this analysis in the tropics at all scales, and everywhere at 25km. Common sense suggests one can’t have atmospheric phenomena with horizontal scales of over 50km with vertical scales of 1m. Pretty obviously the scaling assumptions that underly the LFR89 use of quasi-geostrophy are broken.  Which brings us to a moot point in interpreting LFR89. If one starts with a QG equation, we’ve already rejected a bunch of small scales which LFR89 have coming out of the analysis at modern high resolution scales. We probably need to rethink the analysis! (Which is to say, here and now, I’m not going to do that rethinking :-).<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+<p>Clearly there is a problem with this analysis in the tropics at all scales, and everywhere at 25km. Common sense suggests one can’t have atmospheric phenomena with horizontal scales of over 50km with vertical scales of 1m. Pretty obviously the scaling assumptions that underly the LFR89 use of quasi-geostrophy are broken.  Which brings us to a moot point in interpreting LFR89. If one starts with a QG equation, we’ve already rejected a bunch of small scales which LFR89 have coming out of the analysis at modern high resolution scales. We probably need to rethink the analysis! (Which is to say, here and now, I’m not going to do that rethinking :-).<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup></p>
 
 <p>Fortunately for me (in terms of analysis), right now, I’m less interested in the large-scale horizontal flows, but in gravity waves. There the analysis of LFR89 is a bit more timeless. However, the analysis pretty much says, if you’re interested in breaking gravity waves you need infinite resolution. However, they then back off and do a bit of a fudge around effective damping to suggest to resolve gravity wave processes one need resolutions of roughly 0.006*the grid resolution in degrees. For the horizontal resolutions above, that gives us something like 1.5,3,6,12 and 30m vertical resolutions.</p>
 
@@ -233,10 +232,10 @@ naturally so as to diminish vertical resolution requirements. This is one of the
 <p><em><a href="/environment/2013/09/vertical_resolution/">bryan’s trackback</a> (on Wednesday 18 September, 2013)</em>
 Last week I pointed out that I wasn’t at all sure the analysis by LFR89 really applied at modern horizontal grid resolutions, since the vertical scales implied for quasi-geostrophic motion didn’t make sense.
 I’ve done a wee bit more delving, and now I’m sure it’s not appropriate …</p>
-<div class="footnotes">
+<div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1">
-      <p>That said, to repeat their table, I had to replace a 3 in their approximation for N with a 2, and in fact, I’d rather use a tropospheric average of N~0.012, in which case we get nearly a factor of 2 larger required resolution. However, the fundamental issue is still that I would prefer to work through the assumptions of the QG approximation, I think there is a problem in there … but I don’t have time now. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:1" role="doc-endnote">
+      <p>That said, to repeat their table, I had to replace a 3 in their approximation for N with a 2, and in fact, I’d rather use a tropospheric average of N~0.012, in which case we get nearly a factor of 2 larger required resolution. However, the fundamental issue is still that I would prefer to work through the assumptions of the QG approximation, I think there is a problem in there … but I don’t have time now. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -303,17 +302,6 @@ I’ve done a wee bit more delving, and now I’m sure it’s not appropriate �
   </div>
 
 </footer>
-
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-111008496-1');
-</script>
 
     
   </body>

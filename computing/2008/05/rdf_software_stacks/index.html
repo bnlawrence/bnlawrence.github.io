@@ -28,7 +28,6 @@
 
 
 <meta name="twitter:description" content="So we want an RDF triple store with all the trimmings!
-
 ">
 
 
@@ -158,7 +157,7 @@
 
 <p>We’re running postgres as our preferred RDB. We’ve got some experience with Tomcat as a java service container. We prefer python in a pylons stack and from scripts as our interface layers (ideally we don’t want to programme our applications in Java [^1]).</p>
 
-<p>There appear to be four<sup id="fnref:2"><a href="#fn:2" class="footnote">1</a></sup> candidate technologies to consider as part (or all of) our stack: <a href="http://jena.sourceforge.net/documentation.html">Jena</a>, <a href="http://www.openrdf.org/publications/sesame/users/index.html">Sesame</a>, <a href="http://RDFLib.net/">RDFLib</a>, and <a href="http://openvest.com/trac/wiki/RDFAlchemy">RDFAlchemy</a>. The former two provide java interfaces to persistance stores, and both support postgres in the backend. RDFLib provides a python interface to a persistance store, but might not support postgres. RDFAlchemy provides a python interface to support RDFLib, Sesame via both the http interface and a <a href="http://www.w3.org/TR/rdf-sparql-query/">SPARQL</a> endpoint, and Jena via the same SPARQL endpoint (and underlying <a href="http://www.joseki.org/">Joseki</a> implementation).</p>
+<p>There appear to be four<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">1</a></sup> candidate technologies to consider as part (or all of) our stack: <a href="http://jena.sourceforge.net/documentation.html">Jena</a>, <a href="http://www.openrdf.org/publications/sesame/users/index.html">Sesame</a>, <a href="http://RDFLib.net/">RDFLib</a>, and <a href="http://openvest.com/trac/wiki/RDFAlchemy">RDFAlchemy</a>. The former two provide java interfaces to persistance stores, and both support postgres in the backend. RDFLib provides a python interface to a persistance store, but might not support postgres. RDFAlchemy provides a python interface to support RDFLib, Sesame via both the http interface and a <a href="http://www.w3.org/TR/rdf-sparql-query/">SPARQL</a> endpoint, and Jena via the same SPARQL endpoint (and underlying <a href="http://www.joseki.org/">Joseki</a> implementation).</p>
 
 <p>Would using postgres as our backend database perform well enough? Our good friend Katie Portwin (and colleague) <a href="http://xtech06.usefulinc.com/schedule/paper/18">think so</a>.</p>
 
@@ -175,10 +174,10 @@
 <p>Link of the day: <a href="http://www.w3.org/2008/Talks/0307-Tokyo-IH/">State of the Semantic Web, March 2008</a>.
 [^1]: this isn’t about language wars, this is about who we available to do work</p>
 
-<div class="footnotes">
+<div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:2">
-      <p>obviously there are others, but these standout given our criteria <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:2" role="doc-endnote">
+      <p>obviously there are others, but these standout given our criteria <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -245,17 +244,6 @@
   </div>
 
 </footer>
-
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-111008496-1');
-</script>
 
     
   </body>

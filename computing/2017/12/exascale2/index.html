@@ -157,7 +157,7 @@
 
 <p>One of the things we have recently been trying to do is size the sort of models we might be able to run on the next generation national HPC platform (whatever that might be) and potentially on the pre-exascale and exascale machines we might see in Europe in the next decade. You might wonder why we’re thinking that far ahead, but the bottom line is that it takes years (up to a decade) to develop a (good) model, and we need to be thinking about what modelling programmes we can do with the models we have now, or will have soon, and what models we need to build/acquire/alter.</p>
 
-<p>We have to do this amongst the usual uncertainty in what computing is available, or might be available. There are a couple of constraints: we know that the current generation of the Unified Model gets no benefit from GPU technology, so we’re really going to be looking at CPU variants, and today that would mean some kind of Intel chip - Broadwell, Skylake etc. In the near future we might hope that someone will build a supercomputer using AMD or ARM chip<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+<p>We have to do this amongst the usual uncertainty in what computing is available, or might be available. There are a couple of constraints: we know that the current generation of the Unified Model gets no benefit from GPU technology, so we’re really going to be looking at CPU variants, and today that would mean some kind of Intel chip - Broadwell, Skylake etc. In the near future we might hope that someone will build a supercomputer using AMD or ARM chip<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
 
 <p>We don’t have any information about our codes running on AMD silicon yet (if anyone from AMD wants to talk to us about that, please get in touch), but we do have some information about how ARM might play out from the work Simon McIntosh-Smith’s team are doing on the new <a href="http://gw4.ac.uk/isambard/">ISAMBARD</a> platform. He .. <a href="http://www.goingarm.com/slides/2017/SC17/GoingArm_SC17_Bristol_Isambard.pdf">talked</a> about this at Supercomputing 2017, and there are two relevant slides to talk about:</p>
 
@@ -169,7 +169,7 @@
 
 <p>We have access to a Broadwell system - the NERC NEXCS platform (which actually runs on the Met Office’s Cray XCS-40), so we can establish some benchmarks against which we can utilise that 50% extra speed we might get in the future. We don’t currently have access to a Skylake machine, but we can look at evolution between processors by comparing our results with an Ivy-Bridge machine (ARCHER, a Cray XCS-30).</p>
 
-<p>The following data <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> is from an N512 version of the Unified Model. We first started using this resolution around 2012 as part of the <a href="https://doi.org/10.5194/gmd-7-1629-2014">UPSCALE</a> project - but despite being five years old, it’s still classed as a high resolution climate model. The N512 grid has different spatial resolution at different latitudes, but we tend to call it a 25km class model. To get a sense of what that means, this is what the European orography looks like at N512:</p>
+<p>The following data <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup> is from an N512 version of the Unified Model. We first started using this resolution around 2012 as part of the <a href="https://doi.org/10.5194/gmd-7-1629-2014">UPSCALE</a> project - but despite being five years old, it’s still classed as a high resolution climate model. The N512 grid has different spatial resolution at different latitudes, but we tend to call it a 25km class model. To get a sense of what that means, this is what the European orography looks like at N512:</p>
 
 <p><img src="/assets/images/2017-12-10-n512c.png" alt="N512 Europe" /></p>
 
@@ -194,13 +194,13 @@
 </ol>
 
 <p>So what? Next time I’ll discuss what this means for advancing our science. I’ve been <a href="/tags/modelling_futures">blogging about this for a long time</a>, since <a href="/environment/2005/01/Model_Resolution/">2005</a> in fact, so as part of that I’ll be looking at our (my) predictive power.</p>
-<div class="footnotes">
+<div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1">
-      <p>A complete discussion would probably also include some mention of IBM Power and NEC, but I don’t have anything useful to say about them right now. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:1" role="doc-endnote">
+      <p>A complete discussion would probably also include some mention of IBM Power and NEC, but I don’t have anything useful to say about them right now. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:2">
-      <p>I’m indebted to Luke Abraham, Ros Hatcher, Grenville Lister, Jeff Cole, and Simon Wilson for their work in the benchmarking exercise. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:2" role="doc-endnote">
+      <p>I’m indebted to Luke Abraham, Ros Hatcher, Grenville Lister, Jeff Cole, and Simon Wilson for their work in the benchmarking exercise. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -267,17 +267,6 @@
   </div>
 
 </footer>
-
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-111008496-1');
-</script>
 
     
   </body>

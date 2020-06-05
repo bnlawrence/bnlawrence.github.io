@@ -166,7 +166,7 @@ The impact of new physical parametrizations in the Hadley Centre climate model -
 Climate Dynamics, 16: 123-146.
 &lt;/NS_Reference&gt;
 </pre>
-<p>How would we code that in ISO19115<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>? Well, it looks horrific.
+<p>How would we code that in ISO19115<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>? Well, it looks horrific.
 I think the clear intention is that authorship should be through the CI_citedResponsibleParty element (see <a href="/assets/images/ISO19115_CI_ResponsibleParty.jpg">CI_ResponsibleParty</a>), so let’s lay this one out in psuedo XML:</p>
 <pre>
 &lt;CI_Citation&gt;
@@ -202,10 +202,10 @@ CI_Citation.otherCitationDetails=the reference string which is our "standard ref
 <p>If anyone can give me a cleaner example of how it <strong>should</strong> be done, I’d be grateful!
 Even better, some public domain xml schema to go with the examples.</p>
 
-<div class="footnotes">
+<div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1">
-      <p>here I’m hopping between the content standard, and a draft of ISO19139 dated September 2005 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:1" role="doc-endnote">
+      <p>here I’m hopping between the content standard, and a draft of ISO19139 dated September 2005 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -272,17 +272,6 @@ Even better, some public domain xml schema to go with the examples.</p>
   </div>
 
 </footer>
-
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-111008496-1');
-</script>
 
     
   </body>

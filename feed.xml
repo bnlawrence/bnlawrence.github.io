@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" >
-  <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
+  <generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2020-05-27T17:45:34+01:00</updated>
+  <updated>2020-06-05T10:57:11+01:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,49 @@
   
 
   
+  
+    <entry>
+      <title type="html">On scientific software - scope</title>
+      <link href="http://www.bnlawrence.net//academic/2020/06/software2/" rel="alternate" type="text/html" title="On scientific software - scope" />
+      <published>2020-06-04T00:00:00+01:00</published>
+      <updated>2020-06-04T00:00:00+01:00</updated>
+      <id>http://www.bnlawrence.net//academic/2020/06/software2</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/06/software2/">&lt;p&gt;&lt;a href=&quot;/academic/2020/05/software1/&quot;&gt;Last time&lt;/a&gt; I discussed the idea that the notion of “quality scientific software” wasn’t very helpful, insofar as scientific code quality is a bit like beauty, being “in the eye of the beholder” - but I concluded with a few questions that IMHO are more important than “is it quality?”, being:&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="software" />
+      
+        <category term="curation" />
+      
+        <category term="FAIR" />
+      
+        <category term="publishing" />
+      
+        <category term="journals" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-06-02-software.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">On scientific software - a beginning</title>
@@ -375,41 +418,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-09-10-jwcrp-hydrojules-components.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Workload Revisited</title>
-      <link href="http://www.bnlawrence.net//management/2018/07/workload2/" rel="alternate" type="text/html" title="Workload Revisited" />
-      <published>2018-07-03T00:00:00+01:00</published>
-      <updated>2018-07-03T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//management/2018/07/workload2</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//management/2018/07/workload2/">&lt;p&gt;&lt;a href=&quot;/management/2018/04/workload/&quot;&gt;In April&lt;/a&gt; I reported my first couple of months of workload anlaysis using the &lt;a href=&quot;https://timingapp.com&quot;&gt;timing app&lt;/a&gt;. I’ve now done three more months, so was interested to look at how I’d done.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="workload" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-07-02-workload_applications_18Q2.png" />
       
     </entry>
   

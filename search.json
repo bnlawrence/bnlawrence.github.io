@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "On scientific software - scope",
+      "url"			: "/academic/2020/06/software2/",
+      "tag"       : "software, curation, FAIR, publishing, journals",
+      "category"  : "academic",
+      "date"      : "2020-06-04",
+      "excerpt"		: "Last time I discussed the idea that the notion of “quality scientific software” wasn’t very helpful, insofar as scientific code quality is a bit like beauty, being “in the eye of the beholder” - but I concluded with a few questions that IMHO are more important than “is it quality?”, being:"
+    }
+  
+
+  
+    ,{
       "title"			: "On scientific software - a beginning",
       "url"			: "/academic/2020/05/software1/",
       "tag"       : "software, curation, FAIR, publishing, journals",
@@ -205,7 +216,7 @@
       "tag"       : "cf, data_modelling, papers",
       "category"  : "academic",
       "date"      : "2017-12-20",
-      "excerpt"		: "It’s always a nice present for any academic when a paper finally appears “in print”. After some months in public review, our paper introducing a formal data model for the Climate Forecast (CF) conventions (Hassell, Gregory, Blower, Lawrence, &amp; Taylor, 2017) has appeared in Geoscientific Model Development. Although CF was developed for content stored in NetCDF files, this data model has been developed in such a way that the logic can be used for CF content stored in other formats."
+      "excerpt"		: "It’s always a nice present for any academic when a paper finally appears “in print”. After some months in public review, our paper introducing a formal data model for the Climate Forecast (CF) conventions (Hassell et al., 2017) has appeared in Geoscientific Model Development. Although CF was developed for content stored in NetCDF files, this data model has been developed in such a way that the logic can be used for CF content stored in other formats."
     }
   
 
@@ -1246,7 +1257,7 @@
   
     ,{
       "title"			: "Oh no  I can't keep up ..",
-      "url"			: "/diary/2009/12/oh_no_google_i_can-27t_keep_up_",
+      "url"			: "/diary/2009/12/oh_no_google_i_can-27t_keep_up_/",
       "tag"       : "",
       "category"  : "diary",
       "date"      : "2009-12-16",
@@ -1598,7 +1609,7 @@
   
     ,{
       "title"			: "kubuntu frustration ... again",
-      "url"			: "/computing/2009/05/kubuntu_frustration_..._again/",
+      "url"			: "/computing/2009/05/kubuntu_frustration_/._again/",
       "tag"       : "kubuntu",
       "category"  : "computing",
       "date"      : "2009-05-23",
@@ -2346,7 +2357,7 @@
   
     ,{
       "title"			: "On typed links.",
-      "url"			: "/computing/2008/04/on_typed_links",
+      "url"			: "/computing/2008/04/on_typed_links/",
       "tag"       : "ndg, metadata, metafor",
       "category"  : "computing",
       "date"      : "2008-04-10",
@@ -2632,7 +2643,7 @@
   
     ,{
       "title"			: "Interoperability is just over the horizon ... always",
-      "url"			: "/computing/2007/05/interoperability_is_just_over_the_horizon_..._always/",
+      "url"			: "/computing/2007/05/interoperability_is_just_over_the_horizon_/._always/",
       "tag"       : "ndg",
       "category"  : "computing",
       "date"      : "2007-05-02",
@@ -2841,7 +2852,7 @@
   
     ,{
       "title"			: "to extend or not to extend ...",
-      "url"			: "/computing/2006/08/to_extend_or_not_to_extend_",
+      "url"			: "/computing/2006/08/to_extend_or_not_to_extend_/",
       "tag"       : "iso19115, metadata, ndg",
       "category"  : "computing",
       "date"      : "2006-08-15",
@@ -2907,7 +2918,7 @@
   
     ,{
       "title"			: "Curious as to how this forecast goes.",
-      "url"			: "/environment/2006/07/curious_as_to_how_this_forecast_goes",
+      "url"			: "/environment/2006/07/curious_as_to_how_this_forecast_goes/",
       "tag"       : "environment, weather",
       "category"  : "environment",
       "date"      : "2006-07-16",
@@ -4125,7 +4136,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "Note that ISO690 defines what is needed to make an electronic bibliographic citation. Note that “when available” takes precedence over “required” in what follows (i.e. if you don’t have it you can’t do it). ISO690 is expected to be used in “print”, so is a content standard, and expects things to appear in order (when available) as follows:  To reference a whole document (or database), use:          Primary responsibility (Required)      Title (Required)      Type of medium (Required)      Subordinate responsibility (Optional)      Edition (Required)      Place of publication (Required)      Publisher (Required)      Date of publication (Required)      Date of update/revision (Required)      Date of citation (Required for online documents; Optional for others)      Series (Optional)      Notes (Optional)      Availability and access (Required for online documents; Optional for others)      Standard number (Required)        To refrence a part of a document, all the above, plus          (after date of citation) Chapter or equivalent designation (of part) (Required)      Title (of part) (Required)      Numeration within host document (Optional)      Location within host document (Required)      "
     }
   
 
@@ -4136,7 +4147,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "This website is my personal space for pontificating about things. My perspective is one of an academic who has both an unusual career profile (I have spent, and continue to spend, time running facilities) and an interdisciplinary perspective (I am both an atmospheric and computer scientist)."
     }
   
 
@@ -4147,7 +4158,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "This page provides an index into the more academic focused material on this website."
     }
   
 
@@ -4158,7 +4169,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "My blogging is very much a case of punctuated equilibrium in recent years, long periods of quiet, followed by a bit of activity. I hope to improve that in the near future. Meanwhile, here is a list of blog posts."
     }
   
 
@@ -4169,7 +4180,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "CLADDIER: Citation, Location, and Deposition in Discipline and Institutional Repositories"
     }
   
 
@@ -4180,7 +4191,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "This page describes the current status of the development of http://www.bnlawrence.net/."
     }
   
 
@@ -4191,7 +4202,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "A current version of my short CV is below."
     }
   
 
@@ -4226,7 +4237,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "Currently under construction, as I migrate information from my old blog!"
     }
   
 
@@ -4239,7 +4250,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "This page under construction."
     }
   
 
@@ -4261,7 +4272,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "This page under construction."
     }
   
 
@@ -4276,7 +4287,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "Current Students"
     }
   
 
@@ -4287,7 +4298,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "Since 2006 I’ve been recording my significant talks here (see also the summary list)."
     }
   
 
@@ -4298,7 +4309,7 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "This is a list my significant talks since 2006."
     }
   
 
@@ -4309,8 +4320,10 @@
       "tag"       : "",
       "category"  : "",
       "date" : "",
-      "excerpt"		: ""
+      "excerpt"		: "I am not currently doing any under-graduate teaching (and haven’t done so sinceI left the University of Canterbury for my UK national lab position in 2000)."
     }
+  
+
   
 
   

@@ -144,6 +144,8 @@
   in <a href="/categories/#academic" title="academic">academic</a> previous is <a href="/academic/2018/07/ipad/" class="prev">&laquo;Getting to know an Ipad: Week One&raquo;</a>)
   
   .<br/>
+   Next Post <a class="next" href="/academic/2020/06/software2/">&laquo;On scientific software - scope&raquo;</a>
+  
   .
   </p>
 </header>
@@ -152,7 +154,7 @@
   <article class="post-content">
     <p>All the opprobrium for Neil Ferguson’s epidemiological <em>code</em> has got to me. Enough that I’m going to commit myself to a <em>series</em> of blog posts, after a long silence here … (note that I have not committed to the interval period though!)</p>
 
-<p>Of course we should all write great quality software, but that takes time and money, not things on common offer for academics. Contrary to popular opinion, most academics I know work long hours, trying to keep teaching, research funding, and actual<sup id="fnref:fn"><a href="#fn:fn" class="footnote">1</a></sup> research going. Refactoring software can be fairly low on the priority list, although, actually most of us like doing it … (it’s <em>much</em> more fun than marking)!</p>
+<p>Of course we should all write great quality software, but that takes time and money, not things on common offer for academics. Contrary to popular opinion, most academics I know work long hours, trying to keep teaching, research funding, and actual<sup id="fnref:fn" role="doc-noteref"><a href="#fn:fn" class="footnote">1</a></sup> research going. Refactoring software can be fairly low on the priority list, although, actually most of us like doing it … (it’s <em>much</em> more fun than marking)!</p>
 
 <p>There is no absolute measure of software quality - really. there is not!  Defect density, conformance to norms, matching requirements (there are <a href="https://medium.com/the-liberators/teams-and-a-shared-understanding-of-code-quality-the-11-rules-of-quality-f4ab7e07304">more</a>, <a href="https://doi.org/10.1007/s11219-011-9144-9">lot’s more</a>, but that’s enough for now): All useful metrics, but quality, like beauty, is in the eye of the beholder. Does he/she/it do it for you?  Do you know when to dance, when to trust, and when to ignore? (You can love someone, but have to ignore some things from time to time.)</p>
 
@@ -164,14 +166,14 @@
 
 <dl class="wp-caption alignright" style="max-width: 400px;">
 
-<dt><a href=""><img class="" src="/assets/images/2020-05-27-software-quality.png" alt="It's always a trade-off, but not always obvious what is being traded-off!" /></a></dt>
+<dt><a href="/assets/images/2020-05-27-software-quality.png"><img class="" src="/assets/images/2020-05-27-software-quality.png" alt="It's always a trade-off, but not always obvious what is being traded-off!" width="400" height:auto="" /></a></dt>
 
 <dd>It's always a trade-off, but not always obvious what is being traded-off!</dd>
 </dl>
 
 <p>Software engineering involves more than just rules, it involves weighing cost against functionality, just like any other type of engineering.  We don’t build bridges engineered to carry fully loaded lorries where we want pedestrian bridges.</p>
 
-<p>Much (but not all) scientific coding is often a lonely endeavour. The most likely person to berate you for your lack of coding standards is yourself, six months later, after a term of teaching<sup id="fnref:fn2"><a href="#fn:fn2" class="footnote">2</a></sup> and thinking of a million other things. At that point you wish you’d done it right because you have to mentally retrace all those steps.  Documentation: In the real academic world, where no one pays you for documentation, documentation is first for yourself, six months later. If you are lucky enough to have a team, then yes, for them too, but first, for yourself! It needs to be good enough for you, and not better than that (at least at first).</p>
+<p>Much (but not all) scientific coding is often a lonely endeavour. The most likely person to berate you for your lack of coding standards is yourself, six months later, after a term of teaching<sup id="fnref:fn2" role="doc-noteref"><a href="#fn:fn2" class="footnote">2</a></sup> and thinking of a million other things. At that point you wish you’d done it right because you have to mentally retrace all those steps.  Documentation: In the real academic world, where no one pays you for documentation, documentation is first for yourself, six months later. If you are lucky enough to have a team, then yes, for them too, but first, for yourself! It needs to be good enough for you, and not better than that (at least at first).</p>
 
 <p>Well, OK, about that trust thing? Scientific code is about results. In the first instance it’s simply about results, but soon after, really soon after, it’s “can I believe these?”, “how do I validate them?” and “are these even useful anyway?”. These are the questions you should ask yourself, before anyone else ever gets near it.</p>
 
@@ -180,13 +182,13 @@
 <p>We’ll come back to this, and the difference between code, parameters, and experiments/usage, because those things matter too!</p>
 
 <p>Replies welcome on twitter (@bnlawrence), but please don’t jump the gun, try and keep to the story so far.</p>
-<div class="footnotes">
+<div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:fn">
-      <p>At some point later on this series I’ll explain why I separated software engineering out from actual research (which on the face of it is an indefensible position, and when I get to it, not one I will defend!) <a href="#fnref:fn" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:fn" role="doc-endnote">
+      <p>At some point later on this series I’ll explain why I separated software engineering out from actual research (which on the face of it is an indefensible position, and when I get to it, not one I will defend!) <a href="#fnref:fn" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:fn2">
-      <p>What teaching do you do now Bryan? Well, yes, I know I do bugger-all now, but I do ludicrous amounts of admin, so … <a href="#fnref:fn2" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:fn2" role="doc-endnote">
+      <p>What teaching do you do now Bryan? Well, yes, I know I do bugger-all now, but I do ludicrous amounts of admin, so … <a href="#fnref:fn2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -253,17 +255,6 @@
   </div>
 
 </footer>
-
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-111008496-1');
-</script>
 
     
   </body>

@@ -28,7 +28,6 @@
 
 
 <meta name="twitter:description" content="(Warning, this is long …)
-
 ">
 
 
@@ -182,7 +181,7 @@
 <blockquote>However, I don?t mean "XML" or even "RDF" by "format in that sentence; those are the easy parts, because they?re just meta-formats. The hard part is agreeing upon the semantics of their contents, and judging by the amount of effort its taken for things like UBL, I?d say we?re in for a long wait.
 </blockquote>
 
-<p>I’ve wittered on about the importance of this before, <a href="/computing/2007/05/interoperability_is_just_over_the_horizon_..._always/">again</a> and <a href="blog/2007/05/08/it's_not_how_big_the_tool_is,_it's_what_you_do_with_it">again</a>. However, there are fundamental problems with using XML to describe resources. I’ve
+<p>I’ve wittered on about the importance of this before, <a href="/computing/2007/05/interoperability_is_just_over_the_horizon_/._always/">again</a> and <a href="blog/2007/05/08/it's_not_how_big_the_tool_is,_it's_what_you_do_with_it">again</a>. However, there are fundamental problems with using XML to describe resources. I’ve
 <a href="/computing/2007/09/on_sql_and_xml/">alluded to this issue too</a>, but along with the summary by <a href="http://blog.jclark.com/2007/04/do-we-need-new-kind-of-schema-language.html">James Clark</a>, I liked the way that it was put <a href="http://nothing-more.blogspot.com/2007/06/wadl-its-really-about-xml-apis.html">here</a>:</p>
 <blockquote>One of the big problems with XML is that it is a horrid match with modern data structures. You see, it is not that it isn't trivial to figure a way to serialize your data to XML; it is just that left to their own devices, everyone would end up doing it slightly differently. There is no one-true-serialization. So, eventually, you end up having to write code to build your data structures from the XML directly. The problem there is that virtually all XML APIs are horrible for this kind of code. They are all designed from the perspective of the XML perspective, not from the data serialization perspective.
 </blockquote>
@@ -205,7 +204,7 @@
 
 <h4 id="what-does-this-mean-to-me">What does this mean to me?</h4>
 
-<p>At the moment we use WSDL and SOAP in our discovery service. I’d much rather we didn’t (see above). It could be RESTful POX, which is how we’ve implemented our vocabulary service (but inconsistent camel case would still break things). It probably will change one day. More importantly, for the data handling services, we’re currently using OGC services, where the “service description language” is the Get Capabilities document. This much I know (and where I violently disagree with Joe G) is that it would be <strong>much</strong> easier to use a generic service description language than the hodgepodge of get capabilities documents we deal with. I think OGC Get Capabilities is an existence proof that a generic service description language would be a Good Thing (TM)! In the final analysis, that’s probably what I’ll say in April (as well as “SOAP sucks” and “<a href="/computing/2007/05/interoperability_is_just_over_the_horizon_..._always/">You need both GML <strong>and</strong> data modelling</a>).
+<p>At the moment we use WSDL and SOAP in our discovery service. I’d much rather we didn’t (see above). It could be RESTful POX, which is how we’ve implemented our vocabulary service (but inconsistent camel case would still break things). It probably will change one day. More importantly, for the data handling services, we’re currently using OGC services, where the “service description language” is the Get Capabilities document. This much I know (and where I violently disagree with Joe G) is that it would be <strong>much</strong> easier to use a generic service description language than the hodgepodge of get capabilities documents we deal with. I think OGC Get Capabilities is an existence proof that a generic service description language would be a Good Thing (TM)! In the final analysis, that’s probably what I’ll say in April (as well as “SOAP sucks” and “<a href="/computing/2007/05/interoperability_is_just_over_the_horizon_/._always/">You need both GML <strong>and</strong> data modelling</a>).
 [^1]:
 I do really :-)</p>
 
@@ -327,17 +326,6 @@ I do really :-)</p>
   </div>
 
 </footer>
-
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008496-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-111008496-1');
-</script>
 
     
   </body>
