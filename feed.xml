@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2020-06-05T11:57:26+01:00</updated>
+  <updated>2020-06-07T10:08:36+01:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,49 @@
   
 
   
+  
+    <entry>
+      <title type="html">On scientific software - definitions</title>
+      <link href="http://www.bnlawrence.net//academic/2020/06/software3/" rel="alternate" type="text/html" title="On scientific software - definitions" />
+      <published>2020-06-05T00:00:00+01:00</published>
+      <updated>2020-06-05T00:00:00+01:00</updated>
+      <id>http://www.bnlawrence.net//academic/2020/06/software3</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/06/software3/">&lt;p&gt;So far in this series on scientific software, I discussed the notion that it might not be that easy to &lt;a href=&quot;/academic/2020/05/software1/&quot;&gt;define quality for scientific code&lt;/a&gt; (and left some questions hanging about how we might do that), and introduced some &lt;a href=&quot;/academic/2020/06/software2/&quot;&gt;scope questions&lt;/a&gt; about what we mean by science code, and did that by producing a big diagram with lots of stuff.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="software" />
+      
+        <category term="curation" />
+      
+        <category term="FAIR" />
+      
+        <category term="publishing" />
+      
+        <category term="journals" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-06-04-software1.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">On scientific software - scope</title>
@@ -375,49 +418,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-09-18-extreme-data-attendees.jpg" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Open Meeting for Hydro-JULES - Next generation land-surface and hydrological predictions</title>
-      <link href="http://www.bnlawrence.net//talks/2018/09/lawrence-hydrojules/" rel="alternate" type="text/html" title="Open Meeting for Hydro-JULES - Next generation land-surface and hydrological predictions" />
-      <published>2018-09-10T00:00:00+01:00</published>
-      <updated>2018-09-10T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//talks/2018/09/lawrence-hydrojules</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2018/09/lawrence-hydrojules/">&lt;h2 id=&quot;building-a-community-hydrological-model&quot;&gt;Building a Community Hydrological Model&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="jules" />
-      
-        <category term="hydrology" />
-      
-        <category term="climate" />
-      
-        <category term="exascale" />
-      
-        <category term="hydro-jules" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-09-10-jwcrp-hydrojules-components.png" />
       
     </entry>
   
