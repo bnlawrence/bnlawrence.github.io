@@ -1,2 +1,2 @@
 ./build4deploy.sh
-./disribute.sh
+./distribute.sh
