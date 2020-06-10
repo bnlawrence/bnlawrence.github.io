@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "On scientific software - reproducibility",
+      "url"			: "/academic/2020/06/software4/",
+      "tag"       : "software, curation, FAIR, publishing, journals",
+      "category"  : "academic",
+      "date"      : "2020-06-10",
+      "excerpt"		: "Well I had to expose this series of blog posts before I had them all done because of this:"
+    }
+  
+
+  
+    ,{
       "title"			: "On scientific software - definitions",
       "url"			: "/academic/2020/06/software3/",
       "tag"       : "software, curation, FAIR, publishing, journals",

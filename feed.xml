@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2020-06-10T08:22:26+01:00</updated>
+  <updated>2020-06-10T15:43:07+01:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,49 @@
   
 
   
+  
+    <entry>
+      <title type="html">On scientific software - reproducibility</title>
+      <link href="http://www.bnlawrence.net//academic/2020/06/software4/" rel="alternate" type="text/html" title="On scientific software - reproducibility" />
+      <published>2020-06-10T00:00:00+01:00</published>
+      <updated>2020-06-10T00:00:00+01:00</updated>
+      <id>http://www.bnlawrence.net//academic/2020/06/software4</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/06/software4/">&lt;p&gt;Well I had to &lt;a href=&quot;https://twitter.com/bnlawrence/status/1270614398479011840?s=20&quot;&gt;expose&lt;/a&gt; this series of blog posts before I had them all done because of this:&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="software" />
+      
+        <category term="curation" />
+      
+        <category term="FAIR" />
+      
+        <category term="publishing" />
+      
+        <category term="journals" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/xkcd_stars.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">On scientific software - definitions</title>
@@ -379,45 +422,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-11-27-Kinter.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Extreme Data Workshop</title>
-      <link href="http://www.bnlawrence.net//talks/2018/09/lawrence-extreme-data/" rel="alternate" type="text/html" title="Extreme Data Workshop" />
-      <published>2018-09-18T00:00:00+01:00</published>
-      <updated>2018-09-18T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//talks/2018/09/lawrence-extreme-data</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2018/09/lawrence-extreme-data/">&lt;h2 id=&quot;beating-data-bottlenecks-in-weather-and-climate-science&quot;&gt;Beating Data Bottlenecks in Weather and Climate Science&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="data-science" />
-      
-        <category term="exascale" />
-      
-        <category term="JASMIN" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-09-18-extreme-data-attendees.jpg" />
       
     </entry>
   
