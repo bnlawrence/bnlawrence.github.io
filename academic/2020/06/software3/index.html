@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>On scientific software - definitions | Bryan Lawrence</title>
+  <meta name="description" content="So far in this series on scientific software, I discussed the notion that it might not be that easy to define quality for scientific code (and left some questions hanging about how we might do that...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/academic/2020/06/software3/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://localhost:4000/feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
+<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="On scientific software - definitions">
+
+
+<meta name="twitter:description" content="So far in this series on scientific software, I discussed the notion that it might not be that easy to define quality for scientific code (and left some questions hanging about how we might do that...">
+
+
+
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:4000assets/images/2020-06-07-software-laboratory.png">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent rambings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">On scientific software - definitions</h1>
+  <p class="post-meta">Posted on June 7, 2020
+  
+  
+      in
+      
+      <a href="/categories/#academic" title="academic">academic</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/software/" rel="tag">software</a>, <a href="/tags/curation/" rel="tag">curation</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/academic/2020/06/software2/">&laquo;On scientific software - scope&raquo;</a>
+  
+  .<br/>
+   Next Post <a class="next" href="/academic/2020/06/software4/">&laquo;On scientific software - reproducibility&raquo;</a>
+  
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <p>So far in this series on scientific software, I discussed the notion that it might not be that easy to <a href="/academic/2020/05/software1/">define quality for scientific code</a> (and left some questions hanging about how we might do that), and introduced some <a href="/academic/2020/06/software2/">scope questions</a>&gt;scope questions about what we mean by science code, and did that by producing a big diagram with lots of stuff.</p>
+
+<p>Today, I want to dig into that diagram a bit further. The headline concept is this:</p>
+
+<dl class="wp-caption aligncenter" style="max-width: 800px;">
+
+<dt><a href=""><img class="" src="/assets/images/2020-06-04-software-simple.png" alt="Code operates on, and uses input (data and parameters), and executes in some (hardware and software) context. The code may involve collecting and manipulating observations, simulation, and some analysis." /></a></dt>
+
+<dd>Code operates on, and uses input (data and parameters), and executes in some (hardware and software) context. The code may involve collecting and manipulating observations, simulation, and some analysis.</dd>
+</dl>
+
+<p>If our interest in the code is about reproducibility, which from last time, many seem to think it is, then we need all of this stuff to reproduce the same results. But is that really “reproducibility” in a scientific sense? Is that really what we want? Being able to re-run some code perfectly would just mean we got the same output again. We’ll come back to that.</p>
+
+<p>However, I also want to spend some time discussing the piece of the <a href="/assets/images/2020-06-07-software.png">story</a>  which is the digital laboratory:</p>
+
+<dl class="wp-caption aligncenter" style="max-width: 800px;">
+
+<dt><a href=""><img class="" src="/assets/images/2020-06-04-software-laboratory.png" alt="Much scientific code is associated with making measurements (observations) and/or carrying out simulations. It is important to remember that both simulation and observation use model code." /></a></dt>
+
+<dd>Much scientific code is associated with making measurements (observations) and/or carrying out simulations. It is important to remember that both simulation and observation use model code.</dd>
+</dl>
+
+<p>In any scientific situation which doesn’t involve <em>only</em> analysis of someone else’s data, there will be code which is involved in making/and-or processing data, whether by measurement/observation, or simulation.</p>
+
+<p>We have a clear notion of the involvement of <em>model</em> in carrying out a simulation, but what is less obvious to most, is that there are models involved in nearly all measurements and observations too (in fact, IMHO, the only scientific observation that that doesn’t involve a model is a human describing something or counting something).
+For example, measurement of anything from space will involve at least code on the space craft to take analogue measurements (e.g voltage) and convert them to digital numbers, followed by some sort of observation operator that turns those raw numbers into some kind of geophysical measurement (e.g. a radar return involves a model of transmission etc). In many cases there will be retrieval code which makes some Bayesian calculation of how observed measurements are related to actual geophysical properties using the error properties of the measurements and some a-priori expectation.</p>
+
+<p>Even measurements in a laboratory have the same basic steps, just a bit less separation in space and time! The idea that observations are somehow pure, and models not, because the former don’t involve assumptions is nonsense.</p>
+
+<p>A particularly important type of observation is one which involves melding simulations and observations together using a process called “Assimilation” - which for some purposes provide the gold standard of making the best use of available information - which is exactly what “Retrieval” does. The difference is usually that assimilation uses the time-varying properties of some a priori and the observations, and retrievals do not (although there are even exceptions there).</p>
+
+<p>What annoys many people, because it’s counter intuitive, is that the error of some “assimilated observation” at one point in space and time can be smaller than an actual measurement at the same point in space and time. This can be shown formally, and arises from the use of information from elsewhere and elsewhen in the assimilation which together lead to quantifiably smaller errors in the product than the measurement itself can have. Of course this relies on measurements elsewhere and elsewhen and a quality model! (As a practical example, the uncertainty error in temperature measurements from radiosondes at some locations can be larger than the uncertainty errors of a quality nowcast of the same data using assimilation in a quality numerical weather prediction model.) However, most of the time “real” measurements are best because of what is called the “representation error”, that is the fact that the simulation model cannot resolve the  spatial and temporal scales at which the measurement is made (e.g. see <a href="https://dx.doi.org/10.1002/qj.3130">this detailed discussion</a>”). Where assimilation is best is when you need to bring lots of measurements/observations together and provide your best overall estimate of the state of something at one time. In general the use of a model does <em>much</em> better than some random statistical operator (e.g.averaging or <a href="https://en.wikipedia.org/wiki/Kriging#:~:text=Kriging,process%20governed%20by%20prior%20covariances.">kriging</a>).</p>
+
+<p>One more important piece of language for results which involve simulation is to carefully discriminate between the various purposes for which simulation is used. A simple taxonomy could be:</p>
+
+<ul>
+  <li>Forecasting: to <em>predict</em> the actual future of something given knowledge of current state.</li>
+  <li>Scenario evaluation: to <em>project</em> one or more possible futures given some assumptions (with or without knowledge of current state)
+    <ul>
+      <li>A special case of this is to investigate the sensitivity of scenarios to changing the input processes and/or parameters - e.g. What would the world be like without the last century of greenhouse gases? What would happen to this epidemic if we opened primary schools and left secondary schools in lockdown?</li>
+    </ul>
+  </li>
+  <li>Nowcasting: using all the available information to establish the state of the system now.
+    <ul>
+      <li>A special case of this is to fully describe some system from partial observations, using the model to interpolate rather than statistics alone.</li>
+    </ul>
+  </li>
+  <li>Hindcasting: Evaluating how well a forecast system works by using it in prediction mode to predict some particular point in time in the past (and comparing the predictions to the actual outcomes).</li>
+</ul>
+
+<p>That language obviously comes from meteorology and climatology, but it can be applied to any use of simulation.</p>
+
+<p>This long digression is to get my ammunition ready for later on when someone will say  “but you can’t trust models”, to which my answer will be “so why do you trust something else?” and “in what circumstances are measurements more or less useful than models which use them”? I also want to avoid statements like “the model was wrong”, when what people really mean is “that scenario didn’t eventuate” (whether or not the model was wrong).</p>
+
+<p>Next time we’ll return to reproducibility, validity, quality all in the context of scientific code, but we’ll be in a position to talk more carefully about what we mean by code, and inputs, and the difference between measurements and observations.</p>
+
+
+  </article>
+
+  
+
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professor of Weather and Climate Computing</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur. (My daughter is learning Latin, unlike me, who never did!)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+  </body>
+
+
+</html>
+<!-- d.050600.062508.030515.080516 | "Baby, I'm Yours" -->

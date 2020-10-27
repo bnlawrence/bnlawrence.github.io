@@ -24,6 +24,28 @@
 
   
     ,{
+      "title"			: "On scientific software - reproducibility",
+      "url"			: "/academic/2020/06/software4/",
+      "tag"       : "software, curation, fair, publishing, journals",
+      "category"  : "academic",
+      "date"      : "2020-06-10",
+      "excerpt"		: "Well I had to expose this series of blog posts before I had them all done because of this:"
+    }
+  
+
+  
+    ,{
+      "title"			: "On scientific software - definitions",
+      "url"			: "/academic/2020/06/software3/",
+      "tag"       : "software, curation",
+      "category"  : "academic",
+      "date"      : "2020-06-07",
+      "excerpt"		: "So far in this series on scientific software, I discussed the notion that it might not be that easy to define quality for scientific code (and left some questions hanging about how we might do that), and introduced some scope questions&gt;scope questions about what we mean by science code, and did that by producing a big diagram with lots of stuff."
+    }
+  
+
+  
+    ,{
       "title"			: "On scientific software - scope",
       "url"			: "/academic/2020/06/software2/",
       "tag"       : "software, curation, FAIR, publishing, journals",
@@ -4344,6 +4366,8 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
   
 
   

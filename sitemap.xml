@@ -1501,6 +1501,14 @@
 <lastmod>2020-06-01T00:00:00+01:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/academic/2020/06/software3/</loc>
+<lastmod>2020-06-07T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/academic/2020/06/software4/</loc>
+<lastmod>2020-06-10T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/talks/2020/10/Data-Systems/</loc>
 <lastmod>2020-10-21T00:00:00+01:00</lastmod>
 </url>
@@ -1801,6 +1809,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/tags/journals/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tags/fair/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tags/academic/</loc>

@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-10-27T09:17:40+00:00</updated>
+  <updated>2020-10-27T12:52:51+00:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -104,6 +104,86 @@
     </entry>
   
     <entry>
+      <title type="html">On scientific software - reproducibility</title>
+      <link href="http://localhost:4000/academic/2020/06/software4/" rel="alternate" type="text/html" title="On scientific software - reproducibility" />
+      <published>2020-06-10T00:00:00+01:00</published>
+      <updated>2020-06-10T00:00:00+01:00</updated>
+      <id>http://localhost:4000/academic/2020/06/software4</id>
+      <content type="html" xml:base="http://localhost:4000/academic/2020/06/software4/">&lt;p&gt;Well I had to &lt;a href=&quot;https://twitter.com/bnlawrence/status/1270614398479011840?s=20&quot;&gt;expose&lt;/a&gt; this series of blog posts before I had them all done because of this:&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="software" />
+      
+        <category term="curation" />
+      
+        <category term="fair" />
+      
+        <category term="publishing" />
+      
+        <category term="journals" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/xkcd_tornados.png" />
+      
+    </entry>
+  
+    <entry>
+      <title type="html">On scientific software - definitions</title>
+      <link href="http://localhost:4000/academic/2020/06/software3/" rel="alternate" type="text/html" title="On scientific software - definitions" />
+      <published>2020-06-07T00:00:00+01:00</published>
+      <updated>2020-06-07T00:00:00+01:00</updated>
+      <id>http://localhost:4000/academic/2020/06/software3</id>
+      <content type="html" xml:base="http://localhost:4000/academic/2020/06/software3/">&lt;p&gt;So far in this series on scientific software, I discussed the notion that it might not be that easy to &lt;a href=&quot;/academic/2020/05/software1/&quot;&gt;define quality for scientific code&lt;/a&gt; (and left some questions hanging about how we might do that), and introduced some &lt;a href=&quot;/academic/2020/06/software2/&quot;&gt;scope questions&lt;/a&gt;&amp;gt;scope questions about what we mean by science code, and did that by producing a big diagram with lots of stuff.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="software" />
+      
+        <category term="curation" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2020-06-07-software-laboratory.png" />
+      
+    </entry>
+  
+    <entry>
       <title type="html">On scientific software - scope</title>
       <link href="http://localhost:4000/academic/2020/06/software2/" rel="alternate" type="text/html" title="On scientific software - scope" />
       <published>2020-06-01T00:00:00+01:00</published>
@@ -140,6 +220,9 @@
       
 
       
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2020-06-04-software.png" />
       
     </entry>
   
@@ -333,84 +416,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2019-03-01-cambrian.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Computer Science Seminar</title>
-      <link href="http://localhost:4000/talks/2019/02/supercomputing-jasmin-diversity/" rel="alternate" type="text/html" title="Computer Science Seminar" />
-      <published>2019-02-11T00:00:00+00:00</published>
-      <updated>2019-02-11T00:00:00+00:00</updated>
-      <id>http://localhost:4000/talks/2019/02/supercomputing-jasmin-diversity</id>
-      <content type="html" xml:base="http://localhost:4000/talks/2019/02/supercomputing-jasmin-diversity/">&lt;h2 id=&quot;supercomputers-are-no-longer-all-the-same-and-it-will-get-worse-a-climate-modelling-perspective&quot;&gt;Supercomputers are no longer all the same and it will get worse; a climate modelling perspective&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="HPC" />
-      
-        <category term="exascale" />
-      
-        <category term="JASMIN" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/190211_jasmin-concurrency-supercomputing.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">NERC HPC Strategy</title>
-      <link href="http://localhost:4000/talks/2018/11/NERC-HPC/" rel="alternate" type="text/html" title="NERC HPC Strategy" />
-      <published>2018-11-27T00:00:00+00:00</published>
-      <updated>2018-11-27T00:00:00+00:00</updated>
-      <id>http://localhost:4000/talks/2018/11/NERC-HPC</id>
-      <content type="html" xml:base="http://localhost:4000/talks/2018/11/NERC-HPC/">&lt;h2 id=&quot;trends-and-context-for-environmental-hpc&quot;&gt;Trends and Context for Environmental HPC&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="HPC" />
-      
-        <category term="exascale" />
-      
-        <category term="JASMIN" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2018-11-27-Kinter.png" />
       
     </entry>
   
