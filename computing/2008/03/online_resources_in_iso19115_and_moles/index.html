@@ -10,15 +10,15 @@
   <meta name="description" content="ISO19115 is a brave attempt to classify metadata. I think some aspects of it are fatally flawed in an RDF world, but some are not, and we’re likely to support it for some time to come. But, let’s f...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.bnlawrence.net//computing/2008/03/online_resources_in_iso19115_and_moles/">
-  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+  <link rel="canonical" href="http://localhost:4000/computing/2008/03/online_resources_in_iso19115_and_moles/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://localhost:4000/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-
-
+<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
+<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
 
 
 
@@ -168,7 +168,7 @@ a content_type from a controlled vocabulary. The related_url simply exists as a 
 <h4 id="1-extending-the-codelists">1. Extending the CodeLists</h4>
 
 <p>Option one is to extend the CI_OnlineFunctionCode codeList. Ted Haberman
-on the metadata list<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> suggested extending it with the GCMD controlled vocabulary<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>(http://gcmd.gsfc.nasa.gov/Resources/valids/url_type.html) - but note that GCMD and version control don’t get on, we prefer our version controlled lists, eg. <a href="http://vocab.ndg.nerc.ac.uk/list/P201/1">this one</a>] which is of course what I initially thought.</p>
+on the metadata list<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> suggested extending it with the GCMD controlled vocabulary<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>(http://gcmd.gsfc.nasa.gov/Resources/valids/url_type.html) - but note that GCMD and version control don’t get on, we prefer our version controlled lists, eg. <a href="http://vocab.ndg.nerc.ac.uk/list/P201/1">this one</a>] which is of course what I initially thought.</p>
 
 <p>John Hockaday replied with a suggestion about using the protocol attribute, and inserting a codeList there (and suggested that GCMD should have their own codeLists available - but given their aversion to public version control, we wouldn’t rely on that). Also, I’m not so sure that simply using the GCMD codelist in either place is right, because the GCMD valids for the related_url mix the semantics of services and urls, even if they do have a sensible list, and the protocol is probably more about things like ftp and http than what we layer over either. I’m also concerned that we include the semantics to support an external online <a href="/computing/2006/01/bibliographic_references_iso19115_and_numsim/">bibliographic citation</a>.</p>
 
@@ -179,7 +179,7 @@ on the metadata list<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="
 <p>There are multiple places:</p>
 <ol>
   <li>The online resource which is the best place to download the data itself. That’s via MD_Metadata&gt;MD_Distribution&gt;MD_DigitalTransferOptions which has
-an attribute of onLine which can have 0..* multiplicity. Arguably we can add services there too <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">3</a></sup></li>
+an attribute of onLine which can have 0..* multiplicity. Arguably we can add services there too <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
   <li>For bibliographic citations from the data to documentation in scientific papers, we could use something in LI_Lineage.</li>
   <li>For citations from papers to the datasets it’s not so obvious.</li>
   <li>Links to metadata extension information via MD_MetadataExtensionInformation which has an attribute of extensionOnlineResource.</li>
@@ -188,7 +188,7 @@ an attribute of onLine which can have 0..* multiplicity. Arguably we can add ser
 <p>The latter is what brought me to this. In MOLES we want to have links between the various entities and between MOLES documents
 and other documents (particularly NumSim and SensorML documents, i.e. documents which describe productionTools). (In truth, the relationships we want to encode would be far more sensibly serialised in RDF than XML Schema.)  We also want
 to have entities we call data granules which are part of data entities and we expect those data granules to each individually
-have different services available <sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote">4</a></sup>.</p>
+have different services available <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>.</p>
 
 <h4 id="3-services">3. Services</h4>
 
@@ -202,19 +202,19 @@ The problem is that we might want this in two different syntaxes: a browser shou
 <p><em><a href="/computing/2008/04/notes_on_brief_service_descriptions_and_bindings/">Notes on brief service descriptions and bindings</a> (from “Bryan’s Blog” on (on Thursday 03 April, 2008)</em>)</p>
 
 <p>I’m coming late1 to a discussion about representing services in feeds and catalogues …</p>
-<div class="footnotes" role="doc-endnotes">
+<div class="footnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>for some reason not all messages, including ones relevant to this posting, appear in the metadata list archive <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:1">
+      <p>for some reason not all messages, including ones relevant to this posting, appear in the metadata list archive <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:2" role="doc-endnote">
-      <p>which is currently lurking at [here <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:2">
+      <p>which is currently lurking at [here <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:3" role="doc-endnote">
-      <p>Although obviously <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:3">
+      <p>Although obviously <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:4" role="doc-endnote">
-      <p>Yes, I know, late binding again, but it’s not here now! <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:4">
+      <p>Yes, I know, late binding again, but it’s not here now! <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -239,7 +239,7 @@ The problem is that we might want this in two different syntaxes: a browser shou
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li><strong>Bryan Lawrence</strong></li>
-		  <li>Professional Meeting Attendee</li>
+		  <li>Professor of Weather and Climate Computing</li>
           <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
         </ul>
       </div>

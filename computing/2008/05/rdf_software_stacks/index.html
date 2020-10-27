@@ -10,15 +10,15 @@
   <meta name="description" content="So we want an RDF triple store with all the trimmings!">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.bnlawrence.net//computing/2008/05/rdf_software_stacks/">
-  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
+  <link rel="canonical" href="http://localhost:4000/computing/2008/05/rdf_software_stacks/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://localhost:4000/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-
-
+<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
+<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
 
 
 
@@ -28,6 +28,7 @@
 
 
 <meta name="twitter:description" content="So we want an RDF triple store with all the trimmings!
+
 ">
 
 
@@ -157,7 +158,7 @@
 
 <p>We’re running postgres as our preferred RDB. We’ve got some experience with Tomcat as a java service container. We prefer python in a pylons stack and from scripts as our interface layers (ideally we don’t want to programme our applications in Java [^1]).</p>
 
-<p>There appear to be four<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">1</a></sup> candidate technologies to consider as part (or all of) our stack: <a href="http://jena.sourceforge.net/documentation.html">Jena</a>, <a href="http://www.openrdf.org/publications/sesame/users/index.html">Sesame</a>, <a href="http://RDFLib.net/">RDFLib</a>, and <a href="http://openvest.com/trac/wiki/RDFAlchemy">RDFAlchemy</a>. The former two provide java interfaces to persistance stores, and both support postgres in the backend. RDFLib provides a python interface to a persistance store, but might not support postgres. RDFAlchemy provides a python interface to support RDFLib, Sesame via both the http interface and a <a href="http://www.w3.org/TR/rdf-sparql-query/">SPARQL</a> endpoint, and Jena via the same SPARQL endpoint (and underlying <a href="http://www.joseki.org/">Joseki</a> implementation).</p>
+<p>There appear to be four<sup id="fnref:2"><a href="#fn:2" class="footnote">1</a></sup> candidate technologies to consider as part (or all of) our stack: <a href="http://jena.sourceforge.net/documentation.html">Jena</a>, <a href="http://www.openrdf.org/publications/sesame/users/index.html">Sesame</a>, <a href="http://RDFLib.net/">RDFLib</a>, and <a href="http://openvest.com/trac/wiki/RDFAlchemy">RDFAlchemy</a>. The former two provide java interfaces to persistance stores, and both support postgres in the backend. RDFLib provides a python interface to a persistance store, but might not support postgres. RDFAlchemy provides a python interface to support RDFLib, Sesame via both the http interface and a <a href="http://www.w3.org/TR/rdf-sparql-query/">SPARQL</a> endpoint, and Jena via the same SPARQL endpoint (and underlying <a href="http://www.joseki.org/">Joseki</a> implementation).</p>
 
 <p>Would using postgres as our backend database perform well enough? Our good friend Katie Portwin (and colleague) <a href="http://xtech06.usefulinc.com/schedule/paper/18">think so</a>.</p>
 
@@ -174,10 +175,10 @@
 <p>Link of the day: <a href="http://www.w3.org/2008/Talks/0307-Tokyo-IH/">State of the Semantic Web, March 2008</a>.
 [^1]: this isn’t about language wars, this is about who we available to do work</p>
 
-<div class="footnotes" role="doc-endnotes">
+<div class="footnotes">
   <ol>
-    <li id="fn:2" role="doc-endnote">
-      <p>obviously there are others, but these standout given our criteria <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:2">
+      <p>obviously there are others, but these standout given our criteria <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -202,7 +203,7 @@
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li><strong>Bryan Lawrence</strong></li>
-		  <li>Professional Meeting Attendee</li>
+		  <li>Professor of Weather and Climate Computing</li>
           <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
         </ul>
       </div>

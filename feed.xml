@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" >
-  <generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator>
-  <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2020-06-10T16:07:47+01:00</updated>
-  <id>http://www.bnlawrence.net//</id>
+  <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2020-10-27T09:17:40+00:00</updated>
+  <id>http://localhost:4000/</id>
 
   
     <title type="html">Bryan Lawrence</title>
@@ -26,12 +26,12 @@
   
   
     <entry>
-      <title type="html">On scientific software - reproducibility</title>
-      <link href="http://www.bnlawrence.net//academic/2020/06/software4/" rel="alternate" type="text/html" title="On scientific software - reproducibility" />
-      <published>2020-06-10T00:00:00+01:00</published>
-      <updated>2020-06-10T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//academic/2020/06/software4</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/06/software4/">&lt;p&gt;Well I had to &lt;a href=&quot;https://twitter.com/bnlawrence/status/1270614398479011840?s=20&quot;&gt;expose&lt;/a&gt; this series of blog posts before I had them all done because of this:&lt;/p&gt;</content>
+      <title type="html">Humans in climate models</title>
+      <link href="http://localhost:4000/academic/2020/10/humans-in-climate-models/" rel="alternate" type="text/html" title="Humans in climate models" />
+      <published>2020-10-26T00:00:00+00:00</published>
+      <updated>2020-10-26T00:00:00+00:00</updated>
+      <id>http://localhost:4000/academic/2020/10/humans-in-climate-models</id>
+      <content type="html" xml:base="http://localhost:4000/academic/2020/10/humans-in-climate-models/">&lt;p&gt;I recently had my attention &lt;a href=&quot;https://twitter.com/geschichtenpost/status/1319893263051010049&quot;&gt;drawn&lt;/a&gt; to &lt;a href=&quot;https://doi.org/10.1007/s10584-020-02897-x&quot;&gt;Beckage et al, 2020&lt;/a&gt; - “The Earth has humans, so why don’t our climate models?”&lt;/p&gt;</content>
 
       
       
@@ -48,15 +48,11 @@
       
 
       
-        <category term="software" />
+        <category term="academic" />
       
-        <category term="curation" />
+        <category term="climate" />
       
-        <category term="FAIR" />
-      
-        <category term="publishing" />
-      
-        <category term="journals" />
+        <category term="esm" />
       
 
       
@@ -64,220 +60,17 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/xkcd_tornados.png" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/Calvin_Bond-Lamberty_2018_fig4.jpg" />
       
     </entry>
   
     <entry>
-      <title type="html">On scientific software - definitions</title>
-      <link href="http://www.bnlawrence.net//academic/2020/06/software3/" rel="alternate" type="text/html" title="On scientific software - definitions" />
-      <published>2020-06-05T00:00:00+01:00</published>
-      <updated>2020-06-05T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//academic/2020/06/software3</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/06/software3/">&lt;p&gt;So far in this series on scientific software, I discussed the notion that it might not be that easy to &lt;a href=&quot;/academic/2020/05/software1/&quot;&gt;define quality for scientific code&lt;/a&gt; (and left some questions hanging about how we might do that), and introduced some &lt;a href=&quot;/academic/2020/06/software2/&quot;&gt;scope questions&lt;/a&gt; about what we mean by science code, and did that by producing a big diagram with lots of stuff.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="software" />
-      
-        <category term="curation" />
-      
-        <category term="FAIR" />
-      
-        <category term="publishing" />
-      
-        <category term="journals" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-06-04-software-laboratory.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">On scientific software - scope</title>
-      <link href="http://www.bnlawrence.net//academic/2020/06/software2/" rel="alternate" type="text/html" title="On scientific software - scope" />
-      <published>2020-06-04T00:00:00+01:00</published>
-      <updated>2020-06-04T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//academic/2020/06/software2</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/06/software2/">&lt;p&gt;&lt;a href=&quot;/academic/2020/05/software1/&quot;&gt;Last time&lt;/a&gt; I discussed the idea that the notion of “quality scientific software” wasn’t very helpful, insofar as scientific code quality is a bit like beauty, being “in the eye of the beholder” - but I concluded with a few questions that IMHO are more important than “is it quality?”, being:&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="software" />
-      
-        <category term="curation" />
-      
-        <category term="FAIR" />
-      
-        <category term="publishing" />
-      
-        <category term="journals" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-06-04-software-simple.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">On scientific software - a beginning</title>
-      <link href="http://www.bnlawrence.net//academic/2020/05/software1/" rel="alternate" type="text/html" title="On scientific software - a beginning" />
-      <published>2020-05-27T00:00:00+01:00</published>
-      <updated>2020-05-27T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//academic/2020/05/software1</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/05/software1/">&lt;p&gt;All the opprobrium for Neil Ferguson’s epidemiological &lt;em&gt;code&lt;/em&gt; has got to me. Enough that I’m going to commit myself to a &lt;em&gt;series&lt;/em&gt; of blog posts, after a long silence here … (note that I have not committed to the interval period though!)&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="software" />
-      
-        <category term="curation" />
-      
-        <category term="FAIR" />
-      
-        <category term="publishing" />
-      
-        <category term="journals" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-05-27-software-quality.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Earthcube - What about Data?</title>
-      <link href="http://www.bnlawrence.net//talks/2020/05/What-about-simulations/" rel="alternate" type="text/html" title="Earthcube - What about Data?" />
-      <published>2020-05-05T00:00:00+01:00</published>
-      <updated>2020-05-05T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//talks/2020/05/What-about-simulations</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2020/05/What-about-simulations/">&lt;h2 id=&quot;when-and-how-should-a-simulation-be-fair&quot;&gt;When (and how) should a simulation be Fair?&lt;/h2&gt;
-
-&lt;p&gt;Presentation: &lt;a href=&quot;http://www.bnlawrence.net//assets/talks/2020-05-05-fair.pdf&quot;&gt;pdf&lt;/a&gt; (4 MB).&lt;/p&gt;
-
-&lt;p&gt;After a reminder about FAIR (Findable, Accessible, Interoperable, Reusable - not Reproducible), I discuss some of the issues about applying these concepts to Simulation Data. Apart from the volume issues, we have to decide just what “Simulation Data” actually means, does it mean the entire workflow, or just the outputs.  There are a huge variety of types of simulation, are they all important? Using the ES-DOC vocabularies, I point out that in practice simulations are not meaningfully reproducible - except in trivial cases, and actually it is more important to reproduce experiments - which is of course the heart of model intercomparison. At &lt;a href=&quot;https://ceda.ac.uk&quot;&gt;CEDA&lt;/a&gt; we have two decades of experience curating data, and we now use the JASMIN platform to provide a data commons to make data accessible. Lots of simulation data is analysed on JASMIN, alongside the CEDA archive, but for fifteen years we have made decisions about whether to archive simulation data based on (what was then) the BADC Numerical Model Data Policy.  The key insight in developing that policy was that it’s relatively easy to decide what’s important, and what’s not important, but there is a lot of middle ground for which value judgements are important. We developed polices to decide on the important and not important data, and to guide the value judgements, and these are summarised here. Underlying all decisions are questions about affordabilty, and whether or not adequate metadata can be (or will be) produced. Without such metadata curation of simulation data becomes pointless. The bottom line is that not all simulation data should be FAIR, but that which needs to be FAIR needs to be well documented. Money matters as simulation data at scale is incredibly expensive.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-05-05-fair.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">The UM User’s Workshop 2019 - Next Generation Modellin Systems</title>
-      <link href="http://www.bnlawrence.net//talks/2019/06/umuw/" rel="alternate" type="text/html" title="The UM User's Workshop 2019 - Next Generation Modellin Systems" />
-      <published>2019-06-18T00:00:00+01:00</published>
-      <updated>2019-06-18T00:00:00+01:00</updated>
-      <id>http://www.bnlawrence.net//talks/2019/06/umuw</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2019/06/umuw/">&lt;h2 id=&quot;challenges-facing-the-modelling-community&quot;&gt;Challenges facing the modelling community&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="HPC" />
-      
-        <category term="exascale" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2019-06-17-hardware_miracles.jpg" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">ESIWACE2 Kick-Off</title>
-      <link href="http://www.bnlawrence.net//talks/2019/03/Data-Systems/" rel="alternate" type="text/html" title="ESIWACE2 Kick-Off" />
-      <published>2019-03-12T00:00:00+00:00</published>
-      <updated>2019-03-12T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//talks/2019/03/Data-Systems</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2019/03/Data-Systems/">&lt;h2 id=&quot;data-systems-at-scale&quot;&gt;Data Systems at Scale&lt;/h2&gt;</content>
+      <title type="html">ESIWACE2 Mid-Term Review</title>
+      <link href="http://localhost:4000/talks/2020/10/Data-Systems/" rel="alternate" type="text/html" title="ESIWACE2 Mid-Term Review" />
+      <published>2020-10-21T00:00:00+01:00</published>
+      <updated>2020-10-21T00:00:00+01:00</updated>
+      <id>http://localhost:4000/talks/2020/10/Data-Systems</id>
+      <content type="html" xml:base="http://localhost:4000/talks/2020/10/Data-Systems/">&lt;h2 id=&quot;data-systems-at-scale&quot;&gt;Data Systems at Scale&lt;/h2&gt;</content>
 
       
       
@@ -306,17 +99,213 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2019-03-12_data_systems_at_scale.png" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2020-10-21-s3netcdf.png" />
+      
+    </entry>
+  
+    <entry>
+      <title type="html">On scientific software - scope</title>
+      <link href="http://localhost:4000/academic/2020/06/software2/" rel="alternate" type="text/html" title="On scientific software - scope" />
+      <published>2020-06-01T00:00:00+01:00</published>
+      <updated>2020-06-01T00:00:00+01:00</updated>
+      <id>http://localhost:4000/academic/2020/06/software2</id>
+      <content type="html" xml:base="http://localhost:4000/academic/2020/06/software2/">&lt;p&gt;&lt;a href=&quot;/academic/2020/05/software1/&quot;&gt;Last time&lt;/a&gt; I discussed the idea that the notion of “quality scientific software” wasn’t very helpful, insofar as scientific code quality is a bit like beauty, being “in the eye of the beholder” - but I concluded with a few questions that IMHO are more important than “is it quality?”, being:&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="software" />
+      
+        <category term="curation" />
+      
+        <category term="FAIR" />
+      
+        <category term="publishing" />
+      
+        <category term="journals" />
+      
+
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">On scientific software - a beginning</title>
+      <link href="http://localhost:4000/academic/2020/05/software1/" rel="alternate" type="text/html" title="On scientific software - a beginning" />
+      <published>2020-05-27T00:00:00+01:00</published>
+      <updated>2020-05-27T00:00:00+01:00</updated>
+      <id>http://localhost:4000/academic/2020/05/software1</id>
+      <content type="html" xml:base="http://localhost:4000/academic/2020/05/software1/">&lt;p&gt;All the opprobrium for Neil Ferguson’s epidemiological &lt;em&gt;code&lt;/em&gt; has got to me. Enough that I’m going to commit myself to a &lt;em&gt;series&lt;/em&gt; of blog posts, after a long silence here … (note that I have not committed to the interval period though!)&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="software" />
+      
+        <category term="curation" />
+      
+        <category term="FAIR" />
+      
+        <category term="publishing" />
+      
+        <category term="journals" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2020-05-27-software-quality.png" />
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Earthcube - What about Data?</title>
+      <link href="http://localhost:4000/talks/2020/05/What-about-simulations/" rel="alternate" type="text/html" title="Earthcube - What about Data?" />
+      <published>2020-05-05T00:00:00+01:00</published>
+      <updated>2020-05-05T00:00:00+01:00</updated>
+      <id>http://localhost:4000/talks/2020/05/What-about-simulations</id>
+      <content type="html" xml:base="http://localhost:4000/talks/2020/05/What-about-simulations/">&lt;h2 id=&quot;when-and-how-should-a-simulation-be-fair&quot;&gt;When (and how) should a simulation be Fair?&lt;/h2&gt;
+
+&lt;p&gt;Presentation: &lt;a href=&quot;http://localhost:4000/assets/talks/2020-05-05-fair.pdf&quot;&gt;pdf&lt;/a&gt; (4 MB).&lt;/p&gt;
+
+&lt;p&gt;After a reminder about FAIR (Findable, Accessible, Interoperable, Reusable - not Reproducible), I discuss some of the issues about applying these concepts to Simulation Data. Apart from the volume issues, we have to decide just what “Simulation Data” actually means, does it mean the entire workflow, or just the outputs.  There are a huge variety of types of simulation, are they all important? Using the ES-DOC vocabularies, I point out that in practice simulations are not meaningfully reproducible - except in trivial cases, and actually it is more important to reproduce experiments - which is of course the heart of model intercomparison. At &lt;a href=&quot;https://ceda.ac.uk&quot;&gt;CEDA&lt;/a&gt; we have two decades of experience curating data, and we now use the JASMIN platform to provide a data commons to make data accessible. Lots of simulation data is analysed on JASMIN, alongside the CEDA archive, but for fifteen years we have made decisions about whether to archive simulation data based on (what was then) the BADC Numerical Model Data Policy.  The key insight in developing that policy was that it’s relatively easy to decide what’s important, and what’s not important, but there is a lot of middle ground for which value judgements are important. We developed polices to decide on the important and not important data, and to guide the value judgements, and these are summarised here. Underlying all decisions are questions about affordabilty, and whether or not adequate metadata can be (or will be) produced. Without such metadata curation of simulation data becomes pointless. The bottom line is that not all simulation data should be FAIR, but that which needs to be FAIR needs to be well documented. Money matters as simulation data at scale is incredibly expensive.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2020-05-05-fair.png" />
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The UM User’s Workshop 2019 - Next Generation Modellin Systems</title>
+      <link href="http://localhost:4000/talks/2019/06/umuw/" rel="alternate" type="text/html" title="The UM User's Workshop 2019 - Next Generation Modellin Systems" />
+      <published>2019-06-18T00:00:00+01:00</published>
+      <updated>2019-06-18T00:00:00+01:00</updated>
+      <id>http://localhost:4000/talks/2019/06/umuw</id>
+      <content type="html" xml:base="http://localhost:4000/talks/2019/06/umuw/">&lt;h2 id=&quot;challenges-facing-the-modelling-community&quot;&gt;Challenges facing the modelling community&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2019-06-17-hardware_miracles.jpg" />
+      
+    </entry>
+  
+    <entry>
+      <title type="html">ESIWACE2 Kick-Off</title>
+      <link href="http://localhost:4000/talks/2019/03/Data-Systems/" rel="alternate" type="text/html" title="ESIWACE2 Kick-Off" />
+      <published>2019-03-12T00:00:00+00:00</published>
+      <updated>2019-03-12T00:00:00+00:00</updated>
+      <id>http://localhost:4000/talks/2019/03/Data-Systems</id>
+      <content type="html" xml:base="http://localhost:4000/talks/2019/03/Data-Systems/">&lt;h2 id=&quot;data-systems-at-scale&quot;&gt;Data Systems at Scale&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+        <category term="esiwace" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2019-03-12_data_systems_at_scale.png" />
       
     </entry>
   
     <entry>
       <title type="html">NCAS Seminar</title>
-      <link href="http://www.bnlawrence.net//talks/2019/03/end-of-climate-modelling/" rel="alternate" type="text/html" title="NCAS Seminar" />
+      <link href="http://localhost:4000/talks/2019/03/end-of-climate-modelling/" rel="alternate" type="text/html" title="NCAS Seminar" />
       <published>2019-03-01T00:00:00+00:00</published>
       <updated>2019-03-01T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//talks/2019/03/end-of-climate-modelling</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2019/03/end-of-climate-modelling/">&lt;h2 id=&quot;the-end-of-climate-modelling-as-we-know-it&quot;&gt;The end of Climate Modelling as we know it&lt;/h2&gt;</content>
+      <id>http://localhost:4000/talks/2019/03/end-of-climate-modelling</id>
+      <content type="html" xml:base="http://localhost:4000/talks/2019/03/end-of-climate-modelling/">&lt;h2 id=&quot;the-end-of-climate-modelling-as-we-know-it&quot;&gt;The end of Climate Modelling as we know it&lt;/h2&gt;</content>
 
       
       
@@ -343,17 +332,17 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2019-03-01-cambrian.png" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2019-03-01-cambrian.png" />
       
     </entry>
   
     <entry>
       <title type="html">Computer Science Seminar</title>
-      <link href="http://www.bnlawrence.net//talks/2019/02/supercomputing-jasmin-diversity/" rel="alternate" type="text/html" title="Computer Science Seminar" />
+      <link href="http://localhost:4000/talks/2019/02/supercomputing-jasmin-diversity/" rel="alternate" type="text/html" title="Computer Science Seminar" />
       <published>2019-02-11T00:00:00+00:00</published>
       <updated>2019-02-11T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//talks/2019/02/supercomputing-jasmin-diversity</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2019/02/supercomputing-jasmin-diversity/">&lt;h2 id=&quot;supercomputers-are-no-longer-all-the-same-and-it-will-get-worse-a-climate-modelling-perspective&quot;&gt;Supercomputers are no longer all the same and it will get worse; a climate modelling perspective&lt;/h2&gt;</content>
+      <id>http://localhost:4000/talks/2019/02/supercomputing-jasmin-diversity</id>
+      <content type="html" xml:base="http://localhost:4000/talks/2019/02/supercomputing-jasmin-diversity/">&lt;h2 id=&quot;supercomputers-are-no-longer-all-the-same-and-it-will-get-worse-a-climate-modelling-perspective&quot;&gt;Supercomputers are no longer all the same and it will get worse; a climate modelling perspective&lt;/h2&gt;</content>
 
       
       
@@ -382,17 +371,17 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/190211_jasmin-concurrency-supercomputing.png" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/190211_jasmin-concurrency-supercomputing.png" />
       
     </entry>
   
     <entry>
       <title type="html">NERC HPC Strategy</title>
-      <link href="http://www.bnlawrence.net//talks/2018/11/NERC-HPC/" rel="alternate" type="text/html" title="NERC HPC Strategy" />
+      <link href="http://localhost:4000/talks/2018/11/NERC-HPC/" rel="alternate" type="text/html" title="NERC HPC Strategy" />
       <published>2018-11-27T00:00:00+00:00</published>
       <updated>2018-11-27T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//talks/2018/11/NERC-HPC</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2018/11/NERC-HPC/">&lt;h2 id=&quot;trends-and-context-for-environmental-hpc&quot;&gt;Trends and Context for Environmental HPC&lt;/h2&gt;</content>
+      <id>http://localhost:4000/talks/2018/11/NERC-HPC</id>
+      <content type="html" xml:base="http://localhost:4000/talks/2018/11/NERC-HPC/">&lt;h2 id=&quot;trends-and-context-for-environmental-hpc&quot;&gt;Trends and Context for Environmental HPC&lt;/h2&gt;</content>
 
       
       
@@ -421,7 +410,7 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2018-11-27-Kinter.png" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2018-11-27-Kinter.png" />
       
     </entry>
   
