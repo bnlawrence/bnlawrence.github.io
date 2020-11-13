@@ -1,0 +1,346 @@
+<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="736pt" height="710pt" viewBox="0 0 736 710" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 705.6)">
+<title>%0</title>
+<polygon fill="#f0fff0" stroke="transparent" points="-4,4 -4,-705.6 731.6861,-705.6 731.6861,4 -4,4"></polygon>
+<text text-anchor="middle" x="134.7371" y="-25" font-family="Times,serif" font-size="14.00" fill="#000000">Incomplete Taxonomy of Scientific Software</text>
+<text text-anchor="middle" x="134.7371" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000"> &nbsp;&nbsp;&nbsp;V0.1 May 28, 2020</text>
+<g id="clust2" class="cluster">
+<title>cluster_0</title>
+<polygon fill="#f0fff0" stroke="#000000" stroke-dasharray="5,2" points="379.6333,-403.6 379.6333,-664.6 716.7137,-664.6 716.7137,-403.6 379.6333,-403.6"></polygon>
+<text text-anchor="middle" x="539.1315" y="-411.8" font-family="Times,serif" font-size="14.00" fill="#000000">Digital Laboratory: Experiments and "Measurements"</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_1</title>
+<polygon fill="#f0fff0" stroke="#000000" stroke-dasharray="5,2" points="393.0361,-264.6 393.0361,-395.6 719.6861,-395.6 719.6861,-264.6 393.0361,-264.6"></polygon>
+<text text-anchor="middle" x="451.7791" y="-272.8" font-family="Times,serif" font-size="14.00" fill="#000000">Analysis Methods</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_2</title>
+<polygon fill="#f0fff0" stroke="#000000" stroke-dasharray="5,2" points="390.405,-49.6 390.405,-256.6 690.5567,-256.6 690.5567,-49.6 390.405,-49.6"></polygon>
+<text text-anchor="middle" x="467.817" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">Supporting Environment</text>
+</g>
+<!-- Parameters -->
+<g id="node1" class="node">
+<title>Parameters</title>
+<ellipse fill="#add8e6" stroke="#000000" cx="71.9439" cy="-683.6" rx="53.8654" ry="18"></ellipse>
+<text text-anchor="middle" x="71.9439" y="-679.4" font-family="Times,serif" font-size="14.00" fill="#000000">Parameters</text>
+</g>
+<!-- Inputs -->
+<g id="node2" class="node">
+<title>Inputs</title>
+<ellipse fill="#add8e6" stroke="#000000" cx="305.3077" cy="-627.6" rx="35.3528" ry="18"></ellipse>
+<text text-anchor="middle" x="305.3077" y="-623.4" font-family="Times,serif" font-size="14.00" fill="#000000">Inputs</text>
+</g>
+<!-- Parameters&#45;&gt;Inputs -->
+<g id="edge1" class="edge">
+<title>Parameters-&gt;Inputs</title>
+<path fill="none" stroke="#000000" d="M115.8379,-673.0668C158.1628,-662.9102 221.7624,-647.6483 263.4041,-637.6555"></path>
+<polygon fill="#000000" stroke="#000000" points="264.3252,-641.034 273.2325,-635.2971 262.6918,-634.2272 264.3252,-641.034"></polygon>
+</g>
+<!-- Code -->
+<g id="node4" class="node">
+<title>Code</title>
+<polygon fill="#ff0000" stroke="#000000" points="346.4748,-495.1612 346.4748,-514.0388 322.3597,-527.3872 288.2558,-527.3872 264.1407,-514.0388 264.1407,-495.1612 288.2558,-481.8128 322.3597,-481.8128 346.4748,-495.1612"></polygon>
+<polygon fill="none" stroke="#000000" points="350.4594,-492.7786 350.4594,-516.4214 323.3802,-531.4106 287.2352,-531.4106 260.156,-516.4214 260.156,-492.7786 287.2352,-477.7894 323.3802,-477.7894 350.4594,-492.7786"></polygon>
+<text text-anchor="middle" x="305.3077" y="-499.2" font-family="Times,serif" font-size="18.00" fill="#ffffff">Code</text>
+</g>
+<!-- Inputs&#45;&gt;Code -->
+<g id="edge3" class="edge">
+<title>Inputs-&gt;Code</title>
+<path fill="none" stroke="#000000" d="M305.3077,-599.06C305.3077,-578.6227 305.3077,-551.2928 305.3077,-531.2892"></path>
+<polygon fill="#000000" stroke="#000000" points="301.8078,-599.3288 305.3077,-609.3288 308.8078,-599.3289 301.8078,-599.3288"></polygon>
+<text text-anchor="middle" x="285.5077" y="-574.6274" font-family="Times,serif" font-size="14.00" fill="#000000">operates &nbsp;&nbsp;&nbsp;</text>
+<text text-anchor="middle" x="285.5077" y="-557.8274" font-family="Times,serif" font-size="14.00" fill="#000000"> &nbsp;on &amp; with &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+</g>
+<!-- Simulation -->
+<g id="node5" class="node">
+<title>Simulation</title>
+<ellipse fill="#add8e6" stroke="#000000" cx="445.8661" cy="-627.6" rx="53.3476" ry="18"></ellipse>
+<text text-anchor="middle" x="445.8661" y="-623.4" font-family="Times,serif" font-size="14.00" fill="#000000">Simulation</text>
+</g>
+<!-- Inputs&#45;&gt;Simulation -->
+<g id="edge4" class="edge">
+<title>Inputs-&gt;Simulation</title>
+<path fill="none" stroke="#000000" d="M340.7765,-627.6C353.3415,-627.6 367.8926,-627.6 382.0869,-627.6"></path>
+<polygon fill="#000000" stroke="#000000" points="382.3261,-631.1001 392.3261,-627.6 382.326,-624.1001 382.3261,-631.1001"></polygon>
+</g>
+<!-- Data -->
+<g id="node3" class="node">
+<title>Data</title>
+<path fill="#bc8f8f" stroke="#000000" d="M98.9439,-644.1282C98.9439,-646.1548 86.8421,-647.8011 71.9439,-647.8011 57.0457,-647.8011 44.9439,-646.1548 44.9439,-644.1282 44.9439,-644.1282 44.9439,-611.0718 44.9439,-611.0718 44.9439,-609.0452 57.0457,-607.3989 71.9439,-607.3989 86.8421,-607.3989 98.9439,-609.0452 98.9439,-611.0718 98.9439,-611.0718 98.9439,-644.1282 98.9439,-644.1282"></path>
+<path fill="none" stroke="#000000" d="M98.9439,-644.1282C98.9439,-642.1015 86.8421,-640.4552 71.9439,-640.4552 57.0457,-640.4552 44.9439,-642.1015 44.9439,-644.1282"></path>
+<text text-anchor="middle" x="71.9439" y="-622.2" font-family="Times,serif" font-size="18.00" fill="#000000">Data</text>
+</g>
+<!-- Data&#45;&gt;Inputs -->
+<g id="edge2" class="edge">
+<title>Data-&gt;Inputs</title>
+<path fill="none" stroke="#000000" d="M99.1704,-627.6C138.599,-627.6 212.0859,-627.6 259.8269,-627.6"></path>
+<polygon fill="#000000" stroke="#000000" points="259.8965,-631.1001 269.8965,-627.6 259.8965,-624.1001 259.8965,-631.1001"></polygon>
+</g>
+<!-- Code&#45;&gt;Simulation -->
+<g id="edge10" class="edge">
+<title>Code-&gt;Simulation</title>
+<path fill="none" stroke="#000000" d="M330.7298,-538.6813C344.1307,-555.2583 361.5228,-574.7564 379.6333,-589.6 390.3989,-598.4238 403.4756,-606.4019 415.1565,-612.7438"></path>
+<polygon fill="none" stroke="#000000" points="333.4432,-536.4701 324.4861,-530.8114 327.9594,-540.8207 333.4432,-536.4701"></polygon>
+</g>
+<!-- Observation -->
+<g id="node9" class="node">
+<title>Observation</title>
+<ellipse fill="#add8e6" stroke="#000000" cx="445.8661" cy="-562.6" rx="58.4667" ry="18"></ellipse>
+<text text-anchor="middle" x="445.8661" y="-558.4" font-family="Times,serif" font-size="14.00" fill="#000000">Observation</text>
+</g>
+<!-- Code&#45;&gt;Observation -->
+<g id="edge11" class="edge">
+<title>Code-&gt;Observation</title>
+<path fill="none" stroke="#000000" d="M353.0791,-524.3124C372.0252,-532.1303 393.4113,-540.955 410.873,-548.1604"></path>
+<polygon fill="none" stroke="#000000" points="354.2949,-521.0279 343.7159,-520.4488 351.6248,-527.4986 354.2949,-521.0279"></polygon>
+</g>
+<!-- Analysis -->
+<g id="node14" class="node">
+<title>Analysis</title>
+<ellipse fill="#add8e6" stroke="#000000" cx="445.8661" cy="-369.6" rx="44.6607" ry="18"></ellipse>
+<text text-anchor="middle" x="445.8661" y="-365.4" font-family="Times,serif" font-size="14.00" fill="#000000">Analysis</text>
+</g>
+<!-- Code&#45;&gt;Analysis -->
+<g id="edge19" class="edge">
+<title>Code-&gt;Analysis:w</title>
+<path fill="none" stroke="#000000" d="M314.1656,-468.2116C326.329,-428.2273 352.4232,-369.6 400.8661,-369.6"></path>
+<polygon fill="none" stroke="#000000" points="310.7715,-467.3503 311.3683,-477.9283 317.4983,-469.287 310.7715,-467.3503"></polygon>
+</g>
+<!-- Context -->
+<g id="node17" class="node">
+<title>Context</title>
+<polygon fill="#f5f5dc" stroke="#000000" points="335.641,-248.6 274.9744,-248.6 274.9744,-212.6 335.641,-212.6 335.641,-248.6"></polygon>
+<text text-anchor="middle" x="305.3077" y="-226.4" font-family="Times,serif" font-size="14.00" fill="#000000">Context</text>
+</g>
+<!-- Code&#45;&gt;Context -->
+<g id="edge22" class="edge">
+<title>Code-&gt;Context</title>
+<path fill="none" stroke="#000000" d="M305.3077,-477.6623C305.3077,-425.731 305.3077,-312.2126 305.3077,-259.0842"></path>
+<polygon fill="#000000" stroke="#000000" points="308.8078,-259.0033 305.3077,-249.0034 301.8078,-259.0034 308.8078,-259.0033"></polygon>
+<text text-anchor="middle" x="285.5077" y="-367.4726" font-family="Times,serif" font-size="14.00" fill="#000000">excutes &nbsp;&nbsp;&nbsp;</text>
+<text text-anchor="middle" x="285.5077" y="-350.6726" font-family="Times,serif" font-size="14.00" fill="#000000">in</text>
+</g>
+<!-- Assimilation -->
+<g id="node10" class="node">
+<title>Assimilation</title>
+<ellipse fill="#add8e6" stroke="#000000" cx="645.3926" cy="-638.6" rx="60.2865" ry="18"></ellipse>
+<text text-anchor="middle" x="645.3926" y="-634.4" font-family="Times,serif" font-size="14.00" fill="#000000">Assimilation</text>
+</g>
+<!-- Simulation&#45;&gt;Assimilation -->
+<g id="edge12" class="edge">
+<title>Simulation-&gt;Assimilation</title>
+<path fill="none" stroke="#000000" d="M509.1078,-631.0865C533.6707,-632.4407 561.6603,-633.9838 585.8574,-635.3178"></path>
+<polygon fill="none" stroke="#000000" points="508.9893,-627.5748 498.8117,-630.5189 508.6039,-634.5642 508.9893,-627.5748"></polygon>
+</g>
+<!-- Algorithms -->
+<g id="node6" class="node">
+<title>Algorithms</title>
+<polygon fill="#8fbc8f" stroke="#000000" points="105.7184,-507.6 32.1694,-507.6 32.1694,-471.6 111.7184,-471.6 111.7184,-501.6 105.7184,-507.6"></polygon>
+<polyline fill="none" stroke="#000000" points="105.7184,-507.6 105.7184,-501.6 "></polyline>
+<polyline fill="none" stroke="#000000" points="111.7184,-501.6 105.7184,-501.6 "></polyline>
+<text text-anchor="middle" x="71.9439" y="-485.4" font-family="Times,serif" font-size="14.00" fill="#000000">Algorithms</text>
+</g>
+<!-- Algorithms&#45;&gt;Code -->
+<g id="edge5" class="edge">
+<title>Algorithms-&gt;Code</title>
+<path fill="none" stroke="#000000" d="M111.9325,-487.646C146.4763,-486.5025 197.6736,-486.1112 241.9822,-491 244.5249,-491.2806 247.1159,-491.6187 249.7263,-492.0018"></path>
+<polygon fill="#000000" stroke="#000000" points="249.3933,-495.4943 259.8311,-493.6771 250.5382,-488.5886 249.3933,-495.4943"></polygon>
+<text text-anchor="middle" x="195.1389" y="-511.6" font-family="Times,serif" font-size="14.00" fill="#000000">are implemented</text>
+<text text-anchor="middle" x="195.1389" y="-494.8" font-family="Times,serif" font-size="14.00" fill="#000000"> in and describe</text>
+</g>
+<!-- Metadata -->
+<g id="node7" class="node">
+<title>Metadata</title>
+<polygon fill="#8fbc8f" stroke="#000000" points="124.1477,-584.2019 13.7401,-584.2019 13.7401,-542.9981 130.1477,-542.9981 130.1477,-578.2019 124.1477,-584.2019"></polygon>
+<polyline fill="none" stroke="#000000" points="124.1477,-584.2019 124.1477,-578.2019 "></polyline>
+<polyline fill="none" stroke="#000000" points="130.1477,-578.2019 124.1477,-578.2019 "></polyline>
+<text text-anchor="middle" x="71.9439" y="-567.8" font-family="Times,serif" font-size="14.00" fill="#000000">Documentation &amp;</text>
+<text text-anchor="middle" x="71.9439" y="-551" font-family="Times,serif" font-size="14.00" fill="#000000"> Metadata</text>
+</g>
+<!-- Metadata&#45;&gt;Code -->
+<g id="edge6" class="edge">
+<title>Metadata-&gt;Code</title>
+<path fill="none" stroke="#000000" d="M130.461,-570.2065C164.1366,-571.8254 206.6461,-570.0754 241.9822,-556.6 253.9242,-552.0459 265.2837,-544.2837 274.9987,-536.126"></path>
+<polygon fill="#000000" stroke="#000000" points="277.5966,-538.4998 282.7492,-529.2423 272.9481,-533.266 277.5966,-538.4998"></polygon>
+<text text-anchor="middle" x="195.1389" y="-591.6" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+<text text-anchor="middle" x="195.1389" y="-574.8" font-family="Times,serif" font-size="14.00" fill="#000000"> describes</text>
+</g>
+<!-- Metadata&#45;&gt;Algorithms -->
+<g id="edge9" class="edge">
+<title>Metadata-&gt;Algorithms</title>
+<path fill="none" stroke="#000000" d="M71.9439,-532.6C71.9439,-524.337 71.9439,-516.074 71.9439,-507.8109"></path>
+<polygon fill="none" stroke="#000000" points="68.444,-532.6791 71.9439,-542.6791 75.444,-532.6791 68.444,-532.6791"></polygon>
+</g>
+<!-- Metasw -->
+<g id="node8" class="node">
+<title>Metasw</title>
+<polygon fill="#8fbc8f" stroke="#000000" points="112.4005,-436.6 25.4873,-436.6 25.4873,-400.6 118.4005,-400.6 118.4005,-430.6 112.4005,-436.6"></polygon>
+<polyline fill="none" stroke="#000000" points="112.4005,-436.6 112.4005,-430.6 "></polyline>
+<polyline fill="none" stroke="#000000" points="118.4005,-430.6 112.4005,-430.6 "></polyline>
+<text text-anchor="middle" x="71.9439" y="-414.4" font-family="Times,serif" font-size="14.00" fill="#000000">Metasoftware</text>
+</g>
+<!-- Metadata&#45;&gt;Metasw -->
+<g id="edge8" class="edge">
+<title>Metadata-&gt;Metasw</title>
+<path fill="none" stroke="#000000" d="M26.7064,-536.4316C17.5059,-528.4473 9.2295,-518.7955 4.5922,-507.6 -1.5307,-492.8179 -1.5307,-486.3821 4.5922,-471.6 10.6848,-456.8911 23.4506,-445.2189 36.2468,-436.6146"></path>
+<polygon fill="none" stroke="#000000" points="24.5983,-539.2273 34.5926,-542.7435 28.9724,-533.7622 24.5983,-539.2273"></polygon>
+</g>
+<!-- Metasw&#45;&gt;Code -->
+<g id="edge7" class="edge">
+<title>Metasw-&gt;Code</title>
+<path fill="none" stroke="#000000" d="M118.6489,-406.6041C154.4106,-400.0055 203.9044,-396.6374 241.9822,-416.2 263.5819,-427.2969 279.4631,-449.5601 289.9193,-468.9669"></path>
+<polygon fill="#000000" stroke="#000000" points="286.8212,-470.596 294.4801,-477.9166 293.058,-467.4177 286.8212,-470.596"></polygon>
+<text text-anchor="middle" x="195.1389" y="-453.4" font-family="Times,serif" font-size="14.00" fill="#000000">identifies</text>
+<text text-anchor="middle" x="195.1389" y="-436.6" font-family="Times,serif" font-size="14.00" fill="#000000"> options</text>
+<text text-anchor="middle" x="195.1389" y="-419.8" font-family="Times,serif" font-size="14.00" fill="#000000">used in</text>
+</g>
+<!-- Observation&#45;&gt;Assimilation -->
+<g id="edge13" class="edge">
+<title>Observation-&gt;Assimilation</title>
+<path fill="none" stroke="#000000" d="M492.4838,-580.3568C527.6115,-593.737 575.1542,-611.8461 607.8522,-624.3008"></path>
+<polygon fill="none" stroke="#000000" points="493.5188,-577.0057 482.9279,-576.7169 491.0271,-583.5473 493.5188,-577.0057"></polygon>
+</g>
+<!-- Retrieval -->
+<g id="node11" class="node">
+<title>Retrieval</title>
+<ellipse fill="#add8e6" stroke="#000000" cx="445.8661" cy="-454.6" rx="46.3624" ry="18"></ellipse>
+<text text-anchor="middle" x="445.8661" y="-450.4" font-family="Times,serif" font-size="14.00" fill="#000000">Retrieval</text>
+</g>
+<!-- Observation&#45;&gt;Retrieval -->
+<g id="edge16" class="edge">
+<title>Observation-&gt;Retrieval</title>
+<path fill="none" stroke="#000000" d="M445.8661,-534.2776C445.8661,-513.7653 445.8661,-493.253 445.8661,-472.7406"></path>
+<polygon fill="none" stroke="#000000" points="442.3662,-534.3473 445.8661,-544.3473 449.3662,-534.3473 442.3662,-534.3473"></polygon>
+</g>
+<!-- Operator -->
+<g id="node12" class="node">
+<title>Operator</title>
+<ellipse fill="#add8e6" stroke="#000000" cx="645.3926" cy="-454.6" rx="63.1428" ry="18"></ellipse>
+<text text-anchor="middle" x="645.3926" y="-450.4" font-family="Times,serif" font-size="14.00" fill="#000000">Obs Operator</text>
+</g>
+<!-- Observation&#45;&gt;Operator -->
+<g id="edge15" class="edge">
+<title>Observation-&gt;Operator</title>
+<path fill="none" stroke="#000000" d="M483.688,-542.1277C522.0277,-521.3752 580.5639,-489.6906 615.6932,-470.6757"></path>
+<polygon fill="none" stroke="#000000" points="482.0073,-539.0576 474.879,-546.8959 485.3394,-545.2136 482.0073,-539.0576"></polygon>
+</g>
+<!-- a2d -->
+<g id="node13" class="node">
+<title>a2d</title>
+<ellipse fill="#add8e6" stroke="#000000" cx="645.3926" cy="-573.6" rx="49.5988" ry="29.3315"></ellipse>
+<text text-anchor="middle" x="645.3926" y="-577.8" font-family="Times,serif" font-size="14.00" fill="#000000">Analogue</text>
+<text text-anchor="middle" x="645.3926" y="-561" font-family="Times,serif" font-size="14.00" fill="#000000">to Digital</text>
+</g>
+<!-- Observation&#45;&gt;a2d -->
+<g id="edge17" class="edge">
+<title>Observation-&gt;a2d</title>
+<path fill="none" stroke="#000000" d="M513.4576,-566.3264C540.434,-567.8136 570.925,-569.4946 595.794,-570.8656"></path>
+<polygon fill="none" stroke="#000000" points="513.4873,-562.8228 503.3098,-565.7669 513.1019,-569.8122 513.4873,-562.8228"></polygon>
+</g>
+<!-- Retrieval&#45;&gt;Operator -->
+<g id="edge14" class="edge">
+<title>Retrieval-&gt;Operator</title>
+<path fill="none" stroke="#000000" d="M502.6811,-454.6C527.3565,-454.6 556.3642,-454.6 581.7603,-454.6"></path>
+<polygon fill="none" stroke="#000000" points="502.3944,-451.1001 492.3944,-454.6 502.3944,-458.1001 502.3944,-451.1001"></polygon>
+</g>
+<!-- a2d&#45;&gt;Operator -->
+<g id="edge18" class="edge">
+<title>a2d-&gt;Operator</title>
+<path fill="none" stroke="#000000" d="M645.3926,-544.0479C645.3926,-523.618 645.3926,-503.1881 645.3926,-482.7581"></path>
+<polygon fill="#000000" stroke="#000000" points="648.8927,-482.7289 645.3926,-472.7289 641.8927,-482.7289 648.8927,-482.7289"></polygon>
+</g>
+<!-- mathstat -->
+<g id="node15" class="node">
+<title>mathstat</title>
+<ellipse fill="#add8e6" stroke="#000000" cx="645.3926" cy="-315.6" rx="66.0877" ry="18"></ellipse>
+<text text-anchor="middle" x="645.3926" y="-311.4" font-family="Times,serif" font-size="14.00" fill="#000000">Maths &amp; Stats</text>
+</g>
+<!-- Analysis&#45;&gt;mathstat -->
+<g id="edge20" class="edge">
+<title>Analysis-&gt;mathstat</title>
+<path fill="none" stroke="#000000" d="M493.3154,-356.7583C525.0087,-348.1808 566.5247,-336.9449 598.1708,-328.3801"></path>
+<polygon fill="none" stroke="#000000" points="492.1339,-353.4521 483.3955,-359.443 493.9627,-360.209 492.1339,-353.4521"></polygon>
+</g>
+<!-- Visualisation -->
+<g id="node16" class="node">
+<title>Visualisation</title>
+<ellipse fill="#add8e6" stroke="#000000" cx="645.3926" cy="-369.6" rx="61.9924" ry="18"></ellipse>
+<text text-anchor="middle" x="645.3926" y="-365.4" font-family="Times,serif" font-size="14.00" fill="#000000">Visualisation</text>
+</g>
+<!-- Analysis&#45;&gt;Visualisation -->
+<g id="edge21" class="edge">
+<title>Analysis-&gt;Visualisation</title>
+<path fill="none" stroke="#000000" d="M501.362,-369.6C526.8088,-369.6 557.0754,-369.6 583.2803,-369.6"></path>
+<polygon fill="none" stroke="#000000" points="501.1418,-366.1001 491.1418,-369.6 501.1417,-373.1001 501.1418,-366.1001"></polygon>
+</g>
+<!-- Workflow -->
+<g id="node18" class="node">
+<title>Workflow</title>
+<polygon fill="#f5f5dc" stroke="#000000" points="482.4006,-248.6 409.3317,-248.6 409.3317,-212.6 482.4006,-212.6 482.4006,-248.6"></polygon>
+<text text-anchor="middle" x="445.8661" y="-226.4" font-family="Times,serif" font-size="14.00" fill="#000000">Workflow</text>
+</g>
+<!-- Context&#45;&gt;Workflow -->
+<g id="edge23" class="edge">
+<title>Context-&gt;Workflow</title>
+<path fill="none" stroke="#000000" d="M345.8544,-230.6C365.8389,-230.6 389.7561,-230.6 409.1899,-230.6"></path>
+<polygon fill="none" stroke="#000000" points="345.8068,-227.1001 335.8068,-230.6 345.8068,-234.1001 345.8068,-227.1001"></polygon>
+</g>
+<!-- Environment -->
+<g id="node19" class="node">
+<title>Environment</title>
+<polygon fill="#f5f5dc" stroke="#000000" points="490.4658,-194.6 401.2665,-194.6 401.2665,-158.6 490.4658,-158.6 490.4658,-194.6"></polygon>
+<text text-anchor="middle" x="445.8661" y="-172.4" font-family="Times,serif" font-size="14.00" fill="#000000">Environment</text>
+</g>
+<!-- Context&#45;&gt;Environment -->
+<g id="edge24" class="edge">
+<title>Context-&gt;Environment</title>
+<path fill="none" stroke="#000000" d="M345.17,-215.2857C362.6662,-208.5639 383.2788,-200.6449 401.2825,-193.7282"></path>
+<polygon fill="none" stroke="#000000" points="343.8864,-212.0293 335.8068,-218.8828 346.3968,-218.5637 343.8864,-212.0293"></polygon>
+</g>
+<!-- Tools -->
+<g id="node20" class="node">
+<title>Tools</title>
+<polygon fill="#f5f5dc" stroke="#000000" points="672.3926,-248.6 618.3926,-248.6 618.3926,-212.6 672.3926,-212.6 672.3926,-248.6"></polygon>
+<text text-anchor="middle" x="645.3926" y="-226.4" font-family="Times,serif" font-size="14.00" fill="#000000">Tools</text>
+</g>
+<!-- Environment&#45;&gt;Tools -->
+<g id="edge25" class="edge">
+<title>Environment-&gt;Tools</title>
+<path fill="none" stroke="#000000" d="M500.5961,-191.4122C538.7973,-201.751 588.1475,-215.1071 618.2491,-223.2539"></path>
+<polygon fill="none" stroke="#000000" points="501.2109,-187.9527 490.6438,-188.7187 499.3821,-194.7096 501.2109,-187.9527"></polygon>
+</g>
+<!-- Libraries -->
+<g id="node21" class="node">
+<title>Libraries</title>
+<polygon fill="#f5f5dc" stroke="#000000" points="678.423,-140.6 612.3621,-140.6 612.3621,-104.6 678.423,-104.6 678.423,-140.6"></polygon>
+<text text-anchor="middle" x="645.3926" y="-118.4" font-family="Times,serif" font-size="14.00" fill="#000000">Libraries</text>
+</g>
+<!-- Environment&#45;&gt;Libraries -->
+<g id="edge26" class="edge">
+<title>Environment-&gt;Libraries</title>
+<path fill="none" stroke="#000000" d="M500.4546,-161.8261C536.2363,-152.1421 581.8468,-139.7981 612.2515,-131.5693"></path>
+<polygon fill="none" stroke="#000000" points="499.3821,-158.4904 490.6438,-164.4813 501.2109,-165.2473 499.3821,-158.4904"></polygon>
+</g>
+<!-- Compilers -->
+<g id="node22" class="node">
+<title>Compilers</title>
+<polygon fill="#f5f5dc" stroke="#000000" points="682.7215,-194.6 608.0637,-194.6 608.0637,-158.6 682.7215,-158.6 682.7215,-194.6"></polygon>
+<text text-anchor="middle" x="645.3926" y="-172.4" font-family="Times,serif" font-size="14.00" fill="#000000">Compilers</text>
+</g>
+<!-- Environment&#45;&gt;Compilers -->
+<g id="edge27" class="edge">
+<title>Environment-&gt;Compilers</title>
+<path fill="none" stroke="#000000" d="M500.9268,-176.6C535.0476,-176.6 577.9637,-176.6 608.1228,-176.6"></path>
+<polygon fill="none" stroke="#000000" points="500.6438,-173.1001 490.6438,-176.6 500.6437,-180.1001 500.6438,-173.1001"></polygon>
+</g>
+<!-- Hardware -->
+<g id="node23" class="node">
+<title>Hardware</title>
+<polygon fill="#ffffff" stroke="#000000" stroke-dasharray="1,5" points="493.2884,-141.0014 398.4439,-141.0014 398.4439,-82.1986 493.2884,-82.1986 493.2884,-141.0014"></polygon>
+<text text-anchor="middle" x="445.8661" y="-124.2" font-family="Times,serif" font-size="14.00" fill="#000000">Hardware:</text>
+<text text-anchor="middle" x="445.8661" y="-107.4" font-family="Times,serif" font-size="14.00" fill="#000000"> resources &amp; </text>
+<text text-anchor="middle" x="445.8661" y="-90.6" font-family="Times,serif" font-size="14.00" fill="#000000"> configuration</text>
+</g>
+</g>
+</svg>
