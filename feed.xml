@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2020-11-12T12:49:10+00:00</updated>
+  <updated>2020-11-13T08:57:49+00:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,47 @@
   
 
   
+  
+    <entry>
+      <title type="html">The future of the ESGF</title>
+      <link href="http://www.bnlawrence.net//computing/bigdata/2020/11/the-future-of-the-esgf/" rel="alternate" type="text/html" title="The future of the ESGF" />
+      <published>2020-11-13T00:00:00+00:00</published>
+      <updated>2020-11-13T00:00:00+00:00</updated>
+      <id>http://www.bnlawrence.net//computing/bigdata/2020/11/the-future-of-the-esgf</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//computing/bigdata/2020/11/the-future-of-the-esgf/">&lt;p&gt;I think most of the community who use climate projections and the productions of climate model intercomparison projects depend in some way on the Earth System Grid Federation (&lt;a href=&quot;https://esgf-index1.ceda.ac.uk/projects/esgf-ceda/&quot;&gt;ESGF&lt;/a&gt;). The ESGF consists of data nodes which are distributed globally, holding petabytes of data:&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="software" />
+      
+        <category term="curation" />
+      
+        <category term="esgf" />
+      
+        <category term="esdoc" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-11-13-esgf_world.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">Humans in climate models</title>
@@ -379,43 +420,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2019-03-12_data_systems_at_scale.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">NCAS Seminar</title>
-      <link href="http://www.bnlawrence.net//talks/2019/03/end-of-climate-modelling/" rel="alternate" type="text/html" title="NCAS Seminar" />
-      <published>2019-03-01T00:00:00+00:00</published>
-      <updated>2019-03-01T00:00:00+00:00</updated>
-      <id>http://www.bnlawrence.net//talks/2019/03/end-of-climate-modelling</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2019/03/end-of-climate-modelling/">&lt;h2 id=&quot;the-end-of-climate-modelling-as-we-know-it&quot;&gt;The end of Climate Modelling as we know it&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="HPC" />
-      
-        <category term="exascale" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2019-03-01-cambrian.png" />
       
     </entry>
   
