@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2020-11-13T14:29:05+00:00</updated>
+  <updated>2020-11-13T15:01:05+00:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -31,7 +31,7 @@
       <published>2020-11-13T00:00:00+00:00</published>
       <updated>2020-11-13T00:00:00+00:00</updated>
       <id>http://www.bnlawrence.net//computing/bigdata/2020/11/the-future-of-the-esgf</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//computing/bigdata/2020/11/the-future-of-the-esgf/">&lt;p&gt;I think most of the community who use climate projections and the productions of climate model intercomparison projects depend in some way on the Earth System Grid Federation (&lt;a href=&quot;https://esgf-index1.ceda.ac.uk/projects/esgf-ceda/&quot;&gt;ESGF&lt;/a&gt;). The ESGF consists of data nodes which are distributed globally, holding petabytes of data:&lt;/p&gt;</content>
+      <content type="html" xml:base="http://www.bnlawrence.net//computing/bigdata/2020/11/the-future-of-the-esgf/">&lt;p&gt;I think most of the community who use climate projections and the products of climate model intercomparison projects depend in some way on the Earth System Grid Federation (&lt;a href=&quot;https://esgf-index1.ceda.ac.uk/projects/esgf-ceda/&quot;&gt;ESGF&lt;/a&gt;). The ESGF consists of data nodes which are distributed globally, holding petabytes of data:&lt;/p&gt;</content>
 
       
       
