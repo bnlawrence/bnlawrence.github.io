@@ -4,6 +4,7 @@ title: Pushing Water Analogies too far
 last_modified: Wednesday 09 February, 2011
 tags: metadata badc neodc
 categories: computing
+image: /assets/images/2011-02-09-firehose.jpg
 ---
 Recently I heard a talk by [Kevin Trenbeth](http://www.cgd.ucar.edu/cas/trenbert.html), who showed a slide with the following cartoon:
 
@@ -36,10 +37,12 @@ We are being encouraged to put more and more effort into the front end - the por
 It clearly wont end well
 
 * if we have a lovely sprinkler system, but the reservoir looks like this:
+
 ![Image: dryreservoir.jpg ](/assets/images/2011-02-09-dryreservoir.jpg)
 
 Nor will it end well
 * if we ignore the importance of metadata,and the fact that the pipes can carry more than one type of fluid:
+
 ![Image: industrial.png ](/assets/images/2011-02-09-industrial.png)
 
 (I'm well aware I need some picture credits on this post, since I made some serious use of other peoples pictures ... please let me know if your picture is here and you would like a credit - or for me to remove it.)
