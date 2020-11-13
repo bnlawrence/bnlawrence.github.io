@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2020-11-13T09:35:48+00:00</updated>
+  <updated>2020-11-13T09:46:27+00:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -54,7 +54,9 @@
       
         <category term="esgf" />
       
-        <category term="esdoc" />
+        <category term="cmip" />
+      
+        <category term="cmip6" />
       
 
       
