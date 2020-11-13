@@ -800,9 +800,12 @@ ul.listing li.summary-item {
 
 .wp-caption img {
   display: block;
-  margin: 0;
-  padding: 0;
-  border: 0; }
+  /*margin: 0;
+  padding: 0;*/
+  border: 0;
+  max-width: 100%;
+  margin: auto;
+  height: auto; }
 
 .alignleft,
 .alignright {
@@ -822,3 +825,22 @@ ul.listing li.summary-item {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+figure {
+  padding: 0;
+  text-align: center;
+  position: relative;
+  margin: 0.25em; }
+
+figure img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  height: auto; }
+
+figure figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5); }
