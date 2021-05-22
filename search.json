@@ -310,17 +310,6 @@
 
   
     ,{
-      "title"			: "The Exascale Challenge to the UK - Part Two - Compute",
-      "url"			: "/computing/2017/12/exascale2-copy/",
-      "tag"       : "exascale, cms, modelling_futures",
-      "category"  : "computing",
-      "date"      : "2017-12-10",
-      "excerpt"		: "Last time I set up the generic exascale challenge, this time I want to discuss how it is playing out here and now for UK climate modelling. This long-ish post discusses computer hardare and benchmarking of our codes. The next one will discuss the implication for science."
-    }
-  
-
-  
-    ,{
       "title"			: "The Exascale Challenge to the UK - Part One",
       "url"			: "/computing/2017/12/exascale/",
       "tag"       : "exascale, isenes, esiwace",
