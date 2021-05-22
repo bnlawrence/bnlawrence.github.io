@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2021-05-22T02:04:54-05:00</updated>
+  <updated>2021-05-22T02:11:01-05:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,43 @@
   
 
   
+  
+    <entry>
+      <title type="html">What is a digital twin?</title>
+      <link href="http://www.bnlawrence.net//computing/2021/05/what-is-a-digital-twin/" rel="alternate" type="text/html" title="What is a digital twin?" />
+      <published>2021-05-22T00:00:00-05:00</published>
+      <updated>2021-05-22T00:00:00-05:00</updated>
+      <id>http://www.bnlawrence.net//computing/2021/05/what-is-a-digital-twin</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//computing/2021/05/what-is-a-digital-twin/">&lt;p&gt;There is a lot of talk about “digital twins”, so my first question was: “what is a digital twin?”&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="modelling_futures" />
+      
+        <category term="climate" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-05-22-digital-earth.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">The future of the ESGF</title>
@@ -383,45 +420,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2019-06-17-hardware_miracles.jpg" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">ESIWACE2 Kick-Off</title>
-      <link href="http://www.bnlawrence.net//talks/2019/03/Data-Systems/" rel="alternate" type="text/html" title="ESIWACE2 Kick-Off" />
-      <published>2019-03-12T00:00:00-05:00</published>
-      <updated>2019-03-12T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//talks/2019/03/Data-Systems</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2019/03/Data-Systems/">&lt;h2 id=&quot;data-systems-at-scale&quot;&gt;Data Systems at Scale&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="HPC" />
-      
-        <category term="exascale" />
-      
-        <category term="esiwace" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2019-03-12_data_systems_at_scale.png" />
       
     </entry>
   

@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "What is a digital twin?",
+      "url"			: "/computing/2021/05/what-is-a-digital-twin/",
+      "tag"       : "modelling_futures, climate",
+      "category"  : "computing",
+      "date"      : "2021-05-22",
+      "excerpt"		: "There is a lot of talk about “digital twins”, so my first question was: “what is a digital twin?”"
+    }
+  
+
+  
+    ,{
       "title"			: "The future of the ESGF",
       "url"			: "/computing/bigdata/2020/11/the-future-of-the-esgf/",
       "tag"       : "software, curation, esgf, cmip, cmip6",
