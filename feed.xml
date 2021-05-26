@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2021-05-22T08:55:56-05:00</updated>
+  <updated>2021-05-26T02:30:31-05:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,41 @@
   
 
   
+  
+    <entry>
+      <title type="html">Digital Earths - The fourth phase of (ESM) modelling maturity?</title>
+      <link href="http://www.bnlawrence.net//computing/2021/05/modelling-maturity/" rel="alternate" type="text/html" title="Digital Earths - The fourth phase of (ESM) modelling maturity?" />
+      <published>2021-05-26T00:00:00-05:00</published>
+      <updated>2021-05-26T00:00:00-05:00</updated>
+      <id>http://www.bnlawrence.net//computing/2021/05/modelling-maturity</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//computing/2021/05/modelling-maturity/">&lt;p&gt;&lt;a href=&quot;/computing/2021/05/what-is-a-digital-twin/&quot;&gt;I recently&lt;/a&gt; introduced my definitions of “Digital Twins” and “Digital Earths” and concluded with the statement that I thought there was scope to do good thing in (these new) twinning activities. There are two such axes of scope: scientific and technical. Here I want to discuss the latter (and it’s impact on some science). In the discussion which follows I’m talking about Earth System Models (ESMs), but the arguments could apply to many other modelling activities (e.g. epidemiological modelling).&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="climate" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-05-25-Modelling_phase4.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">What is a digital twin?</title>
@@ -383,43 +418,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-05-05-fair.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">The UM User’s Workshop 2019 - Next Generation Modellin Systems</title>
-      <link href="http://www.bnlawrence.net//talks/2019/06/umuw/" rel="alternate" type="text/html" title="The UM User's Workshop 2019 - Next Generation Modellin Systems" />
-      <published>2019-06-18T00:00:00-05:00</published>
-      <updated>2019-06-18T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//talks/2019/06/umuw</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2019/06/umuw/">&lt;h2 id=&quot;challenges-facing-the-modelling-community&quot;&gt;Challenges facing the modelling community&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="HPC" />
-      
-        <category term="exascale" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2019-06-17-hardware_miracles.jpg" />
       
     </entry>
   

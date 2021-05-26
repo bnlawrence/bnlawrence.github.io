@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "Digital Earths - The fourth phase of (ESM) modelling maturity?",
+      "url"			: "/computing/2021/05/modelling-maturity/",
+      "tag"       : "climate",
+      "category"  : "computing",
+      "date"      : "2021-05-26",
+      "excerpt"		: "I recently introduced my definitions of “Digital Twins” and “Digital Earths” and concluded with the statement that I thought there was scope to do good thing in (these new) twinning activities. There are two such axes of scope: scientific and technical. Here I want to discuss the latter (and it’s impact on some science). In the discussion which follows I’m talking about Earth System Models (ESMs), but the arguments could apply to many other modelling activities (e.g. epidemiological modelling)."
+    }
+  
+
+  
+    ,{
       "title"			: "What is a digital twin?",
       "url"			: "/computing/2021/05/what-is-a-digital-twin/",
       "tag"       : "modelling_futures, climate",
