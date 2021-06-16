@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "Under the hood of a Digital Twin ESM",
+      "url"			: "/computing/2021/06/under-the-hood/",
+      "tag"       : "climate",
+      "category"  : "computing",
+      "date"      : "2021-06-16",
+      "excerpt"		: "In which we peer under the hood of the idea that ephemeral data produced by a digital twin can be used by collaborators who co-designed the digital twin experiment."
+    }
+  
+
+  
+    ,{
       "title"			: "Digital Earths - The fourth phase of (ESM) modelling maturity?",
       "url"			: "/computing/2021/05/modelling-maturity/",
       "tag"       : "climate",
