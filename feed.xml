@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2021-09-26T10:46:38-05:00</updated>
+  <updated>2021-09-26T14:27:42-05:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -26,8 +26,88 @@
   
   
     <entry>
-      <title type="html">From ESiWACE to ExCALIDATA</title>
-      <link href="http://www.bnlawrence.net//talks/2021/09/esi-to-exc/" rel="alternate" type="text/html" title="From ESiWACE to ExCALIDATA" />
+      <title type="html">19th Workshop on high performance computing in meteorology</title>
+      <link href="http://www.bnlawrence.net//talks/2021/09/digital-twins/" rel="alternate" type="text/html" title="19th Workshop on high performance computing in meteorology" />
+      <published>2021-09-20T00:00:00-05:00</published>
+      <updated>2021-09-20T00:00:00-05:00</updated>
+      <id>http://www.bnlawrence.net//talks/2021/09/digital-twins</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2021/09/digital-twins/">&lt;p&gt;Digital twins are defined in many ways, but definitions usually have some combination of the words “simulation of the real world constrained by real time data”. These definitions basically encompass our understanding of the use of weather and climate models whether using data assimilation or tuning to history. It would appear that we (environmental science in general and weather and climate specifically) have been doing digital twins for a long time. So what then should new digital twin projects in our field aim to do that is different from our business as usual approach of evolving models and increasing use of data?&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+        <category term="digital-twins" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-09-20-Promises.png" />
+      
+    </entry>
+  
+    <entry>
+      <title type="html">ESCAPE-2 Final Dissemination Workshop</title>
+      <link href="http://www.bnlawrence.net//talks/2021/09/excalibur4escape/" rel="alternate" type="text/html" title="ESCAPE-2 Final Dissemination Workshop" />
+      <published>2021-09-03T00:00:00-05:00</published>
+      <updated>2021-09-03T00:00:00-05:00</updated>
+      <id>http://www.bnlawrence.net//talks/2021/09/excalibur4escape</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2021/09/excalibur4escape/">&lt;h2 id=&quot;excalibur-for-escape&quot;&gt;ExCALIBUR for ESCAPE&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+        <category term="esiwace" />
+      
+        <category term="excalidata" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-09-03-TalkTitle.png" />
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Benchmarking for ExCALIBUR Update</title>
+      <link href="http://www.bnlawrence.net//talks/2021/09/esi-to-exc/" rel="alternate" type="text/html" title="Benchmarking for ExCALIBUR Update" />
       <published>2021-09-02T00:00:00-05:00</published>
       <updated>2021-09-02T00:00:00-05:00</updated>
       <id>http://www.bnlawrence.net//talks/2021/09/esi-to-exc</id>
@@ -334,86 +414,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/xkcd_tornados.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">On scientific software - definitions</title>
-      <link href="http://www.bnlawrence.net//academic/2020/06/software3/" rel="alternate" type="text/html" title="On scientific software - definitions" />
-      <published>2020-06-07T00:00:00-05:00</published>
-      <updated>2020-06-07T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//academic/2020/06/software3</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/06/software3/">&lt;p&gt;So far in this series on scientific software, I discussed the notion that it might not be that easy to &lt;a href=&quot;/academic/2020/05/software1/&quot;&gt;define quality for scientific code&lt;/a&gt; (and left some questions hanging about how we might do that), and introduced some &lt;a href=&quot;/academic/2020/06/software2/&quot;&gt;scope questions&lt;/a&gt;&amp;gt;scope questions about what we mean by science code, and did that by producing a big diagram with lots of stuff.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="software" />
-      
-        <category term="curation" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-06-07-software-laboratory.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">On scientific software - scope</title>
-      <link href="http://www.bnlawrence.net//academic/2020/06/software2/" rel="alternate" type="text/html" title="On scientific software - scope" />
-      <published>2020-06-01T00:00:00-05:00</published>
-      <updated>2020-06-01T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//academic/2020/06/software2</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/06/software2/">&lt;p&gt;&lt;a href=&quot;/academic/2020/05/software1/&quot;&gt;Last time&lt;/a&gt; I discussed the idea that the notion of “quality scientific software” wasn’t very helpful, insofar as scientific code quality is a bit like beauty, being “in the eye of the beholder” - but I concluded with a few questions that IMHO are more important than “is it quality?”, being:&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="software" />
-      
-        <category term="curation" />
-      
-        <category term="FAIR" />
-      
-        <category term="publishing" />
-      
-        <category term="journals" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-06-04-software.png" />
       
     </entry>
   

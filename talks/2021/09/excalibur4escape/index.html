@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>ESIWACE2 Mid-Term Review | Bryan Lawrence</title>
-  <meta name="description" content="Data Systems at Scale">
+  <title>ESCAPE-2 Final Dissemination Workshop | Bryan Lawrence</title>
+  <meta name="description" content="ExCALIBUR for ESCAPE">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.bnlawrence.net//talks/2020/10/Data-Systems/">
+  <link rel="canonical" href="http://www.bnlawrence.net//talks/2021/09/excalibur4escape/">
   <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -24,17 +24,17 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:site"    content="@bnlawrence">
-<meta name="twitter:title"   content="ESIWACE2 Mid-Term Review">
+<meta name="twitter:title"   content="ESCAPE-2 Final Dissemination Workshop">
 
 
-<meta name="twitter:description" content="Data Systems at Scale
+<meta name="twitter:description" content="ExCALIBUR for ESCAPE
 
 ">
 
 
 
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="http://www.bnlawrence.net/assets/images/2020-10-21-s3netcdf.png">
+<meta name="twitter:image" content="http://www.bnlawrence.net/assets/images/2021-09-03-TalkTitle.png">
 
 <!-- end of Twitter cards -->
 
@@ -123,8 +123,8 @@
         <div class="post">
 
  <header class="post-header">
-  <h1 class="post-title">ESIWACE2 Mid-Term Review</h1>
-  <p class="post-meta">Posted on October 21, 2020
+  <h1 class="post-title">ESCAPE-2 Final Dissemination Workshop</h1>
+  <p class="post-meta">Posted on September 3, 2021
   
   
       in
@@ -134,23 +134,15 @@
   
   
   
-  (tagged: <a href="/tags/hpc/" rel="tag">HPC</a>, <a href="/tags/exascale/" rel="tag">exascale</a>, <a href="/tags/esiwace/" rel="tag">esiwace</a>).
+  (tagged: <a href="/tags/hpc/" rel="tag">HPC</a>, <a href="/tags/exascale/" rel="tag">exascale</a>, <a href="/tags/esiwace/" rel="tag">esiwace</a>, <a href="/tags/excalidata/" rel="tag">excalidata</a>).
   
   <br/>
   
   
-  Previous Post: <a class="prev" href="/academic/2020/06/software4/">&laquo;On scientific software - reproducibility&raquo;</a>
-  
-  
-  (in <a href="/categories/#academic" title="academic">academic</a>;
-  in <a href="/categories/#talks" title="talks">talks</a> previous is <a href="/talks/2020/05/What-about-simulations/" class="prev">&laquo;Earthcube - What about Data?&raquo;</a>)
+  Previous Post: <a class="prev" href="/talks/2021/09/esi-to-exc/">&laquo;Benchmarking for ExCALIBUR Update&raquo;</a>
   
   .<br/>
-   Next Post <a class="next" href="/academic/2020/10/humans-in-climate-models/">&laquo;Humans in climate models&raquo;</a>
-  
-  
-  (in <a href="/categories/#academic" title="academic">academic</a>;
-  in <a href="/categories/#talks" title="talks">talks</a> next is <a href="/talks/2021/09/esi-to-exc/" class="next">&laquo;Benchmarking for ExCALIBUR Update&raquo;</a>)
+   Next Post <a class="next" href="/talks/2021/09/digital-twins/">&laquo;19th Workshop on high performance computing in meteorology&raquo;</a>
   
   .
   </p>
@@ -158,22 +150,13 @@
 
 
   <article class="post-content">
-    <h2 id="data-systems-at-scale">Data Systems at Scale</h2>
+    <h2 id="excalibur-for-escape">ExCALIBUR for ESCAPE</h2>
 
-<p>Presentation: <a href="/assets/talks/201021_esiwace2_wp4.pdf">pdf</a> (0.5MB)</p>
+<p>Presentation: <a href="/assets/talks/2021-09-03-ExCALIBUR-for-ESCAPE.pdf">pdf</a> (1.7MB)</p>
 
-<p>This was a presentation given as part of the <a href="https://www.esiwace.eu/">esiwace</a> mid-term review. It describes some of the progress made in one of the work packages,  WP4, which is about data systems at scale. Here the definition of “at scale” means “for weather and climate simulation on exascale (and pre-exascale) supercomputing” <em>and</em> for downstream analysis systems.</p>
+<p>The Exascale Computing ALgorithms &amp; Infrastructures for the Benefit of UK Research (<a href="https://excalibur.ac.uk">ExCALIBUR</a>) programme is a five year activity with two delivery partners: the <a href="https://www.metoffice.gov.uk">Met Office</a>(for PSREs amd the <a href="https://ukri.org/councils/nerc">NERC</a> community) and the Engineering and Physical Sciences Research Council (<a href="httpsL//ukri.org/councils/epsrc">EPSRC</a>). The aim of the project is to redesign high priority simulation codes and algorithms to fully harness the power of future supercomputers, keeping UK research and development at the forefront of high-performance simulation science.</p>
 
-<p>I have an <a href="/talks/2019/03/Data-Systems/">older post</a> linking to a talk describing the work package objectives.</p>
-
-<p>In this presentation I highlighted</p>
-<ul>
-  <li>our work on ensemble handling. Amongst other activities we have demonstrated “in-flight ensemble data processing” with a large high resolution ensemble (10 member global 25 km resolution using 50K cores).</li>
-  <li>progress with the Earth System Data Middleware (<a href="https://github.com/ESiWACE/esdm">ESDM</a>), which includes NetCDF interface and some new backends, and</li>
-  <li>work by our industry colleagues, Seagate and DDN both on ESDM backends and on new active storage systems which will be able to do simple manipulations “in storage”,  and</li>
-  <li>our work on <a href="https://github.com/cedadev/S3-netcdf-python">S3NetCDF</a>, a drop in extension for netcdf-python suitable for use with object stores.</li>
-</ul>
-
+<p>This talk (part of the <a href="https://www.hpc-escape2.eu/outreach/events/escape-2-final-dissemination-workshop">ESCAPE-2 Final Dissemination Workshop</a>) outlines key aspects of the programme, including a summary of the priority use cases with a bit more detail about the environmental science projects (which are all related to the next generation modelling system which will replace the current Unified Model). Some cross-cutting areas are listed and there is a summary of our ExCALIData project (see <a href="http://www.bnlawrence.net//talks/2021/09/esi-to-exc/">my last talk</a>).</p>
 
   </article>
 

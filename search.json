@@ -2,7 +2,29 @@
 
   
     {
-      "title"			: "From ESiWACE to ExCALIDATA",
+      "title"			: "19th Workshop on high performance computing in meteorology",
+      "url"			: "/talks/2021/09/digital-twins/",
+      "tag"       : "HPC, exascale, digital-twins",
+      "category"  : "talks",
+      "date"      : "2021-09-20",
+      "excerpt"		: "Digital twins are defined in many ways, but definitions usually have some combination of the words “simulation of the real world constrained by real time data”. These definitions basically encompass our understanding of the use of weather and climate models whether using data assimilation or tuning to history. It would appear that we (environmental science in general and weather and climate specifically) have been doing digital twins for a long time. So what then should new digital twin projects in our field aim to do that is different from our business as usual approach of evolving models and increasing use of data?"
+    }
+  
+
+  
+    ,{
+      "title"			: "ESCAPE-2 Final Dissemination Workshop",
+      "url"			: "/talks/2021/09/excalibur4escape/",
+      "tag"       : "HPC, exascale, esiwace, excalidata",
+      "category"  : "talks",
+      "date"      : "2021-09-03",
+      "excerpt"		: "ExCALIBUR for ESCAPE"
+    }
+  
+
+  
+    ,{
+      "title"			: "Benchmarking for ExCALIBUR Update",
       "url"			: "/talks/2021/09/esi-to-exc/",
       "tag"       : "HPC, exascale, esiwace, excalidata",
       "category"  : "talks",
@@ -4421,6 +4443,8 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
   
 
   
