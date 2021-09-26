@@ -131,6 +131,56 @@
 <div class="talks">
 
 <div class="meeting">
+<h1 class="theader"> From ESiWACE to ExCALIDATA</h1>
+<h1 class="tdetails">Zoom, September 02, 2021</h1>
+<h2 id="from-esiwace-to-excalidata">From ESiWACE to ExCALIData</h2>
+
+<p>I gave a talk to the ExCALIBUR <a href="https://excalibur.ac.uk/themes/hardware-and-enabling-software/">benchmarking community</a> about the work we plan to do in the <a href="https://excalibur.ac.uk">ExCALIBUR</a> programme.   This new activity is called ExCALIData, and really comprises two projects ExCALIStore and ExCALIWork. It is “cross-cutting” work funded as part of the <a href="https://www.metoffice.gov.uk">Met Office</a> strand of ExCALIBUR to deliver cross-cutting research in support of all programme elements (of which more in my next post). The entire programme is a national programme with two funding strands, one for public sector research establishments <em>and</em> the <a href="https://ukri.org/councils/nerc">NERC</a> environmental science research community, and one delivered by <a href="https://ukri.org/councils/epsrc">EPSRC</a> for the rest of the <a href="ukri.org">UKRI</a> community.</p>
+
+<p>Excalibur itself is a multi-million pound multi-year project which aims to deliver software suitable for the next generation of supercomputing at scale - the “exascale” generation. The two ExCALIData projects have been funded in response to a call which essentially asked for two projects which addressed:</p>
+
+<ul>
+  <li>support for optimal (performant) use of a given system’s storage configuration (portable) for their particular application without having to know the details of the system configuration (productive) in order to configure their application; and</li>
+  <li>deliver a completely new paradigm for where certain computations are performed by reducing the amount of data movement needed, particularly in the context of ensembles (but implicitly, make sure that this can be done productively, and results in portable code which is optimally performant in any given environment).</li>
+</ul>
+
+<p>The call asked for particular application to any one of the existing Excalibur use cases but a plan for how it might be applicable to others. We of course addressed climate modelling as our first use-case, but in doing so aimed to address a couple of other use cases and build some generic tools.</p>
+
+<p>We were in a good place to bid for this work building on the back of our <a href="https://esiwace.eu">EsIWACE</a> activities on I/O and workflow, so the talk I gave to the benchmarking community was in two halves: the first half addressed the problem statement and some of the things we have been doing in ESiWACE, and the second described the programme of work we plan in Excalibur.</p>
+
+<h4 id="from-esiwace-to-excalibur">From EsiWACE to ExCALIBUR</h4>
+
+<p>Presentation: <a href="/assets/talks/2021-09-02_exa_io.pdf">pdf</a>  (1.6MB)</p>
+
+<p>This was a short motivation for our particular problem in terms of massive grids of data from models and how increasing resolution leads (if nothing is done) to vastly more data to store and analyse. The trends in data volumes match the trends in computing and will lead to exabytes of simulation data before we hit exaflops.  Our exabytes are a bit more difficult to deal with (in some ways) than Facebook’s, but like all the big data specialists, as a community we are building our own customised computing environments - in this case we are specialising the analysis environment sooner than we have specialised the simulation platform (but that too is coming).</p>
+
+<p>In WP4 of EsiWACE(2) we have been working to “mitigate the effects of the data deluge from high-resolution simulations”, by working on tools for carrying out ensemble statistics “in-flight” and on tools to hide storage complexity and deliver portable workflows. There were several components to that work: the largest of which has been the development of the Earth System Data Middleware (ESDM), an activity led by <a href="https://hps.vi4io.org/about/people/julian_kunkel">Prof Julian Kunkel</a>. The others were mainly led by me, and are the main thrust of the ExCALIData work, although we will be doing some comparisons of other technologies with the ESDM.</p>
+
+<h4 id="an-introduction-to-excalidata">An Introduction to ExCALIData</h4>
+
+<p>Presentation: <a href="/assets/talks/2021-09-02-ExCALIData.pdf">pdf</a> (1.6 MB)</p>
+
+<p>ExCALIData aims to address the end-to-end workflow for (large)data in, simulation, (larger)data out, analysis, store workflows. We designed two complementary projects to address the two goals in the call with six main activities (three to each project) and one joint work package on knowledge-exchange.  (They were designed in such a way that only one could have been funded, but we could get synergy from having two.)</p>
+
+<p>The six work packages address</p>
+
+<ol>
+  <li>storage interfaces, and our our idea of semantically interesting “atomic_datasets” as an interface to multiple constituent data elements (quarks) distributed across storage media.</li>
+  <li>how best we can use fabric and solid state storage. There are a plethora of technology options, but how can we deploy some of them for real? Which ones?</li>
+  <li>A comparison of I/O middleware (including the domain specific ESDM, and the generic ADIOS2)</li>
+  <li>Active Storage in software, and</li>
+  <li>Active Storage in hardware</li>
+  <li>Extending I/O server functionality that we developed in ESiWACE for “atmosphere only” workflows for coupled model workflows.</li>
+</ol>
+
+<p>For the active storage work the key idea is to deploy something actually usable by scientists and build two demonstrator storage systems which deliver the active storage functionality.</p>
+
+<p>Not surprisingly, this is a complex project, and we needed a lot of partners, in this case: DDN and StackHPC to help us with the storage servers and the University of Cambridge to help us with some of the more technical hardware activities (especially the work on fabric, solid state, storage, and the benchmarking of comparative solutions).</p>
+
+
+</div>
+
+<div class="meeting">
 <h1 class="theader"> ESIWACE2 Mid-Term Review</h1>
 <h1 class="tdetails">GotoMeeting, October, 2020</h1>
 <h2 id="data-systems-at-scale">Data Systems at Scale</h2>

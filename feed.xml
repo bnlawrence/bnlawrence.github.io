@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2021-06-16T08:32:23-05:00</updated>
+  <updated>2021-09-26T10:46:38-05:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,47 @@
   
 
   
+  
+    <entry>
+      <title type="html">From ESiWACE to ExCALIDATA</title>
+      <link href="http://www.bnlawrence.net//talks/2021/09/esi-to-exc/" rel="alternate" type="text/html" title="From ESiWACE to ExCALIDATA" />
+      <published>2021-09-02T00:00:00-05:00</published>
+      <updated>2021-09-02T00:00:00-05:00</updated>
+      <id>http://www.bnlawrence.net//talks/2021/09/esi-to-exc</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2021/09/esi-to-exc/">&lt;h2 id=&quot;from-esiwace-to-excalidata&quot;&gt;From ESiWACE to ExCALIData&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+        <category term="esiwace" />
+      
+        <category term="excalidata" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-09-02-TalkTitle.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">Under the hood of a Digital Twin ESM</title>
@@ -373,49 +414,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-06-04-software.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">On scientific software - a beginning</title>
-      <link href="http://www.bnlawrence.net//academic/2020/05/software1/" rel="alternate" type="text/html" title="On scientific software - a beginning" />
-      <published>2020-05-27T00:00:00-05:00</published>
-      <updated>2020-05-27T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//academic/2020/05/software1</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/05/software1/">&lt;p&gt;All the opprobrium for Neil Ferguson’s epidemiological &lt;em&gt;code&lt;/em&gt; has got to me. Enough that I’m going to commit myself to a &lt;em&gt;series&lt;/em&gt; of blog posts, after a long silence here … (note that I have not committed to the interval period though!)&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="software" />
-      
-        <category term="curation" />
-      
-        <category term="FAIR" />
-      
-        <category term="publishing" />
-      
-        <category term="journals" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-05-27-software-quality.png" />
       
     </entry>
   

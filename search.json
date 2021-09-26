@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "From ESiWACE to ExCALIDATA",
+      "url"			: "/talks/2021/09/esi-to-exc/",
+      "tag"       : "HPC, exascale, esiwace, excalidata",
+      "category"  : "talks",
+      "date"      : "2021-09-02",
+      "excerpt"		: "From ESiWACE to ExCALIData"
+    }
+  
+
+  
+    ,{
       "title"			: "Under the hood of a Digital Twin ESM",
       "url"			: "/computing/2021/06/under-the-hood/",
       "tag"       : "climate",
@@ -4410,6 +4421,8 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
   
 
   
