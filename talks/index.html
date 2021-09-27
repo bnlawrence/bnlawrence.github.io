@@ -131,8 +131,27 @@
 <div class="talks">
 
 <div class="meeting">
+<h1 class="theader"> ESiWACE2 2021 General Assembly</h1>
+<h1 class="tdetails">Gotomeeting, September 27, 2021</h1>
+<p>Presentation: <a href="/assets/talks/2021-09-27-esiwace2-ga-wp4.pdf">pdf</a> (4 MB)</p>
+
+<p>An update on progress in the ESiWACE2 fourth work package, WP4, data (systems) at scale.</p>
+
+<p>We discussed the WP4 objectives and our progress on three different pieces of technology: support for in-flight ensemble diagnostics, semantic storage tools, and the Earth System Data Middleware (ESDM). I gave a description of the first two, and <a href="https://hps.vi4io.org/about/people/julian_kunkel">Julian</a> described the ESDM and accompanying activities.</p>
+
+<p>For my bits:</p>
+<ul>
+  <li>We showed some great results from our use of XIOS for ensembles, with scaling results from a one-hundred member N96 system and sixteen-member N512 system. We’re convinced that when we do this for real for high-resolution models the extra work to do the ensemble diagnostics will be lost in the noise. We have more work to do to do it for real though, including setting up real diagnostics for each member, and the new ensemble diagnostics. We’ve got a cool new CYLC system to handle an ensemble member crashing during the run.</li>
+  <li>We also showed our plans for moving forward with semantic storage technologies as part of both the rest of ESiWACE2 and ExCALIBUR. There will be work on a new tape and object store interface for deployment on HPC platforms remote from the storage and analysis platform (e.g. for use on ARCHER2 writing to JASMIN), and on our new aggregation syntax (of which much more in the future).</li>
+</ul>
+
+</div>
+
+<div class="meeting">
 <h1 class="theader"> 19th Workshop on high performance computing in meteorology</h1>
 <h1 class="tdetails">Zoom, September 20, 2021</h1>
+<p>Presentation: <a href="/assets/talks/2021-09-20_digital_twins.pdf">pdf</a> (0.3MB)</p>
+
 <p>Digital twins are defined in many ways, but definitions usually have some combination of the words “simulation of the real world constrained by real time data”. These definitions basically encompass our understanding of the use of weather and climate models whether using data assimilation or tuning to history. It would appear that we (environmental science in general and weather and climate specifically) have been doing digital twins for a long time. So what then should new digital twin projects in our field aim to do that is different from our business as usual approach of evolving models and increasing use of data?</p>
 
 <p>There seem to be two key promises associated with the current drive towards digital twinning: scenario evaluation and democratising access to simulations. To make progress we can consider two specific exemplar questions: (1) How can I better use higher-resolution local models of phenomenon X driven by lower-resolution (yet still expensive large-scale) global models?; and (2) How can I couple my socio-economic model into this system?</p>

@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>19th Workshop on high performance computing in meteorology | Bryan Lawrence</title>
-  <meta name="description" content="Presentation: pdf (0.3MB)">
+  <title>ESiWACE2 2021 General Assembly | Bryan Lawrence</title>
+  <meta name="description" content="Presentation: pdf (4 MB)">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.bnlawrence.net//talks/2021/09/digital-twins/">
+  <link rel="canonical" href="http://www.bnlawrence.net//talks/2021/09/esiwace2-ga-wp4/">
   <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -24,17 +24,17 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:site"    content="@bnlawrence">
-<meta name="twitter:title"   content="19th Workshop on high performance computing in meteorology">
+<meta name="twitter:title"   content="ESiWACE2 2021 General Assembly">
 
 
-<meta name="twitter:description" content="Presentation: pdf (0.3MB)
+<meta name="twitter:description" content="Presentation: pdf (4 MB)
 
 ">
 
 
 
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="http://www.bnlawrence.net/assets/images/2021-09-20-Promises.png">
+<meta name="twitter:image" content="http://www.bnlawrence.net/assets/images/2021-09-27-Objectives.png">
 
 <!-- end of Twitter cards -->
 
@@ -123,8 +123,8 @@
         <div class="post">
 
  <header class="post-header">
-  <h1 class="post-title">19th Workshop on high performance computing in meteorology</h1>
-  <p class="post-meta">Posted on September 20, 2021
+  <h1 class="post-title">ESiWACE2 2021 General Assembly</h1>
+  <p class="post-meta">Posted on September 27, 2021
   
   
       in
@@ -134,31 +134,31 @@
   
   
   
-  (tagged: <a href="/tags/hpc/" rel="tag">HPC</a>, <a href="/tags/exascale/" rel="tag">exascale</a>, <a href="/tags/digital-twins/" rel="tag">digital-twins</a>).
+  (tagged: <a href="/tags/hpc/" rel="tag">HPC</a>, <a href="/tags/exascale/" rel="tag">exascale</a>, <a href="/tags/esiwace/" rel="tag">esiwace</a>).
   
   <br/>
   
   
-  Previous Post: <a class="prev" href="/talks/2021/09/excalibur4escape/">&laquo;ESCAPE-2 Final Dissemination Workshop&raquo;</a>
+  Previous Post: <a class="prev" href="/talks/2021/09/digital-twins/">&laquo;19th Workshop on high performance computing in meteorology&raquo;</a>
   
   .<br/>
-   Next Post <a class="next" href="/talks/2021/09/esiwace2-ga-wp4/">&laquo;ESiWACE2 2021 General Assembly&raquo;</a>
-  
   .
   </p>
 </header>
 
 
   <article class="post-content">
-    <p>Presentation: <a href="/assets/talks/2021-09-20_digital_twins.pdf">pdf</a> (0.3MB)</p>
+    <p>Presentation: <a href="/assets/talks/2021-09-27-esiwace2-ga-wp4.pdf">pdf</a> (4 MB)</p>
 
-<p>Digital twins are defined in many ways, but definitions usually have some combination of the words “simulation of the real world constrained by real time data”. These definitions basically encompass our understanding of the use of weather and climate models whether using data assimilation or tuning to history. It would appear that we (environmental science in general and weather and climate specifically) have been doing digital twins for a long time. So what then should new digital twin projects in our field aim to do that is different from our business as usual approach of evolving models and increasing use of data?</p>
+<p>An update on progress in the ESiWACE2 fourth work package, WP4, data (systems) at scale.</p>
 
-<p>There seem to be two key promises associated with the current drive towards digital twinning: scenario evaluation and democratising access to simulations. To make progress we can consider two specific exemplar questions: (1) How can I better use higher-resolution local models of phenomenon X driven by lower-resolution (yet still expensive large-scale) global models?; and (2) How can I couple my socio-economic model into this system?</p>
+<p>We discussed the WP4 objectives and our progress on three different pieces of technology: support for in-flight ensemble diagnostics, semantic storage tools, and the Earth System Data Middleware (ESDM). I gave a description of the first two, and <a href="https://hps.vi4io.org/about/people/julian_kunkel">Julian</a> described the ESDM and accompanying activities.</p>
 
-<p>Delivering on these promises, even for just these two exemplars, requires some additional thinking beyond what we do now, and such thinking can take advantage of our changing computing environments, and in particular our use of tiered memory and storage, so that the burden of supporting these digital twin applications does not come with unaffordable complexity or cost in the primary simulation environment. It will also require much more transparency and community engagement in the experimental definition. In this talk I outline some of the possibilities in this space, building from existing technologies (software and hardware), models, and infrastructure (existing systems), and suggest some practical ways forward for delivering on some of the digital twin promises, some of which might even be possible within existing programmes such as the EC’s Destination Earth (DestinE).</p>
-
-<p>This talk was part of the <a href="https://events.ecmwf.int/event/169/timetable/">19th Workshop on high performance computing in meteorology</a>, and there is a <a href="https://events.ecmwf.int/event/169/contributions/2723/attachments/1423/2564/go">recording available</a> (not that I recommend listening all the way to the questions which I didn’t handle very well; I was rather tired when I gave this talk).</p>
+<p>For my bits:</p>
+<ul>
+  <li>We showed some great results from our use of XIOS for ensembles, with scaling results from a one-hundred member N96 system and sixteen-member N512 system. We’re convinced that when we do this for real for high-resolution models the extra work to do the ensemble diagnostics will be lost in the noise. We have more work to do to do it for real though, including setting up real diagnostics for each member, and the new ensemble diagnostics. We’ve got a cool new CYLC system to handle an ensemble member crashing during the run.</li>
+  <li>We also showed our plans for moving forward with semantic storage technologies as part of both the rest of ESiWACE2 and ExCALIBUR. There will be work on a new tape and object store interface for deployment on HPC platforms remote from the storage and analysis platform (e.g. for use on ARCHER2 writing to JASMIN), and on our new aggregation syntax (of which much more in the future).</li>
+</ul>
 
   </article>
 

@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2021-09-26T14:27:42-05:00</updated>
+  <updated>2021-09-27T11:35:32-05:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -26,12 +26,51 @@
   
   
     <entry>
+      <title type="html">ESiWACE2 2021 General Assembly</title>
+      <link href="http://www.bnlawrence.net//talks/2021/09/esiwace2-ga-wp4/" rel="alternate" type="text/html" title="ESiWACE2 2021 General Assembly" />
+      <published>2021-09-27T00:00:00-05:00</published>
+      <updated>2021-09-27T00:00:00-05:00</updated>
+      <id>http://www.bnlawrence.net//talks/2021/09/esiwace2-ga-wp4</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2021/09/esiwace2-ga-wp4/">&lt;p&gt;Presentation: &lt;a href=&quot;/assets/talks/2021-09-27-esiwace2-ga-wp4.pdf&quot;&gt;pdf&lt;/a&gt; (4 MB)&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+        <category term="esiwace" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-09-27-Objectives.png" />
+      
+    </entry>
+  
+    <entry>
       <title type="html">19th Workshop on high performance computing in meteorology</title>
       <link href="http://www.bnlawrence.net//talks/2021/09/digital-twins/" rel="alternate" type="text/html" title="19th Workshop on high performance computing in meteorology" />
       <published>2021-09-20T00:00:00-05:00</published>
       <updated>2021-09-20T00:00:00-05:00</updated>
       <id>http://www.bnlawrence.net//talks/2021/09/digital-twins</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2021/09/digital-twins/">&lt;p&gt;Digital twins are defined in many ways, but definitions usually have some combination of the words “simulation of the real world constrained by real time data”. These definitions basically encompass our understanding of the use of weather and climate models whether using data assimilation or tuning to history. It would appear that we (environmental science in general and weather and climate specifically) have been doing digital twins for a long time. So what then should new digital twin projects in our field aim to do that is different from our business as usual approach of evolving models and increasing use of data?&lt;/p&gt;</content>
+      <content type="html" xml:base="http://www.bnlawrence.net//talks/2021/09/digital-twins/">&lt;p&gt;Presentation: &lt;a href=&quot;/assets/talks/2021-09-20_digital_twins.pdf&quot;&gt;pdf&lt;/a&gt; (0.3MB)&lt;/p&gt;</content>
 
       
       
@@ -371,49 +410,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-10-21-s3netcdf.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">On scientific software - reproducibility</title>
-      <link href="http://www.bnlawrence.net//academic/2020/06/software4/" rel="alternate" type="text/html" title="On scientific software - reproducibility" />
-      <published>2020-06-10T00:00:00-05:00</published>
-      <updated>2020-06-10T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//academic/2020/06/software4</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/06/software4/">&lt;p&gt;Well I had to &lt;a href=&quot;https://twitter.com/bnlawrence/status/1270614398479011840?s=20&quot;&gt;expose&lt;/a&gt; this series of blog posts before I had them all done because of this:&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="software" />
-      
-        <category term="curation" />
-      
-        <category term="fair" />
-      
-        <category term="publishing" />
-      
-        <category term="journals" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/xkcd_tornados.png" />
       
     </entry>
   
