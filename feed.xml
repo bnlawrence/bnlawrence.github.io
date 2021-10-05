@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2021-09-27T11:35:32-05:00</updated>
+  <updated>2021-10-05T05:28:13-05:00</updated>
   <id>http://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,40 @@
   
 
   
+  
+    <entry>
+      <title type="html">Two new preprints</title>
+      <link href="http://www.bnlawrence.net//science/2021/10/preprints/" rel="alternate" type="text/html" title="Two new preprints" />
+      <published>2021-10-05T00:00:00-05:00</published>
+      <updated>2021-10-05T00:00:00-05:00</updated>
+      <id>http://www.bnlawrence.net//science/2021/10/preprints</id>
+      <content type="html" xml:base="http://www.bnlawrence.net//science/2021/10/preprints/">&lt;p&gt;I’ve just added links to two preprints to my &lt;a href=&quot;/publications&quot;&gt;publications&lt;/a&gt; page. Quite different topics. (There are also a lot of recent talks online as well, I’ve had a busy month!)&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="climate," />
+      
+        <category term="epidemiology" />
+      
+
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">ESiWACE2 2021 General Assembly</title>
@@ -371,45 +405,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/Calvin_Bond-Lamberty_2018_fig4.jpg" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">ESIWACE2 Mid-Term Review</title>
-      <link href="http://www.bnlawrence.net//talks/2020/10/Data-Systems/" rel="alternate" type="text/html" title="ESIWACE2 Mid-Term Review" />
-      <published>2020-10-21T00:00:00-05:00</published>
-      <updated>2020-10-21T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//talks/2020/10/Data-Systems</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2020/10/Data-Systems/">&lt;h2 id=&quot;data-systems-at-scale&quot;&gt;Data Systems at Scale&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="HPC" />
-      
-        <category term="exascale" />
-      
-        <category term="esiwace" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-10-21-s3netcdf.png" />
       
     </entry>
   

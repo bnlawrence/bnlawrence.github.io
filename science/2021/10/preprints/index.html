@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>ESiWACE2 2021 General Assembly | Bryan Lawrence</title>
-  <meta name="description" content="Presentation: pdf (4 MB)">
+  <title>Two new preprints | Bryan Lawrence</title>
+  <meta name="description" content="I’ve just added links to two preprints to my publications page. Quite different topics. (There are also a lot of recent talks online as well, I’ve had a busy month!)">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.bnlawrence.net//talks/2021/09/esiwace2-ga-wp4/">
+  <link rel="canonical" href="http://www.bnlawrence.net//science/2021/10/preprints/">
   <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -24,17 +24,17 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:site"    content="@bnlawrence">
-<meta name="twitter:title"   content="ESiWACE2 2021 General Assembly">
+<meta name="twitter:title"   content="Two new preprints">
 
 
-<meta name="twitter:description" content="Presentation: pdf (4 MB)
+<meta name="twitter:description" content="I’ve just added links to two preprints to my publications page. Quite different topics. (There are also a lot of recent talks online as well, I’ve had a busy month!)
 
 ">
 
 
 
-<meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="http://www.bnlawrence.net/assets/images/2021-09-27-Objectives.png">
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="">
 
 <!-- end of Twitter cards -->
 
@@ -123,46 +123,46 @@
         <div class="post">
 
  <header class="post-header">
-  <h1 class="post-title">ESiWACE2 2021 General Assembly</h1>
-  <p class="post-meta">Posted on September 27, 2021
+  <h1 class="post-title">Two new preprints</h1>
+  <p class="post-meta">Posted on October 5, 2021
   
   
       in
       
-      <a href="/categories/#talks" title="talks">talks</a>&nbsp;
+      <a href="/categories/#science" title="science">science</a>&nbsp;
       
   
   
   
-  (tagged: <a href="/tags/hpc/" rel="tag">HPC</a>, <a href="/tags/exascale/" rel="tag">exascale</a>, <a href="/tags/esiwace/" rel="tag">esiwace</a>).
+  (tagged: <a href="/tags/climate%2C/" rel="tag">climate,</a>, <a href="/tags/epidemiology/" rel="tag">epidemiology</a>).
   
   <br/>
   
   
-  Previous Post: <a class="prev" href="/talks/2021/09/digital-twins/">&laquo;19th Workshop on high performance computing in meteorology&raquo;</a>
+  Previous Post: <a class="prev" href="/talks/2021/09/esiwace2-ga-wp4/">&laquo;ESiWACE2 2021 General Assembly&raquo;</a>
   
   .<br/>
-   Next Post <a class="next" href="/science/2021/10/preprints/">&laquo;Two new preprints&raquo;</a>
-  
   .
   </p>
 </header>
 
 
   <article class="post-content">
-    <p>Presentation: <a href="/assets/talks/2021-09-27-esiwace2-ga-wp4.pdf">pdf</a> (4 MB)</p>
+    <p>I’ve just added links to two preprints to my <a href="/publications">publications</a> page. Quite different topics. (There are also a lot of recent talks online as well, I’ve had a busy month!)</p>
 
-<p>An update on progress in the ESiWACE2 fourth work package, WP4, data (systems) at scale.</p>
+<h4 id="detecting-the-presence-of-tropical-cyclones-using-deep-learning-techniques">Detecting the presence of Tropical Cyclones using Deep Learning Techniques</h4>
 
-<p>We discussed the WP4 objectives and our progress on three different pieces of technology: support for in-flight ensemble diagnostics, semantic storage tools, and the Earth System Data Middleware (ESDM). I gave a description of the first two, and <a href="https://hps.vi4io.org/about/people/julian_kunkel">Julian</a> described the ESDM and accompanying activities.</p>
+<p>Tropical cyclones are severe weather events which have massive human and economic effect, so it is important to be able to understand how their location, frequency and structure might change in future climate. Here, a lightweight Deep Learning model is presented which is intended for detecting the presence or absence of tropical cyclones in running numerical simulations. This model has been developed to investigate the avoidance of saving vast amounts of data for analysis by filtering data during simulations so as to save only relevant data. Subsequent analysis workflow can target that data, avoiding the need to save all simulation outputs for cyclone analysis. The model was trained on ERA-Interim reanalysis data from 1979 to 2017 and the training concentrated on delivering the highest possible recall rate (successful detection of cyclones) while rejecting enough data to make a difference in outputs. When tested using data from the two subsequent years, the recall rate was 92% and the precision was 36%. For the desired filtration application, if the desired target included relevant meteorological events, the effective precision was 85%. The recall rate compares favourably with other methods of cyclone identification having the best Area Under Curve for the Precision/Recall (AUC-PR) and using the smallest number of parameters for both training and inference</p>
 
-<p>For my bits:</p>
-<ul>
-  <li>We showed some great results from our use of XIOS for ensembles, with scaling results from a one-hundred member N96 system and sixteen-member N512 system. We’re convinced that when we do this for real for high-resolution models the extra work to do the ensemble diagnostics will be lost in the noise. We have more work to do to do it for real though, including setting up real diagnostics for each member, and the new ensemble diagnostics. We’ve got a cool new CYLC system to handle an ensemble member crashing during the run.</li>
-  <li>We also showed our plans for moving forward with semantic storage technologies as part of both the rest of ESiWACE2 and ExCALIBUR. There will be work on a new tape and object store interface for deployment on HPC platforms remote from the storage and analysis platform (e.g. for use on ARCHER2 writing to JASMIN), and on our new aggregation syntax (of which much more in the future).</li>
-</ul>
+<h4 id="vaccinations-or-non-pharmaceutical-interventions-safe-reopening-of-schools-in-england">Vaccinations or Non-Pharmaceutical Interventions: Safe Reopening of Schools in England</h4>
+
+<p>With high levels of the Delta variant of COVID-19 circulating in England during September 2021, schools are set to reopen with few school-based non-pharmaceutical interventions (NPIs). In this paper, we present simulation results obtained from the individual-based model, June, for English school opening after a prior vaccination campaign using an optimistic set of assumptions about vaccine efficacy and the likelihood of prior-reinfection. We take a scenario-based approach to modelling potential interventions to assess relative changes rather than real-world forecasts. Specifically, we assess the effects of vaccinating those aged 16-17, those aged 12-17, and not vaccinating children at all relative to only vaccinating the adult population, addressing what might have happened had the UK began teenage vaccinations earlier. Vaccinating children in the 12-15 age group would have had a significant impact on the course of the epidemic, saving thousands of lives overall in these simulations. In the absence of such a vaccination campaign our simulations show there could still be a significant positive impact on the epidemic (fewer cases, fewer deaths) by continuing NPI strategies in schools. Our analysis suggests that the best results in terms of lives saved are likely derived from a combination of the now planned vaccination campaign and NPIs in schools.</p>
+
 
   </article>
+
+  
+
 
 </div>
 

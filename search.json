@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "Two new preprints",
+      "url"			: "/science/2021/10/preprints/",
+      "tag"       : "climate,, epidemiology",
+      "category"  : "science",
+      "date"      : "2021-10-05",
+      "excerpt"		: "I’ve just added links to two preprints to my publications page. Quite different topics. (There are also a lot of recent talks online as well, I’ve had a busy month!)"
+    }
+  
+
+  
+    ,{
       "title"			: "ESiWACE2 2021 General Assembly",
       "url"			: "/talks/2021/09/esiwace2-ga-wp4/",
       "tag"       : "HPC, exascale, esiwace",
@@ -4454,6 +4465,10 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
   
 
   
