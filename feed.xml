@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
-  <link href="http://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2021-10-05T05:28:13-05:00</updated>
-  <id>http://www.bnlawrence.net//</id>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2023-03-31T06:16:27-05:00</updated>
+  <id>http://localhost:4000/</id>
 
   
     <title type="html">Bryan Lawrence</title>
@@ -26,12 +26,54 @@
   
   
     <entry>
+      <title type="html">UK Turbulence Consortium, 2023 Annual Meeting</title>
+      <link href="http://localhost:4000/talks/2023/03/data-for-uktc/" rel="alternate" type="text/html" title="UK Turbulence Consortium, 2023 Annual Meeting" />
+      <published>2023-03-27T00:00:00-05:00</published>
+      <updated>2023-03-27T00:00:00-05:00</updated>
+      <id>http://localhost:4000/talks/2023/03/data-for-uktc</id>
+      <content type="html" xml:base="http://localhost:4000/talks/2023/03/data-for-uktc/">&lt;p&gt;Presentation: &lt;a href=&quot;/assets/talks/2023-03-27-data_for_uktc.pdf&quot;&gt;pdf&lt;/a&gt; (13 MB)&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+        <category term="esiwace" />
+      
+        <category term="excalidata" />
+      
+        <category term="cmip6" />
+      
+        <category term="ipcc" />
+      
+
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Two new preprints</title>
-      <link href="http://www.bnlawrence.net//science/2021/10/preprints/" rel="alternate" type="text/html" title="Two new preprints" />
+      <link href="http://localhost:4000/science/2021/10/preprints/" rel="alternate" type="text/html" title="Two new preprints" />
       <published>2021-10-05T00:00:00-05:00</published>
       <updated>2021-10-05T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//science/2021/10/preprints</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//science/2021/10/preprints/">&lt;p&gt;I’ve just added links to two preprints to my &lt;a href=&quot;/publications&quot;&gt;publications&lt;/a&gt; page. Quite different topics. (There are also a lot of recent talks online as well, I’ve had a busy month!)&lt;/p&gt;</content>
+      <id>http://localhost:4000/science/2021/10/preprints</id>
+      <content type="html" xml:base="http://localhost:4000/science/2021/10/preprints/">&lt;p&gt;I’ve just added links to two preprints to my &lt;a href=&quot;/publications&quot;&gt;publications&lt;/a&gt; page. Quite different topics. (There are also a lot of recent talks online as well, I’ve had a busy month!)&lt;/p&gt;</content>
 
       
       
@@ -61,11 +103,11 @@
   
     <entry>
       <title type="html">ESiWACE2 2021 General Assembly</title>
-      <link href="http://www.bnlawrence.net//talks/2021/09/esiwace2-ga-wp4/" rel="alternate" type="text/html" title="ESiWACE2 2021 General Assembly" />
+      <link href="http://localhost:4000/talks/2021/09/esiwace2-ga-wp4/" rel="alternate" type="text/html" title="ESiWACE2 2021 General Assembly" />
       <published>2021-09-27T00:00:00-05:00</published>
       <updated>2021-09-27T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//talks/2021/09/esiwace2-ga-wp4</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2021/09/esiwace2-ga-wp4/">&lt;p&gt;Presentation: &lt;a href=&quot;/assets/talks/2021-09-27-esiwace2-ga-wp4.pdf&quot;&gt;pdf&lt;/a&gt; (4 MB)&lt;/p&gt;</content>
+      <id>http://localhost:4000/talks/2021/09/esiwace2-ga-wp4</id>
+      <content type="html" xml:base="http://localhost:4000/talks/2021/09/esiwace2-ga-wp4/">&lt;p&gt;Presentation: &lt;a href=&quot;/assets/talks/2021-09-27-esiwace2-ga-wp4.pdf&quot;&gt;pdf&lt;/a&gt; (4 MB)&lt;/p&gt;</content>
 
       
       
@@ -94,17 +136,17 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-09-27-Objectives.png" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2021-09-27-Objectives.png" />
       
     </entry>
   
     <entry>
       <title type="html">19th Workshop on high performance computing in meteorology</title>
-      <link href="http://www.bnlawrence.net//talks/2021/09/digital-twins/" rel="alternate" type="text/html" title="19th Workshop on high performance computing in meteorology" />
+      <link href="http://localhost:4000/talks/2021/09/digital-twins/" rel="alternate" type="text/html" title="19th Workshop on high performance computing in meteorology" />
       <published>2021-09-20T00:00:00-05:00</published>
       <updated>2021-09-20T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//talks/2021/09/digital-twins</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2021/09/digital-twins/">&lt;p&gt;Presentation: &lt;a href=&quot;/assets/talks/2021-09-20_digital_twins.pdf&quot;&gt;pdf&lt;/a&gt; (0.3MB)&lt;/p&gt;</content>
+      <id>http://localhost:4000/talks/2021/09/digital-twins</id>
+      <content type="html" xml:base="http://localhost:4000/talks/2021/09/digital-twins/">&lt;p&gt;Presentation: &lt;a href=&quot;/assets/talks/2021-09-20_digital_twins.pdf&quot;&gt;pdf&lt;/a&gt; (0.3MB)&lt;/p&gt;</content>
 
       
       
@@ -133,17 +175,17 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-09-20-Promises.png" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2021-09-20-Promises.png" />
       
     </entry>
   
     <entry>
       <title type="html">ESCAPE-2 Final Dissemination Workshop</title>
-      <link href="http://www.bnlawrence.net//talks/2021/09/excalibur4escape/" rel="alternate" type="text/html" title="ESCAPE-2 Final Dissemination Workshop" />
+      <link href="http://localhost:4000/talks/2021/09/excalibur4escape/" rel="alternate" type="text/html" title="ESCAPE-2 Final Dissemination Workshop" />
       <published>2021-09-03T00:00:00-05:00</published>
       <updated>2021-09-03T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//talks/2021/09/excalibur4escape</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2021/09/excalibur4escape/">&lt;h2 id=&quot;excalibur-for-escape&quot;&gt;ExCALIBUR for ESCAPE&lt;/h2&gt;</content>
+      <id>http://localhost:4000/talks/2021/09/excalibur4escape</id>
+      <content type="html" xml:base="http://localhost:4000/talks/2021/09/excalibur4escape/">&lt;h2 id=&quot;excalibur-for-escape&quot;&gt;ExCALIBUR for ESCAPE&lt;/h2&gt;</content>
 
       
       
@@ -174,17 +216,17 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-09-03-TalkTitle.png" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2021-09-03-TalkTitle.png" />
       
     </entry>
   
     <entry>
       <title type="html">Benchmarking for ExCALIBUR Update</title>
-      <link href="http://www.bnlawrence.net//talks/2021/09/esi-to-exc/" rel="alternate" type="text/html" title="Benchmarking for ExCALIBUR Update" />
+      <link href="http://localhost:4000/talks/2021/09/esi-to-exc/" rel="alternate" type="text/html" title="Benchmarking for ExCALIBUR Update" />
       <published>2021-09-02T00:00:00-05:00</published>
       <updated>2021-09-02T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//talks/2021/09/esi-to-exc</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//talks/2021/09/esi-to-exc/">&lt;h2 id=&quot;from-esiwace-to-excalidata&quot;&gt;From ESiWACE to ExCALIData&lt;/h2&gt;</content>
+      <id>http://localhost:4000/talks/2021/09/esi-to-exc</id>
+      <content type="html" xml:base="http://localhost:4000/talks/2021/09/esi-to-exc/">&lt;h2 id=&quot;from-esiwace-to-excalidata&quot;&gt;From ESiWACE to ExCALIData&lt;/h2&gt;</content>
 
       
       
@@ -215,17 +257,17 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-09-02-TalkTitle.png" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2021-09-02-TalkTitle.png" />
       
     </entry>
   
     <entry>
       <title type="html">Under the hood of a Digital Twin ESM</title>
-      <link href="http://www.bnlawrence.net//computing/2021/06/under-the-hood/" rel="alternate" type="text/html" title="Under the hood of a Digital Twin ESM" />
+      <link href="http://localhost:4000/computing/2021/06/under-the-hood/" rel="alternate" type="text/html" title="Under the hood of a Digital Twin ESM" />
       <published>2021-06-16T00:00:00-05:00</published>
       <updated>2021-06-16T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//computing/2021/06/under-the-hood</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//computing/2021/06/under-the-hood/">&lt;p&gt;In which we peer under the hood of the idea that ephemeral data produced by a digital twin can be used by collaborators who co-designed the digital twin experiment.&lt;/p&gt;</content>
+      <id>http://localhost:4000/computing/2021/06/under-the-hood</id>
+      <content type="html" xml:base="http://localhost:4000/computing/2021/06/under-the-hood/">&lt;p&gt;In which we peer under the hood of the idea that ephemeral data produced by a digital twin can be used by collaborators who co-designed the digital twin experiment.&lt;/p&gt;</content>
 
       
       
@@ -250,17 +292,17 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-06-160-digital-twin-event-graphic-690px.jpg" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2021-06-160-digital-twin-event-graphic-690px.jpg" />
       
     </entry>
   
     <entry>
       <title type="html">Digital Earths - The fourth phase of (ESM) modelling maturity?</title>
-      <link href="http://www.bnlawrence.net//computing/2021/05/modelling-maturity/" rel="alternate" type="text/html" title="Digital Earths - The fourth phase of (ESM) modelling maturity?" />
+      <link href="http://localhost:4000/computing/2021/05/modelling-maturity/" rel="alternate" type="text/html" title="Digital Earths - The fourth phase of (ESM) modelling maturity?" />
       <published>2021-05-26T00:00:00-05:00</published>
       <updated>2021-05-26T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//computing/2021/05/modelling-maturity</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//computing/2021/05/modelling-maturity/">&lt;p&gt;&lt;a href=&quot;/computing/2021/05/what-is-a-digital-twin/&quot;&gt;I recently&lt;/a&gt; introduced my definitions of “Digital Twins” and “Digital Earths” and concluded with the statement that I thought there was scope to do good thing in (these new) twinning activities. There are two such axes of scope: scientific and technical. Here I want to discuss the latter (and it’s impact on some science). In the discussion which follows I’m talking about Earth System Models (ESMs), but the arguments could apply to many other modelling activities (e.g. epidemiological modelling).&lt;/p&gt;</content>
+      <id>http://localhost:4000/computing/2021/05/modelling-maturity</id>
+      <content type="html" xml:base="http://localhost:4000/computing/2021/05/modelling-maturity/">&lt;p&gt;&lt;a href=&quot;/computing/2021/05/what-is-a-digital-twin/&quot;&gt;I recently&lt;/a&gt; introduced my definitions of “Digital Twins” and “Digital Earths” and concluded with the statement that I thought there was scope to do good thing in (these new) twinning activities. There are two such axes of scope: scientific and technical. Here I want to discuss the latter (and it’s impact on some science). In the discussion which follows I’m talking about Earth System Models (ESMs), but the arguments could apply to many other modelling activities (e.g. epidemiological modelling).&lt;/p&gt;</content>
 
       
       
@@ -285,17 +327,17 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-05-25-Modelling_phase4.png" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2021-05-25-Modelling_phase4.png" />
       
     </entry>
   
     <entry>
       <title type="html">What is a digital twin?</title>
-      <link href="http://www.bnlawrence.net//computing/2021/05/what-is-a-digital-twin/" rel="alternate" type="text/html" title="What is a digital twin?" />
+      <link href="http://localhost:4000/computing/2021/05/what-is-a-digital-twin/" rel="alternate" type="text/html" title="What is a digital twin?" />
       <published>2021-05-22T00:00:00-05:00</published>
       <updated>2021-05-22T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//computing/2021/05/what-is-a-digital-twin</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//computing/2021/05/what-is-a-digital-twin/">&lt;p&gt;There is a lot of talk about “digital twins”, so my first question was: “what is a digital twin?”&lt;/p&gt;</content>
+      <id>http://localhost:4000/computing/2021/05/what-is-a-digital-twin</id>
+      <content type="html" xml:base="http://localhost:4000/computing/2021/05/what-is-a-digital-twin/">&lt;p&gt;There is a lot of talk about “digital twins”, so my first question was: “what is a digital twin?”&lt;/p&gt;</content>
 
       
       
@@ -322,17 +364,17 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2021-05-22-digital-earth.png" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2021-05-22-digital-earth.png" />
       
     </entry>
   
     <entry>
       <title type="html">The future of the ESGF</title>
-      <link href="http://www.bnlawrence.net//computing/bigdata/2020/11/the-future-of-the-esgf/" rel="alternate" type="text/html" title="The future of the ESGF" />
+      <link href="http://localhost:4000/computing/bigdata/2020/11/the-future-of-the-esgf/" rel="alternate" type="text/html" title="The future of the ESGF" />
       <published>2020-11-13T00:00:00-06:00</published>
       <updated>2020-11-13T00:00:00-06:00</updated>
-      <id>http://www.bnlawrence.net//computing/bigdata/2020/11/the-future-of-the-esgf</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//computing/bigdata/2020/11/the-future-of-the-esgf/">&lt;p&gt;I think most of the community who use climate projections and the products of climate model intercomparison projects depend in some way on the Earth System Grid Federation (&lt;a href=&quot;https://esgf-index1.ceda.ac.uk/projects/esgf-ceda/&quot;&gt;ESGF&lt;/a&gt;). The ESGF consists of data nodes which are distributed globally, holding petabytes of data:&lt;/p&gt;</content>
+      <id>http://localhost:4000/computing/bigdata/2020/11/the-future-of-the-esgf</id>
+      <content type="html" xml:base="http://localhost:4000/computing/bigdata/2020/11/the-future-of-the-esgf/">&lt;p&gt;I think most of the community who use climate projections and the products of climate model intercomparison projects depend in some way on the Earth System Grid Federation (&lt;a href=&quot;https://esgf-index1.ceda.ac.uk/projects/esgf-ceda/&quot;&gt;ESGF&lt;/a&gt;). The ESGF consists of data nodes which are distributed globally, holding petabytes of data:&lt;/p&gt;</content>
 
       
       
@@ -365,46 +407,7 @@
       
       
         
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/2020-11-13-esgf_world.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Humans in climate models</title>
-      <link href="http://www.bnlawrence.net//academic/2020/10/humans-in-climate-models/" rel="alternate" type="text/html" title="Humans in climate models" />
-      <published>2020-10-26T00:00:00-05:00</published>
-      <updated>2020-10-26T00:00:00-05:00</updated>
-      <id>http://www.bnlawrence.net//academic/2020/10/humans-in-climate-models</id>
-      <content type="html" xml:base="http://www.bnlawrence.net//academic/2020/10/humans-in-climate-models/">&lt;p&gt;I recently had my attention &lt;a href=&quot;https://twitter.com/geschichtenpost/status/1319893263051010049&quot;&gt;drawn&lt;/a&gt; to &lt;a href=&quot;https://doi.org/10.1007/s10584-020-02897-x&quot;&gt;Beckage et al, 2020&lt;/a&gt; - “The Earth has humans, so why don’t our climate models?”&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="academic" />
-      
-        <category term="climate" />
-      
-        <category term="esm" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.bnlawrence.net//assets/images/Calvin_Bond-Lamberty_2018_fig4.jpg" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2020-11-13-esgf_world.png" />
       
     </entry>
   

@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "UK Turbulence Consortium, 2023 Annual Meeting",
+      "url"			: "/talks/2023/03/data-for-uktc/",
+      "tag"       : "HPC, exascale, esiwace, excalidata, cmip6, ipcc",
+      "category"  : "talks",
+      "date"      : "2023-03-27",
+      "excerpt"		: "Presentation: pdf (13 MB)"
+    }
+  
+
+  
+    ,{
       "title"			: "Two new preprints",
       "url"			: "/science/2021/10/preprints/",
       "tag"       : "climate,, epidemiology",
@@ -85,6 +96,17 @@
       "category"  : "computing",
       "date"      : "2021-05-22",
       "excerpt"		: "There is a lot of talk about “digital twins”, so my first question was: “what is a digital twin?”"
+    }
+  
+
+  
+    ,{
+      "title"			: "When failure to share data costs lives",
+      "url"			: "/academic/2021/05/a-data-sharing/",
+      "tag"       : "academic, covid",
+      "category"  : "academic",
+      "date"      : "2021-05-16",
+      "excerpt"		: "A blog article in three parts: history, some strong statements about the importance of open data, and some even stronger statements about failures to prepare for modelling an epidemic."
     }
   
 
@@ -393,6 +415,17 @@
       "category"  : "computing",
       "date"      : "2017-12-05",
       "excerpt"		: "It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - much of which came for free as chips got faster. However, now they’re not so much getting faster as we will get more processors and more processor types, and we have to be smarter about how we programme for them (Lawrence et al., n.d.). This is a problem for all of science!The US, Japan and China have been working on the problem for a while, and Europe is rapidly trying to catch up, but the “exascale problem” is all but invisible in the UK. While it’s obviously unfeasible for the UK to build an exascale computer on their own in the current economic and political climate, it’s absolutely the case that UK science and industry will have to work out how to use exascale computing, not least because the tools and techniques will percolate down eventually. However, even before the percolation, UK will have to exploit exascale computing to remain competitive, so what will that entail for us?"
+    }
+  
+
+  
+    ,{
+      "title"			: "A Making Me Https",
+      "url"			: "/2017/12/a-making-me-https/",
+      "tag"       : "",
+      "category"  : "",
+      "date"      : "2017-12-02",
+      "excerpt"		: "So I had got my custom domain (www.bnlawrence.net) set up and working on GitHub pages, but I wanted to serve it via https, rather than http. (It worked fine on github pages using https when it was bnlawrence.github.io, but the moment I made it bnlawrence.net, https was disabled. Github don’t support that :anguished:)"
     }
   
 
@@ -4465,6 +4498,10 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
   
 
   

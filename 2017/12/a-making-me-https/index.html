@@ -1,0 +1,21 @@
+<p>So I had got my custom domain (www.bnlawrence.net) set up and working on GitHub pages, but I wanted to serve it via https, rather than http. (It worked fine on github pages using https when it was bnlawrence.github.io, but the moment I made it bnlawrence.net, https was disabled. Github don’t support that :anguished:)</p>
+
+<p>The only viable way to do what I want without intense configuration agony appeared to be to use <a href="https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/">cloudfare</a>, but I already had a domain registered at GoDaddy. This is how I did it.</p>
+
+<h5 id="step-1-get-started-with-cloudfare">Step 1: Get Started with CloudFare</h5>
+
+<p>I basically followed the instructions on <a href="https://support.cloudflare.com/hc/en-us/sections/200820158-Cloudflare-101">CloudFare101</a>, beginning at their <a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Step-2-Create-a-Cloudflare-account-and-add-a-website">step-2</a>.</p>
+
+<p>This step got my website known to them, and gave me some nameserver addresses which I needed for the next step.</p>
+
+<h5 id="step-2-move-my-domain-servers-from-godaddy-to-cloudfare">Step 2: Move my domain servers from GoDaddy to CloudFare</h5>
+
+<p>This involved logging into GoDaddy … and then back to the CloudFare dashboard (see their <a href="https://support.cloudflare.com/hc/en-us/articles/205195708">docs</a>).</p>
+
+<h5 id="step-3-sort-out-the-ssl-on-cloudfare">Step 3: Sort out the SSL on CloudFare</h5>
+
+<p>I followed the instructions on Step-3 of their blog <a href="https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/">howto</a></p>
+
+<h5 id="step-4-caching-configuration">Step 4: Caching configuration</h5>
+
+<p>… them, and also add it to my deploy script …</p>
