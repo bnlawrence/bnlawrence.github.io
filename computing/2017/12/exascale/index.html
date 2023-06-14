@@ -10,15 +10,15 @@
   <meta name="description" content="It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - m...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/computing/2017/12/exascale/">
-  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://localhost:4000/feed.xml" />
+  <link rel="canonical" href="http://www.bnlawrence.net//computing/2017/12/exascale/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://www.bnlawrence.net//feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-<link rel="author" href="https://plus.google.com/u/0/110288225974212014913"/>
-<meta name="google-site-verification" content="nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q" />
+
+
 
 
 
@@ -137,10 +137,10 @@
   <br/>
   
   
-  Previous Post: <a class="prev" href="/2017/12/a-making-me-https/">&laquo;A Making Me Https&raquo;</a>
+  Previous Post: <a class="prev" href="/academic/2017/11/congrats2matt/">&laquo;Dr Matt Jones&raquo;</a>
   
   
-  (in <a href="/categories/#" title=""></a>;
+  (in <a href="/categories/#academic" title="academic">academic</a>;
   in <a href="/categories/#computing" title="computing">computing</a> previous is <a href="/computing/2017/11/science_and_the_digital_revolution/" class="prev">&laquo;Science and the Digital Revolution - Data, Standards, and Integration&raquo;</a>)
   
   .<br/>
@@ -152,7 +152,7 @@
 
 
   <article class="post-content">
-    <p>It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - much of which came for free as chips got faster. However, now they’re not so much getting faster as we will get more processors and more processor types, and we have to be smarter about how we programme for them <a class="citation" href="#LawChasm17">(Lawrence et al., n.d.)</a>. This is a problem for all of science!</p>
+    <p>It is no secret that much of the progress in climate system modelling in recent decades has been on the back of the (then) inexorable increase in computational power associated with Moore’s Law - much of which came for free as chips got faster. However, now they’re not so much getting faster as we will get more processors and more processor types, and we have to be smarter about how we programme for them (Lawrence et al, . This is a problem for all of science!</p>
 
 <p>The US, Japan and China have been working on the problem for a while, and Europe is rapidly trying to catch up, but the “exascale problem” is all but invisible in the UK. While it’s obviously unfeasible for the UK to build an exascale computer on their own in the current economic and political climate, it’s absolutely the case that UK science and industry will have to work out how to <em>use</em> exascale computing, not least because the tools and techniques will percolate down eventually. However, even before the percolation, UK will have to <em>exploit</em> exascale computing to remain competitive, so what will that entail for us?</p>
 
@@ -160,9 +160,10 @@
 
 <h4 id="the-challenges">The Challenges</h4>
 
-<p><a class="citation" href="#ASAC2014">(ASCAC Subcommittee, 2014)</a> list ten challenges, which I’ve reordered and categorised according to my personal bias into “industry”, “computer science”, and “interdisciplinary”, where the latter is meant to indicate that I think these are challenges for computer science, mathematics, and discipline specific practitioners!</p>
+<p>ASAC (2014) list ten challenges, which I’ve reordered and categorised according to my personal bias into “industry”, “computer science”, and “interdisciplinary”, where the latter is meant to indicate that I think these are challenges for computer science, mathematics, and discipline specific practitioners!</p>
 
 <p>The industry challenges are:</p>
+
 <ol>
   <li><strong>Energy efficiency</strong>: Creating more energy-efficient circuit, power, and cooling technologies.</li>
   <li><strong>Industry Interconnect technology</strong>: Increasing the performance and energy efficiency of data movement.</li>
@@ -192,10 +193,10 @@ and bandwidth.</p>
 
 <h4 id="why-is-data-a-problem">Why is data a problem?</h4>
 
-<p>Haven’t the big cloud providers and social media giants got this sussed (Google was<a href="https://what-if.xkcd.com/63/">reputed to</a> have exabytes of data years ago, Facebook had an analysis cluster with <a href="https://code.facebook.com/posts/229861827208629/scaling-the-facebook-data-warehouse-to-300-pb/">300 PB three years ago</a> …)  Well yes, they have got volumes stored sussed, but it’s not obvious they have throughput sussed. LOTUS, our JASMIN batch cluster is currently reading up to 2 PB of data a day into analysis workflows, and we’re just one climate site. More importantly, that’s petabytes of 10.5194/gmd-2017-186POSIX file system data a day … we don’t yet have suitable software for our analysis environments for anything else … at scale!</p>
+<p>Haven’t the big cloud providers and social media giants got this sussed (Google was<a href="https://what-if.xkcd.com/63/">reputed to</a> have exabytes of data years ago, Facebook had an analysis cluster with <a href="https://code.facebook.com/posts/229861827208629/scaling-the-facebook-data-warehouse-to-300-pb/">300 PB three years ago</a> …)  Well yes, they have got volumes stored sussed, but it’s not obvious they have throughput sussed. LOTUS, our JASMIN batch cluster is currently reading up to 2 PB of data a day into analysis workflows, and we’re just one climate site. More importantly, that’s petabytes of data a day … we don’t yet have suitable software for our analysis environments for anything else … at scale!</p>
 
 <p>Some of these issues with data at exascale have been covered in
-<a class="citation" href="#AciEA15">(Acı́n V. et al., 2015)</a>, who cover some of the many challenges ahead. Some of those key challenges include:</p>
+Acin et al (2015), who cover some of the many challenges ahead. Some of those key challenges include:</p>
 
 <ol>
   <li><strong>Time to build systems:</strong> “<em>Although computing and data processing technology is known for its fast growth, assembling these technologies into large-scale, reliable and performant systems often takes about a decade.</em>”</li>
@@ -213,25 +214,19 @@ and bandwidth.</p>
 
     <p>They don’t go into in any detail, but I would also add in terms of data fabric:</p>
   </li>
-  <li><strong>POSIX <a href="https://www.nextplatform.com/2017/09/11/whats-bad-posix-io/">doesn’t scale</a></strong>, at least with thousands of processes trying to open the same file . However, object stores are not the panacea either, at least not for latency constrained writing. We’re going to see tiered storage for sure, potentially with all of burst buffers, object stores, and tape. The good news is that at least we as a community are rather used to some of the ideas needed to manage our data on tape efficiently (e.g. <a class="citation" href="#SmarEA17">(Smart et al., 2017)</a>).</li>
+  <li><strong>POSIX <a href="https://www.nextplatform.com/2017/09/11/whats-bad-posix-io/">doesn’t scale</a></strong>, at least with thousands of processes trying to open the same file . However, object stores are not the panacea either, at least not for latency constrained writing. We’re going to see tiered storage for sure, potentially with all of burst buffers, object stores, and tape. The good news is that at least we as a community are rather used to some of the ideas needed to manage our data on tape efficiently (e.g. Smart et al,  2017).</li>
   <li><strong>Confusion over need</strong>: Repositories are not active storage systems - many of the putative solutions in this space, from academia at least, are addressing where to put cold data, not where to put high-volume data that needs to be part of ongoing active workflows for up to years at a time. Both matter.</li>
   <li><strong>Costs Matter</strong>: There is not a good understanding in the user community as to the true cost of storage, when they should re-compute, and where they should be putting their data (in terms of hot/warm/cold storage tiers).  This is in part because there is confusion by providers over these issues too (see the previous point).</li>
 </ol>
 
 <h4 id="bibliography-for-this-post">Bibliography for this post</h4>
 
-<ol class="bibliography"><li><span id="SmarEA17">Smart, S. D., Quintino, T., &amp; Raoult, B. (2017). <i>A Scalable Object Store for Meteorological and Climate Data</i>. 1–8. https://doi.org/10.1145/3093172.3093238</span>
-
-</li>
-<li><span id="AciEA15">Acı́n V., Bird, I., Boccali, T., Cancio, G., Collier, I. P., Corney, D., Delaunay, B., Delfino, M., dell’Agnello, L., Flix, J., P Fuhrmann, Gasthuber, M., Gülzow, V., Heiss, A., Lamanna, G., Macchi, P.-E., Maggi, M., Matthews, B., Neissner, C., … Shiers, J. (2015). Architectures and Methodologies for Future Deployment of Multi-Site Zettabyte-Exascale Data Handling Platforms. <i>Journal of Physics: Conference Series</i>, <i>664</i>(4), 042009. https://doi.org/10.1088/1742-6596/664/4/042009</span>
-
-</li>
-<li><span id="ASAC2014">ASCAC Subcommittee. (2014). <i>Top Ten Exascale Research Challenges</i>.</span>
-
-</li>
-<li><span id="LawChasm17"><span class="author">Lawrence</span>, B. N., Mike Rezny, Reinhard Budich, Peter Bauer, Jörg Behrens, Mick Carter, Willem Deconinck, Rupert Ford, Christopher Maynard, Steve Mullerworth, Carlos Osuna, Andy Porter, Kim Serradell, Sophie Valcke, Nils Wedi, &amp; Simon Wilson. Crossing the Chasm: How to Develop Weather and Climate Models for next Generation Computers. <i>Geoscientific Model Development Discussions</i>. https://doi.org/10.5194/gmd-2017-186</span>
-
-</li></ol>
+<ol>
+  <li>Smart, S. D., Quintino, T., &amp; Raoult, B. (2017). <em>A Scalable Object Store for Meteorological and Climate Data.</em> 1–8. <a href="https://doi.org/10.1145/3093172.3093238">https://doi.org/10.1145/3093172.3093238</a>.</li>
+  <li>Acı́n V., Bird, I., Boccali, T., Cancio, G., Collier, I. P., Corney, D., Delaunay, B., Delfino, M., dell’Agnello, L., Flix, J., P Fuhrmann, Gasthuber, M., Gülzow, V., Heiss, A., Lamanna, G., Macchi, P.-E., Maggi, M., Matthews, B., Neissner, C., … Shiers, J. (2015). <em>Architectures and Methodologies for Future Deployment of Multi-Site Zettabyte-Exascale Data Handling Platforms.</em> Journal of Physics: Conference Series, 664(4), 042009. <a href="https://doi.org/10.1088/1742-6596/664/4/042009">https://doi.org/10.1088/1742-6596/664/4/042009</a>.</li>
+  <li>ASCAC Subcommittee. (2014). <em>Top Ten Exascale Research Challenges.</em></li>
+  <li>Lawrence, B. N., Mike Rezny, Reinhard Budich, Peter Bauer, Jörg Behrens, Mick Carter, Willem Deconinck, Rupert Ford, Christopher Maynard, Steve Mullerworth, Carlos Osuna, Andy Porter, Kim Serradell, Sophie Valcke, Nils Wedi, &amp; Simon Wilson (2018). <em>Crossing the Chasm: How to Develop Weather and Climate Models for next Generation Computers.</em> Geoscientific Model Development. <a href="https://doi.org/10.5194/gmd-11-1799-2018">https://doi.org/10.5194/gmd-11-1799-2018</a>.</li>
+</ol>
 
   </article>
 
@@ -253,7 +248,7 @@ and bandwidth.</p>
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li><strong>Bryan Lawrence</strong></li>
-		  <li>Professor of Weather and Climate Computing</li>
+		  <li>Professional Meeting Attendee</li>
           <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
         </ul>
       </div>
