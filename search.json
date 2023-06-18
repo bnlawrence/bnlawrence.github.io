@@ -420,6 +420,17 @@
 
   
     ,{
+      "title"			: "A Making Me Https",
+      "url"			: "/2017/12/a-making-me-https/",
+      "tag"       : "",
+      "category"  : "",
+      "date"      : "2017-12-02",
+      "excerpt"		: "So I had got my custom domain (www.bnlawrence.net) set up and working on GitHub pages, but I wanted to serve it via https, rather than http. (It worked fine on github pages using https when it was bnlawrence.github.io, but the moment I made it bnlawrence.net, https was disabled. Github don’t support that :anguished:)"
+    }
+  
+
+  
+    ,{
       "title"			: "Dr Matt Jones",
       "url"			: "/academic/2017/11/congrats2matt/",
       "tag"       : "teaching, hpc_io",
@@ -4421,8 +4432,19 @@
 
   
     ,{
-      "title"			: "Publications",
+      "title"			: "Academic Contributions",
       "url"			: "/publications/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Publications",
+      "url"			: "/oldpublications/",
       "tag"       : "",
       "category"  : "",
       "date" : "",

@@ -4,9 +4,9 @@
 .site-header {
   padding-top: 20px;
   border-top: 0px solid #424242;
-  border-bottom: 4px solid #333399;
+  border-bottom: 4px solid #3e4148;
   min-height: 56px;
-  background-color: #333399;
+  background-color: #3e4148;
   color: #CACACA;
   position: relative; }
 
@@ -72,20 +72,20 @@
   letter-spacing: 0;
   line-height: 1.2em;
   padding: 4px 10px;
-  color: #333399; }
+  color: #3e4148; }
 
 .site-nav .sub-menu a:hover {
-  color: #333399; }
+  color: #3e4148; }
 
 .site-nav .sub-menu {
   background: #ffffff;
-  border-color: #333399;
+  border-color: #3e4148;
   min-width: 120px;
   z-index: 2147483647; }
 
 .site-nav .sub-menu li.current-menu-item > a {
-  border-left-color: #333399;
-  border-right-color: #333399;
+  border-left-color: #3e4148;
+  border-right-color: #3e4148;
   border-right: 0px; }
 
 .sub-menu {
@@ -128,7 +128,7 @@
     display: none; }
   .site-nav .page-link {
     color: #ffffff;
-    background: #333399;
+    background: #3e4148;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
@@ -137,7 +137,7 @@
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: #ffefd5;
+      background-color: #fefef6;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -199,11 +199,11 @@
   .site-nav .menu li {
     display: block;
     margin: 0;
-    color: #333399; }
+    color: #3e4148; }
 
   .site-nav ul.menu a {
     background: #fff;
-    color: #333399; }
+    color: #3e4148; }
 
   .site-nav a,
   .site-nav li.current-menu-item > a {
@@ -254,7 +254,7 @@ body {
   line-height: 1.5;
   font-weight: 300;
   color: black;
-  background-color: #ffefd5;
+  background-color: #fefef6;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -411,7 +411,7 @@ a.tosu {
 
 .site-footer hr {
   margin: 0;
-  border-color: #333399; }
+  border-color: #3e4148; }
 
 .footer-heading {
   font-size: 18px;
@@ -500,7 +500,7 @@ h1 {
   letter-spacing: -1px;
   line-height: 1;
   font-family: 'Titillium Web', sans-serif;
-  color: #333399; }
+  color: #3e4148; }
   @media screen and (max-width: 950px) {
     h1 {
       /*        font-size: 36px; */ } }
@@ -556,28 +556,28 @@ ul.listing li.listing-item time {
   padding-right: 10px; }
 
 ul.listing li.listing-item a {
-  color: #333399;
+  color: #3e4148;
   font-weight: 400;
   font-family: 'Titillium Web', sans-serif; }
 
 ul.listing li.summary-item {
-  background-color: #fffeee;
+  background-color: #f2e8c7;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 10px; }
   ul.listing li.summary-item h2 {
     font-size: 1em;
-    color: #333399;
+    color: #3e4148;
     font-family: sans-serif;
     padding-top: 3px;
     padding-bottom: 3px; }
     ul.listing li.summary-item h2 a {
-      color: #333399; }
+      color: #3e4148; }
 
 .talks .meeting {
   padding-top: 3px;
   padding-bottom: 3px;
-  background-color: #fffeee;
+  background-color: #f2e8c7;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 10px; }
@@ -617,8 +617,22 @@ ul.listing li.summary-item {
     padding-bottom: 3px; }
     .papers ol li p {
       padding-bottom: 0px; }
-  .papers .author {
-    font-weight: bold; }
+    .papers ol li span.author {
+      color: navy; }
+    .papers ol li span.reftitle {
+      font-weight: bold; }
+  .papers h4 {
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    padding-left: 0px;
+    border-bottom: 1px solid black; }
+  .papers span.refnum {
+    background-color: #3e4148;
+    color: white;
+    border-radius: 5px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding: 0 5px 0 5px; }
 
 .talk-title {
   font-weight: bold; }
@@ -796,7 +810,7 @@ ul.listing li.summary-item {
 .wp-caption {
   background-color: #f3f3f3;
   text-align: center;
-  border: 1px dotted #333399;
+  border: 1px dotted #3e4148;
   font-size: 0.90em;
   overflow: hidden;
   position: relative;
