@@ -13,6 +13,17 @@
 
   
     ,{
+      "title"			: "UKNSCP Strategic Workshop on High Resolution Climate Modelling",
+      "url"			: "/talks/2023/06/data-challenges-4hrcm/",
+      "tag"       : "HPC, exascale, hrcm",
+      "category"  : "talks",
+      "date"      : "2023-06-16",
+      "excerpt"		: "Presentation: pdf (650 KB)"
+    }
+  
+
+  
+    ,{
       "title"			: "UK Turbulence Consortium, 2023 Annual Meeting",
       "url"			: "/talks/2023/03/data-for-uktc/",
       "tag"       : "HPC, exascale, esiwace, excalidata, cmip6, ipcc",
@@ -4608,6 +4619,8 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
   
 
   

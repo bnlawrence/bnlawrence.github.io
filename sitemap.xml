@@ -1565,6 +1565,10 @@
 <lastmod>2023-03-27T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://0.0.0.0:4000/talks/2023/06/data-challenges-4hrcm/</loc>
+<lastmod>2023-06-16T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://0.0.0.0:4000/ecolife/2023/06/dual-tariffs-4evs/</loc>
 <lastmod>2023-06-18T00:00:00-05:00</lastmod>
 </url>
@@ -1915,6 +1919,9 @@
 </url>
 <url>
 <loc>http://0.0.0.0:4000/tags/ipcc/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/tags/hrcm/</loc>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/tags/ev/</loc>
@@ -2370,5 +2377,9 @@
 <url>
 <loc>http://0.0.0.0:4000/assets/talks/2023-03-27-data_for_uktc.pdf</loc>
 <lastmod>2023-03-27T02:55:43-05:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/assets/talks/2023-06-16_hrcm_data_challenges.pdf</loc>
+<lastmod>2023-06-16T07:25:47-05:00</lastmod>
 </url>
 </urlset>

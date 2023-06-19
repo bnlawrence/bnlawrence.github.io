@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>UK Turbulence Consortium, 2023 Annual Meeting | Bryan Lawrence</title>
-  <meta name="description" content="Presentation: pdf (13 MB)">
+  <title>UKNSCP Strategic Workshop on High Resolution Climate Modelling | Bryan Lawrence</title>
+  <meta name="description" content="Presentation: pdf (650 KB)">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://0.0.0.0:4000/talks/2023/03/data-for-uktc/">
+  <link rel="canonical" href="http://0.0.0.0:4000/talks/2023/06/data-challenges-4hrcm/">
   <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="http://0.0.0.0:4000/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -24,17 +24,17 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:site"    content="@bnlawrence">
-<meta name="twitter:title"   content="UK Turbulence Consortium, 2023 Annual Meeting">
+<meta name="twitter:title"   content="UKNSCP Strategic Workshop on High Resolution Climate Modelling">
 
 
-<meta name="twitter:description" content="Presentation: pdf (13 MB)
+<meta name="twitter:description" content="Presentation: pdf (650 KB)
 
 ">
 
 
 
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="http://0.0.0.0:4000assets/images/2023-03-27-ESGF-Stats-23rd-Mar-2023.png">
+<meta name="twitter:image" content="http://0.0.0.0:4000assets/images/2023-06-16-ensemble-scaling.png">
 
 <!-- end of Twitter cards -->
 
@@ -123,8 +123,8 @@
         <div class="post">
 
  <header class="post-header">
-  <h1 class="post-title">UK Turbulence Consortium, 2023 Annual Meeting</h1>
-  <p class="post-meta">Posted on March 27, 2023
+  <h1 class="post-title">UKNSCP Strategic Workshop on High Resolution Climate Modelling</h1>
+  <p class="post-meta">Posted on June 16, 2023
   
   
       in
@@ -134,19 +134,15 @@
   
   
   
-  (tagged: <a href="/tags/hpc/" rel="tag">HPC</a>, <a href="/tags/exascale/" rel="tag">exascale</a>, <a href="/tags/esiwace/" rel="tag">esiwace</a>, <a href="/tags/excalidata/" rel="tag">excalidata</a>, <a href="/tags/cmip6/" rel="tag">cmip6</a>, <a href="/tags/ipcc/" rel="tag">ipcc</a>).
+  (tagged: <a href="/tags/hpc/" rel="tag">HPC</a>, <a href="/tags/exascale/" rel="tag">exascale</a>, <a href="/tags/hrcm/" rel="tag">hrcm</a>).
   
   <br/>
   
   
-  Previous Post: <a class="prev" href="/science/2021/10/preprints/">&laquo;Two new preprints&raquo;</a>
-  
-  
-  (in <a href="/categories/#science" title="science">science</a>;
-  in <a href="/categories/#talks" title="talks">talks</a> previous is <a href="/talks/2021/09/esiwace2-ga-wp4/" class="prev">&laquo;ESiWACE2 2021 General Assembly&raquo;</a>)
+  Previous Post: <a class="prev" href="/talks/2023/03/data-for-uktc/">&laquo;UK Turbulence Consortium, 2023 Annual Meeting&raquo;</a>
   
   .<br/>
-   Next Post <a class="next" href="/talks/2023/06/data-challenges-4hrcm/">&laquo;UKNSCP Strategic Workshop on High Resolution Climate Modelling&raquo;</a>
+   Next Post <a class="next" href="/ecolife/2023/06/dual-tariffs-4evs/">&laquo;Dual Tariffs for EVs Don't Play Nicely with Heatpumps&raquo;</a>
   
   .
   </p>
@@ -154,15 +150,30 @@
 
 
   <article class="post-content">
-    <p>Presentation: <a href="/assets/talks/2023-03-27-data_for_uktc.pdf">pdf</a> (13 MB)</p>
+    <p>Presentation: <a href="/assets/talks/2023-06-16_hrcm_data_challenges.pdf">pdf</a> (650 KB)</p>
 
-<p>This is a talk in three parts, covering some motivation for investing in data management, some new developments underway to deal with high volume data, and a reminder of the importance of FAIR.</p>
+<p>I was asked for ten minutes on data challenges at high resolution. What I chose
+to present here was</p>
+<ul>
+  <li>a reminder of the scale of the challenge (with a very
+old slide showing the number of numbers a 1km global run will produce),</li>
+  <li>a list of challenges and issues to consider,</li>
+  <li>some pieces of Excalibur and Esiwace funded research we have been doing 
+in this space (on aggregations an ensemble analysis, more about those
+another day),</li>
+  <li>some of the conclusions of the ENES infrastructure strategy<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> which 
+address workflow, and in particular how the advent of in-flight analysis
+on top of large communities of downstream analysts requires us to start treating big experiments 
+more like satellite missions than personal research projects.</li>
+</ul>
 
-<p>Part one aims to introduce other scientific communities to why and how climate science uses data management in delivering model intercomparison. Using examples from how the IPCC process uses CMIP data, there is a walk through some of the technology underpinning CMIP6 (the CF conventions, data analysis stacks, ESGF etc), and a description of some of the (especially European) data delivery. There is a good deal of motivation for why we do model intercomparison and how it both delivers and supports projections using scenarios. Examples of how high level software stacks remove labour from scientists are shown.</p>
-
-<p>Part two describes some of the work being done in our <a href="https://excalibur.ac.uk/">Excalibur</a> cross-cutting data projects, targeting those pieces most relevant to meeting attendees: Standards based Aggregation, Active Storage, and support for in-flight ensemble analysis.</p>
-
-<p>Part three concludes the talk with a short discussion of how FAIR applies to simulation data.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>The <a href="https://raw.githubusercontent.com/IS-ENES3/IS-ENES-Website/main/pdf_documents/IS-ENES3_D2.1_FV_numbered.pdf">draft strategy</a> is available on the <a href="https://is.enes.org/">IS-ENES website</a>, and should make it to zenodo soon. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
   </article>
 

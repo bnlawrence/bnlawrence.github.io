@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" />
-  <updated>2023-06-19T02:37:10-05:00</updated>
+  <updated>2023-06-19T03:58:57-05:00</updated>
   <id>http://0.0.0.0:4000/</id>
 
   
@@ -57,6 +57,45 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/images/2023-06-18-ev-power.svg" />
+      
+    </entry>
+  
+    <entry>
+      <title type="html">UKNSCP Strategic Workshop on High Resolution Climate Modelling</title>
+      <link href="http://0.0.0.0:4000/talks/2023/06/data-challenges-4hrcm/" rel="alternate" type="text/html" title="UKNSCP Strategic Workshop on High Resolution Climate Modelling" />
+      <published>2023-06-16T00:00:00-05:00</published>
+      <updated>2023-06-16T00:00:00-05:00</updated>
+      <id>http://0.0.0.0:4000/talks/2023/06/data-challenges-4hrcm</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/talks/2023/06/data-challenges-4hrcm/">&lt;p&gt;Presentation: &lt;a href=&quot;/assets/talks/2023-06-16_hrcm_data_challenges.pdf&quot;&gt;pdf&lt;/a&gt; (650 KB)&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+        <category term="hrcm" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/images/2023-06-16-ensemble-scaling.png" />
       
     </entry>
   
@@ -366,43 +405,6 @@
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/images/2021-05-25-Modelling_phase4.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">What is a digital twin?</title>
-      <link href="http://0.0.0.0:4000/computing/2021/05/what-is-a-digital-twin/" rel="alternate" type="text/html" title="What is a digital twin?" />
-      <published>2021-05-22T00:00:00-05:00</published>
-      <updated>2021-05-22T00:00:00-05:00</updated>
-      <id>http://0.0.0.0:4000/computing/2021/05/what-is-a-digital-twin</id>
-      <content type="html" xml:base="http://0.0.0.0:4000/computing/2021/05/what-is-a-digital-twin/">&lt;p&gt;There is a lot of talk about “digital twins”, so my first question was: “what is a digital twin?”&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="modelling_futures" />
-      
-        <category term="climate" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/images/2021-05-22-digital-earth.png" />
       
     </entry>
   
