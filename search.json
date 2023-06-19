@@ -4351,6 +4351,17 @@
 
   
     ,{
+      "title"			: "Big Data",
+      "url"			: "/bigdata/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
       "title"			: "Blog",
       "url"			: "/blog/",
       "tag"       : "",
@@ -4373,6 +4384,17 @@
 
   
     ,{
+      "title"			: "Computing",
+      "url"			: "/computing/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
       "title"			: "The Evolution of this Blog",
       "url"			: "/construction/",
       "tag"       : "",
@@ -4386,6 +4408,39 @@
     ,{
       "title"			: "Short CV",
       "url"			: "/cv/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Diary",
+      "url"			: "/diary/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Ecolife",
+      "url"			: "/ecolife/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Environment",
+      "url"			: "/environment/",
       "tag"       : "",
       "category"  : "",
       "date" : "",
@@ -4432,6 +4487,28 @@
 
   
     ,{
+      "title"			: "Management",
+      "url"			: "/management/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Personal",
+      "url"			: "/personal/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
       "title"			: "Projects",
       "url"			: "/projects/",
       "tag"       : "",
@@ -4467,6 +4544,17 @@
     ,{
       "title"			: "Research",
       "url"			: "/research/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Science",
+      "url"			: "/science/",
       "tag"       : "",
       "category"  : "",
       "date" : "",
