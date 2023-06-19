@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "Dual Tariffs for EVs Don't Play Nicely with Heatpumps",
+      "url"			: "/ecolife/2023/06/dual-tariffs-4evs/",
+      "tag"       : "ev",
+      "category"  : "ecolife",
+      "date"      : "2023-06-18",
+      "excerpt"		: "So we have an EV (a “2021 Vauxhall corsa e”, since you asked). We had to get one in a hurry as our 2008 Seat Ibiza ecomotive died very suddenly and unexpectedly. We had always planned to replace with an EV, but imagined that would be in a year or two.  As we live in place with no public transport, and my wife and I both have o(20) mile commutes (in diffiferent directions), we had to buy a replacement in a hurry - without doing much due diligence, either around car or charging options."
+    }
+  
+
+  
+    ,{
       "title"			: "UK Turbulence Consortium, 2023 Annual Meeting",
       "url"			: "/talks/2023/03/data-for-uktc/",
       "tag"       : "HPC, exascale, esiwace, excalidata, cmip6, ipcc",
@@ -4509,6 +4520,8 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
   
 
   
