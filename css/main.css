@@ -658,6 +658,14 @@ li.talk-item {
     box-decoration-break: clone;
     padding: 0 5px 0 5px; }
 
+a.more {
+  background-color: #e6dfca;
+  color: black;
+  border-radius: 5px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding: 0 5px 0 5px; }
+
 .search {
   font-size: 12pt; }
 

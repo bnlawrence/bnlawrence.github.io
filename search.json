@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "Draft ENES Infrastructure Strategy Open for Comment",
+      "url"			: "/science/2023/06/infrastructure-strategy/",
+      "tag"       : "exacale, hpc, climate, modelling_futures",
+      "category"  : "science",
+      "date"      : "2023-06-20",
+      "excerpt"		: "One of the many reasons I have been so quiet of late is that I have been bevering away on a new ENES infrastructure strategy for climate modelling. We now have a draft out for public feedback, so please do comment!"
+    }
+  
+
+  
+    ,{
       "title"			: "Dual Tariffs for EVs Don't Play Nicely with Heatpumps",
       "url"			: "/ecolife/2023/06/dual-tariffs-4evs/",
       "tag"       : "ev",
@@ -4608,6 +4619,8 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
   
 
   

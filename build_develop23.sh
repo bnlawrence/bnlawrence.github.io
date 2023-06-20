@@ -1,3 +1,5 @@
+# changes to the config file require stopping the container image
+# (and that needs to be done before deployment too)
 export JEKYLL_VERSION=3.8
 docker run --name bjekyll --rm \
   -d -p 4000:4000 \

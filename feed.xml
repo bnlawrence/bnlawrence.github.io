@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="https://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2023-06-20T01:42:15-05:00</updated>
+  <updated>2023-06-20T02:52:11-05:00</updated>
   <id>https://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,47 @@
   
 
   
+  
+    <entry>
+      <title type="html">Draft ENES Infrastructure Strategy Open for Comment</title>
+      <link href="https://www.bnlawrence.net//science/2023/06/infrastructure-strategy/" rel="alternate" type="text/html" title="Draft ENES Infrastructure Strategy Open for Comment" />
+      <published>2023-06-20T00:00:00-05:00</published>
+      <updated>2023-06-20T00:00:00-05:00</updated>
+      <id>https://www.bnlawrence.net//science/2023/06/infrastructure-strategy</id>
+      <content type="html" xml:base="https://www.bnlawrence.net//science/2023/06/infrastructure-strategy/">&lt;p&gt;One of the many reasons I have been so quiet of late is that I have been bevering away on a new ENES infrastructure strategy for climate modelling. We now have a draft out for public feedback, so please do comment!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exacale" />
+      
+        <category term="hpc" />
+      
+        <category term="climate" />
+      
+        <category term="modelling_futures" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.bnlawrence.net//assets/images/2023-06-20-wordcloud.png" />
+      
+    </entry>
   
     <entry>
       <title type="html">Dual Tariffs for EVs Don’t Play Nicely with Heatpumps</title>
@@ -378,41 +419,6 @@ has undertaken, and is undertaking, to deal with the data deluge.&lt;/p&gt;</con
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.bnlawrence.net//assets/images/2021-09-02-TalkTitle.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Under the hood of a Digital Twin ESM</title>
-      <link href="https://www.bnlawrence.net//computing/2021/06/under-the-hood/" rel="alternate" type="text/html" title="Under the hood of a Digital Twin ESM" />
-      <published>2021-06-16T00:00:00-05:00</published>
-      <updated>2021-06-16T00:00:00-05:00</updated>
-      <id>https://www.bnlawrence.net//computing/2021/06/under-the-hood</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//computing/2021/06/under-the-hood/">&lt;p&gt;In which we peer under the hood of the idea that ephemeral data produced by a digital twin can be used by collaborators who co-designed the digital twin experiment.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="climate" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.bnlawrence.net//assets/images/2021-06-160-digital-twin-event-graphic-690px.jpg" />
       
     </entry>
   
