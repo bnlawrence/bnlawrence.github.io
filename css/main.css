@@ -269,7 +269,7 @@ ul, ol, dl, figure {
  * Images
  */
 img {
-  max-kuubg: 100%;
+  max-width: 100%;
   vertical-align: middle; }
 
 /**
@@ -380,20 +380,6 @@ pre {
   vertical-align: middle; }
   .icon > svg path {
     fill: #828282; }
-
-/**
- * Thumbnails
- */
-.thumb img {
-  border: 0px;
-  /* Gray border */
-  /*border-radius: 4px;  Rounded border */
-  padding: 5px;
-  /* Some padding */
-  width: 150px;
-  /* Set a small width */ }
-.thumb td, .thumb tr, .thumb table {
-  border: 0px; }
 
 a.tosu {
   color: #b00000;
@@ -560,27 +546,65 @@ ul.listing li.listing-item a {
   font-weight: 400;
   font-family: 'Titillium Web', sans-serif; }
 
-ul.listing li.summary-item {
-  background-color: #f2e8c7;
+ul.listing li {
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 10px; }
-  ul.listing li.summary-item h2 {
+  ul.listing li h2 {
     font-size: 1em;
     color: #3e4148;
     font-family: sans-serif;
     padding-top: 3px;
     padding-bottom: 3px; }
-    ul.listing li.summary-item h2 a {
+    ul.listing li h2 a {
       color: #3e4148; }
+  ul.listing li td {
+    vertical-align: top;
+    margin-left: 5px; }
+  ul.listing li img {
+    max-width: 100px;
+    padding: 5px; }
+  ul.listing li tr, ul.listing li td {
+    border: 0px; }
+  ul.listing li table {
+    margin-right: auto;
+    margin-left: 0px;
+    border: 0px; }
+
+li.blog-item {
+  background-color: #f2e8c7; }
+
+li.talk-item {
+  background-color: #f2e8c7; }
+
+.talk-title {
+  font-weight: bold; }
+
+.talk-mtg {
+  font-size: 0.8em; }
+
+/**
+ * Thumbnails
+ */
+.thumb img {
+  border: 0px;
+  /* Gray border */
+  /*border-radius: 4px;  Rounded border */
+  padding: 5px;
+  /* Some padding */
+  width: 100px;
+  /* Set a small width */ }
+.thumb td, .thumb tr, .thumb table {
+  border: 0px; }
 
 .talks .meeting {
   padding-top: 3px;
-  padding-bottom: 3px;
+  padding-bottom: 2px;
   background-color: #f2e8c7;
   padding-left: 15px;
   padding-right: 15px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  padding-top: 2px; }
   .talks .meeting h1.theader {
     /* background-color: $header-color;
     padding: 3px $spacing-unit/2;
@@ -633,12 +657,6 @@ ul.listing li.summary-item {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     padding: 0 5px 0 5px; }
-
-.talk-title {
-  font-weight: bold; }
-
-.talk-mtg {
-  font-size: 0.8em; }
 
 .search {
   font-size: 12pt; }
