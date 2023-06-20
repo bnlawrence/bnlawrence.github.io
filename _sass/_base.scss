@@ -39,7 +39,7 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-kuubg: 100%;
+    max-width: 100%;
     vertical-align: middle;
 }
 
@@ -55,8 +55,6 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -201,7 +199,6 @@ pre {
         }
     }
 }
-
 
 
 a.tosu {

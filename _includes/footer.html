@@ -31,6 +31,12 @@
              </a>
           </li>
           {% endif %}
+          {% if site.mastodon_address %}
+          <li>
+             <img style="max-height:1em" src="/assets/mastodon-icon.svg"/>&nbsp;
+             <a rel="me" href="{{ site.mastodon_address }}">@{{site.mastodon_username}}</a>
+          </li>
+          {% endif %}
 
         </ul>
       </div>

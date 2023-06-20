@@ -162,8 +162,8 @@ h1 /* .post-title */ {
     }
 }
 
-						.footnotes ol li {list-style-type:decimal;}
-						.footnotes ol {font-size:.85em; color:#666666;}
+.footnotes ol li {list-style-type:decimal;}
+.footnotes ol {font-size:.85em; color:#666666;}
 
 html {
   overflow-y: scroll;
@@ -195,8 +195,8 @@ ul.listing li.listing-item a {
 	font-family: 'Titillium Web', sans-serif;
 }
 
-ul.listing li.summary-item {
-    background-color: $talk-color;
+ul.listing li {
+
     padding-left: $spacing-unit/2;
     padding-right: $spacing-unit/2;
     border-radius: 10px;
@@ -207,51 +207,95 @@ ul.listing li.summary-item {
         font-family: sans-serif;
         padding-top: 3px;
         padding-bottom: 3px;
-
         a {color:$header-color;}
+    }
 
+    td {
+        vertical-align: top;
+        margin-left:5px;
+    }
+
+    img {
+        max-width:100px;
+        padding: 5px;
+    }
+    tr, td {
+        border: 0px;
+    }
+    table {
+        margin-right:auto;
+        margin-left:0px;
+        border: 0px;
+    }
+}
+
+li.blog-item {
+    background-color: $talk-color;
+}
+li.talk-item {
+    background-color: $talk-color;
+}
+
+.talk-title {
+    font-weight: bold;
+}
+.talk-mtg {
+    font-size: 0.8em;
+}
+
+/**
+ * Thumbnails
+ */
+ .thumb {
+    img {
+        border: 0px; /* Gray border */
+        /*border-radius: 4px;  Rounded border */
+        padding: 5px; /* Some padding */
+        width: 100px; /* Set a small width */
+    }
+    td, tr, table {
+        border: 0px;
     }
 }
 
 
-
 .talks  {
 
-    .meeting {padding-top: 3px;
-    padding-bottom: 3px;
+    .meeting {
+        padding-top: 3px;
+        padding-bottom: 2px;
         background-color: $talk-color;
         padding-left: $spacing-unit/2;
         padding-right: $spacing-unit/2;
         border-radius: 10px;
+        padding-top:2px;
 
-    h1.theader {
-      /* background-color: $header-color;
-      padding: 3px $spacing-unit/2;
-      color: $header-font-color; */
-      font-size: 1.2em;
-      color: black;
-      font-family: sans-serif;
-      border-bottom: 1px solid black;
-      padding-top: 10px;
-      padding-bottom: 3px;
+        h1.theader {
+            /* background-color: $header-color;
+            padding: 3px $spacing-unit/2;
+            color: $header-font-color; */
+            font-size: 1.2em;
+            color: black;
+            font-family: sans-serif;
+            border-bottom: 1px solid black;
+            padding-top: 10px;
+            padding-bottom: 3px;
+            }
+
+        h1.tdetails {
+            font-size: 1.1em;
+            font-style: italic;
+            color: black;
+            font-family: sans-serif;
+            padding-top: 3px;
+            padding-bottom: 3px;
         }
 
-    h1.tdetails {
-        font-size: 1.1em;
-        font-style: italic;
-        color: black;
-        font-family: sans-serif;
-        padding-top: 3px;
-        padding-bottom: 3px;
-
-    }
-
-
-    h2 {
+        h2 {
             font-size: 1em;
             font-weight: bold;
             border-bottom:0;
-        }
+            }
     }
 }
 
@@ -270,19 +314,31 @@ ul.listing li.summary-item {
     ol li {
         font-size: 0.8em;
         padding-bottom:3px;
-
         p {padding-bottom:0px;}
+
+        span.author {color:navy;}
+        span.reftitle {font-weight:bold;}
+       
     }
 
-    .author {font-weight: bold;}
+    h4 {
+        margin-top: 1em;
+        margin-bottom: 0.2em;
+        padding-left:0px;
+        border-bottom: 1px solid black;
+    }
+
+    span.refnum {
+        background-color: $header-color;
+        color:white;
+        border-radius:5px;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        padding: 0 5px 0 5px;
+    }
 
 }
 
-.talk-title {
-    font-weight: bold;
-}
-.talk-mtg {
-    font-size: 0.8em;
-}
+
 
 .search {font-size: 12pt;}

@@ -5,12 +5,15 @@ description: > # this means to ignore newlines until "baseurl:"
   Intermittent rambings on climate, computing, or data science, what I'm
   up to, and what I'm thinking. Mostly professional, sometimes not.
 disclaimer: >
-  This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. Laboris locatores analogum obsecro respice auferetur.
-  (My daughter is learning Latin, unlike me, who never did!)
+  This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency. 
+  Laboris locatores analogum obsecro respice auferetur.
+  (The benefit of my daughter's education, not mine.)
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: bnlawrence
 github_username:  bnlawrence
+mastodon_address: "https://mastodon.nz/@bnlawrence"
+mastodon_username: bnlawrence
 bitbucket_username: bnlawrence
 include: ["_pages"]
 address: >
@@ -37,16 +40,6 @@ plugins:
 tag_page_layout: tag_page
 tag_page_dir: tags
 tag_permalink_style: pretty
-
-scholar:
-    style: apa
-    sort_by: year
-    order: descending
-    bibliography_template: bib
-    repository: assets/papers
-    bibtex-filters:
-      - latex
-      - markdown
 
 # Staticman
 repository: "bnlawrence/bnlawrence.github.io"

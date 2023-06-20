@@ -4,7 +4,10 @@ layout: default
 <div class="post">
 
  {% include post_header.html %}
-
+ <p>Includes the following talk{% unless page.talks.size  == 1 %}s{% endunless %}:
+ <ul>{% for talk in page.talks %}<li>{{talk}}</li>
+{% endfor %}</ul>
+ </p>
   <article class="post-content">
     {{ content }}
   </article>
