@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="https://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2023-06-20T02:52:11-05:00</updated>
+  <updated>2023-06-21T03:01:40-05:00</updated>
   <id>https://www.bnlawrence.net//</id>
 
   
@@ -31,7 +31,15 @@
       <published>2023-06-20T00:00:00-05:00</published>
       <updated>2023-06-20T00:00:00-05:00</updated>
       <id>https://www.bnlawrence.net//science/2023/06/infrastructure-strategy</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//science/2023/06/infrastructure-strategy/">&lt;p&gt;One of the many reasons I have been so quiet of late is that I have been bevering away on a new ENES infrastructure strategy for climate modelling. We now have a draft out for public feedback, so please do comment!&lt;/p&gt;</content>
+      <content type="html" xml:base="https://www.bnlawrence.net//science/2023/06/infrastructure-strategy/">&lt;p&gt;One of the many reasons I have been so quiet of late is that I have been bevering away on a new ENES&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; infrastructure strategy for climate modelling. We now have a draft out for public feedback, so please do comment!&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;ENES is the European Network for Earth System modelling - main website is at &lt;a href=&quot;https://portal.enes.org&quot;&gt;https://portal.enes.org&lt;/a&gt;. (Footnote added, 21/06/23). &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
 
       
       
