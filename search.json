@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "NCAS@Reading Weekly Seminar",
+      "url"			: "/talks/2023/06/what-lies-beneath/",
+      "tag"       : "HPC, exascale, hrcm, modelling_futures",
+      "category"  : "talks",
+      "date"      : "2023-06-23",
+      "excerpt"		: "In this seminar I laid out the background to the new ENES infrastructure strategy, including not only the computing context but a good part of the science motivation for a spectrumof climate modelling activities. Below I sketch out a summary of a few of the points I made."
+    }
+  
+
+  
+    ,{
       "title"			: "Draft ENES Infrastructure Strategy Open for Comment",
       "url"			: "/science/2023/06/infrastructure-strategy/",
       "tag"       : "exacale, hpc, climate, modelling_futures",
