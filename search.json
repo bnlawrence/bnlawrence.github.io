@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "Using Deep Learning to find cyclones in model output",
+      "url"			: "/science/2023/07/tcdetect/",
+      "tag"       : "aiml, cyclones, daniel",
+      "category"  : "science",
+      "date"      : "2023-07-09",
+      "excerpt"		: "  Galea, D., Kunkel, J., &amp; Lawrence, B. N. (2023). TCDetect: A New Method of Detecting the Presence of Tropical Cyclones Using Deep Learning. Artificial Intelligence for the Earth Systems, 2(3), e220045.https://doi.org/10.1175/AIES-D-22-0045.1"
+    }
+  
+
+  
+    ,{
       "title"			: "NCAS@Reading Weekly Seminar",
       "url"			: "/talks/2023/06/what-lies-beneath/",
       "tag"       : "HPC, exascale, hrcm, modelling_futures",
@@ -4630,6 +4641,12 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
+  
+
   
 
   

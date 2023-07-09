@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Using Deep Learning to find cyclones in model output | Bryan Lawrence</title>
+  <meta name="description" content="  Galea, D., Kunkel, J., &amp; Lawrence, B. N. (2023). TCDetect: A New Method of Detecting the Presence of Tropical Cyclones Using Deep Learning. Artificial Intelligence for the Earth Systems, 2(3)...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://www.bnlawrence.net//science/2023/07/tcdetect/">
+  <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="https://www.bnlawrence.net//feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.osu.edu/assets/fonts/webfonts.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@bnlawrence">
+<meta name="twitter:title"   content="Using Deep Learning to find cyclones in model output">
+
+
+<meta name="twitter:description" content="
+  Galea, D., Kunkel, J., &amp;amp; Lawrence, B. N. (2023). TCDetect: A New Method of Detecting the Presence of Tropical Cyclones Using Deep Learning. Artificial Intelligence for the Earth Systems,...">
+
+
+
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="https://www.bnlawrence.net//assets/images/2023-07-09-katrina-processed.png">
+
+<!-- end of Twitter cards -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Bryan Lawrence</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/" class="page-link">Home</a>
+    
+    </li>
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+    <li><a href="/academic/" class="page-link">Academic</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/academic/">Academic</a></li>
+    
+    <li><a href="/projects/">Projects</a></li>
+    
+    <li><a href="/publications/">Publications</a></li>
+    
+    <li><a href="/cv/">Short CV</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/talks/">Talks</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/search/" class="page-link">Find</a>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>
+    </nav>
+</div>
+<div class="wrapper">
+   <p> Intermittent ramblings on climate, computing, or data science, what I'm up to, and what I'm thinking. Mostly professional, sometimes not.
+ </p>
+</div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+ <header class="post-header">
+  <h1 class="post-title">Using Deep Learning to find cyclones in model output</h1>
+  <p class="post-meta">Posted on July 9, 2023
+  
+  
+      in
+      
+      <a href="/categories/#science" title="science">science</a>&nbsp;
+      
+  
+  
+  
+  (tagged: <a href="/tags/aiml/" rel="tag">aiml</a>, <a href="/tags/cyclones/" rel="tag">cyclones</a>, <a href="/tags/daniel/" rel="tag">daniel</a>).
+  
+  <br/>
+  
+  
+  Previous Post: <a class="prev" href="/talks/2023/06/what-lies-beneath/">&laquo;NCAS@Reading Weekly Seminar&raquo;</a>
+  
+  
+  (in <a href="/categories/#talks" title="talks">talks</a>;
+  in <a href="/categories/#science" title="science">science</a> previous is <a href="/science/2023/06/infrastructure-strategy/" class="prev">&laquo;Draft ENES Infrastructure Strategy Open for Comment&raquo;</a>)
+  
+  .<br/>
+  .
+  </p>
+</header>
+
+
+  <article class="post-content">
+    <blockquote>
+  <p>Galea, D., Kunkel, J., &amp; Lawrence, B. N. (2023). TCDetect: A New Method of Detecting the Presence of Tropical Cyclones Using Deep Learning. Artificial Intelligence for the Earth Systems, 2(3), e220045.
+<a href="https://doi.org/10.1175/AIES-D-22-0045.1">https://doi.org/10.1175/AIES-D-22-0045.1</a></p>
+</blockquote>
+
+<p><a href="https://doi.org/10.1175/AIES-D-22-0045.1">This</a> is the first output from Daniel Galea’s Ph.D work (he’s long since finished and moved on, but these things take time)!</p>
+
+<p>The objective here was to develop a deep learning model which we could use in running model simulations to decide whether or not we should write out high frequency and high resolution data - basically we only want to do so when there is a feature of interest in the data. The first step here was to see if we could use DL to find tropical cyclones (as an exemplar of the approach, not as the final goal).</p>
+
+<p>This paper describes the construction and performance of TCDetect, a deep learning tool to do exactly that. We have more stuff in various stages of publication which address more aspects of it’s performance and use.</p>
+
+<p>The model was trained on ERA-Interim reanalysis data from 1979 to 2017, and the training was concentrated on delivering the highest possible recall rate (successful detection of cyclones) while rejecting enough data to make a difference in outputs.</p>
+
+<p>The key results are these:</p>
+
+<ul>
+  <li>When tested, the recall or probability of detection rate was 92%.</li>
+  <li>The precision rate or success ratio obtained was 36%.</li>
+  <li>For the desired data reduction application, if the desired target included all tropical cyclone events, even those that did not obtain hurricane-strength status, the effective precision was 85%.</li>
+  <li>The recall rate and the area under curve for the precision–recall (AUC-PR) compare favorably with other methods of cyclone identification while using the smallest number of parameters for both training and inference.</li>
+</ul>
+
+  </article>
+
+  
+
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr/>
+<!--     <h2 class="footer-heading">Bryan Lawrence</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><strong>Bryan Lawrence</strong></li>
+		  <li>Professional Meeting Attendee</li>
+          <li><a href="mailto:b.n.lawrence@reading.ac.uk">b.n.lawrence@reading.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+              <a href="https://github.com/bnlawrence">
+              <i class="fa fa-github" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+
+          
+          <li>
+             <a href="https://twitter.com/bnlawrence">
+             <i class="fa fa-twitter" style="color:gray"></i> bnlawrence
+             </a>
+          </li>
+          
+          
+          <li>
+             <img style="max-height:1em" src="/assets/mastodon-icon.svg"/>&nbsp;
+             <a rel="me" href="https://mastodon.nz/@bnlawrence">@bnlawrence</a>
+          </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+         <p class="text">
+	     This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency.  Laboris locatores analogum obsecro respice auferetur. (The benefit of my daughter's education, not mine.)
+
+      </div>
+    </div>
+    <!--
+    <hr/>
+    <p class="text"> This is a personal site. Caveat Lector. Nothing written here reflects an official opinion of my employer or any funding agency.  Laboris locatores analogum obsecro respice auferetur. (The benefit of my daughter's education, not mine.)
+ </p>
+    -->
+
+  </div>
+
+</footer>
+
+    
+  </body>
+
+
+</html>

@@ -636,14 +636,14 @@ li.talk-item {
     font-size: 1em;
     font-weight: bold;
     border-bottom: 1px solid black; }
-  .papers ol li {
+  .papers li {
     font-size: 0.8em;
     padding-bottom: 3px; }
-    .papers ol li p {
+    .papers li p {
       padding-bottom: 0px; }
-    .papers ol li span.author {
+    .papers li span.author {
       color: navy; }
-    .papers ol li span.reftitle {
+    .papers li span.reftitle {
       font-weight: bold; }
   .papers h4 {
     margin-top: 1em;
@@ -657,6 +657,8 @@ li.talk-item {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     padding: 0 5px 0 5px; }
+  .papers .pubref {
+    background-color: #f0f0e2; }
 
 a.more {
   background-color: #e6dfca;
