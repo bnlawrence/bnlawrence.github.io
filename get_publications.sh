@@ -1,1 +1,1 @@
-cp ~/GitRepos/pyzotero/publications.md _pages/
+cp ~/Repositories/blog-publist/publications.md _pages/
