@@ -2,6 +2,17 @@
 
   
     {
+      "title"			: "UK Lustre Users Group",
+      "url"			: "/talks/2023/12/computational-storage/",
+      "tag"       : "HPC, exascale, storage, excalibur",
+      "category"  : "talks",
+      "date"      : "2023-12-06",
+      "excerpt"		: "In this keynote talk I introduced the work we have been doing on active storage (also known as computational storage) as part of the ExcaliData projects within Excalibur (the UK exascale software readiness programme)."
+    }
+  
+
+  
+    ,{
       "title"			: "Using Deep Learning to find cyclones in model output",
       "url"			: "/science/2023/07/tcdetect/",
       "tag"       : "aiml, cyclones, daniel",
@@ -4641,6 +4652,8 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
   
 
   

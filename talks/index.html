@@ -131,6 +131,36 @@
 <div class="talks">
     
       
+        <ul class="listing">
+            <div class="meeting">
+                <h1 class="theader">Meeting: UK Lustre Users Group</h1>
+                <h1 class="tdetails">Manchester, 06 December, 2023</h1>
+                <p>Includes the following talk:
+                <ul><li>The ExcaliData Implementation of Active Storage. An opportunity for Lustre?</li></ul></p>
+                <p>In this keynote talk I introduced the work we have been doing on active storage (also known as computational storage) as part of the ExcaliData projects within Excalibur (the UK exascale software readiness <a href="https://excalibur.ac.uk">programme</a>).</p>
+
+<p><span class="presentation-link">Presentation: <a href="/assets/talks/2023-12-06-Computational-for-UKLUG.pdf">pdf</a> (5.3 MB)</span></p>
+
+<p>I started with why I was there - as a climate scientist (albeit one who worries about the necessary <a href="/talks/2023/06/what-lies-beneath/">underlying infrastructure</a>) at a storage meeting. The reason being that co-design of our computing systems extends way beyond codes and compute engines! Which of course is why ExcaliData exists, as an excalibur cross-cutting activity to support a range of exascale exadata problems. So we began with some “climate science makes lot of numbers” slides, the point of which being that “we make lots of numbers then we have to do stuff with them”.</p>
+
+<p>The concept of active storage, that is storage that can do calculations, is an old one, but our innovation here is to limit those calculations to reductions (and any necessary decompresssion of data that has already been compressed at write-time). By limiting ourselves to reductions (a la MPI) we can push the knowledge of when to do those reductions in storage into task scheduling middleware - in our case, Dask.  With some minor modifications to the Dask graph, the application can be completely unchanged, but take advantage of storage based reductions if they are available (and they make sense).</p>
+
+<p>We currently modify the Dask graph in <a href="https://ncas-cms.github.io/cf-python/">cf-python</a> - but it would be better to do it directly in Dask. We don’t do that yet because we want to have some active storage implementations in the wild so that the Dask maintainers will see this as a beneficial capability.</p>
+
+<p>We currently have one fully featured implementation as S3 middleware, allowing a server adjacent to S3 storage to do the reductions (using <a href="https://github.com/stackhpc/reductionist-rs">reductionist</a> by StackHPC) - and one prototype implementation in a POSIX file system (DDN’s Infinia).</p>
+
+<p>Extending this to more POSIX environments is why I was happy to accept the invite to talk to UKLUG — and so I included some discussion about issues around implementing support in Lustre.</p>
+
+<p>It turns out the hard part of doing this is recognising that most of our data is chunked, and so reductions on arrays known to the application turn out to be partial reductions on storage chunks which are then reduced further up the stack. Given each chunk may have missing data, may be compresssed and/or filtered, and we probably only want some of it, we need a carefully constructed API.</p>
+
+<p>Getting Lustre to support that API is a necessary condition for active storage, but there are others which are discussed in the talk.</p>
+
+
+            </div>
+        </ul>
+        
+    
+      
     
       
         <ul class="listing">

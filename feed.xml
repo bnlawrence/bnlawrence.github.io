@@ -3,7 +3,7 @@
   <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
   <link href="https://www.bnlawrence.net//feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://www.bnlawrence.net//" rel="alternate" type="text/html" />
-  <updated>2023-11-08T07:56:41-06:00</updated>
+  <updated>2023-12-07T05:01:23-06:00</updated>
   <id>https://www.bnlawrence.net//</id>
 
   
@@ -24,6 +24,47 @@
   
 
   
+  
+    <entry>
+      <title type="html">UK Lustre Users Group</title>
+      <link href="https://www.bnlawrence.net//talks/2023/12/computational-storage/" rel="alternate" type="text/html" title="UK Lustre Users Group" />
+      <published>2023-12-06T00:00:00-06:00</published>
+      <updated>2023-12-06T00:00:00-06:00</updated>
+      <id>https://www.bnlawrence.net//talks/2023/12/computational-storage</id>
+      <content type="html" xml:base="https://www.bnlawrence.net//talks/2023/12/computational-storage/">&lt;p&gt;In this keynote talk I introduced the work we have been doing on active storage (also known as computational storage) as part of the ExcaliData projects within Excalibur (the UK exascale software readiness &lt;a href=&quot;https://excalibur.ac.uk&quot;&gt;programme&lt;/a&gt;).&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Bryan Lawrence</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="HPC" />
+      
+        <category term="exascale" />
+      
+        <category term="storage" />
+      
+        <category term="excalibur" />
+      
+
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.bnlawrence.net//assets/images/2023-12-06-chunking.svg" />
+      
+    </entry>
   
     <entry>
       <title type="html">Using Deep Learning to find cyclones in model output</title>
@@ -390,45 +431,6 @@ has undertaken, and is undertaking, to deal with the data deluge.&lt;/p&gt;</con
       
         
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.bnlawrence.net//assets/images/2021-09-27-Objectives.png" />
-      
-    </entry>
-  
-    <entry>
-      <title type="html">19th Workshop on high performance computing in meteorology</title>
-      <link href="https://www.bnlawrence.net//talks/2021/09/digital-twins/" rel="alternate" type="text/html" title="19th Workshop on high performance computing in meteorology" />
-      <published>2021-09-20T00:00:00-05:00</published>
-      <updated>2021-09-20T00:00:00-05:00</updated>
-      <id>https://www.bnlawrence.net//talks/2021/09/digital-twins</id>
-      <content type="html" xml:base="https://www.bnlawrence.net//talks/2021/09/digital-twins/">&lt;p&gt;Presentation: &lt;a href=&quot;/assets/talks/2021-09-20_digital_twins.pdf&quot;&gt;pdf&lt;/a&gt; (0.3MB)&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Bryan Lawrence</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="HPC" />
-      
-        <category term="exascale" />
-      
-        <category term="digital-twins" />
-      
-
-      
-
-      
-      
-        
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.bnlawrence.net//assets/images/2021-09-20-Promises.png" />
       
     </entry>
   
