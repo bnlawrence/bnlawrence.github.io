@@ -13,6 +13,17 @@
 
   
     ,{
+      "title"			: "Met. Dept Seminar",
+      "url"			: "/talks/2025/09/CMS-RSEcon25-copy/",
+      "tag"       : "cms,, hpc,, cf,, cf-python,, pyfive",
+      "category"  : "talks",
+      "date"      : "2025-09-09",
+      "excerpt"		: "NCAS CMS spend a lot of eﬀort on tools and information systems to handle the data and complexity of both observational and simulation data. In this seminar we cover a few of those tools and explain how we’re positioning these tools to support the FAIR production and use of observations, simple (e.g Healpix) and complex(e.g. LFRIC mesh) model data, in the context of rapidly exploding volumes and needs."
+    }
+  
+
+  
+    ,{
       "title"			: "UK Lustre Users Group",
       "url"			: "/talks/2023/12/computational-storage/",
       "tag"       : "HPC, exascale, storage, excalibur",
@@ -4661,6 +4672,10 @@
       "date" : "",
       "excerpt"		: ""
     }
+  
+
+  
+
   
 
   

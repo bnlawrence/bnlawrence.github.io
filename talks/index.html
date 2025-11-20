@@ -157,6 +157,44 @@
       
         <ul class="listing">
             <div class="meeting">
+                <h1 class="theader">Meeting: Met. Dept Seminar</h1>
+                <h1 class="tdetails">Reading, 18 November, 2025</h1>
+                <p>Includes the following talk:
+                <ul><li>Handling Data and Provenance in an AI world</li></ul></p>
+                <p>NCAS CMS spend a lot of eﬀort on tools and information systems to handle the data and complexity of both observational and simulation data. In this seminar we cover a few of those tools and explain how we’re positioning these tools to support the FAIR production and use of observations, simple (e.g Healpix) and complex(e.g. LFRIC mesh) model data, in the context of rapidly exploding volumes and needs.</p>
+
+<p><span class="presentation-link">Presentation: <a href="/assets/talks/2025-11-18-CMS-Handling-Data.pdf">pdf</a> (5.7 MB)</span></p>
+
+<p>The title was a bit of click-bait, as the talk was really about data handling rather than AI per se, though the production of data from AI models was definitely a key piece of motivation.</p>
+
+<p>The talk was laid out in six main sections:</p>
+
+<ol>
+  <li>
+    <p>An <strong>introduction and motivation</strong>, how the volume and number of files are driving us to build better and more useful tools. In this section I also covered a way of thinking about interacting with data via metadata, and introduced the stack of tools we work on.</p>
+  </li>
+  <li>
+    <p><strong>From metadata to tools</strong>. An introduction to the CF conventions, and how software can exploit them. The notion of a spectrum of tools and choosing your tool for the problem. An example (healpix) of how hard it is to develop standards.</p>
+  </li>
+  <li>
+    <p><strong>Documentation</strong> Some discussion of things we need to think about when documenting model workflows. The Essential Model Documentation that will be required for CMIP7.</p>
+  </li>
+</ol>
+
+<p>4.<strong>Why you should care about chunking</strong>. Chunking is a big mystery that hasn’t really mattered until now - datasets are large, and chunking really impacts on performance, especially fo remote access. (In passing, we cover why HDF5 can do most everything Zarr can do, just as efficiently, but most people are simply not aware of how to make that happen.) An introduction to <a href="https://pyfive.readthedocs.io">pyfive</a>, and our new prototype <a href="https://github.com/NCAS-CMS/cfs3">cfs3</a> tools (for preparing data for, and uploading data to, object stores, and investigating the data that is in an object store).</p>
+
+<p>5.<strong>Applications</strong>. A quick tour of some of the higher level activities we are involved in, <a href="https://pyactivestorage.readthedocs.io">pyactivestorage</a>, <a href="https://esmvaltool.org/">esmvaltool</a>, and TWINEVISION.</p>
+
+<p>As always, I was representing work mostly done by the coauthors on this presentation, so errors are mine!</p>
+
+
+            </div>
+        </ul>
+        
+    
+      
+        <ul class="listing">
+            <div class="meeting">
                 <h1 class="theader">Meeting: UK Lustre Users Group</h1>
                 <h1 class="tdetails">Manchester, 06 December, 2023</h1>
                 <p>Includes the following talk:

@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>UK Lustre Users Group | Bryan Lawrence</title>
-  <meta name="description" content="In this keynote talk I introduced the work we have been doing on active storage (also known as computational storage) as part of the ExcaliData projects within Excalibur (the UK exascale software r...">
+  <title>Met. Dept Seminar | Bryan Lawrence</title>
+  <meta name="description" content="NCAS CMS spend a lot of eﬀort on tools and information systems to handle the data and complexity of both observational and simulation data. In this seminar we cover a few of those tools and explain...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://www.bnlawrence.net//talks/2023/12/computational-storage/">
+  <link rel="canonical" href="https://www.bnlawrence.net//talks/2025/09/CMS-RSEcon25-copy/">
   <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="https://www.bnlawrence.net//feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -24,15 +24,15 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:site"    content="@">
-<meta name="twitter:title"   content="UK Lustre Users Group">
+<meta name="twitter:title"   content="Met. Dept Seminar">
 
 
-<meta name="twitter:description" content="In this keynote talk I introduced the work we have been doing on active storage (also known as computational storage) as part of the ExcaliData projects within Excalibur (the UK exascale software r...">
+<meta name="twitter:description" content="NCAS CMS spend a lot of eﬀort on tools and information systems to handle the data and complexity of both observational and simulation data. In this seminar we cover a few of those tools and explain...">
 
 
 
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="https://www.bnlawrence.net//assets/images/2023-12-06-chunking.svg">
+<meta name="twitter:image" content="https://www.bnlawrence.net//assets/images/2025-11-18-chunkingv2r.svg">
 
 <!-- end of Twitter cards -->
 
@@ -121,8 +121,8 @@
         <div class="post">
 
  <header class="post-header">
-  <h1 class="post-title">UK Lustre Users Group</h1>
-  <p class="post-meta">Posted on December 6, 2023
+  <h1 class="post-title">Met. Dept Seminar</h1>
+  <p class="post-meta">Posted on September 9, 2025
   
   
       in
@@ -132,46 +132,50 @@
   
   
   
-  (tagged: <a href="/tags/hpc/" rel="tag">HPC</a>, <a href="/tags/exascale/" rel="tag">exascale</a>, <a href="/tags/storage/" rel="tag">storage</a>, <a href="/tags/excalibur/" rel="tag">excalibur</a>).
+  (tagged: <a href="/tags/cms%2C/" rel="tag">cms,</a>, <a href="/tags/hpc%2C/" rel="tag">hpc,</a>, <a href="/tags/cf%2C/" rel="tag">cf,</a>, <a href="/tags/cf-python%2C/" rel="tag">cf-python,</a>, <a href="/tags/pyfive/" rel="tag">pyfive</a>).
   
   <br/>
   
   
-  Previous Post: <a class="prev" href="/science/2023/07/tcdetect/">&laquo;Using Deep Learning to find cyclones in model output&raquo;</a>
-  
-  
-  (in <a href="/categories/#science" title="science">science</a>;
-  in <a href="/categories/#talks" title="talks">talks</a> previous is <a href="/talks/2023/06/what-lies-beneath/" class="prev">&laquo;NCAS@Reading Weekly Seminar&raquo;</a>)
+  Previous Post: <a class="prev" href="/talks/2023/12/computational-storage/">&laquo;UK Lustre Users Group&raquo;</a>
   
   .<br/>
-   Next Post <a class="next" href="/talks/2025/09/CMS-RSEcon25-copy/">&laquo;Met. Dept Seminar&raquo;</a>
+   Next Post <a class="next" href="/talks/2025/09/CMS-RSEcon25/">&laquo;RSEcon25&raquo;</a>
   
   .
   </p>
 </header>
 
  <p>Includes the following talk:
- <ul><li>The ExcaliData Implementation of Active Storage. An opportunity for Lustre?</li>
+ <ul><li>Handling Data and Provenance in an AI world</li>
 </ul>
  </p>
   <article class="post-content">
-    <p>In this keynote talk I introduced the work we have been doing on active storage (also known as computational storage) as part of the ExcaliData projects within Excalibur (the UK exascale software readiness <a href="https://excalibur.ac.uk">programme</a>).</p>
+    <p>NCAS CMS spend a lot of eﬀort on tools and information systems to handle the data and complexity of both observational and simulation data. In this seminar we cover a few of those tools and explain how we’re positioning these tools to support the FAIR production and use of observations, simple (e.g Healpix) and complex(e.g. LFRIC mesh) model data, in the context of rapidly exploding volumes and needs.</p>
 
-<p><span class="presentation-link">Presentation: <a href="/assets/talks/2023-12-06-Computational-for-UKLUG.pdf">pdf</a> (5.3 MB)</span></p>
+<p><span class="presentation-link">Presentation: <a href="/assets/talks/2025-11-18-CMS-Handling-Data.pdf">pdf</a> (5.7 MB)</span></p>
 
-<p>I started with why I was there - as a climate scientist (albeit one who worries about the necessary <a href="/talks/2023/06/what-lies-beneath/">underlying infrastructure</a>) at a storage meeting. The reason being that co-design of our computing systems extends way beyond codes and compute engines! Which of course is why ExcaliData exists, as an excalibur cross-cutting activity to support a range of exascale exadata problems. So we began with some “climate science makes lot of numbers” slides, the point of which being that “we make lots of numbers then we have to do stuff with them”.</p>
+<p>The title was a bit of click-bait, as the talk was really about data handling rather than AI per se, though the production of data from AI models was definitely a key piece of motivation.</p>
 
-<p>The concept of active storage, that is storage that can do calculations, is an old one, but our innovation here is to limit those calculations to reductions (and any necessary decompresssion of data that has already been compressed at write-time). By limiting ourselves to reductions (a la MPI) we can push the knowledge of when to do those reductions in storage into task scheduling middleware - in our case, Dask.  With some minor modifications to the Dask graph, the application can be completely unchanged, but take advantage of storage based reductions if they are available (and they make sense).</p>
+<p>The talk was laid out in six main sections:</p>
 
-<p>We currently modify the Dask graph in <a href="https://ncas-cms.github.io/cf-python/">cf-python</a> - but it would be better to do it directly in Dask. We don’t do that yet because we want to have some active storage implementations in the wild so that the Dask maintainers will see this as a beneficial capability.</p>
+<ol>
+  <li>
+    <p>An <strong>introduction and motivation</strong>, how the volume and number of files are driving us to build better and more useful tools. In this section I also covered a way of thinking about interacting with data via metadata, and introduced the stack of tools we work on.</p>
+  </li>
+  <li>
+    <p><strong>From metadata to tools</strong>. An introduction to the CF conventions, and how software can exploit them. The notion of a spectrum of tools and choosing your tool for the problem. An example (healpix) of how hard it is to develop standards.</p>
+  </li>
+  <li>
+    <p><strong>Documentation</strong> Some discussion of things we need to think about when documenting model workflows. The Essential Model Documentation that will be required for CMIP7.</p>
+  </li>
+</ol>
 
-<p>We currently have one fully featured implementation as S3 middleware, allowing a server adjacent to S3 storage to do the reductions (using <a href="https://github.com/stackhpc/reductionist-rs">reductionist</a> by StackHPC) - and one prototype implementation in a POSIX file system (DDN’s Infinia).</p>
+<p>4.<strong>Why you should care about chunking</strong>. Chunking is a big mystery that hasn’t really mattered until now - datasets are large, and chunking really impacts on performance, especially fo remote access. (In passing, we cover why HDF5 can do most everything Zarr can do, just as efficiently, but most people are simply not aware of how to make that happen.) An introduction to <a href="https://pyfive.readthedocs.io">pyfive</a>, and our new prototype <a href="https://github.com/NCAS-CMS/cfs3">cfs3</a> tools (for preparing data for, and uploading data to, object stores, and investigating the data that is in an object store).</p>
 
-<p>Extending this to more POSIX environments is why I was happy to accept the invite to talk to UKLUG — and so I included some discussion about issues around implementing support in Lustre.</p>
+<p>5.<strong>Applications</strong>. A quick tour of some of the higher level activities we are involved in, <a href="https://pyactivestorage.readthedocs.io">pyactivestorage</a>, <a href="https://esmvaltool.org/">esmvaltool</a>, and TWINEVISION.</p>
 
-<p>It turns out the hard part of doing this is recognising that most of our data is chunked, and so reductions on arrays known to the application turn out to be partial reductions on storage chunks which are then reduced further up the stack. Given each chunk may have missing data, may be compresssed and/or filtered, and we probably only want some of it, we need a carefully constructed API.</p>
-
-<p>Getting Lustre to support that API is a necessary condition for active storage, but there are others which are discussed in the talk.</p>
+<p>As always, I was representing work mostly done by the coauthors on this presentation, so errors are mine!</p>
 
 
   </article>
