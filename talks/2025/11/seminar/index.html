@@ -10,7 +10,7 @@
   <meta name="description" content="NCAS CMS spend a lot of eﬀort on tools and information systems to handle the data and complexity of both observational and simulation data. In this seminar we cover a few of those tools and explain...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://www.bnlawrence.net//talks/2025/09/CMS-RSEcon25-copy/">
+  <link rel="canonical" href="https://www.bnlawrence.net//talks/2025/11/seminar/">
   <link rel="alternate" type="application/rss+xml" title="Bryan Lawrence" href="https://www.bnlawrence.net//feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -122,7 +122,7 @@
 
  <header class="post-header">
   <h1 class="post-title">Met. Dept Seminar</h1>
-  <p class="post-meta">Posted on September 9, 2025
+  <p class="post-meta">Posted on November 18, 2025
   
   
       in
@@ -137,11 +137,9 @@
   <br/>
   
   
-  Previous Post: <a class="prev" href="/talks/2023/12/computational-storage/">&laquo;UK Lustre Users Group&raquo;</a>
+  Previous Post: <a class="prev" href="/talks/2025/09/CMS-RSEcon25/">&laquo;RSEcon25&raquo;</a>
   
   .<br/>
-   Next Post <a class="next" href="/talks/2025/09/CMS-RSEcon25/">&laquo;RSEcon25&raquo;</a>
-  
   .
   </p>
 </header>
@@ -169,11 +167,13 @@
   <li>
     <p><strong>Documentation</strong> Some discussion of things we need to think about when documenting model workflows. The Essential Model Documentation that will be required for CMIP7.</p>
   </li>
+  <li>
+    <p><strong>Why you should care about chunking</strong>. Chunking is a big mystery that hasn’t really mattered until now - datasets are large, and chunking really impacts on performance, especially fo remote access. (In passing, we cover why HDF5 can do most everything Zarr can do, just as efficiently, but most people are simply not aware of how to make that happen.) An introduction to <a href="https://pyfive.readthedocs.io">pyfive</a>, and our new prototype <a href="https://github.com/NCAS-CMS/cfs3">cfs3</a> tools (for preparing data for, and uploading data to, object stores, and investigating the data that is in an object store).</p>
+  </li>
+  <li>
+    <p><strong>Applications</strong>. A quick tour of some of the higher level activities we are involved in, <a href="https://pyactivestorage.readthedocs.io">pyactivestorage</a>, <a href="https://esmvaltool.org/">esmvaltool</a>, and TWINEVISION.</p>
+  </li>
 </ol>
-
-<p>4.<strong>Why you should care about chunking</strong>. Chunking is a big mystery that hasn’t really mattered until now - datasets are large, and chunking really impacts on performance, especially fo remote access. (In passing, we cover why HDF5 can do most everything Zarr can do, just as efficiently, but most people are simply not aware of how to make that happen.) An introduction to <a href="https://pyfive.readthedocs.io">pyfive</a>, and our new prototype <a href="https://github.com/NCAS-CMS/cfs3">cfs3</a> tools (for preparing data for, and uploading data to, object stores, and investigating the data that is in an object store).</p>
-
-<p>5.<strong>Applications</strong>. A quick tour of some of the higher level activities we are involved in, <a href="https://pyactivestorage.readthedocs.io">pyactivestorage</a>, <a href="https://esmvaltool.org/">esmvaltool</a>, and TWINEVISION.</p>
 
 <p>As always, I was representing work mostly done by the coauthors on this presentation, so errors are mine!</p>
 

@@ -2,23 +2,23 @@
 
   
     {
+      "title"			: "Met. Dept Seminar",
+      "url"			: "/talks/2025/11/seminar/",
+      "tag"       : "cms,, hpc,, cf,, cf-python,, pyfive",
+      "category"  : "talks",
+      "date"      : "2025-11-18",
+      "excerpt"		: "NCAS CMS spend a lot of eﬀort on tools and information systems to handle the data and complexity of both observational and simulation data. In this seminar we cover a few of those tools and explain how we’re positioning these tools to support the FAIR production and use of observations, simple (e.g Healpix) and complex(e.g. LFRIC mesh) model data, in the context of rapidly exploding volumes and needs."
+    }
+  
+
+  
+    ,{
       "title"			: "RSEcon25",
       "url"			: "/talks/2025/09/CMS-RSEcon25/",
       "tag"       : "cms,, hpc,, ensembles,, pyfive",
       "category"  : "talks",
       "date"      : "2025-09-09",
       "excerpt"		: "This keynote talk to the RSE Geoscience SIG described some of the activities of what is one of the oldest university based RSE groups in the UK - the NCAS Computational Modelling Services (CMS) group."
-    }
-  
-
-  
-    ,{
-      "title"			: "Met. Dept Seminar",
-      "url"			: "/talks/2025/09/CMS-RSEcon25-copy/",
-      "tag"       : "cms,, hpc,, cf,, cf-python,, pyfive",
-      "category"  : "talks",
-      "date"      : "2025-09-09",
-      "excerpt"		: "NCAS CMS spend a lot of eﬀort on tools and information systems to handle the data and complexity of both observational and simulation data. In this seminar we cover a few of those tools and explain how we’re positioning these tools to support the FAIR production and use of observations, simple (e.g Healpix) and complex(e.g. LFRIC mesh) model data, in the context of rapidly exploding volumes and needs."
     }
   
 

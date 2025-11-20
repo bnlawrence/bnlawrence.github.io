@@ -133,30 +133,6 @@
       
         <ul class="listing">
             <div class="meeting">
-                <h1 class="theader">Meeting: RSEcon25</h1>
-                <h1 class="tdetails">Warwick, 09 September, 2025</h1>
-                <p>Includes the following talk:
-                <ul><li>Climate Science and NCAS CMS, an introduction</li></ul></p>
-                <p>This keynote talk to the RSE Geoscience SIG described some of the activities of what is one of the oldest university based RSE groups in the UK - the NCAS Computational Modelling Services (CMS) group.</p>
-
-<p><span class="presentation-link">Presentation: <a href="/assets/talks/2025-09-09-CMS-RSEcon25.pdf">pdf</a> (3.3 MB)</span></p>
-
-<p>I began by trying to motivate why climate  modellers need the biggest possible computers, and always want a bigger one, and why that leads to data problems.</p>
-
-<p>I then introduced what is needed for academia to run (big) climate models in the UK environment, and the role of CMS in supporting that - from managing the PUMA system on ARCHER2 that orchestrates model workflows, to managing data on JASMIN.</p>
-
-<p>I introduced the roles of the current CMS team and then showcased a selection of projects, from the massive logistical effort of the CANARI large ensemble, through our incipient efforts to get a climate model port to Grace Hopper, to model/data toolkits, and our recent upgrades to and acquisition of responsibility for <a href="pyfive.readthedocs.org">pyfive</a> (a pure python HDF5 reader).</p>
-
-<p>Some of the take home points were about the scale of the data challenge, and the size of the teams necessary to do leading edge climate modelling.</p>
-
-
-            </div>
-        </ul>
-        
-    
-      
-        <ul class="listing">
-            <div class="meeting">
                 <h1 class="theader">Meeting: Met. Dept Seminar</h1>
                 <h1 class="tdetails">Reading, 18 November, 2025</h1>
                 <p>Includes the following talk:
@@ -179,13 +155,39 @@
   <li>
     <p><strong>Documentation</strong> Some discussion of things we need to think about when documenting model workflows. The Essential Model Documentation that will be required for CMIP7.</p>
   </li>
+  <li>
+    <p><strong>Why you should care about chunking</strong>. Chunking is a big mystery that hasn’t really mattered until now - datasets are large, and chunking really impacts on performance, especially fo remote access. (In passing, we cover why HDF5 can do most everything Zarr can do, just as efficiently, but most people are simply not aware of how to make that happen.) An introduction to <a href="https://pyfive.readthedocs.io">pyfive</a>, and our new prototype <a href="https://github.com/NCAS-CMS/cfs3">cfs3</a> tools (for preparing data for, and uploading data to, object stores, and investigating the data that is in an object store).</p>
+  </li>
+  <li>
+    <p><strong>Applications</strong>. A quick tour of some of the higher level activities we are involved in, <a href="https://pyactivestorage.readthedocs.io">pyactivestorage</a>, <a href="https://esmvaltool.org/">esmvaltool</a>, and TWINEVISION.</p>
+  </li>
 </ol>
 
-<p>4.<strong>Why you should care about chunking</strong>. Chunking is a big mystery that hasn’t really mattered until now - datasets are large, and chunking really impacts on performance, especially fo remote access. (In passing, we cover why HDF5 can do most everything Zarr can do, just as efficiently, but most people are simply not aware of how to make that happen.) An introduction to <a href="https://pyfive.readthedocs.io">pyfive</a>, and our new prototype <a href="https://github.com/NCAS-CMS/cfs3">cfs3</a> tools (for preparing data for, and uploading data to, object stores, and investigating the data that is in an object store).</p>
-
-<p>5.<strong>Applications</strong>. A quick tour of some of the higher level activities we are involved in, <a href="https://pyactivestorage.readthedocs.io">pyactivestorage</a>, <a href="https://esmvaltool.org/">esmvaltool</a>, and TWINEVISION.</p>
-
 <p>As always, I was representing work mostly done by the coauthors on this presentation, so errors are mine!</p>
+
+
+            </div>
+        </ul>
+        
+    
+      
+        <ul class="listing">
+            <div class="meeting">
+                <h1 class="theader">Meeting: RSEcon25</h1>
+                <h1 class="tdetails">Warwick, 09 September, 2025</h1>
+                <p>Includes the following talk:
+                <ul><li>Climate Science and NCAS CMS, an introduction</li></ul></p>
+                <p>This keynote talk to the RSE Geoscience SIG described some of the activities of what is one of the oldest university based RSE groups in the UK - the NCAS Computational Modelling Services (CMS) group.</p>
+
+<p><span class="presentation-link">Presentation: <a href="/assets/talks/2025-09-09-CMS-RSEcon25.pdf">pdf</a> (3.3 MB)</span></p>
+
+<p>I began by trying to motivate why climate  modellers need the biggest possible computers, and always want a bigger one, and why that leads to data problems.</p>
+
+<p>I then introduced what is needed for academia to run (big) climate models in the UK environment, and the role of CMS in supporting that - from managing the PUMA system on ARCHER2 that orchestrates model workflows, to managing data on JASMIN.</p>
+
+<p>I introduced the roles of the current CMS team and then showcased a selection of projects, from the massive logistical effort of the CANARI large ensemble, through our incipient efforts to get a climate model port to Grace Hopper, to model/data toolkits, and our recent upgrades to and acquisition of responsibility for <a href="pyfive.readthedocs.org">pyfive</a> (a pure python HDF5 reader).</p>
+
+<p>Some of the take home points were about the scale of the data challenge, and the size of the teams necessary to do leading edge climate modelling.</p>
 
 
             </div>
