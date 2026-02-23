@@ -4494,6 +4494,17 @@
 
   
     ,{
+      "title"			: "Short CV",
+      "url"			: "/cv/",
+      "tag"       : "",
+      "category"  : "",
+      "date" : "",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
       "title"			: "Diary",
       "url"			: "/diary/",
       "tag"       : "",
