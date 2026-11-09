@@ -1,1 +1,1 @@
-cp ~/Repositories/blog-publist/publications.md _pages/
+cp ../../blog-publist/publications.md _pages/
