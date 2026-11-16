@@ -4,12 +4,15 @@ title: Graduate Students
 permalink: /teaching/students/
 ---
 
-#### Current Students
+#### Current Students (May 2025)
 
-* D. Galea: Deep Learning Atmospheric Features
+* Gabrielle Ching-Johnson: Where do we need high resolution in the ocean?
+* Ankit Bhandekar (with [Laura Wilcox](https://research.reading.ac.uk/meteorology/people/laura-wilcox/)): Accelerating the computation of air quality projections over India using novel computing.
+* Sambit Panda (co-supervisor, lead supervisor is [Todd Jones](https://www.reading.ac.uk/computer-science/staff/dr-todd-jones)): Developing Artificial Intelligence Approaches to Enhance Representations of Turbulence in Atmospheric Models.
 
 #### Previous Doctoral Students
 
+* D. Galea, 2022:  Meteorological data reduction for tropical cyclones using deep learning techniques. ([2025](https://www.researchgate.net/profile/Daniel-Galea-3))
 * M. Jones, 2017: Parallel Data Analysis for Atmospheric Science
 ([2020](https://www.linkedin.com/in/matthew-jones-25ab818b/?originalSubdomain=uk))
 * A. Osprey, 2015: Benchmark-driven performance modelling for high utilisation of multicore HPC systems.
@@ -34,7 +37,7 @@ Design and Feasibility.
 * D. Frame, 1998: Gravity Wave Breaking in the Southern Mesosphere. 
 ([2020](https://people.wgtn.ac.nz/dave.frame))
 * A. Reisinger, 1998: Spectroscopic Analysis of Trace Gas Concentrations in the Urban Atmosphere. 
-([2018](https://www.nzagrc.org.nz/staff,listing,242,andy-reisinger.html))
+([2018](https://iceds.anu.edu.au/people/academic-members/dr-andy-reisinger)
 * S. Rosier, 1996: Dynamical Evolution of the Northern Stratosphere in Early Winter, 1991/1992: Observational and Modelling Studies.
 ([2020](https://niwa.co.nz/people/suzanne-rosier))
 

@@ -311,7 +311,7 @@ li.talk-item {
             border-bottom: 1px solid black;
         }
 
-    ol li {
+    li {
         font-size: 0.8em;
         padding-bottom:3px;
         p {padding-bottom:0px;}
@@ -337,8 +337,20 @@ li.talk-item {
         padding: 0 5px 0 5px;
     }
 
+    .pubref {
+        background-color: $standout-color ;
+    }
+
 }
 
+a.more {
+    background-color: $item-color;
+    color:black;
+    border-radius:5px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding: 0 5px 0 5px;
+}
 
 
 .search {font-size: 12pt;}

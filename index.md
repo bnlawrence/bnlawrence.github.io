@@ -18,7 +18,7 @@ blog articles is [here](/blog/) with a complete list of talks [here](/talks/).
     <h2>Meeting: <a href="{{post.url}}">{{post.title}}</a>, {{post.location}}, {{post.when}}</h2>
     <table><tr>
     <td><img src="{{post.image}}"/></td>
-      <td>{{post.excerpt | strip_html}} ... <a class="more" href="{{post.url}}" title="{{post.title}}">more</a>
+      <td>{{post.excerpt | strip_html}} &nbsp;<a class="more" href="{{post.url}}" title="{{post.title}}">more</a>
       {% for talk in post.talks %}
       <p><span class="talk-title">Talk: {{talk}}</span></p>
       {% endfor %}</td>
@@ -31,7 +31,7 @@ blog articles is [here](/blog/) with a complete list of talks [here](/talks/).
       <table><tr>
       <td><img src="{{post.image}}"/></td>
       <td><p>{{post.excerpt | strip_html}}
-      ... <a class="more" href="{{post.url}}" title="{{post.title}}">more</a></p>
+      &nbsp;<a class="more" href="{{post.url}}" title="{{post.title}}">more</a></p>
      </td></tr></table>
     </li>
   {% endif %}

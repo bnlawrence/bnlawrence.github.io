@@ -22,9 +22,12 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Bryan's Variables
-$body-color                 : #ffefd5;
-$talk-color                 : #fffeee;
-$header-color               : #333399;
+$body-color                 : #fefef6;
+$talk-color                 : #f2e8c7;
+$item-color                 : #e6dfca;
+$standout-color             : #f0f0e2;
+//$header-color               : #333399;
+$header-color               : #3e4148;
 $header-font-color          : #CACACA;
 $dropdown-width             : 120px;
 
@@ -57,5 +60,6 @@ $on-laptop:        950px;
         "base",
         "layout",
         "syntax-highlighting",
-	"fancy-image"
+        "comments",
+	    "fancy-image"
 ;
