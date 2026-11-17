@@ -60,3 +60,9 @@ To check just one post:
 The script requires Ruby (already needed by Jekyll), but no installed gems.
 It reports all problems and exits with status 1 if any are found, or 0 on success.
 Run its regression tests with `ruby tests/check_talks_test.rb`.
+
+## Browser dependencies
+
+Site search uses `js/simple-jekyll-search.min.js` and does not require jQuery.
+The retired Staticman comment integration and unused jQuery-dependent scripts
+have been removed; there is no longer a locally bundled jQuery dependency.
