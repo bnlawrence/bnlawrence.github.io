@@ -12,8 +12,7 @@ I've just done a bit of a blog tidy up in the process of adding a few talks from
 
 If you want to see what has changed, most of it is currently on the front page where there are quite a lot of new talks listed, though not all the new ones are there (see the [summary list]({{ '/talks/summary/' | relative_url }}) for the full set). If you are reading this in the future, you might not care about what has changed, but while doing that I had a look at my latest CV and realised I had a word cloud in there that may be a bit old, so thought I'd generate a new one:
 
-{% include image.html url="/assets/images/2026-11-18-word-cloud.png" caption="Word Cloud for Bryan Lawrence
-Refereeed Publications" width="480" align="center" %}
+{% include image.html url="/assets/images/2026-11-18-word-cloud.png" caption="Word Cloud for Bryan Lawrence — Refereed Publications" width="480" align="center" %}
 
 To be fair, it's not that different to the old one (not surpringly), but there are some things I like about the
 new one, particularly the progression down the middle from commmunity, to measurements, simulations, modelling,
