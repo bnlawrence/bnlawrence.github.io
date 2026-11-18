@@ -9,7 +9,7 @@ We've made some more progress with our thinking since [last week]({% post_url ol
 
 Meanwhile:
 
-![Image: IMAGE: static/2008/04/01/moles.png ](/static/2008/04/01/moles.png)
+![Image: IMAGE: static/2008/04/01/moles.png ](/assets/images/2008-04-01-moles.png)
 
 Note the new relatedTo association class. That's in there to allow us to have arbitrary RDF associations between MOLES entities explicitly modelled. No idea if this is the right way to do it ... 
 
