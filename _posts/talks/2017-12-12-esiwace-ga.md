@@ -10,7 +10,7 @@ excerpt: >
     The talk covers the "exploitability" component of the ESIWACE project. The work we describe
     is development of cost models for exascale HPC storage, plus
     new software to write and manage data at scale.
-image: /assets/talks/2017-12-12-esiwace_eg.png
+image: /assets/images/2017-12-12-esiwace_eg.png
 ---
 
 Exploiting Weather & Climate Data at Scale (WP4)

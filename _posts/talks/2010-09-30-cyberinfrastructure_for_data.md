@@ -11,7 +11,7 @@ tags: data_deluge
 Cyberinfrastructure Challenges (from a climate science repository perspective)
 ------------------------------------------------------------------------------
 
-Presentation: [pdf](/assets/talks/2010-09-30-cyberinfrastructure_for_data) (2MB).
+Presentation: [pdf](/assets/talks/2010-09-29-nsf_data_taskforce.pdf) (2MB).
 
 I gave a very short presentation at this NSF sponsored workshop.
 See [my blog entry]({% post_url oldblog/2010-09-30-cyberinfrastructure_for_data %})

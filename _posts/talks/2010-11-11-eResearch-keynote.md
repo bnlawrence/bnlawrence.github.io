@@ -26,7 +26,7 @@ All the other talks from the meeting are available on the [osdm website](http://
 Rethinking metadata to realise the full potential of linked scientific data
 ---------------------------------------------------------------------------
 
-Presentation: [pdf](/assets/talks/2010-11-08-metadata.pdf) (3 MB)
+Presentation: [pdf](/assets/talks/2010-11-08-metadata.pdf) (2 MB)
 
 _Metadata Workshop, Gold Coast, November 2010_
 
@@ -50,4 +50,5 @@ software developments being sponsored by the US Earth System Grid and European I
 
 All conference talks are available  [here](https://ocs.arcs.org.au/index.php/eraust/2010/schedConf/presentations all conference talks).
 
-
+
+
